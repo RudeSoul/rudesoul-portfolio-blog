@@ -1,6 +1,6 @@
 # DEMO
 
-[Rudesoul's Portfolio] (prabeshgouli.com)
+[Rudesoul's Portfolio](prabeshgouli.com)
 
 # Building My Portfolio and Blog with Gatsby: A Developer's Journey
 
