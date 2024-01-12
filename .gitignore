@@ -67,3 +67,28 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+### Gatsby ###
+node_modules/
+
+.cache/
+public
+
+src/gatsby-types.d.ts
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/gatsby,react

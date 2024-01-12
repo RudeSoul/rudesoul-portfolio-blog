@@ -10,6 +10,7 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
+  --maxWidth-5xl: 1200px;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-2xl);
   --spacing-px: "1px";
@@ -52,7 +53,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #000000;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -83,6 +84,8 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+  display: flex;
+  justify-content: center;
 }
 
 hr {
@@ -240,8 +243,13 @@ a:focus {
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-10) var(--spacing-5);
+  max-width: var(--maxWidth-5xl);
+  padding: var(--spacing-4) var(--spacing-5);
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -328,4 +336,12 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+/* ADDITIONAL CSS  */
+.footer-gatsby {
+  margin-left: 4px;
+}
+.flex {
+  display: flex;
 }

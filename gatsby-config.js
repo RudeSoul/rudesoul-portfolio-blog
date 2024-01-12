@@ -9,15 +9,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Rudesoul's Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Prabesh gouli`,
+      summary: `Self taught Frontend Developer`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `I am prabesh, I tend to view myself as a generalist since I try not to focus on any given technology. My skills range from developer to designer. I have been exposed to a wide variety if technologies in my carreer and consider myself to be a very adaptable
+Because of my breadth of experience I believe one day I would would make a 
+WORLD BETTER PLACE.`,
+    siteUrl: `https://prabeshgouli.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `prabeshgauli`,
+      github: "rudesoul",
     },
   },
   plugins: [
@@ -102,7 +105,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Rudesoul's Blog RSS Feed",
           },
         ],
       },
@@ -110,15 +113,53 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Prabesh gouli`,
+        short_name: `Prabesh`,
         start_url: `/`,
         background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`,
+      },
+    },
+
+    {
+      /* Include plugin */
+      resolve: "gatsby-omni-font-loader",
+
+      /* Plugin options */
+      options: {
+        /* Font loading mode */
+        mode: "async",
+
+        /* Enable font loading listener to handle FOUT */
+        enableListener: true,
+
+        /* Preconnect URL-s. This example is for Google Fonts */
+        preconnect: ["https://fonts.gstatic.com"],
+
+        /* Web fonts. File link should point to font CSS file. */
+        web: [
+          {
+            name: `Salsa`,
+            file: `https://fonts.googleapis.com/css2?family=Salsa&display=swap`,
+          },
+          {
+            name: `PT Sans`,
+            file: `https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet`,
+          },
+          {
+            name: `Style Script`,
+            file: `https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet`,
+          },
+          {
+            name: `Great Vibes`,
+            file: `https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet`,
+          },
+          {
+            name: `PT Serif`,
+            file: `https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet`,
+          },
+        ],
       },
     },
   ],
