@@ -12,7 +12,7 @@ module.exports = {
     title: `Rudesoul's Blog`,
     author: {
       name: `Prabesh gouli`,
-      summary: `Self taught Frontend Developer`,
+      summary: `CSS Comedian`,
     },
     description: `I am prabesh, I tend to view myself as a generalist since I try not to focus on any given technology. My skills range from developer to designer. I have been exposed to a wide variety if technologies in my carreer and consider myself to be a very adaptable
 Because of my breadth of experience I believe one day I would would make a 
