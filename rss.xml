@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rudesoul's Blog RSS Feed]]></title><description><![CDATA[I am prabesh, I tend to view myself as a generalist since I try not to focus on any given technology. My skills range from developer to designer. I have been exposed to a wide variety if technologies in my carreer and consider myself to be a very adaptable
+Because of my breadth of experience I believe one day I would would make a 
+WORLD BETTER PLACE.]]></description><link>https://prabeshgouli.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Jan 2024 03:51:40 GMT</lastBuildDate><item><title><![CDATA[A Developer Showdown!]]></title><description><![CDATA[The Great Angular vs. React Controversy: A Developer Showdown Introduction In the heart of the JavaScript framework landscape, a fierce…]]></description><link>https://prabeshgouli.com/A Developer Shutdown/</link><guid isPermaLink="false">https://prabeshgouli.com/A Developer Shutdown/</guid><pubDate>Thu, 11 Jan 2024 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;The Great Angular vs. React Controversy: A Developer Showdown&lt;/h1&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the heart of the JavaScript framework landscape, a fierce debate rages on: Angular vs. React. Developers around the world passionately defend their chosen side, each claiming supremacy. Let&apos;s dive into this controversial debate and explore the arguments on both fronts.&lt;/p&gt;
+&lt;h2&gt;The Angular Advocate&lt;/h2&gt;
+&lt;h3&gt;The Fanaticism of Convention&lt;/h3&gt;
+&lt;p&gt;Angular enthusiasts swear by the framework&apos;s convention-over-configuration approach. They argue that having a set structure makes it easier for large teams to collaborate. The Angular CLI, with its powerful commands, sets the tone for a disciplined development process. Here&apos;s a snippet illustrating the Angular way:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Component &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@angular/core&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token decorator&quot;&gt;&lt;span class=&quot;token at operator&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Component&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  selector&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;app-root&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;h1&gt;Hello Angular!&amp;lt;/h1&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AppComponent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;The Mighty TypeScript&lt;/h3&gt;
+&lt;p&gt;Angular&apos;s use of TypeScript is a divisive point. Advocates praise the benefits of static typing for catching errors early in the development process. Here&apos;s an example showcasing TypeScript in an Angular component:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;
+  age&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;number&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token decorator&quot;&gt;&lt;span class=&quot;token at operator&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Component&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  selector&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;app-user&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;p&gt;{{ user.name }}, {{ user.age }}&amp;lt;/p&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;UserComponent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  user&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; User &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;John Doe&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;The Rebel Reactor&lt;/h2&gt;
+&lt;h3&gt;Freedom in Components&lt;/h3&gt;
+&lt;p&gt;React developers revel in the freedom of a component-centric architecture. The unidirectional data flow makes it easy to reason about an application&apos;s state. React code tends to be more concise, giving developers the flexibility to structure their projects as they see fit. A React component looks like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;MyComponent&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Hello React!&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;The Functional Purity&lt;/h3&gt;
+&lt;p&gt;React&apos;s functional approach to components resonates with many. Hooks, introduced in React 16.8, revolutionized state management. Here&apos;s an example using the &lt;code class=&quot;language-text&quot;&gt;useState&lt;/code&gt; hook:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useState &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Counter&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setCount&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Count: &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;count&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token script language-javascript&quot;&gt;&lt;span class=&quot;token script-punctuation punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setCount&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;count &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;Increment&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token plain-text&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;The Verdict?&lt;/h2&gt;
+&lt;p&gt;The Angular camp hails the framework&apos;s structure and TypeScript&apos;s safety net, while React advocates champion flexibility and the simplicity of functional components. The controversy rages on, and the decision between Angular and React often comes down to personal preference.&lt;/p&gt;
+&lt;p&gt;Whether you&apos;re a fan of Angular&apos;s convention or React&apos;s freedom, one thing is for sure: the debate is far from over, and developers will continue to fiercely defend their chosen framework. In the end, it&apos;s all about finding the right tool for the job and creating amazing web experiences.&lt;/p&gt;
+&lt;p&gt;So, which side are you on in this controversial debate?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Self Driving Car]]></title><description><![CDATA[Self-Driving Car Simulation Self-Driving Car Simulation A simple self-driving car simulation project implemented using HTML, CSS, and…]]></description><link>https://prabeshgouli.com/Self Driving Car/</link><guid isPermaLink="false">https://prabeshgouli.com/Self Driving Car/</guid><pubDate>Thu, 28 Dec 2023 23:46:37 GMT</pubDate><content:encoded>&lt;h1&gt;Self-Driving Car Simulation&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;img%20width=%221512%22%20alt=%22selfDrivingCar%22%20src=%22https://github.com/RudeSoul/NeuralNetworkCar/assets/30189506/df0c87c4-e58e-448f-9a91-5734c3d8f440%22&quot; alt=&quot;Self-Driving Car Simulation&quot;&gt;&lt;/p&gt;
+&lt;p&gt;A simple self-driving car simulation project implemented using HTML, CSS, and JavaScript. The simulation includes user-controlled cars and AI-controlled cars using a neural network.&lt;/p&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#demo&quot;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#functions&quot;&gt;Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#usage&quot;&gt;Usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#contributing&quot;&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Demo&lt;/h2&gt;
+&lt;img width=&quot;1512&quot; alt=&quot;selfDrivingCar&quot; src=&quot;https://github.com/RudeSoul/NeuralNetworkCar/assets/30189506/19aca7fd-074a-4703-abf3-98b036e50570&quot;&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User-controlled car movements with arrow keys.&lt;/li&gt;
+&lt;li&gt;AI-controlled cars using a neural network.&lt;/li&gt;
+&lt;li&gt;Collision detection with road borders and traffic.&lt;/li&gt;
+&lt;li&gt;Responsive design for various screen sizes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Functions&lt;/h2&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;Car.update(roadBorders, traffic)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Updates the car&apos;s position and state based on road borders and traffic. Includes movement, collision detection, and AI controls.&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;Controls.#addKeyboardListeners()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Adds keyboard listeners for arrow keys to control the car.&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;Road.getLaneCenter(laneIndex)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Calculates the center of a lane based on the given lane index.&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;Sensor.update(roadBorders, traffic)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Updates the sensor readings based on road borders and traffic.&lt;/p&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;Visualizer.drawNetwork(ctx, network)&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Draws the neural network on a given canvas context.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: This is a brief summary. Refer to the source code for detailed information.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Clone the repository:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/rudesoul/self-driving-car-simulation.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
