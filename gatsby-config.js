@@ -163,4 +163,5 @@ WORLD BETTER PLACE.`,
       },
     },
   ],
+  // pathPrefix: "/rudesoul-portfolio-blog",
 }
