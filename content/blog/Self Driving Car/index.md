@@ -5,7 +5,8 @@ date: "2023-12-28T23:46:37.121Z"
 
 # Self-Driving Car Simulation
 
-![Self-Driving Car Simulation](<img width="1512" alt="selfDrivingCar" src="https://github.com/RudeSoul/NeuralNetworkCar/assets/30189506/df0c87c4-e58e-448f-9a91-5734c3d8f440">)
+![Self-Driving Car Simulation]
+<img width="900" alt="selfDrivingCar" src="https://github.com/RudeSoul/NeuralNetworkCar/assets/30189506/df0c87c4-e58e-448f-9a91-5734c3d8f440">
 
 A simple self-driving car simulation project implemented using HTML, CSS, and JavaScript. The simulation includes user-controlled cars and AI-controlled cars using a neural network.
 
@@ -20,8 +21,6 @@ A simple self-driving car simulation project implemented using HTML, CSS, and Ja
 - [License](#license)
 
 ## Demo
-
-<img width="1512" alt="selfDrivingCar" src="https://github.com/RudeSoul/NeuralNetworkCar/assets/30189506/19aca7fd-074a-4703-abf3-98b036e50570">
 
 ## Features
 
