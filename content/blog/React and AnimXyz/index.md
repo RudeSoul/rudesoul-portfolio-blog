@@ -1,5 +1,5 @@
 ---
-title: Crafting Dynamic React Animations with AnimXYZ: A Step-by-Step Guide to Engaging Webpage Design
+title: Crafting Dynamic React Animations with AnimXYZ
 date: "2024-01-16T13:14:37.121Z"
 ---
 
