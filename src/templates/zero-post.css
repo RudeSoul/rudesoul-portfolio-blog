@@ -1,0 +1,249 @@
+.zero-post {
+  max-width: 720px;
+  margin: 60px auto 40px;
+  padding: 0 20px;
+  font-family: "PT Serif", serif;
+}
+
+/* Header */
+.zero-post-header {
+  margin-bottom: 40px;
+}
+
+.zero-back-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #666666;
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: color 0.2s ease;
+}
+
+.zero-back-link:hover {
+  color: #111111;
+}
+
+.zero-post-header h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+  color: #111111;
+}
+
+.zero-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.zero-post-meta time {
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+.zero-post-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.zero-post-tag {
+  font-size: 0.75rem;
+  background: #111111;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+}
+
+.zero-post-description {
+  font-size: 1.15rem;
+  color: #555555;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Body Content */
+.zero-post-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.zero-post-body h2 {
+  font-size: 1.5rem;
+  margin: 40px 0 16px 0;
+  color: #111111;
+}
+
+.zero-post-body h3 {
+  font-size: 1.25rem;
+  margin: 32px 0 12px 0;
+  color: #111111;
+}
+
+.zero-post-body p {
+  margin: 0 0 20px 0;
+}
+
+.zero-post-body a {
+  color: #111111;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.zero-post-body a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Code Blocks */
+.zero-post-body pre {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-x: auto;
+  margin: 24px 0;
+  font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.zero-post-body pre code {
+  color: #e5e5e5;
+  background: none;
+  padding: 0;
+}
+
+.zero-post-body code {
+  font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Blockquotes */
+.zero-post-body blockquote {
+  border-left: 4px solid #111111;
+  margin: 24px 0;
+  padding: 12px 20px;
+  background: #f9f9f9;
+  font-style: italic;
+}
+
+.zero-post-body blockquote p {
+  margin: 0;
+}
+
+/* Lists */
+.zero-post-body ul,
+.zero-post-body ol {
+  margin: 20px 0;
+  padding-left: 24px;
+}
+
+.zero-post-body li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.zero-post-footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 2px solid #e5e7eb;
+}
+
+.zero-post-cta {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.zero-post-cta p {
+  margin: 0;
+  color: #555555;
+}
+
+/* Navigation */
+.zero-post-nav {
+  max-width: 720px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+
+.zero-post-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.zero-post-nav li {
+  flex: 1;
+}
+
+.zero-post-nav li:last-child {
+  text-align: right;
+}
+
+.zero-nav-link {
+  display: block;
+  padding: 16px;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.zero-nav-link:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
+}
+
+.zero-nav-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #666666;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.zero-nav-title {
+  display: block;
+  font-size: 1rem;
+  color: #111111;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .zero-post {
+    margin-top: 40px;
+  }
+
+  .zero-post-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .zero-post-body {
+    font-size: 1rem;
+  }
+
+  .zero-post-nav ul {
+    flex-direction: column;
+  }
+
+  .zero-post-nav li:last-child {
+    text-align: left;
+  }
+}

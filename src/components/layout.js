@@ -14,6 +14,9 @@ const Layout = ({ location, title, children }) => {
         <div className="navbar-heading">
           <Link to="/blog">blog</Link>
         </div>
+        <div className="navbar-heading">
+          <a href="/zero">zero</a>
+        </div>
       </div>
     )
   } else {
@@ -25,6 +28,9 @@ const Layout = ({ location, title, children }) => {
         <div className="flex navbar-heading2">
           <div className="navbar-heading">
             <Link to="/blog">blog</Link>
+          </div>
+          <div className="navbar-heading">
+            <a href="/zero">zero</a>
           </div>
           <div className="navbar-heading">
             <Link to="/">contact</Link>
