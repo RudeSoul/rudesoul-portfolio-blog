@@ -9,6 +9,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 // Define the template for blog post
 const blogPost = path.resolve(`./src/templates/blog-post.js`)
+const zeroPost = path.resolve(`./src/templates/zero-post.js`)
 
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
@@ -40,18 +41,41 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const posts = result.data.allMarkdownRemark.nodes
 
+  const blogPosts = posts.filter(post => post.fields.slug.startsWith("/blog/"))
+  const zeroPosts = posts.filter(post => post.fields.slug.startsWith("/zero/"))
+
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
 
-  if (posts.length > 0) {
-    posts.forEach((post, index) => {
-      const previousPostId = index === 0 ? null : posts[index - 1].id
-      const nextPostId = index === posts.length - 1 ? null : posts[index + 1].id
+  if (blogPosts.length > 0) {
+    blogPosts.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : blogPosts[index - 1].id
+      const nextPostId =
+        index === blogPosts.length - 1 ? null : blogPosts[index + 1].id
 
       createPage({
         path: post.fields.slug,
         component: blogPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      })
+    })
+  }
+
+  // Create zero post pages
+  if (zeroPosts.length > 0) {
+    zeroPosts.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : zeroPosts[index - 1].id
+      const nextPostId =
+        index === zeroPosts.length - 1 ? null : zeroPosts[index + 1].id
+
+      createPage({
+        path: post.fields.slug,
+        component: zeroPost,
         context: {
           id: post.id,
           previousPostId,
@@ -69,7 +93,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const fileNode = getNode(node.parent)
+    const slug = createFilePath({ node, getNode })
+
+    // Determine content type from file path
+    let value = slug
+    if (fileNode.absolutePath.includes("/content/blog/")) {
+      value = `/blog${slug}`
+    } else if (fileNode.absolutePath.includes("/content/zero/")) {
+      value = `/zero${slug}`
+    }
 
     createNodeField({
       name: `slug`,
@@ -116,6 +149,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      tags: [String]
     }
 
     type Fields {
