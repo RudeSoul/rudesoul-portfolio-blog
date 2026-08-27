@@ -9,7 +9,9 @@ const ZeroPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+  const siteTitle = site.siteMetadata?.title || `Prabesh Gouli`
+  const chapterMatch = post.fields.slug.match(/(\d+)/)
+  const chapterNum = chapterMatch ? chapterMatch[1] : ""
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -20,21 +22,28 @@ const ZeroPostTemplate = ({
       >
         <header className="zero-post-header">
           <Link to="/zero" className="zero-back-link">
-            ← Back to Learning Journey
+            ← Back to zero index
           </Link>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <div className="zero-post-meta">
-            <time>{post.frontmatter.date}</time>
-            {post.frontmatter.tags && (
-              <div className="zero-post-tags">
-                {post.frontmatter.tags.map(tag => (
-                  <span key={tag} className="zero-post-tag">
-                    {tag}
-                  </span>
-                ))}
-              </div>
+          <div className="zero-post-meta-top">
+            {chapterNum && (
+              <span className="zero-post-chapter-badge">Chapter {chapterNum}</span>
             )}
+            <time>{post.frontmatter.date}</time>
+            <span className="zero-post-read-time">· {post.timeToRead} min read</span>
           </div>
+
+          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+
+          {post.frontmatter.tags && (
+            <div className="zero-post-tags">
+              {post.frontmatter.tags.map(tag => (
+                <span key={tag} className="zero-post-tag">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+
           {post.frontmatter.description && (
             <p className="zero-post-description">
               {post.frontmatter.description}
@@ -50,37 +59,43 @@ const ZeroPostTemplate = ({
 
         <footer className="zero-post-footer">
           <div className="zero-post-cta">
-            <p>💬 Found this helpful? Let's connect and discuss!</p>
+            <p>
+              Documenting systems and foundational patterns in public. Found this insightful? Have thoughts? Let's connect via{" "}
+              <a href="mailto:prabesh7@gmail.com">email</a> or on{" "}
+              <a href="https://twitter.com/prabeshgauli" target="_blank" rel="noopener noreferrer">
+                X / Twitter
+              </a>.
+            </p>
           </div>
         </footer>
       </article>
 
-      <nav className="zero-post-nav">
+      <nav className="zero-post-nav" aria-label="Chapter Navigation">
         <ul>
-          <li>
-            {next && (
-              <Link
-                to={next.fields.slug}
-                rel="next"
-                className="zero-nav-link zero-nav-prev"
-              >
-                <span className="zero-nav-label">Previous Entry</span>
-                <span className="zero-nav-title">
-                  ← {next.frontmatter.title}
-                </span>
-              </Link>
-            )}
-          </li>
           <li>
             {previous && (
               <Link
                 to={previous.fields.slug}
                 rel="prev"
+                className="zero-nav-link zero-nav-prev"
+              >
+                <span className="zero-nav-label">← Previous Chapter</span>
+                <span className="zero-nav-title">
+                  {previous.frontmatter.title}
+                </span>
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link
+                to={next.fields.slug}
+                rel="next"
                 className="zero-nav-link zero-nav-next"
               >
-                <span className="zero-nav-label">Next Entry</span>
+                <span className="zero-nav-label">Next Chapter →</span>
                 <span className="zero-nav-title">
-                  {previous.frontmatter.title} →
+                  {next.frontmatter.title}
                 </span>
               </Link>
             )}
@@ -94,8 +109,11 @@ const ZeroPostTemplate = ({
 export const Head = ({ data: { markdownRemark: post } }) => {
   return (
     <Seo
-      title={`${post.frontmatter.title} | Zero to Software Engineer`}
+      title={`${post.frontmatter.title} | zero`}
       description={post.frontmatter.description || post.excerpt}
+      pathname={post.fields.slug}
+      article={true}
+      datePublished={post.frontmatter.dateIso || post.frontmatter.date}
     />
   )
 }
@@ -117,9 +135,14 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        dateIso: date(formatString: "YYYY-MM-DD")
         description
         tags
       }

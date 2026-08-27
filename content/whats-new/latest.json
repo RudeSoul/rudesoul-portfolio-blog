@@ -1,0 +1,52 @@
+{
+  "lastUpdated": "2026-08-27T18:00:00.000Z",
+  "period": "Last 12 Hours",
+  "model": "gpt-4o-mini",
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic Announces Model Context Protocol (MCP) Open Standard",
+      "category": "AI & Architecture",
+      "summary": "Anthropic open-sourced the Model Context Protocol (MCP), a universal standard for connecting AI models to external data repositories and development tools. It solves the fragmentation problem of custom agent integrations by providing pre-built connectors for developer environments.",
+      "sourceUrl": "https://www.anthropic.com/news/model-context-protocol",
+      "sourceName": "Anthropic",
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "2",
+      "title": "React 19 Reaches Official General Availability",
+      "category": "Web Development",
+      "summary": "The React core team released React 19 stable, introducing native Actions, useActionState, useOptimistic, and direct Document Metadata support. Server Functions and enhanced asset preloading are now production-ready primitives across modern frameworks.",
+      "sourceUrl": "https://react.dev/blog/2024/12/05/react-19",
+      "sourceName": "React Core",
+      "timeAgo": "5h ago"
+    },
+    {
+      "id": "3",
+      "title": "DeepSeek Releases Open-Weights Reasoning Model",
+      "category": "Open Source AI",
+      "summary": "DeepSeek published technical details and weights for their latest reasoning model, matching frontier proprietary performance on math and coding benchmarks. The release demonstrates significant gains in inference-time compute scaling on commodity hardware.",
+      "sourceUrl": "https://github.com/deepseek-ai",
+      "sourceName": "DeepSeek",
+      "timeAgo": "7h ago"
+    },
+    {
+      "id": "4",
+      "title": "TypeScript 5.7 Final Release with Unchecked Indexed Access Improvements",
+      "category": "Languages & Tooling",
+      "summary": "Microsoft finalized TypeScript 5.7, bringing checks for uninitialized variable access, path rewriting for imports, and performance optimizations in compiler type-checking. Tooling teams report a 15% reduction in warm build times.",
+      "sourceUrl": "https://devblogs.microsoft.com/typescript/",
+      "sourceName": "Microsoft DevBlogs",
+      "timeAgo": "9h ago"
+    },
+    {
+      "id": "5",
+      "title": "Node.js 22 LTS Becomes Recommended Default for Production",
+      "category": "Backend & Runtime",
+      "summary": "Node.js 22 entered Long-Term Support (LTS) with V8 v12.4, native support for ES module require(), a built-in WebSocket client, and experimental SQLite module. Enterprise production teams are beginning broad migration from v20.",
+      "sourceUrl": "https://nodejs.org/en/blog/release/v22.0.0",
+      "sourceName": "Node.js Foundation",
+      "timeAgo": "11h ago"
+    }
+  ]
+}

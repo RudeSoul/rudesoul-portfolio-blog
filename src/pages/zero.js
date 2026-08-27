@@ -6,28 +6,22 @@ import Seo from "../components/seo"
 import "./zero.css"
 
 const ZeroIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata?.title || `Prabesh Gouli`
   const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout location={location} title={siteTitle}>
       <div className="zero-container">
-        <div className="zero-header">
-          <h1 className="zero-heading">Software Engineer - Learning Journey</h1>
-          <p className="zero-subtitle">My 2026 Learning Journey</p>
+        <header className="zero-header">
+          <div className="zero-badge-pill">Journal · First Principles</div>
+          <h1 className="zero-heading">zero</h1>
+          <p className="zero-subtitle">Rebuilding & Documenting the Engineering Craft</p>
           <div className="zero-intro">
             <p>
-              After years of being away from active software development, I'm
-              documenting my journey back into the field. Each entry contains
-              code snippets, explanations, and real-world applications of what
-              I'm learning.
-            </p>
-            <p className="zero-tagline">
-              Follow along as I rebuild my skills and share insights that might
-              help you on your own journey. 🚀
+              A focused, chapter-by-chapter log exploring modern software architecture, deep React internals, performance tuning, and production systems design.
             </p>
           </div>
-        </div>
+        </header>
 
         <div className="zero-divider"></div>
 
@@ -40,6 +34,8 @@ const ZeroIndex = ({ data, location }) => {
             <div className="zero-timeline">
               {posts.map((post, index) => {
                 const title = post.frontmatter.title || post.fields.slug
+                const chapterMatch = post.fields.slug.match(/(\d+)/)
+                const entryNumber = chapterMatch ? chapterMatch[1] : String(index + 1).padStart(2, "0")
 
                 return (
                   <article
@@ -48,16 +44,15 @@ const ZeroIndex = ({ data, location }) => {
                     itemScope
                     itemType="http://schema.org/Article"
                   >
-                    <div className="zero-entry-marker">
-                      <span className="zero-entry-number">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
+                    <div className="zero-entry-marker" aria-label={`Chapter ${entryNumber}`}>
+                      <span className="zero-entry-number">{entryNumber}</span>
                     </div>
                     <div className="zero-entry-content">
                       <div className="zero-entry-meta">
                         <time className="zero-entry-date">
                           {post.frontmatter.date}
                         </time>
+                        <span className="zero-entry-read-time">· {post.timeToRead} min read</span>
                         {post.frontmatter.tags && (
                           <div className="zero-entry-tags">
                             {post.frontmatter.tags.map(tag => (
@@ -93,8 +88,7 @@ const ZeroIndex = ({ data, location }) => {
 
         <div className="zero-footer">
           <p>
-            💡 Want to connect? I'm always happy to discuss code and career
-            journeys.
+            💡 Documenting in public. Have questions or insights? Feel free to reach out via <a href="mailto:prabesh7@gmail.com">email</a>.
           </p>
         </div>
       </div>
@@ -105,7 +99,11 @@ const ZeroIndex = ({ data, location }) => {
 export default ZeroIndex
 
 export const Head = () => (
-  <Seo title="Zero to Software Engineer - Learning Journey" />
+  <Seo
+    title="zero — Engineering Notes & First Principles"
+    description="Documenting foundational software engineering, React server components, system design, and production patterns by Prabesh Gouli."
+    pathname="/zero"
+  />
 )
 
 export const pageQuery = graphql`
@@ -117,10 +115,11 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/zero/" } }
-      sort: { frontmatter: { date: DESC } }
+      sort: { fields: { slug: ASC } }
     ) {
       nodes {
-        excerpt
+        excerpt(pruneLength: 160)
+        timeToRead
         fields {
           slug
         }

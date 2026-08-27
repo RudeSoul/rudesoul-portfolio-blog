@@ -1,59 +1,61 @@
 .zero-container {
-  margin-top: 60px;
-  font-family: "PT Serif", serif;
-  width: 90%;
-  max-width: 800px;
-  color: #111111;
-  padding-bottom: 60px;
-}
-
-.zero-container * {
-  font-family: "PT Serif", serif;
+  margin: 20px auto 60px auto;
+  width: 100%;
+  max-width: 760px;
+  padding: 0 16px;
 }
 
 /* Header Section */
 .zero-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
+}
+
+.zero-badge-pill {
+  display: inline-block;
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #737373;
+  margin-bottom: 8px;
 }
 
 .zero-heading {
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 2.5rem;
   margin: 0 0 8px 0;
   color: #111111;
   font-weight: 700;
+  letter-spacing: -0.03em;
 }
 
 .zero-subtitle {
-  font-size: 1.25rem;
-  color: #666666;
-  margin: 0 0 24px 0;
-  font-style: italic;
+  font-family: "PT Serif", Georgia, serif;
+  font-size: 1.15rem;
+  color: #555555;
+  margin: 0 0 20px 0;
 }
 
 .zero-intro {
-  max-width: 600px;
+  max-width: 580px;
   margin: 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #333333;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: #4b5563;
 }
 
 .zero-intro p {
-  margin: 0 0 12px 0;
-}
-
-.zero-tagline {
-  font-style: italic;
-  color: #555555;
+  margin: 0;
 }
 
 /* Divider */
 .zero-divider {
-  height: 2px;
+  height: 1px;
   width: 100%;
-  background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
-  margin: 40px 0 50px 0;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 32px 0 48px 0;
 }
 
 /* Empty State */
@@ -61,7 +63,7 @@
   text-align: center;
   padding: 60px 20px;
   color: #666666;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* Timeline Layout */
@@ -72,9 +74,9 @@
 .zero-timeline::before {
   content: "";
   position: absolute;
-  left: 24px;
-  top: 0;
-  bottom: 0;
+  left: 20px;
+  top: 10px;
+  bottom: 10px;
   width: 2px;
   background: #e5e7eb;
 }
@@ -83,14 +85,14 @@
 .zero-entry {
   display: flex;
   gap: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   position: relative;
 }
 
 .zero-entry-marker {
   flex-shrink: 0;
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
   background: #111111;
   border-radius: 50%;
   display: flex;
@@ -98,27 +100,30 @@
   justify-content: center;
   position: relative;
   z-index: 1;
+  box-shadow: 0 0 0 4px #ffffff;
 }
 
 .zero-entry-number {
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
 }
 
 .zero-entry-content {
   flex: 1;
-  background: #fafafa;
+  background: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  padding: 24px;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  padding: 22px 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .zero-entry-content:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
   border-color: #d1d5db;
+  transform: translateY(-1px);
 }
 
 /* Entry Meta */
@@ -126,34 +131,45 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
+  gap: 8px;
+  margin-bottom: 10px;
 }
 
 .zero-entry-date {
-  font-size: 0.875rem;
-  color: #666666;
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: 0.82rem;
+  color: #737373;
+}
+
+.zero-entry-read-time {
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  color: #888888;
 }
 
 .zero-entry-tags {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
+  margin-left: 4px;
 }
 
 .zero-tag {
-  font-size: 0.75rem;
-  background: #111111;
-  color: #ffffff;
-  padding: 4px 10px;
+  font-size: 0.72rem;
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #e5e7eb;
+  padding: 2px 8px;
   border-radius: 4px;
-  font-family: "SF Mono", "Monaco", "Inconsolata", monospace;
+  font-family: "JetBrains Mono", "SF Mono", Menlo, monospace;
 }
 
 /* Entry Title */
 .zero-entry-title {
-  font-size: 1.5rem;
-  margin: 0 0 12px 0;
+  font-family: "PT Serif", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
   line-height: 1.3;
 }
 
@@ -164,21 +180,25 @@
 }
 
 .zero-entry-title a:hover {
-  color: #444444;
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* Entry Excerpt */
 .zero-entry-excerpt {
-  font-size: 1rem;
-  color: #555555;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.98rem;
+  color: #4b5563;
   line-height: 1.6;
-  margin: 0 0 16px 0;
+  margin: 0 0 14px 0;
 }
 
 /* Read More Link */
 .zero-read-more {
   display: inline-block;
-  font-size: 0.9rem;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.88rem;
   color: #111111;
   text-decoration: none;
   font-weight: 600;
@@ -186,32 +206,40 @@
 }
 
 .zero-read-more:hover {
-  transform: translateX(4px);
+  transform: translateX(3px);
+  text-decoration: underline;
 }
 
 /* Footer */
 .zero-footer {
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
-  padding: 24px;
-  background: #f5f5f5;
+  padding: 20px;
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
   border-radius: 8px;
-  color: #555555;
+  color: #666666;
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.92rem;
 }
 
 .zero-footer p {
   margin: 0;
 }
 
+.zero-footer a {
+  color: #111111;
+  font-weight: 600;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .zero-container {
-    width: 95%;
-    margin-top: 40px;
+    padding: 0 12px;
   }
 
   .zero-heading {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .zero-subtitle {
@@ -219,16 +247,20 @@
   }
 
   .zero-timeline::before {
-    left: 18px;
+    left: 16px;
+  }
+
+  .zero-entry {
+    gap: 14px;
   }
 
   .zero-entry-marker {
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
   }
 
   .zero-entry-number {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
   }
 
   .zero-entry-content {
@@ -236,6 +268,6 @@
   }
 
   .zero-entry-title {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 }
