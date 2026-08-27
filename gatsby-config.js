@@ -9,18 +9,17 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Rudesoul's Blog`,
+    title: `Prabesh Gouli — Software Engineer & Designer`,
     author: {
-      name: `Prabesh gouli`,
-      summary: `CSS Comedian`,
+      name: `Prabesh Gouli`,
+      summary: `Full-Stack Software Engineer & Product Designer`,
     },
-    description: `I am prabesh, I tend to view myself as a generalist since I try not to focus on any given technology. My skills range from developer to designer. I have been exposed to a wide variety if technologies in my carreer and consider myself to be a very adaptable
-Because of my breadth of experience I believe one day I would would make a 
-WORLD BETTER PLACE.`,
-    siteUrl: `https://prabeshgouli.com/`,
+    description: `Personal portfolio, architectural case studies, and engineering journal by Prabesh Gouli (@rudesoul). Building at the intersection of frontend craft, systems design, and AI.`,
+    siteUrl: `https://prabeshgouli.com`,
     social: {
       twitter: `prabeshgauli`,
-      github: "rudesoul",
+      github: `rudesoul`,
+      linkedin: `prabeshgouli`,
     },
   },
   plugins: [
@@ -147,24 +146,16 @@ WORLD BETTER PLACE.`,
         /* Web fonts. File link should point to font CSS file. */
         web: [
           {
-            name: `Salsa`,
-            file: `https://fonts.googleapis.com/css2?family=Salsa&display=swap`,
-          },
-          {
             name: `PT Sans`,
-            file: `https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet`,
-          },
-          {
-            name: `Style Script`,
-            file: `https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet`,
-          },
-          {
-            name: `Great Vibes`,
-            file: `https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet`,
+            file: `https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap`,
           },
           {
             name: `PT Serif`,
-            file: `https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet`,
+            file: `https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap`,
+          },
+          {
+            name: `JetBrains Mono`,
+            file: `https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap`,
           },
         ],
       },

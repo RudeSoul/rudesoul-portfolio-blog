@@ -9,7 +9,7 @@ const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+  const siteTitle = site.siteMetadata?.title || `Prabesh Gouli`
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -18,19 +18,42 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="blog-post-header">
+          <Link to="/blog" className="blog-back-link">
+            ← Back to writing
+          </Link>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <div className="blog-post-meta">
+            <time>{post.frontmatter.date}</time>
+            <span className="blog-post-read-time">· {post.timeToRead} min read</span>
+            <span className="blog-post-type-badge">Architecture Case Study</span>
+          </div>
+          {post.frontmatter.description && (
+            <p className="blog-post-description">
+              {post.frontmatter.description}
+            </p>
+          )}
         </header>
+
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
+          className="blog-post-body"
         />
-        <hr />
-        <footer>
+
+        <hr className="blog-post-divider" />
+
+        <footer className="blog-post-footer">
+          <div className="blog-post-cta">
+            <p>
+              Enjoyed this breakdown? I also document foundational engineering patterns and learnings in{" "}
+              <Link to="/zero">zero →</Link>
+            </p>
+          </div>
           <Bio />
         </footer>
       </article>
+
       <nav className="blog-post-nav">
         <ul
           style={{
@@ -39,6 +62,7 @@ const BlogPostTemplate = ({
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
+            gap: `16px`,
           }}
         >
           <li>
@@ -66,6 +90,9 @@ export const Head = ({ data: { markdownRemark: post } }) => {
     <Seo
       title={post.frontmatter.title}
       description={post.frontmatter.description || post.excerpt}
+      pathname={post.fields.slug}
+      article={true}
+      datePublished={post.frontmatter.dateIso || post.frontmatter.date}
     />
   )
 }
@@ -87,9 +114,14 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      timeToRead
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        dateIso: date(formatString: "YYYY-MM-DD")
         description
       }
     }

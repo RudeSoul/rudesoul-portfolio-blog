@@ -1,0 +1,41 @@
+name: Twice-Daily Tech News AI Digest
+
+on:
+  schedule:
+    # Runs twice a day at 06:00 UTC and 18:00 UTC (every 12 hours)
+    - cron: "0 6,18 * * *"
+  # Allows manual triggering with a single click in GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-tech-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Tech News AI Collector
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          node scripts/fetch-tech-news.mjs
+
+      - name: Commit and Push Updated Digest
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/whats-new/latest.json
+          if git diff --staged --quiet; then
+            echo "No changes detected in tech news digest."
+          else
+            git commit -m "chore(news): update twice-daily tech news digest [bot]"
+            git push
+          fi
