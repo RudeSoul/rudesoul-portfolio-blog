@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-27T18:00:00.000Z",
+  "lastUpdated": "2026-08-29T08:05:32.894Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Anthropic Announces Model Context Protocol (MCP) Open Standard",
-      "category": "AI & Architecture",
-      "summary": "Anthropic open-sourced the Model Context Protocol (MCP), a universal standard for connecting AI models to external data repositories and development tools. It solves the fragmentation problem of custom agent integrations by providing pre-built connectors for developer environments.",
-      "sourceUrl": "https://www.anthropic.com/news/model-context-protocol",
-      "sourceName": "Anthropic",
-      "timeAgo": "2h ago"
+      "title": "Samsung's Processing-in-Memory (PIM) Technology Advances",
+      "category": "Systems & Architecture",
+      "summary": "Samsung has unveiled its latest advancements in Processing-in-Memory (PIM) technology, which aims to significantly enhance data processing speeds by integrating memory and processing capabilities. This development is crucial for engineers focusing on high-performance computing and data-intensive applications.",
+      "sourceUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "sourceName": "Chips and Cheese",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "React 19 Reaches Official General Availability",
-      "category": "Web Development",
-      "summary": "The React core team released React 19 stable, introducing native Actions, useActionState, useOptimistic, and direct Document Metadata support. Server Functions and enhanced asset preloading are now production-ready primitives across modern frameworks.",
-      "sourceUrl": "https://react.dev/blog/2024/12/05/react-19",
-      "sourceName": "React Core",
-      "timeAgo": "5h ago"
-    },
-    {
-      "id": "3",
-      "title": "DeepSeek Releases Open-Weights Reasoning Model",
-      "category": "Open Source AI",
-      "summary": "DeepSeek published technical details and weights for their latest reasoning model, matching frontier proprietary performance on math and coding benchmarks. The release demonstrates significant gains in inference-time compute scaling on commodity hardware.",
-      "sourceUrl": "https://github.com/deepseek-ai",
-      "sourceName": "DeepSeek",
-      "timeAgo": "7h ago"
-    },
-    {
-      "id": "4",
-      "title": "TypeScript 5.7 Final Release with Unchecked Indexed Access Improvements",
-      "category": "Languages & Tooling",
-      "summary": "Microsoft finalized TypeScript 5.7, bringing checks for uninitialized variable access, path rewriting for imports, and performance optimizations in compiler type-checking. Tooling teams report a 15% reduction in warm build times.",
-      "sourceUrl": "https://devblogs.microsoft.com/typescript/",
-      "sourceName": "Microsoft DevBlogs",
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "category": "Open Source",
+      "summary": "A new open-source project allows developers to boot a virtual iPhone using Apple's Virtualization.framework, expanding the possibilities for iOS app testing and development. This tool is a game-changer for developers looking to streamline their workflows without needing physical devices.",
+      "sourceUrl": "https://github.com/Lakr233/vphone-cli",
+      "sourceName": "GitHub",
       "timeAgo": "9h ago"
     },
     {
+      "id": "3",
+      "title": "Htmx 4.0 Released with New Features",
+      "category": "Web Development",
+      "summary": "The release of Htmx 4.0 introduces significant enhancements that simplify the process of building modern web applications with minimal JavaScript. Developers should take note of the new features that improve interactivity and performance in web projects.",
+      "sourceUrl": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "sourceName": "Htmx",
+      "timeAgo": "18h ago"
+    },
+    {
+      "id": "4",
+      "title": "TurboKV: A High-Performance Rust Key-Value Store",
+      "category": "Open Source",
+      "summary": "TurboKV, a new Rust-based key-value store, promises exceptional performance and efficiency, making it an attractive option for developers working on data storage solutions. Its open-source nature allows for community contributions and enhancements.",
+      "sourceUrl": "https://github.com/kingroryg/turbokv",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
+    },
+    {
       "id": "5",
-      "title": "Node.js 22 LTS Becomes Recommended Default for Production",
-      "category": "Backend & Runtime",
-      "summary": "Node.js 22 entered Long-Term Support (LTS) with V8 v12.4, native support for ES module require(), a built-in WebSocket client, and experimental SQLite module. Enterprise production teams are beginning broad migration from v20.",
-      "sourceUrl": "https://nodejs.org/en/blog/release/v22.0.0",
-      "sourceName": "Node.js Foundation",
-      "timeAgo": "11h ago"
+      "title": "Keyboard-Driven GUIs: A New Paradigm",
+      "category": "Web Development",
+      "summary": "A recent article advocates for fully keyboard-driven graphical user interfaces (GUIs), arguing that this approach can enhance accessibility and efficiency for users. Developers should consider this paradigm shift when designing user interfaces to improve user experience.",
+      "sourceUrl": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+      "sourceName": "Ckardaris",
+      "timeAgo": "16h ago"
     }
   ]
 }
