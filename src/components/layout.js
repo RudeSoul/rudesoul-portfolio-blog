@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import PageViews from "./pageViews"
 import "../components/components.css"
 
 const Layout = ({ location, title, children }) => {
@@ -39,7 +40,12 @@ const Layout = ({ location, title, children }) => {
       </header>
       <main className="content-container">{children}</main>
       <footer className="global-footer">
-        <p>© {new Date().getFullYear()} Prabesh Gouli · Built with precision</p>
+        <div className="footer-content">
+          <p className="footer-copy">© {new Date().getFullYear()} Prabesh Gouli · Built with precision</p>
+          <div className="footer-stats">
+            <PageViews />
+          </div>
+        </div>
       </footer>
     </div>
   )

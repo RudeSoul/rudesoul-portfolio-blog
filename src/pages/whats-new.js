@@ -98,8 +98,13 @@ export default WhatsNewPage
 
 export const Head = () => (
   <Seo
-    title="What's New in Tech"
-    description="Curated tech breakthroughs, AI models, and software engineering news from the last 12 hours by Prabesh Gouli."
+    title="What's New in Tech · Curated Engineering & AI News"
+    description="Twice-daily curated tech breakthroughs, AI models, and software engineering developments from the last 12 hours by Prabesh Gouli."
     pathname="/whats-new"
+    schemaType="newsList"
+    items={latestNews?.items || []}
+    lastUpdated={latestNews?.lastUpdated}
+    keywords="software engineering news, tech digest, artificial intelligence updates, LLMs, web development, open source, Prabesh Gouli"
   />
 )
+
