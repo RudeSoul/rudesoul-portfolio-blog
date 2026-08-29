@@ -148,7 +148,7 @@ jobs:
 
       - name: Create Pull Request
         if: steps.analyze.outputs.has-fixes == 'true' && steps.commit.outputs.no_changes == 'false'
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: 'fix: Auto-fix CI configuration errors'
           title: 'fix: Resolve CI configuration issues'
