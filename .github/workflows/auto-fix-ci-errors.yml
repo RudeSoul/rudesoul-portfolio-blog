@@ -107,7 +107,9 @@ jobs:
           fi
           
           echo "has-fixes=$HAS_FIXES" >> $GITHUB_OUTPUT
-          echo "fixes-summary=$(echo -e \"$FIXES\")" >> $GITHUB_OUTPUT
+          echo "fixes-summary<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$FIXES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
           
           echo "=== CI Configuration Analysis ==="
           echo -e "$FIXES"
@@ -170,11 +172,14 @@ jobs:
 
       - name: Summary
         if: always()
+        env:
+          HAS_FIXES: ${{ steps.analyze.outputs.has-fixes }}
+          FIXES_SUMMARY: ${{ steps.analyze.outputs.fixes-summary }}
         run: |
           echo "### CI Configuration Analysis" >> $GITHUB_STEP_SUMMARY
-          if [[ "${{ steps.analyze.outputs.has-fixes }}" == "true" ]]; then
+          if [ "$HAS_FIXES" = "true" ]; then
             echo "**Issues found and fixed:**" >> $GITHUB_STEP_SUMMARY
-            echo "${{ steps.analyze.outputs.fixes-summary }}" >> $GITHUB_STEP_SUMMARY
+            echo "$FIXES_SUMMARY" >> $GITHUB_STEP_SUMMARY
           else
             echo "✅ No issues detected!" >> $GITHUB_STEP_SUMMARY
           fi
