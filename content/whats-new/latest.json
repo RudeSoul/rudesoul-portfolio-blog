@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-29T11:48:54.228Z",
+  "lastUpdated": "2026-08-29T20:02:11.783Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Samsung's Processing-in-Memory (PIM) Technology Advances",
-      "category": "Systems & Architecture",
-      "summary": "Samsung has unveiled its latest Processing-in-Memory (PIM) technology, which enhances data processing speeds by integrating memory and processing capabilities. This development is significant for engineers as it promises to reduce latency and improve performance in data-intensive applications.",
-      "sourceUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-      "sourceName": "Chips and Cheese",
-      "timeAgo": "5h ago"
+      "title": "Warp builds self-improving agents on Claude",
+      "category": "AI & LLMs",
+      "summary": "Warp has announced the development of self-improving agents utilizing the Claude AI model, enhancing the capabilities of AI in automating complex tasks. This advancement is significant for developers looking to integrate more adaptive AI solutions into their applications.",
+      "sourceUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "sourceName": "Claude",
+      "timeAgo": "52m ago"
     },
     {
       "id": "2",
-      "title": "Htmx 4.0 Released with New Features",
-      "category": "Web Development",
-      "summary": "The release of Htmx 4.0 introduces new features that enhance the capabilities of HTML-driven web applications, making it easier for developers to create dynamic user interfaces. This update is crucial for web engineers looking to improve interactivity without relying heavily on JavaScript frameworks.",
-      "sourceUrl": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "sourceName": "Htmx",
-      "timeAgo": "22h ago"
+      "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
+      "category": "Open Source",
+      "summary": "Tencent has released and open-sourced the preview of Tencent Hy4, a new framework aimed at enhancing developer productivity and collaboration. This move is crucial for the open-source community as it provides new tools and resources for developers.",
+      "sourceUrl": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "sourceName": "Tencent",
+      "timeAgo": "28m ago"
     },
     {
       "id": "3",
-      "title": "TurboKV: A High-Performance Rust Key-Value Store",
-      "category": "Open Source",
-      "summary": "TurboKV has been released as an open-source key-value store built in Rust, designed for high performance and low latency. This project is essential for developers looking for efficient data storage solutions in modern applications.",
-      "sourceUrl": "https://github.com/kingroryg/turbokv",
-      "sourceName": "GitHub",
-      "timeAgo": "9h ago"
+      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+      "category": "Security",
+      "summary": "Recent reports reveal that the Department of Homeland Security is leveraging obscure legal provisions to surveil journalists and non-profit organizations. This raises significant concerns about privacy and the ethical implications of surveillance technologies.",
+      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+      "sourceName": "The Guardian",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "StemDeck: Open-Source AI Stem Separator",
-      "category": "AI & LLMs",
-      "summary": "StemDeck is a new open-source tool that utilizes AI to separate audio stems, making it easier for musicians and producers to work with individual tracks. This tool is particularly relevant for engineers in audio processing and music technology.",
-      "sourceUrl": "https://github.com/stemdeckapp/stemdeck",
-      "sourceName": "GitHub",
-      "timeAgo": "10h ago"
+      "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
+      "category": "Systems & Architecture",
+      "summary": "A new technique has been developed for indirect calling of nested functions in GCC without requiring an executable stack, enhancing security and performance. This is particularly relevant for systems engineers focused on optimizing compiler behavior and security.",
+      "sourceUrl": "https://uecker.codeberg.page/2026-08-29.html",
+      "sourceName": "Uecker",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "title": "Samsung's Processing-in-Memory (PIM)",
       "category": "Systems & Architecture",
-      "summary": "A new project allows developers to boot a virtual iPhone using Apple's Virtualization.framework, opening up possibilities for testing and development in a virtualized environment. This is a significant advancement for engineers working on iOS applications and system architecture.",
-      "sourceUrl": "https://github.com/Lakr233/vphone-cli",
-      "sourceName": "GitHub",
-      "timeAgo": "12h ago"
+      "summary": "Samsung has unveiled its latest advancements in Processing-in-Memory technology, which aims to significantly improve data processing efficiency. This innovation is vital for engineers working on high-performance computing and memory architecture.",
+      "sourceUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "sourceName": "Chips and Cheese",
+      "timeAgo": "13h ago"
     }
   ]
 }
