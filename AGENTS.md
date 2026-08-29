@@ -1,6 +1,16 @@
 # Developer & Agent Guidelines
 
-## Autonoma Test Data
-Autonoma is an automated end-to-end testing platform that seeds realistic test data into the application using the app's own creation pathways. For this Gatsby portfolio, test scenarios and content entities (such as MarkdownRemark articles, Frontmatter metadata, and SiteMetadata) are instantiated and torn down via the SDK endpoint at `/api/autonoma` ([src/api/autonoma.js](src/api/autonoma.js)).
+This is a Gatsby-powered personal portfolio and blog for Prabesh Gouli (@rudesoul).
 
-Whenever you introduce new content models, data schemas, or alter existing content creation logic, update the corresponding factory in `src/api/autonoma.js` and the test recipe in `recipe.json` so test data generation remains in sync with the application.
+## Stack
+- **Gatsby 5** (SSG) deployed to **Vercel**
+- **Markdown** for blog posts and zero-to-one series content
+- **GitHub Actions** for automated twice-daily tech news digest (`tech-news-cron.yml`)
+
+## Content
+- Blog posts live in `content/blog/`
+- Zero-series posts live in `content/zero/`
+- AI-generated tech news digest is at `content/whats-new/latest.json`
+
+## Deployment
+Merging a PR to `main` automatically triggers Vercel to build and deploy the site.
