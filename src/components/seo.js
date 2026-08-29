@@ -15,6 +15,9 @@ const Seo = ({
   article = false,
   datePublished,
   schemaType = "default",
+  items = [],
+  lastUpdated,
+  keywords,
   children,
 }) => {
   const { site } = useStaticQuery(
@@ -56,7 +59,44 @@ const Seo = ({
   // Schema.org Structured Data (JSON-LD) for SEO & GEO
   let jsonLd = null
 
-  if (schemaType === "person" || (!article && !pathname)) {
+  if (schemaType === "newsList") {
+    jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: fullTitle,
+      description: metaDescription,
+      url: canonicalUrl,
+      inLanguage: "en-US",
+      author: {
+        "@type": "Person",
+        name: "Prabesh Gouli",
+        url: siteUrl,
+      },
+      ...(lastUpdated ? { dateModified: lastUpdated } : {}),
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: items.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "NewsArticle",
+            headline: item.title,
+            description: item.summary,
+            url: item.sourceUrl || canonicalUrl,
+            publisher: {
+              "@type": "Organization",
+              name: item.sourceName || "Tech Source",
+            },
+            author: {
+              "@type": "Person",
+              name: "Prabesh Gouli",
+            },
+            articleSection: item.category || "Technology",
+          },
+        })),
+      },
+    }
+  } else if (schemaType === "person" || (!article && !pathname)) {
     jsonLd = {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -108,6 +148,7 @@ const Seo = ({
     <>
       <title>{fullTitle}</title>
       <meta name="description" content={metaDescription} />
+      {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={canonicalUrl} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={metaDescription} />
