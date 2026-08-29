@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T08:05:32.894Z",
+  "lastUpdated": "2026-08-29T11:48:54.228Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "Samsung's Processing-in-Memory (PIM) Technology Advances",
       "category": "Systems & Architecture",
-      "summary": "Samsung has unveiled its latest advancements in Processing-in-Memory (PIM) technology, which aims to significantly enhance data processing speeds by integrating memory and processing capabilities. This development is crucial for engineers focusing on high-performance computing and data-intensive applications.",
+      "summary": "Samsung has unveiled its latest Processing-in-Memory (PIM) technology, which enhances data processing speeds by integrating memory and processing capabilities. This development is significant for engineers as it promises to reduce latency and improve performance in data-intensive applications.",
       "sourceUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
       "sourceName": "Chips and Cheese",
-      "timeAgo": "1h ago"
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "title": "Htmx 4.0 Released with New Features",
+      "category": "Web Development",
+      "summary": "The release of Htmx 4.0 introduces new features that enhance the capabilities of HTML-driven web applications, making it easier for developers to create dynamic user interfaces. This update is crucial for web engineers looking to improve interactivity without relying heavily on JavaScript frameworks.",
+      "sourceUrl": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+      "sourceName": "Htmx",
+      "timeAgo": "22h ago"
+    },
+    {
+      "id": "3",
+      "title": "TurboKV: A High-Performance Rust Key-Value Store",
       "category": "Open Source",
-      "summary": "A new open-source project allows developers to boot a virtual iPhone using Apple's Virtualization.framework, expanding the possibilities for iOS app testing and development. This tool is a game-changer for developers looking to streamline their workflows without needing physical devices.",
-      "sourceUrl": "https://github.com/Lakr233/vphone-cli",
+      "summary": "TurboKV has been released as an open-source key-value store built in Rust, designed for high performance and low latency. This project is essential for developers looking for efficient data storage solutions in modern applications.",
+      "sourceUrl": "https://github.com/kingroryg/turbokv",
       "sourceName": "GitHub",
       "timeAgo": "9h ago"
     },
     {
-      "id": "3",
-      "title": "Htmx 4.0 Released with New Features",
-      "category": "Web Development",
-      "summary": "The release of Htmx 4.0 introduces significant enhancements that simplify the process of building modern web applications with minimal JavaScript. Developers should take note of the new features that improve interactivity and performance in web projects.",
-      "sourceUrl": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "sourceName": "Htmx",
-      "timeAgo": "18h ago"
-    },
-    {
       "id": "4",
-      "title": "TurboKV: A High-Performance Rust Key-Value Store",
-      "category": "Open Source",
-      "summary": "TurboKV, a new Rust-based key-value store, promises exceptional performance and efficiency, making it an attractive option for developers working on data storage solutions. Its open-source nature allows for community contributions and enhancements.",
-      "sourceUrl": "https://github.com/kingroryg/turbokv",
+      "title": "StemDeck: Open-Source AI Stem Separator",
+      "category": "AI & LLMs",
+      "summary": "StemDeck is a new open-source tool that utilizes AI to separate audio stems, making it easier for musicians and producers to work with individual tracks. This tool is particularly relevant for engineers in audio processing and music technology.",
+      "sourceUrl": "https://github.com/stemdeckapp/stemdeck",
       "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Keyboard-Driven GUIs: A New Paradigm",
-      "category": "Web Development",
-      "summary": "A recent article advocates for fully keyboard-driven graphical user interfaces (GUIs), arguing that this approach can enhance accessibility and efficiency for users. Developers should consider this paradigm shift when designing user interfaces to improve user experience.",
-      "sourceUrl": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-      "sourceName": "Ckardaris",
-      "timeAgo": "16h ago"
+      "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "category": "Systems & Architecture",
+      "summary": "A new project allows developers to boot a virtual iPhone using Apple's Virtualization.framework, opening up possibilities for testing and development in a virtualized environment. This is a significant advancement for engineers working on iOS applications and system architecture.",
+      "sourceUrl": "https://github.com/Lakr233/vphone-cli",
+      "sourceName": "GitHub",
+      "timeAgo": "12h ago"
     }
   ]
 }
