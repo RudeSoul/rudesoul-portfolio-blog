@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-29T20:02:11.783Z",
+  "lastUpdated": "2026-08-30T10:45:42.748Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Warp builds self-improving agents on Claude",
-      "category": "AI & LLMs",
-      "summary": "Warp has announced the development of self-improving agents utilizing the Claude AI model, enhancing the capabilities of AI in automating complex tasks. This advancement is significant for developers looking to integrate more adaptive AI solutions into their applications.",
-      "sourceUrl": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-      "sourceName": "Claude",
-      "timeAgo": "52m ago"
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "category": "Open Source",
+      "summary": "California has passed a law exempting software distributed under GPL, MIT, BSD, and Apache licenses from age-verification requirements. This decision is significant for the open-source community, ensuring that developers can continue to distribute their software without additional regulatory burdens.",
+      "sourceUrl": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "sourceName": "Tom's Hardware",
+      "timeAgo": "7h ago"
     },
     {
       "id": "2",
-      "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
-      "category": "Open Source",
-      "summary": "Tencent has released and open-sourced the preview of Tencent Hy4, a new framework aimed at enhancing developer productivity and collaboration. This move is crucial for the open-source community as it provides new tools and resources for developers.",
-      "sourceUrl": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
-      "sourceName": "Tencent",
-      "timeAgo": "28m ago"
+      "title": "RISC-V is now officially supported by CPython",
+      "category": "AI & LLMs",
+      "summary": "The official support of RISC-V architecture in CPython marks a significant step for Python developers, enabling them to leverage this open-source hardware architecture for performance and efficiency. This development is crucial as it broadens the accessibility of Python in diverse computing environments.",
+      "sourceUrl": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "sourceName": "Python Blog",
+      "timeAgo": "5d ago"
     },
     {
       "id": "3",
-      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
       "category": "Security",
-      "summary": "Recent reports reveal that the Department of Homeland Security is leveraging obscure legal provisions to surveil journalists and non-profit organizations. This raises significant concerns about privacy and the ethical implications of surveillance technologies.",
-      "sourceUrl": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
-      "sourceName": "The Guardian",
+      "summary": "A vulnerability in QubesOS has been identified that allows for arbitrary code execution through a backchannel in the copy-to-VM error reporting feature. This highlights the importance of security in virtualization environments and the need for developers to stay vigilant about potential exploits.",
+      "sourceUrl": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "sourceName": "Qubes OS",
       "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
-      "category": "Systems & Architecture",
-      "summary": "A new technique has been developed for indirect calling of nested functions in GCC without requiring an executable stack, enhancing security and performance. This is particularly relevant for systems engineers focused on optimizing compiler behavior and security.",
-      "sourceUrl": "https://uecker.codeberg.page/2026-08-29.html",
-      "sourceName": "Uecker",
-      "timeAgo": "5h ago"
+      "title": "Hy4 preview",
+      "category": "Open Source",
+      "summary": "Tencent has released a preview of Hy4, a new open-source project aimed at enhancing cloud computing capabilities. This initiative is noteworthy for developers interested in cloud infrastructure and open-source solutions, as it promises to provide innovative tools and frameworks.",
+      "sourceUrl": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "sourceName": "Tencent",
+      "timeAgo": "15h ago"
     },
     {
       "id": "5",
-      "title": "Samsung's Processing-in-Memory (PIM)",
-      "category": "Systems & Architecture",
-      "summary": "Samsung has unveiled its latest advancements in Processing-in-Memory technology, which aims to significantly improve data processing efficiency. This innovation is vital for engineers working on high-performance computing and memory architecture.",
-      "sourceUrl": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-      "sourceName": "Chips and Cheese",
-      "timeAgo": "13h ago"
+      "title": "Spark: Sparklines in your shell",
+      "category": "Web Development",
+      "summary": "The introduction of Spark allows developers to create sparklines directly in their shell, enhancing data visualization capabilities in terminal environments. This tool is particularly useful for engineers looking to quickly interpret data trends without leaving their command line interface.",
+      "sourceUrl": "https://git.zx2c4.com/spark/about/",
+      "sourceName": "ZX2C4",
+      "timeAgo": "43m ago"
     }
   ]
 }
