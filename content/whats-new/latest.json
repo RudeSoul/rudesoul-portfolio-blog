@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-30T20:08:20.124Z",
+  "lastUpdated": "2026-08-31T11:54:36.623Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Haiku R1/beta6 has been released",
+      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
       "category": "Open Source",
-      "summary": "The latest release of Haiku OS, version R1/beta6, introduces significant improvements and new features aimed at enhancing user experience and system performance. Developers should explore these updates to leverage the new capabilities in their projects.",
-      "sourceUrl": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
-      "sourceName": "Haiku OS",
-      "timeAgo": "4h ago"
-    },
-    {
-      "id": "2",
-      "title": "METR and Redwood Offer Holy Postmortem of the HuggingFace Hack",
-      "category": "Security",
-      "summary": "This postmortem analyzes the recent security breach at HuggingFace, detailing the vulnerabilities exploited and the implications for AI developers. Understanding these security challenges is crucial for engineers working with AI and machine learning platforms.",
-      "sourceUrl": "https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/",
-      "sourceName": "The Zvi",
-      "timeAgo": "6h ago"
-    },
-    {
-      "id": "3",
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "category": "Open Source",
-      "summary": "A new open-source HDMI driver for the SM750 GPU has been released, showcasing the power of community-driven development in enhancing hardware compatibility. This is a significant development for developers working with graphics and multimedia applications.",
-      "sourceUrl": "https://github.com/KodeMunkie/sm750hdmifb",
-      "sourceName": "GitHub",
+      "summary": "OpenShot 4.0 introduces significant enhancements in video recording, editing, and color grading capabilities, making it a powerful tool for creators. Developers and engineers should explore these new features to leverage OpenShot for advanced multimedia projects.",
+      "sourceUrl": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+      "sourceName": "OpenShot",
       "timeAgo": "1h ago"
     },
     {
+      "id": "2",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "category": "AI & LLMs",
+      "summary": "The latest update to Claude Code introduces an Auto Mode that enhances coding efficiency by automating repetitive tasks. This advancement is crucial for developers looking to streamline their workflows and improve productivity.",
+      "sourceUrl": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "sourceName": "Embrace The Red",
+      "timeAgo": "4h ago"
+    },
+    {
+      "id": "3",
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "category": "Web Development",
+      "summary": "A new autocomplete system achieves a remarkable P99 response time of 0 ms for 240 million domain names, significantly enhancing user experience in domain searches. Developers should consider implementing similar techniques to optimize their own applications.",
+      "sourceUrl": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "sourceName": "Ruurtjan",
+      "timeAgo": "8h ago"
+    },
+    {
       "id": "4",
-      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
-      "category": "Security",
-      "summary": "A critical vulnerability has been identified in QubesOS that allows for arbitrary code execution through a backchannel during error reporting. Developers using QubesOS should prioritize applying the latest security updates to mitigate this risk.",
-      "sourceUrl": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
-      "sourceName": "Qubes OS",
-      "timeAgo": "11h ago"
+      "title": "Understanding ChatGPT Work",
+      "category": "AI & LLMs",
+      "summary": "This article provides an in-depth analysis of how ChatGPT functions, including its architecture and training methodologies. Engineers and developers can gain valuable insights into optimizing AI applications by understanding these principles.",
+      "sourceUrl": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "sourceName": "Simon Willison",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Running SQLite Apps on Docker and Kubernetes with Litestream",
-      "category": "Web Development",
-      "summary": "A new guide has been published on running SQLite applications in Docker and Kubernetes using Litestream, providing developers with a robust solution for managing database state in containerized environments. This is particularly relevant for those looking to enhance their cloud-native application architecture.",
-      "sourceUrl": "https://openrun.dev/blog/litestream/",
-      "sourceName": "OpenRun",
-      "timeAgo": "2h ago"
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "category": "Open Source",
+      "summary": "A recent pull request in the 'uv' project introduces functionality to deduplicate files in the wheel cache, optimizing storage and improving performance. This enhancement is significant for developers managing large Python environments.",
+      "sourceUrl": "https://github.com/astral-sh/uv/pull/21327",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     }
   ]
 }
