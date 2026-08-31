@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-31T11:54:36.623Z",
+  "lastUpdated": "2026-08-31T22:05:02.210Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
-      "category": "Open Source",
-      "summary": "OpenShot 4.0 introduces significant enhancements in video recording, editing, and color grading capabilities, making it a powerful tool for creators. Developers and engineers should explore these new features to leverage OpenShot for advanced multimedia projects.",
-      "sourceUrl": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
-      "sourceName": "OpenShot",
-      "timeAgo": "1h ago"
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "category": "Web Development",
+      "summary": "Google has officially removed Manifest V2 (MV2) extensions from the Chrome Web Store, impacting popular extensions like uBlock Origin. Developers should be aware of this shift as it pushes for the adoption of Manifest V3 (MV3), which changes how extensions operate and may affect their functionality.",
+      "sourceUrl": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "sourceName": "webiterate.dev",
+      "timeAgo": "53m ago"
     },
     {
       "id": "2",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "title": "I turned my security cameras into an automatic bird identification system",
       "category": "AI & LLMs",
-      "summary": "The latest update to Claude Code introduces an Auto Mode that enhances coding efficiency by automating repetitive tasks. This advancement is crucial for developers looking to streamline their workflows and improve productivity.",
-      "sourceUrl": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-      "sourceName": "Embrace The Red",
-      "timeAgo": "4h ago"
+      "summary": "A developer has transformed standard security cameras into a bird identification system using AI technology, showcasing innovative applications of machine learning in everyday devices. This project highlights the potential for AI to enhance surveillance technology beyond traditional security measures.",
+      "sourceUrl": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "sourceName": "jasontucker.blog",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "P99 0 ms* autocomplete for 240M domain names",
-      "category": "Web Development",
-      "summary": "A new autocomplete system achieves a remarkable P99 response time of 0 ms for 240 million domain names, significantly enhancing user experience in domain searches. Developers should consider implementing similar techniques to optimize their own applications.",
-      "sourceUrl": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
-      "sourceName": "Ruurtjan",
-      "timeAgo": "8h ago"
+      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "category": "AI & LLMs",
+      "summary": "Apple has experienced unexpected demand for its Mac Mini and Mac Studio products, driven largely by the growing interest in AI applications. This surge indicates a significant shift in consumer behavior and highlights the increasing importance of hardware in AI development.",
+      "sourceUrl": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "sourceName": "macrumors.com",
+      "timeAgo": "9h ago"
     },
     {
       "id": "4",
-      "title": "Understanding ChatGPT Work",
-      "category": "AI & LLMs",
-      "summary": "This article provides an in-depth analysis of how ChatGPT functions, including its architecture and training methodologies. Engineers and developers can gain valuable insights into optimizing AI applications by understanding these principles.",
-      "sourceUrl": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "sourceName": "Simon Willison",
-      "timeAgo": "10h ago"
+      "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "category": "Open Source",
+      "summary": "ravynOS is a new open-source operating system that combines elements from Darwin and FreeBSD, aiming to provide a unique alternative to mainstream OS options. This project is significant for developers interested in contributing to or utilizing open-source software in innovative ways.",
+      "sourceUrl": "https://ravynos.com/",
+      "sourceName": "ravynos.com",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "uv: Deduplicate all files in the wheel cache",
-      "category": "Open Source",
-      "summary": "A recent pull request in the 'uv' project introduces functionality to deduplicate files in the wheel cache, optimizing storage and improving performance. This enhancement is significant for developers managing large Python environments.",
-      "sourceUrl": "https://github.com/astral-sh/uv/pull/21327",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+      "category": "AI & LLMs",
+      "summary": "Almanac, a new AI tool launched in Y Combinator's Summer 2026 batch, aims to provide companies with tailored insights and knowledge management solutions. This tool represents a growing trend of AI applications designed to enhance organizational efficiency and decision-making.",
+      "sourceUrl": "https://usealmanac.com/",
+      "sourceName": "usealmanac.com",
+      "timeAgo": "6h ago"
     }
   ]
 }
