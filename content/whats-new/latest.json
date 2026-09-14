@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-08-31T22:05:02.210Z",
+  "lastUpdated": "2026-09-14T11:01:15.162Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-      "category": "Web Development",
-      "summary": "Google has officially removed Manifest V2 (MV2) extensions from the Chrome Web Store, impacting popular extensions like uBlock Origin. Developers should be aware of this shift as it pushes for the adoption of Manifest V3 (MV3), which changes how extensions operate and may affect their functionality.",
-      "sourceUrl": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "sourceName": "webiterate.dev",
-      "timeAgo": "53m ago"
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "category": "AI & LLMs",
+      "summary": "Fable 5.1 has successfully decrypted the Cyphral Distich, a cipher that has puzzled cryptographers for over three centuries. This breakthrough highlights the advancements in AI-driven cryptography, showcasing the potential for AI to tackle complex historical challenges.",
+      "sourceUrl": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "sourceName": "Vals.ai",
+      "timeAgo": "13h ago"
     },
     {
       "id": "2",
-      "title": "I turned my security cameras into an automatic bird identification system",
-      "category": "AI & LLMs",
-      "summary": "A developer has transformed standard security cameras into a bird identification system using AI technology, showcasing innovative applications of machine learning in everyday devices. This project highlights the potential for AI to enhance surveillance technology beyond traditional security measures.",
-      "sourceUrl": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
-      "sourceName": "jasontucker.blog",
-      "timeAgo": "5h ago"
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "category": "Security",
+      "summary": "Signal has announced a new registration method that allows users to sign up without a phone number, utilizing zero-knowledge proofs to enhance privacy. This development is significant for developers focused on user privacy and security in messaging applications.",
+      "sourceUrl": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "sourceName": "Signal Community",
+      "timeAgo": "13h ago"
     },
     {
       "id": "3",
-      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-      "category": "AI & LLMs",
-      "summary": "Apple has experienced unexpected demand for its Mac Mini and Mac Studio products, driven largely by the growing interest in AI applications. This surge indicates a significant shift in consumer behavior and highlights the increasing importance of hardware in AI development.",
-      "sourceUrl": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
-      "sourceName": "macrumors.com",
-      "timeAgo": "9h ago"
+      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "category": "Open Source",
+      "summary": "OpenArch has been released, providing PyTorch implementations of various modern LLM architectures, which can greatly assist developers in building and experimenting with language models. This open-source resource is a valuable addition for those working in AI and machine learning.",
+      "sourceUrl": "https://github.com/anuj0456/OpenArch",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "ravynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
-      "category": "Open Source",
-      "summary": "ravynOS is a new open-source operating system that combines elements from Darwin and FreeBSD, aiming to provide a unique alternative to mainstream OS options. This project is significant for developers interested in contributing to or utilizing open-source software in innovative ways.",
-      "sourceUrl": "https://ravynos.com/",
-      "sourceName": "ravynos.com",
-      "timeAgo": "5h ago"
+      "title": "Apple's Dimensional Drawings",
+      "category": "Web Development",
+      "summary": "Apple has released a set of dimensional drawings that provide detailed specifications for accessory manufacturers. This resource is crucial for web developers and engineers involved in creating compatible products, ensuring a seamless integration with Apple devices.",
+      "sourceUrl": "https://developer.apple.com/accessories/dimensional-drawings/",
+      "sourceName": "Apple Developer",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
-      "category": "AI & LLMs",
-      "summary": "Almanac, a new AI tool launched in Y Combinator's Summer 2026 batch, aims to provide companies with tailored insights and knowledge management solutions. This tool represents a growing trend of AI applications designed to enhance organizational efficiency and decision-making.",
-      "sourceUrl": "https://usealmanac.com/",
-      "sourceName": "usealmanac.com",
-      "timeAgo": "6h ago"
+      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
+      "category": "Systems & Architecture",
+      "summary": "A new blog post discusses the pitfalls of poor benchmarking practices in software engineering, emphasizing the importance of accurate evaluations for system performance. This insight is vital for engineers looking to improve their methodologies and ensure reliable results.",
+      "sourceUrl": "https://danluu.com/exercise-7/",
+      "sourceName": "Dan Luu",
+      "timeAgo": "3h ago"
     }
   ]
 }
