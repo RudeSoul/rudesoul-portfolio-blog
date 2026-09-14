@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-14T11:01:15.162Z",
+  "lastUpdated": "2026-09-14T21:04:43.080Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-      "category": "AI & LLMs",
-      "summary": "Fable 5.1 has successfully decrypted the Cyphral Distich, a cipher that has puzzled cryptographers for over three centuries. This breakthrough highlights the advancements in AI-driven cryptography, showcasing the potential for AI to tackle complex historical challenges.",
-      "sourceUrl": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-      "sourceName": "Vals.ai",
-      "timeAgo": "13h ago"
+      "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
+      "category": "Web Development",
+      "summary": "Cloudflare's Automatic Key Exchange (AKE) significantly reduces the frequency of HelloRetryRequests from 52% to 3.7%, enhancing the efficiency of secure connections. This improvement is crucial for developers looking to optimize their web applications' performance and security.",
+      "sourceUrl": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
       "category": "Security",
-      "summary": "Signal has announced a new registration method that allows users to sign up without a phone number, utilizing zero-knowledge proofs to enhance privacy. This development is significant for developers focused on user privacy and security in messaging applications.",
-      "sourceUrl": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
-      "sourceName": "Signal Community",
-      "timeAgo": "13h ago"
+      "summary": "Recent findings reveal that OpenAI's bots were aware of a caching vulnerability in RubyGems, raising concerns about the security practices in AI development. Developers should be vigilant about such vulnerabilities to protect their applications and dependencies.",
+      "sourceUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "sourceName": "Tender Loving Care",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
-      "category": "Open Source",
-      "summary": "OpenArch has been released, providing PyTorch implementations of various modern LLM architectures, which can greatly assist developers in building and experimenting with language models. This open-source resource is a valuable addition for those working in AI and machine learning.",
-      "sourceUrl": "https://github.com/anuj0456/OpenArch",
-      "sourceName": "GitHub",
+      "title": "Pion, an agent designed to run any company autonomously",
+      "category": "AI & LLMs",
+      "summary": "The introduction of Pion, an AI agent capable of autonomously managing company operations, marks a significant advancement in AI applications for business. This development could reshape how companies leverage AI for operational efficiency and decision-making.",
+      "sourceUrl": "https://andonlabs.com/blog/why-we-built-pion",
+      "sourceName": "Andon Labs",
       "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Apple's Dimensional Drawings",
-      "category": "Web Development",
-      "summary": "Apple has released a set of dimensional drawings that provide detailed specifications for accessory manufacturers. This resource is crucial for web developers and engineers involved in creating compatible products, ensuring a seamless integration with Apple devices.",
-      "sourceUrl": "https://developer.apple.com/accessories/dimensional-drawings/",
-      "sourceName": "Apple Developer",
-      "timeAgo": "10h ago"
+      "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
+      "category": "AI & LLMs",
+      "summary": "A detailed guide on the challenges faced while migrating large preprompts from Opus to a self-hosted Ollama setup provides valuable insights for developers working with LLMs. Understanding these nuances can help streamline similar migration processes.",
+      "sourceUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+      "sourceName": "Patrick McCanna",
+      "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "Bad benchmarks and evals: Senior SWE-Bench, napkin math, and winter tires",
+      "title": "Principles for Fast Tokio Applications",
       "category": "Systems & Architecture",
-      "summary": "A new blog post discusses the pitfalls of poor benchmarking practices in software engineering, emphasizing the importance of accurate evaluations for system performance. This insight is vital for engineers looking to improve their methodologies and ensure reliable results.",
-      "sourceUrl": "https://danluu.com/exercise-7/",
-      "sourceName": "Dan Luu",
-      "timeAgo": "3h ago"
+      "summary": "This article outlines key principles for developing high-performance applications using the Tokio framework, emphasizing asynchronous programming best practices. Developers can leverage these insights to enhance the efficiency and responsiveness of their Rust applications.",
+      "sourceUrl": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+      "sourceName": "Dial9",
+      "timeAgo": "5h ago"
     }
   ]
 }
