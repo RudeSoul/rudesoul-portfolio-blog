@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-15T10:32:07.371Z",
+  "lastUpdated": "2026-09-15T20:29:44.914Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Major updates for Apple's software platforms are now available",
-      "category": "Web Development",
-      "summary": "Apple has released significant updates for iOS 27, iPadOS 27, and macOS 27, introducing new features and enhancements. Developers should explore these updates to leverage the latest tools and capabilities for app development.",
-      "sourceUrl": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-      "sourceName": "Apple",
-      "timeAgo": "16h ago"
+      "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+      "category": "AI & LLMs",
+      "summary": "Typesafe.ai has introduced a new frontier model named Jev that significantly reduces costs and increases processing speeds, making it a game-changer for AI developers. This advancement could democratize access to powerful AI tools and enhance performance in various applications.",
+      "sourceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "sourceName": "typesafe.ai",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Charts built for Chat",
-      "category": "AI & LLMs",
-      "summary": "DBT Charts has introduced a new feature that allows users to create interactive charts specifically designed for chat interfaces. This development enhances data visualization capabilities in conversational AI applications.",
-      "sourceUrl": "https://dbtcharts.com/blog/charts-built-for-chat/",
-      "sourceName": "DBT Charts",
-      "timeAgo": "13h ago"
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "category": "Web Development",
+      "summary": "Capsule introduces a novel approach to web app development by allowing single-file applications to store their data in SQLite, simplifying deployment and data management. This innovation could streamline the development process for web engineers looking for lightweight solutions.",
+      "sourceUrl": "https://withcapsule.app/",
+      "sourceName": "withcapsule.app",
+      "timeAgo": "6h ago"
     },
     {
       "id": "3",
-      "title": "OpenArm: An open-source 7DOF humanoid arm",
-      "category": "Open Source",
-      "summary": "The OpenArm project has launched an open-source 7-degree-of-freedom humanoid robotic arm, providing engineers and developers with a versatile platform for robotics experimentation. This initiative promotes collaboration and innovation in the robotics community.",
-      "sourceUrl": "https://github.com/enactic/OpenArm",
-      "sourceName": "GitHub",
-      "timeAgo": "1d ago"
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "category": "Security",
+      "summary": "A security analysis revealed that Baseten's production GitHub was compromised in just 25 minutes, highlighting critical vulnerabilities in access management. This incident serves as a stark reminder for developers to prioritize security measures in their workflows.",
+      "sourceUrl": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "sourceName": "strix.ai",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "category": "Security",
-      "summary": "A recent analysis revealed that OpenAI's bots were aware of a critical vulnerability in RubyGems related to caching. This highlights the importance of integrating security awareness into AI systems to proactively address potential threats.",
-      "sourceUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "sourceName": "Tender Loving Care",
-      "timeAgo": "21h ago"
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "category": "AI & LLMs",
+      "summary": "Google has launched Gemini 3.8 Live, enhancing its AI capabilities with extended thinking features that improve contextual understanding and response generation. This update is crucial for developers working on applications that require advanced AI interactions.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "sourceName": "blog.google",
+      "timeAgo": "2h ago"
     },
     {
       "id": "5",
-      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
-      "category": "Systems & Architecture",
-      "summary": "A new technique has been developed to reduce the CPU cost of eBPF by approximately 90% using memoization strategies. This advancement could significantly enhance performance and efficiency in systems utilizing eBPF technology.",
-      "sourceUrl": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-      "sourceName": "Nathan Naveen",
-      "timeAgo": "20h ago"
+      "title": "An Update on Wayback Machine Access",
+      "category": "Open Source",
+      "summary": "The Internet Archive has provided an important update on access to the Wayback Machine, ensuring that developers and researchers can continue to utilize this vital resource for web history. This enhancement supports the preservation of digital content and aids in research efforts.",
+      "sourceUrl": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "sourceName": "blog.archive.org",
+      "timeAgo": "2h ago"
     }
   ]
 }
