@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-14T21:04:43.080Z",
+  "lastUpdated": "2026-09-15T10:32:07.371Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
+      "title": "Major updates for Apple's software platforms are now available",
       "category": "Web Development",
-      "summary": "Cloudflare's Automatic Key Exchange (AKE) significantly reduces the frequency of HelloRetryRequests from 52% to 3.7%, enhancing the efficiency of secure connections. This improvement is crucial for developers looking to optimize their web applications' performance and security.",
-      "sourceUrl": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "4h ago"
+      "summary": "Apple has released significant updates for iOS 27, iPadOS 27, and macOS 27, introducing new features and enhancements. Developers should explore these updates to leverage the latest tools and capabilities for app development.",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "sourceName": "Apple",
+      "timeAgo": "16h ago"
     },
     {
       "id": "2",
-      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-      "category": "Security",
-      "summary": "Recent findings reveal that OpenAI's bots were aware of a caching vulnerability in RubyGems, raising concerns about the security practices in AI development. Developers should be vigilant about such vulnerabilities to protect their applications and dependencies.",
-      "sourceUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-      "sourceName": "Tender Loving Care",
-      "timeAgo": "8h ago"
+      "title": "Charts built for Chat",
+      "category": "AI & LLMs",
+      "summary": "DBT Charts has introduced a new feature that allows users to create interactive charts specifically designed for chat interfaces. This development enhances data visualization capabilities in conversational AI applications.",
+      "sourceUrl": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "sourceName": "DBT Charts",
+      "timeAgo": "13h ago"
     },
     {
       "id": "3",
-      "title": "Pion, an agent designed to run any company autonomously",
-      "category": "AI & LLMs",
-      "summary": "The introduction of Pion, an AI agent capable of autonomously managing company operations, marks a significant advancement in AI applications for business. This development could reshape how companies leverage AI for operational efficiency and decision-making.",
-      "sourceUrl": "https://andonlabs.com/blog/why-we-built-pion",
-      "sourceName": "Andon Labs",
-      "timeAgo": "3h ago"
+      "title": "OpenArm: An open-source 7DOF humanoid arm",
+      "category": "Open Source",
+      "summary": "The OpenArm project has launched an open-source 7-degree-of-freedom humanoid robotic arm, providing engineers and developers with a versatile platform for robotics experimentation. This initiative promotes collaboration and innovation in the robotics community.",
+      "sourceUrl": "https://github.com/enactic/OpenArm",
+      "sourceName": "GitHub",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
-      "category": "AI & LLMs",
-      "summary": "A detailed guide on the challenges faced while migrating large preprompts from Opus to a self-hosted Ollama setup provides valuable insights for developers working with LLMs. Understanding these nuances can help streamline similar migration processes.",
-      "sourceUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
-      "sourceName": "Patrick McCanna",
-      "timeAgo": "7h ago"
+      "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "category": "Security",
+      "summary": "A recent analysis revealed that OpenAI's bots were aware of a critical vulnerability in RubyGems related to caching. This highlights the importance of integrating security awareness into AI systems to proactively address potential threats.",
+      "sourceUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+      "sourceName": "Tender Loving Care",
+      "timeAgo": "21h ago"
     },
     {
       "id": "5",
-      "title": "Principles for Fast Tokio Applications",
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
       "category": "Systems & Architecture",
-      "summary": "This article outlines key principles for developing high-performance applications using the Tokio framework, emphasizing asynchronous programming best practices. Developers can leverage these insights to enhance the efficiency and responsiveness of their Rust applications.",
-      "sourceUrl": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
-      "sourceName": "Dial9",
-      "timeAgo": "5h ago"
+      "summary": "A new technique has been developed to reduce the CPU cost of eBPF by approximately 90% using memoization strategies. This advancement could significantly enhance performance and efficiency in systems utilizing eBPF technology.",
+      "sourceUrl": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "sourceName": "Nathan Naveen",
+      "timeAgo": "20h ago"
     }
   ]
 }
