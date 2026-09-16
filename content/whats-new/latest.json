@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-15T20:29:44.914Z",
+  "lastUpdated": "2026-09-16T10:20:28.109Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+      "title": "Introducing System One Models and Jev",
       "category": "AI & LLMs",
-      "summary": "Typesafe.ai has introduced a new frontier model named Jev that significantly reduces costs and increases processing speeds, making it a game-changer for AI developers. This advancement could democratize access to powerful AI tools and enhance performance in various applications.",
+      "summary": "Typesafe.ai has unveiled System One Models and Jev, which promise to enhance the capabilities of AI systems by integrating advanced reasoning and context understanding. Developers should explore these models to leverage their potential in building more intelligent applications.",
       "sourceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
       "sourceName": "typesafe.ai",
-      "timeAgo": "1h ago"
+      "timeAgo": "14h ago"
     },
     {
       "id": "2",
-      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
-      "category": "Web Development",
-      "summary": "Capsule introduces a novel approach to web app development by allowing single-file applications to store their data in SQLite, simplifying deployment and data management. This innovation could streamline the development process for web engineers looking for lightweight solutions.",
-      "sourceUrl": "https://withcapsule.app/",
-      "sourceName": "withcapsule.app",
-      "timeAgo": "6h ago"
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "category": "AI & LLMs",
+      "summary": "Mistral has partnered with Mozilla to develop a private, multilingual AI browsing experience that prioritizes user privacy while providing robust language support. This initiative is significant for developers focused on creating inclusive and secure web applications.",
+      "sourceUrl": "https://mistral.ai/news/mistral-x-mozilla/",
+      "sourceName": "mistral.ai",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
       "category": "Security",
-      "summary": "A security analysis revealed that Baseten's production GitHub was compromised in just 25 minutes, highlighting critical vulnerabilities in access management. This incident serves as a stark reminder for developers to prioritize security measures in their workflows.",
-      "sourceUrl": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-      "sourceName": "strix.ai",
-      "timeAgo": "2h ago"
+      "summary": "Apple has introduced a new approach for verified photography through its Reference Image initiative, which aims to enhance the integrity of digital images. This development is crucial for developers working on applications that require secure image verification.",
+      "sourceUrl": "https://security.apple.com/blog/apple-reference-image/",
+      "sourceName": "security.apple.com",
+      "timeAgo": "8h ago"
     },
     {
       "id": "4",
-      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "category": "AI & LLMs",
-      "summary": "Google has launched Gemini 3.8 Live, enhancing its AI capabilities with extended thinking features that improve contextual understanding and response generation. This update is crucial for developers working on applications that require advanced AI interactions.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-      "sourceName": "blog.google",
-      "timeAgo": "2h ago"
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "category": "Open Source",
+      "summary": "A developer has successfully created a Linux GPU driver for the M4 Mac Mini within a month, showcasing the potential for open-source contributions to enhance hardware compatibility. This achievement is a valuable reference for engineers interested in cross-platform development.",
+      "sourceUrl": "https://codyho.dev/blog/gpu-driver/",
+      "sourceName": "codyho.dev",
+      "timeAgo": "14h ago"
     },
     {
       "id": "5",
-      "title": "An Update on Wayback Machine Access",
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protocol",
       "category": "Open Source",
-      "summary": "The Internet Archive has provided an important update on access to the Wayback Machine, ensuring that developers and researchers can continue to utilize this vital resource for web history. This enhancement supports the preservation of digital content and aids in research efforts.",
-      "sourceUrl": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
-      "sourceName": "blog.archive.org",
-      "timeAgo": "2h ago"
+      "summary": "Rheinmetall has made its Battlesuite connected weapon system protocol open-source, promoting transparency and collaboration in defense technology. This move is significant for developers in the defense sector looking to innovate and improve upon existing systems.",
+      "sourceUrl": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "sourceName": "rheinmetall.github.io",
+      "timeAgo": "13h ago"
     }
   ]
 }
