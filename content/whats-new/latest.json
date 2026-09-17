@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-17T10:30:01.823Z",
+  "lastUpdated": "2026-09-17T20:36:21.932Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Nvidia announces native GPU programming in Rust",
-      "category": "Systems & Architecture",
-      "summary": "Nvidia has introduced a new framework for writing GPU kernels in Rust, allowing developers to leverage Rust's safety and concurrency features in high-performance computing. This development is significant as it opens up new possibilities for safer and more efficient GPU programming.",
-      "sourceUrl": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-      "sourceName": "Nvidia",
-      "timeAgo": "23h ago"
+      "title": "Hister: A private search engine for the pages you visit and the files you keep",
+      "category": "Open Source",
+      "summary": "Hister is a new open-source search engine designed to help users privately search through their visited web pages and stored files. This development is significant for developers and engineers focused on privacy and data management solutions.",
+      "sourceUrl": "https://github.com/asciimoo/hister",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "title": "Astra for Law",
       "category": "AI & LLMs",
-      "summary": "A new AI model has been trained to generate query plans that are 81% faster than those produced by Postgres, showcasing the potential of AI in optimizing database performance. This advancement could significantly enhance the efficiency of data retrieval in applications reliant on relational databases.",
-      "sourceUrl": "https://rohanbansal.com/qorl",
-      "sourceName": "Rohan Bansal",
-      "timeAgo": "15h ago"
+      "summary": "OpenAI has launched Astra for Law, a specialized AI model aimed at assisting legal professionals with document analysis and case research. This advancement highlights the growing role of AI in transforming traditional industries like law.",
+      "sourceUrl": "https://openai.com/index/astra-for-law/",
+      "sourceName": "OpenAI",
+      "timeAgo": "18m ago"
     },
     {
       "id": "3",
-      "title": "One Year of Sponsored Servo Development",
-      "category": "Open Source",
-      "summary": "The Servo project has marked a year of sponsored development, highlighting its progress and future goals in building a high-performance web engine. This initiative is crucial for developers interested in modern web technologies and the evolution of browser engines.",
-      "sourceUrl": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
-      "sourceName": "Servo",
-      "timeAgo": "2h ago"
+      "title": "CrowdSec Source Code Leak",
+      "category": "Security",
+      "summary": "CrowdSec has reported a significant source code leak, raising concerns about security vulnerabilities and the importance of safeguarding open-source projects. Developers should be aware of the implications this has for trust and security in collaborative software development.",
+      "sourceUrl": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+      "sourceName": "CrowdSec",
+      "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
-      "category": "Security",
-      "summary": "A recent investigation revealed vulnerabilities in the signing keys used for US driver's license barcodes, raising significant security concerns. Developers and engineers should be aware of these findings to enhance security measures in similar systems.",
-      "sourceUrl": "https://ryan.science/blog/keys-not-included",
-      "sourceName": "Ryan Science",
-      "timeAgo": "7h ago"
+      "title": "Rate limits on GitLab.com are changing",
+      "category": "Web Development",
+      "summary": "GitLab has announced changes to its rate limits, which will affect how users interact with its API and services. Developers need to adapt to these changes to ensure their applications continue to function smoothly and efficiently.",
+      "sourceUrl": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+      "sourceName": "GitLab",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Developing provably correct Rust code with Verus",
-      "category": "Open Source",
-      "summary": "The Verus project aims to enable the development of provably correct Rust code, addressing critical issues in software reliability. This is particularly important for developers working in safety-critical systems where correctness is paramount.",
-      "sourceUrl": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
-      "sourceName": "Amazon Science",
-      "timeAgo": "2d ago"
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "category": "AI & LLMs",
+      "summary": "A new research paper discusses the concept of Infinite-Parameter LLMs, which can generate and adapt their weights based on live data inputs. This innovation could significantly enhance the capabilities of AI models, making them more dynamic and responsive.",
+      "sourceUrl": "https://arxiv.org/abs/2609.18842",
+      "sourceName": "arXiv",
+      "timeAgo": "3h ago"
     }
   ]
 }
