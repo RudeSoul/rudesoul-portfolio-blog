@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-16T20:29:00.454Z",
+  "lastUpdated": "2026-09-17T10:30:01.823Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "category": "AI & LLMs",
-      "summary": "Mistral has partnered with Mozilla to enhance privacy and multilingual capabilities in AI browsing. This development is significant for developers focusing on user privacy and accessibility in AI applications.",
-      "sourceUrl": "https://mistral.ai/news/mistral-x-mozilla/",
-      "sourceName": "Mistral",
-      "timeAgo": "12h ago"
+      "title": "Nvidia announces native GPU programming in Rust",
+      "category": "Systems & Architecture",
+      "summary": "Nvidia has introduced a new framework for writing GPU kernels in Rust, allowing developers to leverage Rust's safety and concurrency features in high-performance computing. This development is significant as it opens up new possibilities for safer and more efficient GPU programming.",
+      "sourceUrl": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "sourceName": "Nvidia",
+      "timeAgo": "23h ago"
     },
     {
       "id": "2",
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
       "category": "AI & LLMs",
-      "summary": "A new model has been trained to generate database query plans that are 81% faster than those produced by Postgres. This advancement could significantly optimize database performance for developers working with large datasets.",
+      "summary": "A new AI model has been trained to generate query plans that are 81% faster than those produced by Postgres, showcasing the potential of AI in optimizing database performance. This advancement could significantly enhance the efficiency of data retrieval in applications reliant on relational databases.",
       "sourceUrl": "https://rohanbansal.com/qorl",
       "sourceName": "Rohan Bansal",
-      "timeAgo": "1h ago"
+      "timeAgo": "15h ago"
     },
     {
       "id": "3",
-      "title": "Learning Programming in an Age of LLMs",
-      "category": "Web Development",
-      "summary": "This article discusses the evolving landscape of programming education in the context of large language models (LLMs). Developers should consider how LLMs can enhance learning and productivity in coding practices.",
-      "sourceUrl": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-      "sourceName": "Ploeh",
-      "timeAgo": "11h ago"
+      "title": "One Year of Sponsored Servo Development",
+      "category": "Open Source",
+      "summary": "The Servo project has marked a year of sponsored development, highlighting its progress and future goals in building a high-performance web engine. This initiative is crucial for developers interested in modern web technologies and the evolution of browser engines.",
+      "sourceUrl": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/",
+      "sourceName": "Servo",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Hackers Got Inside a Flock Camera",
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
       "category": "Security",
-      "summary": "A recent breach involving Flock cameras highlights vulnerabilities in IoT security systems. Developers and engineers should take note of these security challenges to better protect their own applications and devices.",
-      "sourceUrl": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
-      "sourceName": "Wired",
+      "summary": "A recent investigation revealed vulnerabilities in the signing keys used for US driver's license barcodes, raising significant security concerns. Developers and engineers should be aware of these findings to enhance security measures in similar systems.",
+      "sourceUrl": "https://ryan.science/blog/keys-not-included",
+      "sourceName": "Ryan Science",
       "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "Vectorized and performance-portable Quicksort",
+      "title": "Developing provably correct Rust code with Verus",
       "category": "Open Source",
-      "summary": "A new implementation of Quicksort has been developed that is both vectorized and performance-portable. This is crucial for developers looking to optimize sorting algorithms across different hardware architectures.",
-      "sourceUrl": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
-      "sourceName": "Google Open Source",
-      "timeAgo": "1h ago"
+      "summary": "The Verus project aims to enable the development of provably correct Rust code, addressing critical issues in software reliability. This is particularly important for developers working in safety-critical systems where correctness is paramount.",
+      "sourceUrl": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+      "sourceName": "Amazon Science",
+      "timeAgo": "2d ago"
     }
   ]
 }
