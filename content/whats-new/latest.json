@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-17T20:36:21.932Z",
+  "lastUpdated": "2026-09-18T10:06:30.547Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Hister: A private search engine for the pages you visit and the files you keep",
-      "category": "Open Source",
-      "summary": "Hister is a new open-source search engine designed to help users privately search through their visited web pages and stored files. This development is significant for developers and engineers focused on privacy and data management solutions.",
-      "sourceUrl": "https://github.com/asciimoo/hister",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "Astra for Law: AI-Powered Legal Assistance",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has launched Astra for Law, an AI tool designed to assist legal professionals by providing insights and automating routine tasks. This development is significant as it aims to enhance efficiency and accuracy in legal workflows, making it a valuable resource for developers in the legal tech space.",
+      "sourceUrl": "https://openai.com/index/astra-for-law/",
+      "sourceName": "OpenAI",
+      "timeAgo": "13h ago"
     },
     {
       "id": "2",
-      "title": "Astra for Law",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
       "category": "AI & LLMs",
-      "summary": "OpenAI has launched Astra for Law, a specialized AI model aimed at assisting legal professionals with document analysis and case research. This advancement highlights the growing role of AI in transforming traditional industries like law.",
-      "sourceUrl": "https://openai.com/index/astra-for-law/",
-      "sourceName": "OpenAI",
-      "timeAgo": "18m ago"
+      "summary": "PrismML has introduced Bonsai 2 27B, a model that achieves near-lossless compression while occupying significantly less storage space. This advancement is crucial for developers working with large AI models, as it allows for more efficient resource utilization without sacrificing performance.",
+      "sourceUrl": "https://prismml.com/news/bonsai-2-27b",
+      "sourceName": "PrismML",
+      "timeAgo": "12h ago"
     },
     {
       "id": "3",
-      "title": "CrowdSec Source Code Leak",
-      "category": "Security",
-      "summary": "CrowdSec has reported a significant source code leak, raising concerns about security vulnerabilities and the importance of safeguarding open-source projects. Developers should be aware of the implications this has for trust and security in collaborative software development.",
-      "sourceUrl": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
-      "sourceName": "CrowdSec",
-      "timeAgo": "5h ago"
+      "title": "Bend: A Language to Prevent AI Mistakes",
+      "category": "AI & LLMs",
+      "summary": "The Bend programming language has been unveiled, focusing on preventing AI errors through formal proofs on both CPU and GPU. This innovation is important for developers aiming to create more reliable AI systems, as it addresses a critical challenge in AI deployment.",
+      "sourceUrl": "https://bend-lang.com/",
+      "sourceName": "Bend Language",
+      "timeAgo": "13h ago"
     },
     {
       "id": "4",
-      "title": "Rate limits on GitLab.com are changing",
-      "category": "Web Development",
-      "summary": "GitLab has announced changes to its rate limits, which will affect how users interact with its API and services. Developers need to adapt to these changes to ensure their applications continue to function smoothly and efficiently.",
-      "sourceUrl": "https://about.gitlab.com/blog/rate-limit-change-2026/",
-      "sourceName": "GitLab",
+      "title": "Jemalloc 5.4.0 Released: Performance Improvements and Bug Fixes",
+      "category": "Systems & Architecture",
+      "summary": "The latest release of Jemalloc, version 5.4.0, brings significant performance enhancements and bug fixes, making it a more robust memory allocator for developers. This update is essential for engineers looking to optimize their applications' memory usage and performance.",
+      "sourceUrl": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "sourceName": "GitHub",
       "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
-      "category": "AI & LLMs",
-      "summary": "A new research paper discusses the concept of Infinite-Parameter LLMs, which can generate and adapt their weights based on live data inputs. This innovation could significantly enhance the capabilities of AI models, making them more dynamic and responsive.",
-      "sourceUrl": "https://arxiv.org/abs/2609.18842",
-      "sourceName": "arXiv",
-      "timeAgo": "3h ago"
+      "title": "Hister: A Private Search Engine for Your Files",
+      "category": "Open Source",
+      "summary": "Hister, a new open-source search engine, allows users to privately search through their visited pages and stored files. This tool is particularly relevant for developers and engineers who prioritize privacy and data security in their workflows.",
+      "sourceUrl": "https://github.com/asciimoo/hister",
+      "sourceName": "GitHub",
+      "timeAgo": "17h ago"
     }
   ]
 }
