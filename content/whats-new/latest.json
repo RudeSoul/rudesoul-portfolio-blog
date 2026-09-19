@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-19T09:47:37.878Z",
+  "lastUpdated": "2026-09-19T19:37:55.776Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "title": "AI-generated posters don’t have to be horrible",
       "category": "AI & LLMs",
-      "summary": "The latest iteration of GPT-6, named Astra, has successfully decrypted a complex World War I German radio cipher, showcasing its advanced capabilities in natural language processing and cryptography. This development is significant for developers and engineers as it highlights the potential of AI in solving historical and complex language challenges.",
-      "sourceUrl": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-      "sourceName": "Prinzai",
-      "timeAgo": "3h ago"
-    },
-    {
-      "id": "2",
-      "title": "Cloudflare Quick Tunnels",
-      "category": "Web Development",
-      "summary": "Cloudflare has introduced Quick Tunnels, a feature that allows developers to expose local servers to the internet with minimal setup, enhancing the ease of development and testing. This tool is crucial for web engineers looking to streamline their workflow and improve collaboration.",
-      "sourceUrl": "https://try.cloudflare.com/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "19h ago"
-    },
-    {
-      "id": "3",
-      "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has leveraged its own large language models to assist in the design of a new chip, demonstrating the practical applications of AI in hardware development. This intersection of AI and engineering is vital for developers interested in innovative design processes.",
-      "sourceUrl": "https://spectrum.ieee.org/llms-for-chip-design",
-      "sourceName": "IEEE Spectrum",
+      "summary": "This article discusses advancements in AI-generated poster designs, emphasizing that with the right techniques, AI can produce visually appealing and effective promotional materials. Developers and designers should care because this could enhance their ability to create marketing materials efficiently and creatively.",
+      "sourceUrl": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "sourceName": "john.hartnup.uk",
       "timeAgo": "10h ago"
     },
     {
-      "id": "4",
-      "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
-      "category": "Open Source",
-      "summary": "NASA and IBM have collaborated to create an open-source geospatial AI model aimed at enhancing lunar exploration efforts. This initiative is important for developers and researchers in the open-source community, as it promotes collaboration and innovation in space technology.",
-      "sourceUrl": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model/",
-      "sourceName": "USRA",
+      "id": "2",
+      "title": "Tin: full-text search for Postgres",
+      "category": "Web Development",
+      "summary": "The introduction of Tin provides a powerful full-text search capability for PostgreSQL databases, enhancing data retrieval and search functionalities. This is significant for developers looking to improve their applications' performance and user experience when dealing with large datasets.",
+      "sourceUrl": "https://planetscale.com/blog/introducing-tin",
+      "sourceName": "PlanetScale",
       "timeAgo": "5h ago"
     },
     {
-      "id": "5",
-      "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+      "id": "3",
+      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
       "category": "Systems & Architecture",
-      "summary": "The release of Android 17 marks a significant shift as it introduces new APIs without the need for a corresponding update to the Android Open Source Project (AOSP), indicating a new approach to Android development. This change is crucial for developers as it may streamline the integration of new features into applications.",
-      "sourceUrl": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-      "sourceName": "GrapheneOS",
-      "timeAgo": "14h ago"
+      "summary": "This benchmark analysis compares the performance of Btrfs, ZFS, and bcachefs under various workloads that traditional benchmarks often overlook. Engineers should pay attention to these findings as they can influence storage system choices and optimizations in high-performance environments.",
+      "sourceUrl": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "sourceName": "bartosz.fenski.pl",
+      "timeAgo": "1h ago"
+    },
+    {
+      "id": "4",
+      "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+      "category": "AI & LLMs",
+      "summary": "GPT-6 Astra has successfully decoded a complex WWI German radio cipher, showcasing the model's advanced capabilities in natural language processing and problem-solving. This development is crucial for engineers and researchers interested in cryptography and AI applications in historical data analysis.",
+      "sourceUrl": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+      "sourceName": "Prinzai",
+      "timeAgo": "12h ago"
+    },
+    {
+      "id": "5",
+      "title": "Cloudflare Quick Tunnels",
+      "category": "Web Development",
+      "summary": "Cloudflare has launched Quick Tunnels, enabling developers to easily expose local servers to the internet for testing and development purposes. This tool is particularly valuable for web developers looking to streamline their workflow and enhance collaboration without complex setups.",
+      "sourceUrl": "https://try.cloudflare.com/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "1d ago"
     }
   ]
 }
