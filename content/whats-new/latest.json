@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-21T21:16:05.140Z",
+  "lastUpdated": "2026-09-22T10:24:22.425Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Grok 4.7 Released with Enhanced AI Capabilities",
+      "title": "Can gzip be a language model?",
       "category": "AI & LLMs",
-      "summary": "The latest version of Grok, an AI tool, has been released, featuring significant enhancements that improve its performance and usability for developers. This update is crucial for engineers looking to leverage AI in their applications more effectively.",
-      "sourceUrl": "https://x.ai/news/grok-4-7",
-      "sourceName": "x.ai",
-      "timeAgo": "5h ago"
+      "summary": "This article explores the concept of using gzip as a language model, presenting a novel approach to data compression and language processing. Developers should care as it opens up new avenues for efficient data handling in AI applications.",
+      "sourceUrl": "https://nathan.rs/posts/gzip-lm/",
+      "sourceName": "nathan.rs",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "AI Coding Has Made CI a Bottleneck",
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
       "category": "Web Development",
-      "summary": "A recent article discusses how the rise of AI in coding has created bottlenecks in Continuous Integration (CI) processes, prompting a rework of existing systems to keep pace. Developers should pay attention to these changes to optimize their workflows and maintain efficiency.",
+      "summary": "The article discusses how AI-driven coding practices have introduced bottlenecks in Continuous Integration (CI) processes, prompting a rework of CI systems to enhance efficiency. This is crucial for developers looking to streamline their workflows and adapt to evolving coding paradigms.",
       "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
       "sourceName": "linear.app",
-      "timeAgo": "1h ago"
+      "timeAgo": "15h ago"
     },
     {
       "id": "3",
-      "title": "Transformers Explained Visually for Better Understanding",
+      "title": "Transformers Explained Visually",
       "category": "AI & LLMs",
-      "summary": "A new visual guide has been released to explain the workings of Transformers, a foundational technology in AI and machine learning. This resource is invaluable for engineers and developers looking to deepen their understanding of this critical architecture.",
+      "summary": "This resource provides a visual explanation of transformer models, a key architecture in modern AI applications. Understanding transformers is essential for developers working with natural language processing and machine learning.",
       "sourceUrl": "https://poloclub.github.io/transformer-explainer/",
       "sourceName": "poloclub.github.io",
-      "timeAgo": "1h ago"
+      "timeAgo": "14h ago"
     },
     {
       "id": "4",
-      "title": "Python Workers Now Generally Available on Cloudflare",
-      "category": "Web Development",
-      "summary": "Cloudflare has announced the general availability of Python Workers, allowing developers to run Python code at the edge. This feature enhances the flexibility and performance of web applications, making it easier for engineers to build scalable solutions.",
-      "sourceUrl": "https://blog.cloudflare.com/python-workers-ga/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "7h ago"
+      "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
+      "category": "AI & LLMs",
+      "summary": "A recent study reveals that younger users are increasingly turning away from traditional search engines like Google in favor of AI tools, raising concerns about the implications for information access and digital literacy. This trend is significant for developers and educators alike as it shapes the future of technology use among youth.",
+      "sourceUrl": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
+      "sourceName": "norwegianscitechnews.com",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "NASA/ESA Mars Sample Return Mission Canceled",
-      "category": "Systems & Architecture",
-      "summary": "The cancellation of the Mars Sample Return mission has significant implications for space exploration and engineering projects related to planetary science. Engineers and developers in aerospace should reassess their strategies in light of this major shift in mission planning.",
-      "sourceUrl": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
-      "sourceName": "science.org",
-      "timeAgo": "2h ago"
+      "title": "Attention is all you have",
+      "category": "AI & LLMs",
+      "summary": "This article delves into the importance of attention mechanisms in AI models, particularly in enhancing their performance and efficiency. For engineers and developers, understanding these mechanisms is crucial for optimizing AI applications.",
+      "sourceUrl": "https://alicegg.tech/2026/09/21/attention",
+      "sourceName": "alicegg.tech",
+      "timeAgo": "19h ago"
     }
   ]
 }
