@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-22T10:24:22.425Z",
+  "lastUpdated": "2026-09-22T20:31:13.938Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Can gzip be a language model?",
+      "title": "OpenAI Introduces GPT-6 Sol and Luna",
       "category": "AI & LLMs",
-      "summary": "This article explores the concept of using gzip as a language model, presenting a novel approach to data compression and language processing. Developers should care as it opens up new avenues for efficient data handling in AI applications.",
-      "sourceUrl": "https://nathan.rs/posts/gzip-lm/",
-      "sourceName": "nathan.rs",
-      "timeAgo": "4h ago"
+      "summary": "OpenAI has unveiled GPT-6 Sol and Luna, the latest iterations of its language model, which promise significant improvements in understanding and generating human-like text. Developers and engineers should explore these advancements for their potential applications in natural language processing and AI-driven solutions.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "sourceName": "OpenAI",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
-      "category": "Web Development",
-      "summary": "The article discusses how AI-driven coding practices have introduced bottlenecks in Continuous Integration (CI) processes, prompting a rework of CI systems to enhance efficiency. This is crucial for developers looking to streamline their workflows and adapt to evolving coding paradigms.",
-      "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
-      "sourceName": "linear.app",
-      "timeAgo": "15h ago"
+      "title": "Anthropic Releases Claude Opus 5.5",
+      "category": "AI & LLMs",
+      "summary": "Claude Opus 5.5 has been released by Anthropic, showcasing enhancements in performance and intelligence metrics that could redefine user interactions with AI. Developers should consider integrating this model to leverage its improved capabilities in various applications.",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "sourceName": "Anthropic",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Transformers Explained Visually",
+      "title": "OpenAI GPT–6 Astra Breaks Longstanding Enigma Message",
       "category": "AI & LLMs",
-      "summary": "This resource provides a visual explanation of transformer models, a key architecture in modern AI applications. Understanding transformers is essential for developers working with natural language processing and machine learning.",
-      "sourceUrl": "https://poloclub.github.io/transformer-explainer/",
-      "sourceName": "poloclub.github.io",
-      "timeAgo": "14h ago"
+      "summary": "The new GPT-6 Astra model has successfully decrypted an Enigma message that remained unsolved since 2005, highlighting its advanced analytical capabilities. This breakthrough showcases the potential of AI in cryptography and data analysis, which engineers in security fields should note.",
+      "sourceUrl": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "sourceName": "Crypto Cellar",
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "Study: Young users (9 to 18Y) ditch Google for AI, with unknown consequences",
-      "category": "AI & LLMs",
-      "summary": "A recent study reveals that younger users are increasingly turning away from traditional search engines like Google in favor of AI tools, raising concerns about the implications for information access and digital literacy. This trend is significant for developers and educators alike as it shapes the future of technology use among youth.",
-      "sourceUrl": "https://norwegianscitechnews.com/2026/09/young-users-ditch-google-for-ai-with-unknown-consequences/",
-      "sourceName": "norwegianscitechnews.com",
-      "timeAgo": "1h ago"
+      "title": "WordPress Security Advisory: Unauthenticated Path Traversal",
+      "category": "Security",
+      "summary": "A significant security vulnerability has been identified in WordPress, allowing unauthenticated path traversal that could lead to remote code execution. Developers using WordPress should prioritize applying the latest security patches to protect their applications.",
+      "sourceUrl": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Attention is all you have",
-      "category": "AI & LLMs",
-      "summary": "This article delves into the importance of attention mechanisms in AI models, particularly in enhancing their performance and efficiency. For engineers and developers, understanding these mechanisms is crucial for optimizing AI applications.",
-      "sourceUrl": "https://alicegg.tech/2026/09/21/attention",
-      "sourceName": "alicegg.tech",
-      "timeAgo": "19h ago"
+      "title": "SAML: A Fractal of Bad Design",
+      "category": "Systems & Architecture",
+      "summary": "A critical analysis of SAML (Security Assertion Markup Language) has been published, highlighting its design flaws and the implications for security architecture. Engineers involved in identity management and security protocols should review these insights to improve their systems.",
+      "sourceUrl": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "sourceName": "Trail of Bits",
+      "timeAgo": "1h ago"
     }
   ]
 }
