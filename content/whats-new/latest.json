@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-23T10:19:33.928Z",
+  "lastUpdated": "2026-09-23T20:44:00.470Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "OpenAI Introduces GPT-6 Sol and Luna",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "category": "AI & LLMs",
-      "summary": "OpenAI has unveiled GPT-6 Sol and Luna, the latest advancements in their language model series, promising improved performance and capabilities. Developers should explore these updates to leverage the enhanced features in their applications and research.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "sourceName": "OpenAI",
-      "timeAgo": "16h ago"
+      "summary": "Claude has identified a new enzyme system that utilizes CRISPR-like repeats, which could revolutionize genetic engineering and synthetic biology. This development is significant for researchers looking to enhance gene editing technologies and their applications.",
+      "sourceUrl": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "sourceName": "Anthropic",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "Claude Opus 5.5 Released with Enhanced Features",
+      "title": "Gemini 3.8 text-to-speech",
       "category": "AI & LLMs",
-      "summary": "Anthropic has released Claude Opus 5.5, featuring significant improvements in intelligence and performance metrics. This update is crucial for developers looking to integrate advanced AI capabilities into their systems.",
-      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
-      "sourceName": "Anthropic",
-      "timeAgo": "17h ago"
+      "summary": "Google has released Gemini 3.8, which includes significant improvements in text-to-speech capabilities, enhancing naturalness and expressiveness. This update is crucial for developers working on applications that require high-quality voice synthesis.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "sourceName": "Google",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Abandoning Scientific Linux Was a Mistake",
+      "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
       "category": "Open Source",
-      "summary": "A recent blog post argues that the decision to abandon Scientific Linux has negatively impacted the scientific computing community. Developers and engineers should consider the implications of this shift on open-source software in research environments.",
-      "sourceUrl": "https://blog.melashri.net/posts/scientific-linux-mistake/",
-      "sourceName": "Melashri Blog",
-      "timeAgo": "1h ago"
+      "summary": "Radicle has disclosed a vulnerability in its network protocol, prompting developers to review their implementations for potential security risks. This disclosure highlights the importance of maintaining robust security practices in open-source projects.",
+      "sourceUrl": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
+      "sourceName": "Radicle",
+      "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "Data-Only Attacks Are Easier Than You Think",
-      "category": "Security",
-      "summary": "A new study highlights the rising threat of data-only attacks, revealing their simplicity and effectiveness. Security engineers must be aware of these vulnerabilities to better protect their systems against such attacks.",
-      "sourceUrl": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
-      "sourceName": "USENIX",
-      "timeAgo": "6h ago"
+      "title": "How we made claude.ai 3x faster in two weeks",
+      "category": "AI & LLMs",
+      "summary": "The team behind claude.ai has shared insights into their optimization process that resulted in a threefold increase in performance within just two weeks. This case study offers valuable lessons for engineers looking to enhance AI system efficiency.",
+      "sourceUrl": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "sourceName": "Claude",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Microsoft Revives FoxPro: A Look at the New Project",
-      "category": "Open Source",
-      "summary": "The revival of FoxPro through a new open-source project has sparked interest among developers familiar with the legacy platform. This development presents opportunities for those looking to modernize or integrate FoxPro capabilities into current applications.",
-      "sourceUrl": "https://foxscript.org/",
-      "sourceName": "FoxScript",
-      "timeAgo": "13h ago"
+      "title": "Stripe's Knowledge AI Platform",
+      "category": "AI & LLMs",
+      "summary": "Stripe has launched its Knowledge AI Platform, designed to streamline customer support and improve user experience through advanced AI capabilities. This platform is a significant step for developers aiming to integrate AI into financial services.",
+      "sourceUrl": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "sourceName": "Stripe",
+      "timeAgo": "7h ago"
     }
   ]
 }
