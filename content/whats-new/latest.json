@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T20:31:13.938Z",
+  "lastUpdated": "2026-09-23T10:19:33.928Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "OpenAI Introduces GPT-6 Sol and Luna",
       "category": "AI & LLMs",
-      "summary": "OpenAI has unveiled GPT-6 Sol and Luna, the latest iterations of its language model, which promise significant improvements in understanding and generating human-like text. Developers and engineers should explore these advancements for their potential applications in natural language processing and AI-driven solutions.",
+      "summary": "OpenAI has unveiled GPT-6 Sol and Luna, the latest advancements in their language model series, promising improved performance and capabilities. Developers should explore these updates to leverage the enhanced features in their applications and research.",
       "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
       "sourceName": "OpenAI",
-      "timeAgo": "2h ago"
+      "timeAgo": "16h ago"
     },
     {
       "id": "2",
-      "title": "Anthropic Releases Claude Opus 5.5",
+      "title": "Claude Opus 5.5 Released with Enhanced Features",
       "category": "AI & LLMs",
-      "summary": "Claude Opus 5.5 has been released by Anthropic, showcasing enhancements in performance and intelligence metrics that could redefine user interactions with AI. Developers should consider integrating this model to leverage its improved capabilities in various applications.",
+      "summary": "Anthropic has released Claude Opus 5.5, featuring significant improvements in intelligence and performance metrics. This update is crucial for developers looking to integrate advanced AI capabilities into their systems.",
       "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
       "sourceName": "Anthropic",
-      "timeAgo": "4h ago"
+      "timeAgo": "17h ago"
     },
     {
       "id": "3",
-      "title": "OpenAI GPT–6 Astra Breaks Longstanding Enigma Message",
-      "category": "AI & LLMs",
-      "summary": "The new GPT-6 Astra model has successfully decrypted an Enigma message that remained unsolved since 2005, highlighting its advanced analytical capabilities. This breakthrough showcases the potential of AI in cryptography and data analysis, which engineers in security fields should note.",
-      "sourceUrl": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "sourceName": "Crypto Cellar",
-      "timeAgo": "6h ago"
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "category": "Open Source",
+      "summary": "A recent blog post argues that the decision to abandon Scientific Linux has negatively impacted the scientific computing community. Developers and engineers should consider the implications of this shift on open-source software in research environments.",
+      "sourceUrl": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "sourceName": "Melashri Blog",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "WordPress Security Advisory: Unauthenticated Path Traversal",
+      "title": "Data-Only Attacks Are Easier Than You Think",
       "category": "Security",
-      "summary": "A significant security vulnerability has been identified in WordPress, allowing unauthenticated path traversal that could lead to remote code execution. Developers using WordPress should prioritize applying the latest security patches to protect their applications.",
-      "sourceUrl": "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "summary": "A new study highlights the rising threat of data-only attacks, revealing their simplicity and effectiveness. Security engineers must be aware of these vulnerabilities to better protect their systems against such attacks.",
+      "sourceUrl": "https://www.usenix.org/publications/loginonline/data-only-attacks-are-easier-you-think",
+      "sourceName": "USENIX",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "SAML: A Fractal of Bad Design",
-      "category": "Systems & Architecture",
-      "summary": "A critical analysis of SAML (Security Assertion Markup Language) has been published, highlighting its design flaws and the implications for security architecture. Engineers involved in identity management and security protocols should review these insights to improve their systems.",
-      "sourceUrl": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-      "sourceName": "Trail of Bits",
-      "timeAgo": "1h ago"
+      "title": "Microsoft Revives FoxPro: A Look at the New Project",
+      "category": "Open Source",
+      "summary": "The revival of FoxPro through a new open-source project has sparked interest among developers familiar with the legacy platform. This development presents opportunities for those looking to modernize or integrate FoxPro capabilities into current applications.",
+      "sourceUrl": "https://foxscript.org/",
+      "sourceName": "FoxScript",
+      "timeAgo": "13h ago"
     }
   ]
 }
