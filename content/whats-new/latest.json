@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-24T20:49:27.741Z",
+  "lastUpdated": "2026-09-25T10:37:09.285Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "F-Droid 2.0: A New Chapter for Android Freedom",
+      "title": "Dutch government builds alternative for Microsoft based on NixOS",
       "category": "Open Source",
-      "summary": "F-Droid has released version 2.0, enhancing its platform for distributing free and open-source Android applications. This update is significant for developers looking to promote software freedom and privacy-focused alternatives to mainstream app stores.",
-      "sourceUrl": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "sourceName": "F-Droid",
-      "timeAgo": "5h ago"
+      "summary": "The Dutch government has developed an alternative operating system based on NixOS to reduce reliance on Microsoft products. This initiative highlights the growing trend towards open-source solutions in government and enterprise environments.",
+      "sourceUrl": "https://www.dawo.community/en/",
+      "sourceName": "dawo.community",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "Google’s Project Suncatcher to Put ML Infrastructure in Space",
-      "category": "AI & LLMs",
-      "summary": "Google's Project Suncatcher aims to establish machine learning infrastructure in space, potentially revolutionizing data processing and AI capabilities. This initiative could lead to advancements in how we handle large-scale data and machine learning applications.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-      "sourceName": "Google",
-      "timeAgo": "6h ago"
+      "title": "F-Droid 2.0: A New Chapter for Android Freedom",
+      "category": "Open Source",
+      "summary": "F-Droid has released version 2.0, enhancing its platform for distributing free and open-source Android applications. This update is significant for developers and users who prioritize software freedom and privacy.",
+      "sourceUrl": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+      "sourceName": "f-droid.org",
+      "timeAgo": "19h ago"
     },
     {
       "id": "3",
-      "title": "Show HN: Whiteboard – An Open-Source IDE for Thoughtful Software Design",
-      "category": "Web Development",
-      "summary": "Whiteboard is an open-source IDE designed to facilitate thoughtful software design, providing tools for developers to visualize and structure their code effectively. This tool could enhance productivity and collaboration among software teams.",
-      "sourceUrl": "https://github.com/devdotfast/whiteboard",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "category": "AI & LLMs",
+      "summary": "Google has announced Project Suncatcher, an initiative to deploy machine learning infrastructure in space. This ambitious project aims to leverage the unique environment of space for advanced AI research and applications.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+      "sourceName": "Google",
+      "timeAgo": "20h ago"
     },
     {
       "id": "4",
-      "title": "Using LLMs to Trace Alchemical Knowledge and Decode 17th Century Letters",
-      "category": "AI & LLMs",
-      "summary": "Researchers are leveraging large language models (LLMs) to decode historical texts, specifically 17th-century alchemical letters. This application of AI not only aids in historical research but also showcases the versatility of LLMs in understanding complex language structures.",
-      "sourceUrl": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "sourceName": "Res Obscura",
-      "timeAgo": "1h ago"
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "category": "Open Source",
+      "summary": "The open-source IDE 'Whiteboard' has been launched, aimed at enhancing thoughtful software design practices. This tool is particularly valuable for developers looking to streamline their design processes and improve collaboration.",
+      "sourceUrl": "https://github.com/devdotfast/whiteboard",
+      "sourceName": "GitHub",
+      "timeAgo": "17h ago"
     },
     {
       "id": "5",
-      "title": "Sourcehut Account Takeover via Build Logs (XSS in ansi2html)",
-      "category": "Security",
-      "summary": "A security vulnerability in Sourcehut has been identified, allowing account takeover through cross-site scripting (XSS) in the ansi2html tool. Developers should be aware of this issue to protect their accounts and understand the importance of secure coding practices.",
-      "sourceUrl": "https://blog.arusekk.pl/posts/srht-account-takeover/",
-      "sourceName": "Arusekk",
-      "timeAgo": "54m ago"
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "category": "AI & LLMs",
+      "summary": "Researchers are utilizing large language models (LLMs) to analyze and decode historical alchemical texts from the 17th century. This innovative application of AI showcases its potential in the humanities and historical research.",
+      "sourceUrl": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "sourceName": "Res Obscura",
+      "timeAgo": "15h ago"
     }
   ]
 }
