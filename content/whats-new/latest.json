@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-25T10:37:09.285Z",
+  "lastUpdated": "2026-09-25T20:46:59.492Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Dutch government builds alternative for Microsoft based on NixOS",
-      "category": "Open Source",
-      "summary": "The Dutch government has developed an alternative operating system based on NixOS to reduce reliance on Microsoft products. This initiative highlights the growing trend towards open-source solutions in government and enterprise environments.",
-      "sourceUrl": "https://www.dawo.community/en/",
-      "sourceName": "dawo.community",
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "category": "AI & LLMs",
+      "summary": "Ollaya introduces an open-source framework for creating Jev-style decision models, enhancing accessibility for developers interested in AI decision-making. This development is significant as it democratizes advanced AI modeling techniques, allowing more engineers to leverage these tools in their applications.",
+      "sourceUrl": "https://ollaya.dev/",
+      "sourceName": "ollaya.dev",
       "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "F-Droid 2.0: A New Chapter for Android Freedom",
-      "category": "Open Source",
-      "summary": "F-Droid has released version 2.0, enhancing its platform for distributing free and open-source Android applications. This update is significant for developers and users who prioritize software freedom and privacy.",
-      "sourceUrl": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-      "sourceName": "f-droid.org",
-      "timeAgo": "19h ago"
+      "title": "Platform-independent SIMD in Go",
+      "category": "Web Development",
+      "summary": "The Go programming language has unveiled a new platform-independent SIMD (Single Instruction, Multiple Data) feature, which allows developers to write more efficient code across different architectures. This enhancement is crucial for performance-critical applications, enabling better resource utilization and faster execution times.",
+      "sourceUrl": "https://go.dev/blog/simd-experiment",
+      "sourceName": "go.dev",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
-      "category": "AI & LLMs",
-      "summary": "Google has announced Project Suncatcher, an initiative to deploy machine learning infrastructure in space. This ambitious project aims to leverage the unique environment of space for advanced AI research and applications.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
-      "sourceName": "Google",
-      "timeAgo": "20h ago"
+      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+      "category": "Open Source",
+      "summary": "Git-bug has been released as a distributed, offline-first bug tracker that integrates seamlessly with Git repositories. This tool is particularly valuable for developers looking for a lightweight, efficient way to manage bugs without relying on centralized systems.",
+      "sourceUrl": "https://github.com/git-bug/git-bug",
+      "sourceName": "github.com",
+      "timeAgo": "9h ago"
     },
     {
       "id": "4",
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "category": "Open Source",
-      "summary": "The open-source IDE 'Whiteboard' has been launched, aimed at enhancing thoughtful software design practices. This tool is particularly valuable for developers looking to streamline their design processes and improve collaboration.",
-      "sourceUrl": "https://github.com/devdotfast/whiteboard",
-      "sourceName": "GitHub",
-      "timeAgo": "17h ago"
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "category": "Security",
+      "summary": "A U.S. appeals court has upheld the designation of Anthropic as a supply chain risk, highlighting the increasing scrutiny on AI companies regarding their operational security. This ruling underscores the importance of security measures in AI development and deployment, affecting how companies approach risk management.",
+      "sourceUrl": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "sourceName": "cnbc.com",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "category": "AI & LLMs",
-      "summary": "Researchers are utilizing large language models (LLMs) to analyze and decode historical alchemical texts from the 17th century. This innovative application of AI showcases its potential in the humanities and historical research.",
-      "sourceUrl": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "sourceName": "Res Obscura",
-      "timeAgo": "15h ago"
+      "title": "Factorio that you can touch",
+      "category": "Web Development",
+      "summary": "A new interactive version of Factorio has been released, allowing users to engage with the game in a tactile manner. This innovation not only enhances user experience but also opens up new possibilities for interactive web applications and game design.",
+      "sourceUrl": "https://factorio.com/blog/post/fff-447",
+      "sourceName": "factorio.com",
+      "timeAgo": "6h ago"
     }
   ]
 }
