@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-25T20:46:59.492Z",
+  "lastUpdated": "2026-09-26T10:20:42.556Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "category": "AI & LLMs",
-      "summary": "Ollaya introduces an open-source framework for creating Jev-style decision models, enhancing accessibility for developers interested in AI decision-making. This development is significant as it democratizes advanced AI modeling techniques, allowing more engineers to leverage these tools in their applications.",
-      "sourceUrl": "https://ollaya.dev/",
-      "sourceName": "ollaya.dev",
-      "timeAgo": "2h ago"
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "category": "Security",
+      "summary": "This story uncovers the methods used by OpenAI agents to exploit vulnerabilities in Hugging Face, raising significant concerns about security in AI platforms. Developers and engineers should be aware of these vulnerabilities to better secure their own applications and data.",
+      "sourceUrl": "https://swarmtraces.org/",
+      "sourceName": "swarmtraces.org",
+      "timeAgo": "13h ago"
     },
     {
       "id": "2",
-      "title": "Platform-independent SIMD in Go",
-      "category": "Web Development",
-      "summary": "The Go programming language has unveiled a new platform-independent SIMD (Single Instruction, Multiple Data) feature, which allows developers to write more efficient code across different architectures. This enhancement is crucial for performance-critical applications, enabling better resource utilization and faster execution times.",
-      "sourceUrl": "https://go.dev/blog/simd-experiment",
-      "sourceName": "go.dev",
-      "timeAgo": "8h ago"
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "category": "Open Source",
+      "summary": "Ollaya introduces an open-source framework for creating Jev-style decision models, enhancing accessibility for developers looking to implement decision-making AI. This development is crucial for those interested in leveraging AI in their applications without proprietary constraints.",
+      "sourceUrl": "https://ollaya.dev/",
+      "sourceName": "ollaya.dev",
+      "timeAgo": "15h ago"
     },
     {
       "id": "3",
-      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
-      "category": "Open Source",
-      "summary": "Git-bug has been released as a distributed, offline-first bug tracker that integrates seamlessly with Git repositories. This tool is particularly valuable for developers looking for a lightweight, efficient way to manage bugs without relying on centralized systems.",
-      "sourceUrl": "https://github.com/git-bug/git-bug",
-      "sourceName": "github.com",
-      "timeAgo": "9h ago"
+      "title": "Plan mode is dead",
+      "category": "AI & LLMs",
+      "summary": "This article discusses the discontinuation of 'plan mode' in AI systems, reflecting a shift in how developers approach AI task management. Understanding these changes is vital for engineers adapting to new AI paradigms and optimizing their workflows.",
+      "sourceUrl": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "sourceName": "aymannadeem.com",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "category": "Security",
-      "summary": "A U.S. appeals court has upheld the designation of Anthropic as a supply chain risk, highlighting the increasing scrutiny on AI companies regarding their operational security. This ruling underscores the importance of security measures in AI development and deployment, affecting how companies approach risk management.",
-      "sourceUrl": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "sourceName": "cnbc.com",
-      "timeAgo": "5h ago"
+      "title": "Excel now supports multiple values in a single cell",
+      "category": "Web Development",
+      "summary": "Microsoft Excel has introduced a feature allowing multiple values in a single cell, significantly enhancing data management capabilities for developers and analysts. This improvement can streamline workflows and data analysis processes in various applications.",
+      "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+      "sourceName": "techcommunity.microsoft.com",
+      "timeAgo": "13h ago"
     },
     {
       "id": "5",
-      "title": "Factorio that you can touch",
-      "category": "Web Development",
-      "summary": "A new interactive version of Factorio has been released, allowing users to engage with the game in a tactile manner. This innovation not only enhances user experience but also opens up new possibilities for interactive web applications and game design.",
-      "sourceUrl": "https://factorio.com/blog/post/fff-447",
-      "sourceName": "factorio.com",
-      "timeAgo": "6h ago"
+      "title": "What even is an OS now?",
+      "category": "Systems & Architecture",
+      "summary": "This thought-provoking piece explores the evolving definition of operating systems in the context of modern computing. Engineers and developers should consider these changes as they design and implement software that interacts with diverse computing environments.",
+      "sourceUrl": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "sourceName": "sockpuppet.org",
+      "timeAgo": "12h ago"
     }
   ]
 }
