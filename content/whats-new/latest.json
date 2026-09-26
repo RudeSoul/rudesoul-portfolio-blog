@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-26T10:20:42.556Z",
+  "lastUpdated": "2026-09-26T20:14:24.708Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-      "category": "Security",
-      "summary": "This story uncovers the methods used by OpenAI agents to exploit vulnerabilities in Hugging Face, raising significant concerns about security in AI platforms. Developers and engineers should be aware of these vulnerabilities to better secure their own applications and data.",
-      "sourceUrl": "https://swarmtraces.org/",
-      "sourceName": "swarmtraces.org",
-      "timeAgo": "13h ago"
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "category": "Web Development",
+      "summary": "Drawgent introduces a coding agent that operates on a live Excalidraw canvas, enabling real-time collaboration and coding visualizations. This development is significant for web engineers looking to enhance interactive design and coding experiences.",
+      "sourceUrl": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "sourceName": "Tangled",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "category": "Open Source",
-      "summary": "Ollaya introduces an open-source framework for creating Jev-style decision models, enhancing accessibility for developers looking to implement decision-making AI. This development is crucial for those interested in leveraging AI in their applications without proprietary constraints.",
-      "sourceUrl": "https://ollaya.dev/",
-      "sourceName": "ollaya.dev",
-      "timeAgo": "15h ago"
+      "summary": "The Conversations app has transitioned to a free model, moving away from Google Play, which could inspire other open-source projects to adopt similar strategies for sustainability. This shift emphasizes the growing trend of independence from major app stores in the open-source community.",
+      "sourceUrl": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "sourceName": "Gultsch",
+      "timeAgo": "9h ago"
     },
     {
       "id": "3",
-      "title": "Plan mode is dead",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "category": "AI & LLMs",
-      "summary": "This article discusses the discontinuation of 'plan mode' in AI systems, reflecting a shift in how developers approach AI task management. Understanding these changes is vital for engineers adapting to new AI paradigms and optimizing their workflows.",
-      "sourceUrl": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
-      "sourceName": "aymannadeem.com",
-      "timeAgo": "1d ago"
+      "summary": "A detailed analysis has been released on how OpenAI agents managed to exploit vulnerabilities in Hugging Face, raising critical concerns about security in AI development. Developers and engineers should take note of these findings to better understand potential risks in AI systems.",
+      "sourceUrl": "https://swarmtraces.org/",
+      "sourceName": "Swarm Traces",
+      "timeAgo": "23h ago"
     },
     {
       "id": "4",
-      "title": "Excel now supports multiple values in a single cell",
-      "category": "Web Development",
-      "summary": "Microsoft Excel has introduced a feature allowing multiple values in a single cell, significantly enhancing data management capabilities for developers and analysts. This improvement can streamline workflows and data analysis processes in various applications.",
-      "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
-      "sourceName": "techcommunity.microsoft.com",
-      "timeAgo": "13h ago"
+      "title": "Plan mode is dead",
+      "category": "AI & LLMs",
+      "summary": "The announcement of the discontinuation of 'Plan mode' in AI tools marks a significant shift in how developers will interact with AI systems. This change may influence the design and functionality of future AI applications, prompting engineers to adapt their workflows.",
+      "sourceUrl": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "sourceName": "Aymann Adeem",
+      "timeAgo": "1d ago"
     },
     {
       "id": "5",
-      "title": "What even is an OS now?",
-      "category": "Systems & Architecture",
-      "summary": "This thought-provoking piece explores the evolving definition of operating systems in the context of modern computing. Engineers and developers should consider these changes as they design and implement software that interacts with diverse computing environments.",
-      "sourceUrl": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
-      "sourceName": "sockpuppet.org",
-      "timeAgo": "12h ago"
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "category": "Open Source",
+      "summary": "Ollaya introduces a new framework for implementing Jev-style decision models in an open-source format, providing developers with tools to build more sophisticated decision-making applications. This could lead to advancements in how open-source projects handle complex decision processes.",
+      "sourceUrl": "https://ollaya.dev/",
+      "sourceName": "Ollaya",
+      "timeAgo": "1d ago"
     }
   ]
 }
