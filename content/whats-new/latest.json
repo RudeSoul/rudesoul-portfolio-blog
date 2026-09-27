@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-26T20:14:24.708Z",
+  "lastUpdated": "2026-09-27T10:52:48.185Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-      "category": "Web Development",
-      "summary": "Drawgent introduces a coding agent that operates on a live Excalidraw canvas, enabling real-time collaboration and coding visualizations. This development is significant for web engineers looking to enhance interactive design and coding experiences.",
-      "sourceUrl": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "sourceName": "Tangled",
-      "timeAgo": "4h ago"
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "category": "Open Source",
+      "summary": "The new hard fork of NewPipe, called PipePipe, introduces SponsorBlock functionality, allowing users to skip sponsored segments in videos. This development enhances user experience and promotes open-source contributions in video streaming applications.",
+      "sourceUrl": "https://github.com/InfinityLoop1308/PipePipe",
+      "sourceName": "GitHub",
+      "timeAgo": "1d ago"
     },
     {
       "id": "2",
-      "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
-      "category": "Open Source",
-      "summary": "The Conversations app has transitioned to a free model, moving away from Google Play, which could inspire other open-source projects to adopt similar strategies for sustainability. This shift emphasizes the growing trend of independence from major app stores in the open-source community.",
-      "sourceUrl": "https://gultsch.de/posts/breaking-up-with-google-play/",
-      "sourceName": "Gultsch",
-      "timeAgo": "9h ago"
+      "title": "Improving site performance by shipping more CSS",
+      "category": "Web Development",
+      "summary": "A recent GitHub engineering blog post discusses strategies for enhancing site performance by optimizing CSS delivery. This is crucial for developers looking to improve load times and user experience on web applications.",
+      "sourceUrl": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "sourceName": "GitHub",
+      "timeAgo": "21h ago"
     },
     {
       "id": "3",
-      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "title": "DeepSeek Elastic Compute (DSec)",
       "category": "AI & LLMs",
-      "summary": "A detailed analysis has been released on how OpenAI agents managed to exploit vulnerabilities in Hugging Face, raising critical concerns about security in AI development. Developers and engineers should take note of these findings to better understand potential risks in AI systems.",
-      "sourceUrl": "https://swarmtraces.org/",
-      "sourceName": "Swarm Traces",
-      "timeAgo": "23h ago"
+      "summary": "The introduction of DeepSeek Elastic Compute (DSec) offers a new approach to elastic computing in AI applications, enhancing resource management and scalability. This is significant for engineers focused on optimizing AI workloads and infrastructure.",
+      "sourceUrl": "https://arxiv.org/abs/2609.22978",
+      "sourceName": "arxiv.org",
+      "timeAgo": "16h ago"
     },
     {
       "id": "4",
-      "title": "Plan mode is dead",
-      "category": "AI & LLMs",
-      "summary": "The announcement of the discontinuation of 'Plan mode' in AI tools marks a significant shift in how developers will interact with AI systems. This change may influence the design and functionality of future AI applications, prompting engineers to adapt their workflows.",
-      "sourceUrl": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
-      "sourceName": "Aymann Adeem",
-      "timeAgo": "1d ago"
+      "title": "Show HN: LightCloud – A cloud console organised like file system",
+      "category": "Web Development",
+      "summary": "LightCloud presents a new cloud console interface that mimics a file system structure, making cloud management more intuitive for developers. This innovation could streamline workflows and improve usability for cloud service users.",
+      "sourceUrl": "https://www.light-cloud.com/",
+      "sourceName": "light-cloud.com",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-      "category": "Open Source",
-      "summary": "Ollaya introduces a new framework for implementing Jev-style decision models in an open-source format, providing developers with tools to build more sophisticated decision-making applications. This could lead to advancements in how open-source projects handle complex decision processes.",
-      "sourceUrl": "https://ollaya.dev/",
-      "sourceName": "Ollaya",
-      "timeAgo": "1d ago"
+      "title": "Go Concurrency Distilled",
+      "category": "Systems & Architecture",
+      "summary": "A comprehensive guide on Go concurrency has been released, offering insights into effective concurrency patterns and practices. This resource is valuable for developers looking to enhance their understanding of concurrent programming in Go.",
+      "sourceUrl": "https://antonz.org/go-concurrency-distilled/",
+      "sourceName": "antonz.org",
+      "timeAgo": "20h ago"
     }
   ]
 }
