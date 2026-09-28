@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-27T20:29:31.439Z",
+  "lastUpdated": "2026-09-28T12:04:14.078Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Ember-1: A New Framework for Building Web Applications",
-      "category": "Web Development",
-      "summary": "Ember-1 introduces a new framework designed to simplify the development of complex web applications. This framework aims to enhance developer productivity and streamline the coding process, making it a significant tool for modern web engineers.",
-      "sourceUrl": "https://fireworks.ai/blog/ember-1",
-      "sourceName": "fireworks.ai",
-      "timeAgo": "2h ago"
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "category": "Open Source",
+      "summary": "Parley is a new federated and decentralized chat application that utilizes plain IRC protocols, aiming to provide a more open communication platform. Developers should care as it promotes user privacy and control over their communication channels.",
+      "sourceUrl": "https://git.mills.io/prologic/parley",
+      "sourceName": "git.mills.io",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "TinyAIArena: Watch AI Agents Battle It Out",
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
       "category": "AI & LLMs",
-      "summary": "TinyAIArena is a new platform that allows users to observe AI agents competing against each other in various tasks. This development highlights the growing interest in AI competition and its potential applications in training more robust AI systems.",
-      "sourceUrl": "https://tinyaiarena.com/",
-      "sourceName": "tinyaiarena.com",
-      "timeAgo": "4h ago"
+      "summary": "A report highlights the competitive landscape among AI companies striving to showcase their models as the most advanced, raising ethical concerns about their potential threats to humanity. This development is crucial for engineers and developers to consider the implications of their work in AI safety and ethics.",
+      "sourceUrl": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "sourceName": "thecivilian.co.nz",
+      "timeAgo": "3h ago"
     },
     {
       "id": "3",
-      "title": "On Caring for User Data: NeoVim Caused Vim Undo Files to Be Deleted",
-      "category": "Open Source",
-      "summary": "A recent incident involving NeoVim resulted in the unintended deletion of Vim undo files, raising concerns about user data management in open-source projects. This serves as a critical reminder for developers to prioritize user data integrity and implement better safeguards.",
-      "sourceUrl": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
-      "sourceName": "unsung.aresluna.org",
-      "timeAgo": "5h ago"
+      "title": "SpaceX's Starship launching to orbit for first time ever today",
+      "category": "Systems & Architecture",
+      "summary": "SpaceX's Starship is set to launch to orbit for the first time, marking a significant milestone in aerospace engineering and space exploration. This event is pivotal for engineers in the field, showcasing advancements in rocket technology and the future of interplanetary travel.",
+      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-launching-to-orbit-for-1st-time-ever-on-sept-28-watch-it-live",
+      "sourceName": "space.com",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Fakecloud: Local AWS Cloud Emulator for Integration Tests",
-      "category": "Web Development",
-      "summary": "Fakecloud is a new local AWS cloud emulator designed to facilitate integration testing for developers. This tool allows for more efficient testing environments, reducing the need for live AWS resources and improving development workflows.",
-      "sourceUrl": "https://fakecloud.dev/",
-      "sourceName": "fakecloud.dev",
-      "timeAgo": "1d ago"
+      "title": "Prompting Claude Opus 5.5",
+      "category": "AI & LLMs",
+      "summary": "The latest update on Claude Opus 5.5 introduces new prompting techniques that enhance the model's performance and usability. Developers should explore these advancements to improve their applications and leverage AI capabilities more effectively.",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "sourceName": "platform.claude.com",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "The Normalization of Inexplicable Failures",
-      "category": "Systems & Architecture",
-      "summary": "This article explores the increasing acceptance of inexplicable failures in technology systems and their implications for software architecture. Understanding these failures is crucial for engineers aiming to build more resilient and reliable systems.",
-      "sourceUrl": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
-      "sourceName": "ihatethefuture.com",
-      "timeAgo": "5h ago"
+      "title": "Don't couple your Go code to GitHub",
+      "category": "Web Development",
+      "summary": "A new article discusses the pitfalls of tightly coupling Go code to GitHub, advocating for more modular and flexible coding practices. This insight is essential for developers looking to enhance the maintainability and portability of their projects.",
+      "sourceUrl": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "sourceName": "iain.rocks",
+      "timeAgo": "19h ago"
     }
   ]
 }
