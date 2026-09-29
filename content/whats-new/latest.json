@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-28T22:39:45.537Z",
+  "lastUpdated": "2026-09-29T11:38:03.065Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
       "category": "AI & LLMs",
-      "summary": "The Jeff project has released a new set of decision models that are compatible with Jev, allowing developers to train models at home with a latency of approximately 30 ms. This development could democratize access to AI model training and enhance local deployment capabilities for engineers.",
-      "sourceUrl": "https://github.com/firelex/jeff",
-      "sourceName": "GitHub",
-      "timeAgo": "2h ago"
+      "summary": "Nvidia has announced plans to integrate a watchdog chip alongside AI agents to enhance oversight and safety. This development is crucial for developers as it addresses growing concerns about AI accountability and reliability.",
+      "sourceUrl": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "sourceName": "CNBC",
+      "timeAgo": "19h ago"
     },
     {
       "id": "2",
       "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
       "category": "AI & LLMs",
-      "summary": "MicroLLM Lab has launched an interactive platform where users can experiment with seven small language models directly in their browser. This initiative showcases the potential for lightweight LLMs to be utilized in web applications, making AI more accessible to developers.",
+      "summary": "The MicroLLM Lab allows users to experiment with seven lightweight language models directly in their browser. This initiative is significant for developers looking to explore LLM capabilities without extensive setup or resources.",
       "sourceUrl": "https://stateofutopia.com/experiments/microllmlab/",
       "sourceName": "State of Utopia",
-      "timeAgo": "3h ago"
+      "timeAgo": "16h ago"
     },
     {
       "id": "3",
-      "title": "World Labs Is Joining AMD",
-      "category": "AI & LLMs",
-      "summary": "World Labs has announced its acquisition by AMD, aiming to enhance AI capabilities and hardware integration. This merger is significant for engineers focusing on AI hardware optimization and could lead to advancements in AI processing technologies.",
-      "sourceUrl": "https://www.worldlabs.ai/blog/amd-announcement",
-      "sourceName": "World Labs",
+      "title": "Using any C++ library in Godot",
+      "category": "Web Development",
+      "summary": "A new guide has been published on how to integrate any C++ library into the Godot game engine using CMake. This is important for developers as it expands the capabilities of Godot, allowing for more complex game functionalities.",
+      "sourceUrl": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+      "sourceName": "Conan Blog",
       "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Cf: The Agentic CLI for the Cloudflare API",
-      "category": "Web Development",
-      "summary": "Cloudflare has introduced the Agentic CLI, a command-line interface designed to streamline interactions with the Cloudflare API. This tool will benefit web developers by simplifying the management of Cloudflare services and enhancing automation capabilities.",
-      "sourceUrl": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "7h ago"
+      "title": "Phyllotaxis: An audio-reactive LED display",
+      "category": "Systems & Architecture",
+      "summary": "The Phyllotaxis project showcases an innovative audio-reactive LED display that responds to sound inputs. This development is noteworthy for engineers interested in interactive design and real-time systems.",
+      "sourceUrl": "https://jagi.studio/posts/phyllotaxis/",
+      "sourceName": "Jagi Studio",
+      "timeAgo": "19h ago"
     },
     {
       "id": "5",
-      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
       "category": "Open Source",
-      "summary": "Parley has launched a federated and decentralized chat platform that utilizes plain IRC protocols, promoting open communication standards. This project is important for developers interested in building resilient and privacy-focused communication tools.",
-      "sourceUrl": "https://git.mills.io/prologic/parley",
+      "summary": "A new project demonstrates the use of an ESP32S3 cluster to run a 1.58-bit language model, showcasing the potential for low-cost AI implementations. This is significant for developers working on resource-constrained environments and open-source AI solutions.",
+      "sourceUrl": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
       "sourceName": "GitHub",
-      "timeAgo": "12h ago"
+      "timeAgo": "14h ago"
     }
   ]
 }
