@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-29T11:38:03.065Z",
+  "lastUpdated": "2026-09-29T21:33:05.244Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "title": "OpenAI Introduces GPT 6.1 Sol: Affordable Advanced AI",
       "category": "AI & LLMs",
-      "summary": "Nvidia has announced plans to integrate a watchdog chip alongside AI agents to enhance oversight and safety. This development is crucial for developers as it addresses growing concerns about AI accountability and reliability.",
-      "sourceUrl": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "sourceName": "CNBC",
-      "timeAgo": "19h ago"
+      "summary": "OpenAI has launched GPT 6.1 Sol, a new model that offers near-Astra intelligence capabilities at a significantly reduced cost. This development is crucial for developers looking to integrate advanced AI functionalities without the prohibitive expenses typically associated with such technologies.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "sourceName": "OpenAI",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "title": "DraftKings Leverages AI for Targeted Behavioral Advertising",
       "category": "AI & LLMs",
-      "summary": "The MicroLLM Lab allows users to experiment with seven lightweight language models directly in their browser. This initiative is significant for developers looking to explore LLM capabilities without extensive setup or resources.",
-      "sourceUrl": "https://stateofutopia.com/experiments/microllmlab/",
-      "sourceName": "State of Utopia",
-      "timeAgo": "16h ago"
+      "summary": "DraftKings is utilizing AI to enhance its advertising strategies by behaviorally targeting chronic gamblers, raising ethical concerns about the use of AI in gambling. Developers and engineers should be aware of the implications of AI in sensitive areas like gambling and the potential for misuse.",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "sourceName": "Electronic Frontier Foundation",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Using any C++ library in Godot",
-      "category": "Web Development",
-      "summary": "A new guide has been published on how to integrate any C++ library into the Godot game engine using CMake. This is important for developers as it expands the capabilities of Godot, allowing for more complex game functionalities.",
-      "sourceUrl": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
-      "sourceName": "Conan Blog",
-      "timeAgo": "2h ago"
+      "title": "Tcl/Tk 9.1 Released with New Features",
+      "category": "Open Source",
+      "summary": "The Tcl/Tk community has announced the release of version 9.1, which includes several enhancements and bug fixes that improve the usability of this popular open-source toolkit. Developers using Tcl/Tk for GUI applications should consider upgrading to take advantage of the latest features.",
+      "sourceUrl": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+      "sourceName": "Tcl Developer Xchange",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Phyllotaxis: An audio-reactive LED display",
-      "category": "Systems & Architecture",
-      "summary": "The Phyllotaxis project showcases an innovative audio-reactive LED display that responds to sound inputs. This development is noteworthy for engineers interested in interactive design and real-time systems.",
-      "sourceUrl": "https://jagi.studio/posts/phyllotaxis/",
-      "sourceName": "Jagi Studio",
-      "timeAgo": "19h ago"
+      "title": "A Privacy Analysis of Conversational AI Agents",
+      "category": "AI & LLMs",
+      "summary": "A new privacy analysis has been published examining the data handling practices of web and mobile conversational AI agents. This research is vital for developers to understand privacy implications and improve the design of AI systems to protect user data.",
+      "sourceUrl": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "sourceName": "Jorge Garcia Herrero",
+      "timeAgo": "12h ago"
     },
     {
       "id": "5",
-      "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
-      "category": "Open Source",
-      "summary": "A new project demonstrates the use of an ESP32S3 cluster to run a 1.58-bit language model, showcasing the potential for low-cost AI implementations. This is significant for developers working on resource-constrained environments and open-source AI solutions.",
-      "sourceUrl": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
-      "sourceName": "GitHub",
-      "timeAgo": "14h ago"
+      "title": "Delhi Reduces Electricity Loss from 50% to 5%",
+      "category": "Systems & Architecture",
+      "summary": "Delhi has successfully cut its electricity loss from 50% to just 5% through innovative systems and architecture improvements. This achievement serves as a model for engineers and city planners aiming to enhance infrastructure efficiency and reduce waste.",
+      "sourceUrl": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "sourceName": "IEEE Spectrum",
+      "timeAgo": "8h ago"
     }
   ]
 }
