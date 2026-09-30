@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-29T21:33:05.244Z",
+  "lastUpdated": "2026-09-30T11:25:37.053Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "OpenAI Introduces GPT 6.1 Sol: Affordable Advanced AI",
+      "title": "Introducing Dots: Always-on Agents for Enhanced AI Interaction",
       "category": "AI & LLMs",
-      "summary": "OpenAI has launched GPT 6.1 Sol, a new model that offers near-Astra intelligence capabilities at a significantly reduced cost. This development is crucial for developers looking to integrate advanced AI functionalities without the prohibitive expenses typically associated with such technologies.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "summary": "OpenAI has unveiled 'Dots', a new framework for creating always-on agents that can interact with users continuously. This development is significant for developers looking to build more responsive and engaging AI applications.",
+      "sourceUrl": "https://openai.com/index/introducing-dots/",
       "sourceName": "OpenAI",
-      "timeAgo": "4h ago"
+      "timeAgo": "18h ago"
     },
     {
       "id": "2",
-      "title": "DraftKings Leverages AI for Targeted Behavioral Advertising",
+      "title": "GPT-6.1 Sol: Near-Astra Intelligence at a Fraction of the Cost",
       "category": "AI & LLMs",
-      "summary": "DraftKings is utilizing AI to enhance its advertising strategies by behaviorally targeting chronic gamblers, raising ethical concerns about the use of AI in gambling. Developers and engineers should be aware of the implications of AI in sensitive areas like gambling and the potential for misuse.",
-      "sourceUrl": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
-      "sourceName": "Electronic Frontier Foundation",
-      "timeAgo": "5h ago"
+      "summary": "OpenAI has launched GPT-6.1 Sol, a new model that offers near-Astra intelligence capabilities at a significantly reduced price. This makes advanced AI more accessible for developers and businesses looking to integrate sophisticated AI solutions.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "sourceName": "OpenAI",
+      "timeAgo": "18h ago"
     },
     {
       "id": "3",
-      "title": "Tcl/Tk 9.1 Released with New Features",
-      "category": "Open Source",
-      "summary": "The Tcl/Tk community has announced the release of version 9.1, which includes several enhancements and bug fixes that improve the usability of this popular open-source toolkit. Developers using Tcl/Tk for GUI applications should consider upgrading to take advantage of the latest features.",
-      "sourceUrl": "https://www.tcl-lang.org/software/tcltk/9.1.html",
-      "sourceName": "Tcl Developer Xchange",
-      "timeAgo": "4h ago"
+      "title": "Vermont's Innovative Use of Home Batteries as Virtual Power Plants",
+      "category": "Systems & Architecture",
+      "summary": "Vermont is pioneering the use of home batteries to create a virtual power plant, enhancing energy resilience during storms. This model could inspire engineers to explore decentralized energy solutions in other regions.",
+      "sourceUrl": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+      "sourceName": "BBC",
+      "timeAgo": "17h ago"
     },
     {
       "id": "4",
-      "title": "A Privacy Analysis of Conversational AI Agents",
-      "category": "AI & LLMs",
-      "summary": "A new privacy analysis has been published examining the data handling practices of web and mobile conversational AI agents. This research is vital for developers to understand privacy implications and improve the design of AI systems to protect user data.",
-      "sourceUrl": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "sourceName": "Jorge Garcia Herrero",
+      "title": "Livenerf: Exploring the Impact of Opus 5.5 Nerf",
+      "category": "Open Source",
+      "summary": "The Livenerf project on GitHub is investigating the effects of the Opus 5.5 nerf, providing insights into game mechanics and community feedback. This open-source initiative is crucial for developers interested in game design and player engagement.",
+      "sourceUrl": "https://github.com/ninjahawk/livenerf",
+      "sourceName": "GitHub",
       "timeAgo": "12h ago"
     },
     {
       "id": "5",
-      "title": "Delhi Reduces Electricity Loss from 50% to 5%",
-      "category": "Systems & Architecture",
-      "summary": "Delhi has successfully cut its electricity loss from 50% to just 5% through innovative systems and architecture improvements. This achievement serves as a model for engineers and city planners aiming to enhance infrastructure efficiency and reduce waste.",
-      "sourceUrl": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "sourceName": "IEEE Spectrum",
-      "timeAgo": "8h ago"
+      "title": "Testing WebGPU Data Layouts with Facet",
+      "category": "Web Development",
+      "summary": "A new blog post discusses the testing of WebGPU data layouts using the Facet tool, which could enhance graphics performance in web applications. Developers focusing on web graphics will find this information valuable for optimizing their projects.",
+      "sourceUrl": "https://www.mattkeeter.com/blog/2026-08-23-wgpu-facet/",
+      "sourceName": "Matt Keeter",
+      "timeAgo": "1d ago"
     }
   ]
 }
