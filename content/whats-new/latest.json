@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-09-30T11:25:37.053Z",
+  "lastUpdated": "2026-09-30T21:33:36.368Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Introducing Dots: Always-on Agents for Enhanced AI Interaction",
+      "title": "Google Unveils Gemini 4 Argon: A Leap in AI Capabilities",
       "category": "AI & LLMs",
-      "summary": "OpenAI has unveiled 'Dots', a new framework for creating always-on agents that can interact with users continuously. This development is significant for developers looking to build more responsive and engaging AI applications.",
-      "sourceUrl": "https://openai.com/index/introducing-dots/",
-      "sourceName": "OpenAI",
-      "timeAgo": "18h ago"
+      "summary": "Google has launched Gemini 4 Argon, a new AI model that promises enhanced intelligence and performance metrics. This development is significant for developers seeking to leverage advanced AI capabilities in their applications.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "sourceName": "Google",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "GPT-6.1 Sol: Near-Astra Intelligence at a Fraction of the Cost",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has launched GPT-6.1 Sol, a new model that offers near-Astra intelligence capabilities at a significantly reduced price. This makes advanced AI more accessible for developers and businesses looking to integrate sophisticated AI solutions.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "sourceName": "OpenAI",
-      "timeAgo": "18h ago"
+      "title": "EDG C++ Front-End Goes Public: A New Era for C++ Compilers",
+      "category": "Open Source",
+      "summary": "The EDG C++ front-end has been made publicly available, providing developers with a robust tool for C++ compilation. This release is crucial for those looking to enhance their C++ development workflows with a high-quality compiler.",
+      "sourceUrl": "https://edgcpp.org/#transition",
+      "sourceName": "EDG",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "Vermont's Innovative Use of Home Batteries as Virtual Power Plants",
-      "category": "Systems & Architecture",
-      "summary": "Vermont is pioneering the use of home batteries to create a virtual power plant, enhancing energy resilience during storms. This model could inspire engineers to explore decentralized energy solutions in other regions.",
-      "sourceUrl": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
-      "sourceName": "BBC",
-      "timeAgo": "17h ago"
+      "title": "Magnitude: A Self-Optimizing Inference Engine for AI Agents",
+      "category": "AI & LLMs",
+      "summary": "Magnitude, a new self-optimizing inference engine for AI agents, has been launched, promising to improve the efficiency of AI applications. Developers should take note of this tool as it could significantly enhance the performance of their AI systems.",
+      "sourceUrl": "https://github.com/magnitudedev/magnitude",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Livenerf: Exploring the Impact of Opus 5.5 Nerf",
-      "category": "Open Source",
-      "summary": "The Livenerf project on GitHub is investigating the effects of the Opus 5.5 nerf, providing insights into game mechanics and community feedback. This open-source initiative is crucial for developers interested in game design and player engagement.",
-      "sourceUrl": "https://github.com/ninjahawk/livenerf",
-      "sourceName": "GitHub",
-      "timeAgo": "12h ago"
+      "title": "Netlify Introduces 5x Faster Edge Functions with Firecracker MicroVMs",
+      "category": "Web Development",
+      "summary": "Netlify has announced a major performance upgrade for its Edge Functions, now utilizing Firecracker MicroVMs to achieve five times faster execution. This improvement is vital for developers looking to optimize serverless functions and enhance user experience.",
+      "sourceUrl": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "sourceName": "Netlify",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Testing WebGPU Data Layouts with Facet",
-      "category": "Web Development",
-      "summary": "A new blog post discusses the testing of WebGPU data layouts using the Facet tool, which could enhance graphics performance in web applications. Developers focusing on web graphics will find this information valuable for optimizing their projects.",
-      "sourceUrl": "https://www.mattkeeter.com/blog/2026-08-23-wgpu-facet/",
-      "sourceName": "Matt Keeter",
-      "timeAgo": "1d ago"
+      "title": "Gitea 28.0 Released: New Features for Open Source Collaboration",
+      "category": "Open Source",
+      "summary": "The latest release of Gitea 28.0 introduces new features aimed at improving collaboration in open source projects. Developers involved in version control and project management should explore these enhancements to streamline their workflows.",
+      "sourceUrl": "https://blog.gitea.com/release-of-28.0.0/",
+      "sourceName": "Gitea",
+      "timeAgo": "1h ago"
     }
   ]
 }
