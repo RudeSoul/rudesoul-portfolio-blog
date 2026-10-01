@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-01T11:52:48.773Z",
+  "lastUpdated": "2026-10-01T22:02:16.471Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Gemini 4 Argon",
-      "category": "AI & LLMs",
-      "summary": "Google has released Gemini 4 Argon, a significant update to its AI model that enhances performance and capabilities in various applications. Developers and engineers should explore its new features to leverage advanced AI functionalities in their projects.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "sourceName": "Google",
-      "timeAgo": "15h ago"
+      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+      "category": "Open Source",
+      "summary": "Cloudflare has launched Clef, an open-source platform for decision models that simplifies the process of reinforcement learning fine-tuning. This development is significant for developers looking to leverage AI in decision-making processes without proprietary constraints.",
+      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "category": "AI & LLMs",
-      "summary": "OpenAI and Synopsys have announced GPT-Synopsys, an AI-driven tool aimed at transforming chip design processes. This development is crucial for engineers looking to integrate AI into hardware design workflows, potentially speeding up innovation.",
-      "sourceUrl": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "sourceName": "Synopsys",
-      "timeAgo": "1h ago"
+      "title": "StreetComplete on iOS is now in public beta",
+      "category": "Open Source",
+      "summary": "The popular open-source mapping app, StreetComplete, has launched its public beta on iOS, allowing users to contribute to mapping efforts directly from their devices. This expansion is vital for developers and contributors in the open-source community focused on improving geographic data accessibility.",
+      "sourceUrl": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "sourceName": "GitHub",
+      "timeAgo": "11h ago"
     },
     {
       "id": "3",
-      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
-      "category": "Web Development",
-      "summary": "Netlify has announced a significant performance improvement for Edge Functions, now running 5 times faster by utilizing V8 isolates in Firecracker MicroVMs. This enhancement is vital for web developers aiming for high-performance serverless applications.",
-      "sourceUrl": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
-      "sourceName": "Netlify",
-      "timeAgo": "17h ago"
+      "title": "RIP, vector database",
+      "category": "Systems & Architecture",
+      "summary": "A recent analysis discusses the decline of vector databases, highlighting the challenges they face in scalability and performance compared to traditional databases. This is crucial for engineers and architects to consider when designing data storage solutions for AI applications.",
+      "sourceUrl": "https://turbopuffer.com/blog/rip-vector-database",
+      "sourceName": "Turbo Puffer",
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "EDG C++ front-end goes public",
-      "category": "Open Source",
-      "summary": "The EDG C++ front-end has been made public, providing developers with a powerful tool for C++ parsing and analysis. This open-source release is significant for engineers looking to enhance their C++ projects with robust tooling.",
-      "sourceUrl": "https://edgcpp.org/#transition",
-      "sourceName": "EDG",
-      "timeAgo": "16h ago"
+      "title": "Bez: Generating a browser engine from specs and tests",
+      "category": "Web Development",
+      "summary": "The Bez project introduces a novel approach to generating a browser engine directly from specifications and tests, aiming to streamline browser development. This innovation could significantly impact web engineers by simplifying the process of creating and maintaining browser technologies.",
+      "sourceUrl": "https://tangled.org/burrito.space/bez",
+      "sourceName": "Tangled",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
-      "category": "Open Source",
-      "summary": "OpenDLSS has emerged as a Vulkan reimplementation of Nvidia's DLSS 5, providing developers with an open-source alternative for advanced neural rendering. This project is essential for game developers and graphics engineers seeking to leverage AI in rendering without proprietary constraints.",
-      "sourceUrl": "https://github.com/maanHimself/OpenDLSS-NR",
-      "sourceName": "GitHub",
-      "timeAgo": "1d ago"
+      "title": "Cloudflare K2: serverless event streams",
+      "category": "Systems & Architecture",
+      "summary": "Cloudflare has unveiled K2, a new serverless platform for managing event streams, designed to enhance the scalability and efficiency of event-driven applications. This is a key development for engineers working on modern cloud architectures and serverless solutions.",
+      "sourceUrl": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "7h ago"
     }
   ]
 }
