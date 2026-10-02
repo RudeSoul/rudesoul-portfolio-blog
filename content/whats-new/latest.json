@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-01T22:02:16.471Z",
+  "lastUpdated": "2026-10-02T11:25:07.679Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
-      "category": "Open Source",
-      "summary": "Cloudflare has launched Clef, an open-source platform for decision models that simplifies the process of reinforcement learning fine-tuning. This development is significant for developers looking to leverage AI in decision-making processes without proprietary constraints.",
-      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "5h ago"
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "category": "Security",
+      "summary": "Recent findings have uncovered multiple vulnerabilities in the Linux kernel that could potentially compromise system security. Developers and engineers should prioritize updating their systems to mitigate these risks.",
+      "sourceUrl": "https://lwn.net/Articles/1097401/",
+      "sourceName": "lwn.net",
+      "timeAgo": "12h ago"
     },
     {
       "id": "2",
-      "title": "StreetComplete on iOS is now in public beta",
+      "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
       "category": "Open Source",
-      "summary": "The popular open-source mapping app, StreetComplete, has launched its public beta on iOS, allowing users to contribute to mapping efforts directly from their devices. This expansion is vital for developers and contributors in the open-source community focused on improving geographic data accessibility.",
-      "sourceUrl": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "summary": "Audionaut has been launched as an open-source, cross-platform multitrack audio editor, providing a powerful tool for audio engineers and developers. This project encourages collaboration and innovation in audio editing technology.",
+      "sourceUrl": "https://github.com/kvoltmer/Audionaut",
       "sourceName": "GitHub",
-      "timeAgo": "11h ago"
-    },
-    {
-      "id": "3",
-      "title": "RIP, vector database",
-      "category": "Systems & Architecture",
-      "summary": "A recent analysis discusses the decline of vector databases, highlighting the challenges they face in scalability and performance compared to traditional databases. This is crucial for engineers and architects to consider when designing data storage solutions for AI applications.",
-      "sourceUrl": "https://turbopuffer.com/blog/rip-vector-database",
-      "sourceName": "Turbo Puffer",
-      "timeAgo": "6h ago"
-    },
-    {
-      "id": "4",
-      "title": "Bez: Generating a browser engine from specs and tests",
-      "category": "Web Development",
-      "summary": "The Bez project introduces a novel approach to generating a browser engine directly from specifications and tests, aiming to streamline browser development. This innovation could significantly impact web engineers by simplifying the process of creating and maintaining browser technologies.",
-      "sourceUrl": "https://tangled.org/burrito.space/bez",
-      "sourceName": "Tangled",
       "timeAgo": "3h ago"
     },
     {
-      "id": "5",
-      "title": "Cloudflare K2: serverless event streams",
-      "category": "Systems & Architecture",
-      "summary": "Cloudflare has unveiled K2, a new serverless platform for managing event streams, designed to enhance the scalability and efficiency of event-driven applications. This is a key development for engineers working on modern cloud architectures and serverless solutions.",
-      "sourceUrl": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "id": "3",
+      "title": "SvelteKit 3 is here",
+      "category": "Web Development",
+      "summary": "The release of SvelteKit 3 introduces significant improvements and new features that enhance the developer experience for building web applications. Developers should explore these updates to leverage the latest capabilities in their projects.",
+      "sourceUrl": "https://svelte.dev/blog/sveltekit-3-is-here",
+      "sourceName": "svelte.dev",
+      "timeAgo": "15h ago"
+    },
+    {
+      "id": "4",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "category": "AI & LLMs",
+      "summary": "Cloudflare has announced Clef, a new platform for open-weight decision models and reinforcement learning fine-tuning, aimed at enhancing AI model development. This initiative provides developers with tools to create more efficient and effective AI systems.",
+      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models/",
       "sourceName": "Cloudflare",
-      "timeAgo": "7h ago"
+      "timeAgo": "19h ago"
+    },
+    {
+      "id": "5",
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "category": "Web Development",
+      "summary": "CSS Bed has launched a collection of classless CSS themes designed to serve as starting points for web development projects. This resource can significantly speed up the design process for developers looking to create visually appealing websites.",
+      "sourceUrl": "https://www.cssbed.com",
+      "sourceName": "cssbed.com",
+      "timeAgo": "14h ago"
     }
   ]
 }
