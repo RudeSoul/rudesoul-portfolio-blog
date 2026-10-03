@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-03T10:41:51.415Z",
+  "lastUpdated": "2026-10-03T20:14:39.385Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AI Agent Reaches Out to Researchers for Assistance",
+      "title": "Kolibri: A Sovereign Open-Weight Model",
       "category": "AI & LLMs",
-      "summary": "An AI agent sent emails to researchers seeking help, revealing insights into its operational challenges and limitations. This development raises important questions about AI autonomy and the ethical implications of AI systems interacting with humans.",
-      "sourceUrl": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
-      "sourceName": "Science.org",
-      "timeAgo": "34m ago"
+      "summary": "Aleph Alpha has launched Kolibri, a sovereign open-weight model designed to enhance the capabilities of AI applications while maintaining user control over data and privacy. This development is significant for developers looking to implement AI solutions that prioritize transparency and ethical considerations.",
+      "sourceUrl": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "sourceName": "Aleph Alpha",
+      "timeAgo": "10h ago"
     },
     {
       "id": "2",
-      "title": "Cloudflare Launches OHTTP Gateway for Enhanced Security",
-      "category": "Web Development",
-      "summary": "Cloudflare has introduced an OHTTP gateway that aims to improve the security and performance of web applications. This development is significant for developers looking to enhance their application's security posture against emerging threats.",
-      "sourceUrl": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "7h ago"
+      "title": "FTL: A new operating system for clouds",
+      "category": "Systems & Architecture",
+      "summary": "FTL has introduced a new operating system tailored for cloud environments, focusing on performance and scalability. This OS aims to streamline cloud operations, making it a crucial development for engineers working in cloud infrastructure.",
+      "sourceUrl": "https://ftl-os.org/",
+      "sourceName": "FTL OS",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Court Ruling on Utah's VPN Law Highlights Technical Impossibilities",
-      "category": "Security",
-      "summary": "A court has sided with the EFF, ruling that Utah's VPN law imposes technical requirements that are impossible to meet. This decision is crucial for developers and companies operating in the digital privacy space, as it sets a precedent for the feasibility of tech regulations.",
-      "sourceUrl": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "sourceName": "EFF",
-      "timeAgo": "1d ago"
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "category": "Open Source",
+      "summary": "System76 has decided to prohibit AI-generated code in significant portions of its Pop!_OS codebase, emphasizing a commitment to human-written code and quality assurance. This move raises important discussions about the role of AI in open-source software development.",
+      "sourceUrl": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "sourceName": "Neowin",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "New Features in Apple Pass Designer Enhance User Experience",
+      "title": "We want you to build the next Git platform on Cloudflare",
       "category": "Web Development",
-      "summary": "Apple has updated its Pass Designer tool, introducing new features that streamline the creation of digital passes. This update is vital for developers working on mobile applications that utilize digital wallets and passes.",
-      "sourceUrl": "https://developer.apple.com/pass-designer/",
-      "sourceName": "Apple Developer",
-      "timeAgo": "15h ago"
+      "summary": "Cloudflare is inviting developers to create the next generation of Git platforms using its infrastructure, aiming to enhance performance and security for version control systems. This initiative presents a unique opportunity for web engineers to innovate in the realm of source code management.",
+      "sourceUrl": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "41m ago"
     },
     {
       "id": "5",
-      "title": "Run LLM Locally with ds4 from Redis Creator",
-      "category": "AI & LLMs",
-      "summary": "The creator of Redis has launched ds4, a tool that enables developers to run large language models locally. This innovation is significant as it allows for greater control over AI applications and reduces reliance on cloud-based solutions.",
-      "sourceUrl": "https://dwarfstar.sh/",
-      "sourceName": "Dwarfstar",
-      "timeAgo": "16h ago"
+      "title": "C++ Insights – See your source code with the eyes of a Compiler",
+      "category": "Open Source",
+      "summary": "C++ Insights offers a tool that allows developers to visualize their source code from the perspective of a compiler, aiding in understanding complex code transformations. This tool is particularly valuable for C++ developers looking to deepen their knowledge of the language's intricacies.",
+      "sourceUrl": "https://github.com/andreasfertig/cppinsights",
+      "sourceName": "GitHub",
+      "timeAgo": "1d ago"
     }
   ]
 }
