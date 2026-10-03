@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-02T21:27:53.830Z",
+  "lastUpdated": "2026-10-03T10:41:51.415Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Apple Pass Designer Launches for Developers",
-      "category": "Web Development",
-      "summary": "Apple has introduced the Pass Designer, a tool aimed at simplifying the creation of digital passes for Apple Wallet. This development is significant for web developers looking to enhance user experiences in mobile applications.",
-      "sourceUrl": "https://developer.apple.com/pass-designer/",
-      "sourceName": "Apple",
-      "timeAgo": "2h ago"
+      "title": "AI Agent Reaches Out to Researchers for Assistance",
+      "category": "AI & LLMs",
+      "summary": "An AI agent sent emails to researchers seeking help, revealing insights into its operational challenges and limitations. This development raises important questions about AI autonomy and the ethical implications of AI systems interacting with humans.",
+      "sourceUrl": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "sourceName": "Science.org",
+      "timeAgo": "34m ago"
     },
     {
       "id": "2",
-      "title": "Zig Programming Language Releases Version 0.17.0",
-      "category": "Open Source",
-      "summary": "The Zig programming language has released version 0.17.0, featuring improvements in performance and usability. Developers should explore these enhancements to leverage Zig's capabilities for systems programming.",
-      "sourceUrl": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "sourceName": "Ziglang",
-      "timeAgo": "31m ago"
-    },
-    {
-      "id": "3",
-      "title": "Court Rules Against Utah's VPN Law as Technically Impossible",
-      "category": "Security",
-      "summary": "A court has sided with the EFF, declaring Utah's VPN law as technically impossible to comply with. This ruling is crucial for developers and companies relying on VPN technology, as it sets a precedent for digital privacy regulations.",
-      "sourceUrl": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "sourceName": "EFF",
-      "timeAgo": "23h ago"
-    },
-    {
-      "id": "4",
-      "title": "AI Triumphs in Stratego Against Top Human Player",
-      "category": "AI & LLMs",
-      "summary": "AI has successfully defeated the best Stratego player in history, showcasing advancements in AI's ability to handle complex, information-hidden games. This breakthrough highlights the potential for AI applications in strategic decision-making.",
-      "sourceUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "sourceName": "Ars Technica",
+      "title": "Cloudflare Launches OHTTP Gateway for Enhanced Security",
+      "category": "Web Development",
+      "summary": "Cloudflare has introduced an OHTTP gateway that aims to improve the security and performance of web applications. This development is significant for developers looking to enhance their application's security posture against emerging threats.",
+      "sourceUrl": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+      "sourceName": "Cloudflare",
       "timeAgo": "7h ago"
     },
     {
+      "id": "3",
+      "title": "Court Ruling on Utah's VPN Law Highlights Technical Impossibilities",
+      "category": "Security",
+      "summary": "A court has sided with the EFF, ruling that Utah's VPN law imposes technical requirements that are impossible to meet. This decision is crucial for developers and companies operating in the digital privacy space, as it sets a precedent for the feasibility of tech regulations.",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "sourceName": "EFF",
+      "timeAgo": "1d ago"
+    },
+    {
+      "id": "4",
+      "title": "New Features in Apple Pass Designer Enhance User Experience",
+      "category": "Web Development",
+      "summary": "Apple has updated its Pass Designer tool, introducing new features that streamline the creation of digital passes. This update is vital for developers working on mobile applications that utilize digital wallets and passes.",
+      "sourceUrl": "https://developer.apple.com/pass-designer/",
+      "sourceName": "Apple Developer",
+      "timeAgo": "15h ago"
+    },
+    {
       "id": "5",
-      "title": "Run LLMs Locally with ds4 from Redis Creator",
+      "title": "Run LLM Locally with ds4 from Redis Creator",
       "category": "AI & LLMs",
-      "summary": "The ds4 tool, created by the founder of Redis, allows developers to run large language models locally, enhancing privacy and control over AI applications. This development is particularly relevant for engineers looking to implement LLMs without relying on cloud services.",
+      "summary": "The creator of Redis has launched ds4, a tool that enables developers to run large language models locally. This innovation is significant as it allows for greater control over AI applications and reduces reliance on cloud-based solutions.",
       "sourceUrl": "https://dwarfstar.sh/",
       "sourceName": "Dwarfstar",
-      "timeAgo": "3h ago"
+      "timeAgo": "16h ago"
     }
   ]
 }
