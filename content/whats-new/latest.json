@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-03T20:14:39.385Z",
+  "lastUpdated": "2026-10-04T11:22:52.014Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Kolibri: A Sovereign Open-Weight Model",
-      "category": "AI & LLMs",
-      "summary": "Aleph Alpha has launched Kolibri, a sovereign open-weight model designed to enhance the capabilities of AI applications while maintaining user control over data and privacy. This development is significant for developers looking to implement AI solutions that prioritize transparency and ethical considerations.",
-      "sourceUrl": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "sourceName": "Aleph Alpha",
-      "timeAgo": "10h ago"
+      "title": "Valve's Timur Kristóf Enhances Old AMD GPUs on Linux",
+      "category": "Open Source",
+      "summary": "Valve's Timur Kristóf has made significant advancements in improving the performance of older AMD GPUs on Linux, which could enhance gaming and graphics applications for users with legacy hardware. This development is crucial for developers looking to optimize their applications for a wider range of hardware capabilities.",
+      "sourceUrl": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "sourceName": "Phoronix",
+      "timeAgo": "16h ago"
     },
     {
       "id": "2",
-      "title": "FTL: A new operating system for clouds",
-      "category": "Systems & Architecture",
-      "summary": "FTL has introduced a new operating system tailored for cloud environments, focusing on performance and scalability. This OS aims to streamline cloud operations, making it a crucial development for engineers working in cloud infrastructure.",
-      "sourceUrl": "https://ftl-os.org/",
-      "sourceName": "FTL OS",
-      "timeAgo": "5h ago"
+      "title": "Exploring Developer Engagement with Platforms",
+      "category": "Web Development",
+      "summary": "A recent analysis discusses the reasons behind the low engagement of developers with certain platforms, emphasizing the need for better integration and support. Understanding these dynamics is essential for platform developers aiming to enhance user adoption and satisfaction.",
+      "sourceUrl": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "sourceName": "Nolan Lawson",
+      "timeAgo": "7h ago"
     },
     {
       "id": "3",
-      "title": "Pop!_OS bans AI-generated code from much of its codebase",
-      "category": "Open Source",
-      "summary": "System76 has decided to prohibit AI-generated code in significant portions of its Pop!_OS codebase, emphasizing a commitment to human-written code and quality assurance. This move raises important discussions about the role of AI in open-source software development.",
-      "sourceUrl": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-      "sourceName": "Neowin",
-      "timeAgo": "2h ago"
+      "title": "Default Hard Budget Caps: A New Approach to Resource Management",
+      "category": "Systems & Architecture",
+      "summary": "A thought-provoking article proposes the implementation of default hard budget caps across various systems to improve resource management and prevent overspending. This concept could significantly impact how engineers design and manage projects, leading to more sustainable practices.",
+      "sourceUrl": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "sourceName": "Simon Willison",
+      "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "We want you to build the next Git platform on Cloudflare",
-      "category": "Web Development",
-      "summary": "Cloudflare is inviting developers to create the next generation of Git platforms using its infrastructure, aiming to enhance performance and security for version control systems. This initiative presents a unique opportunity for web engineers to innovate in the realm of source code management.",
-      "sourceUrl": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "41m ago"
+      "title": "Innovative Game Development: Hole Punch Mechanics",
+      "category": "AI & LLMs",
+      "summary": "The introduction of 'Hole Punch', a new game mechanic that allows players to manipulate gravitational fields, showcases innovative approaches in game design. This development is particularly relevant for game developers looking to incorporate advanced physics into their projects.",
+      "sourceUrl": "https://notoriousbfg.com/hole-punch/",
+      "sourceName": "Notorious BFG",
+      "timeAgo": "17h ago"
     },
     {
       "id": "5",
-      "title": "C++ Insights – See your source code with the eyes of a Compiler",
-      "category": "Open Source",
-      "summary": "C++ Insights offers a tool that allows developers to visualize their source code from the perspective of a compiler, aiding in understanding complex code transformations. This tool is particularly valuable for C++ developers looking to deepen their knowledge of the language's intricacies.",
-      "sourceUrl": "https://github.com/andreasfertig/cppinsights",
-      "sourceName": "GitHub",
-      "timeAgo": "1d ago"
+      "title": "AI Pioneer LeCun Dismisses Concerns Over AI Threats",
+      "category": "AI & LLMs",
+      "summary": "Yann LeCun, a leading figure in AI research, has expressed confidence that AI will not pose an existential threat to humanity, countering recent fears about rogue AI incidents. This perspective is vital for engineers and developers involved in AI to consider as they navigate ethical and safety concerns in their work.",
+      "sourceUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "sourceName": "Fortune",
+      "timeAgo": "17h ago"
     }
   ]
 }
