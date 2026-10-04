@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-04T11:22:52.014Z",
+  "lastUpdated": "2026-10-04T20:31:19.629Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Valve's Timur Kristóf Enhances Old AMD GPUs on Linux",
-      "category": "Open Source",
-      "summary": "Valve's Timur Kristóf has made significant advancements in improving the performance of older AMD GPUs on Linux, which could enhance gaming and graphics applications for users with legacy hardware. This development is crucial for developers looking to optimize their applications for a wider range of hardware capabilities.",
-      "sourceUrl": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
-      "sourceName": "Phoronix",
-      "timeAgo": "16h ago"
-    },
-    {
-      "id": "2",
-      "title": "Exploring Developer Engagement with Platforms",
-      "category": "Web Development",
-      "summary": "A recent analysis discusses the reasons behind the low engagement of developers with certain platforms, emphasizing the need for better integration and support. Understanding these dynamics is essential for platform developers aiming to enhance user adoption and satisfaction.",
-      "sourceUrl": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-      "sourceName": "Nolan Lawson",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "category": "AI & LLMs",
+      "summary": "The latest advancements allow the Qwen 3.8 Flash Next model to run on consumer-grade hardware, achieving unprecedented performance levels of 100T/s. This development is significant for developers looking to leverage powerful AI capabilities without the need for expensive infrastructure.",
+      "sourceUrl": "https://github.com/Niko1221/Strata",
+      "sourceName": "GitHub",
       "timeAgo": "7h ago"
     },
     {
-      "id": "3",
-      "title": "Default Hard Budget Caps: A New Approach to Resource Management",
+      "id": "2",
+      "title": "Homa: The End of TCP for AI Clusters [video]",
       "category": "Systems & Architecture",
-      "summary": "A thought-provoking article proposes the implementation of default hard budget caps across various systems to improve resource management and prevent overspending. This concept could significantly impact how engineers design and manage projects, leading to more sustainable practices.",
-      "sourceUrl": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "sourceName": "Simon Willison",
-      "timeAgo": "11h ago"
+      "summary": "A new video discusses Homa, a protocol that aims to replace TCP in AI cluster environments, potentially enhancing data transfer efficiency. Developers and engineers should pay attention to this as it could reshape networking strategies in high-performance computing.",
+      "sourceUrl": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "sourceName": "YouTube",
+      "timeAgo": "48m ago"
+    },
+    {
+      "id": "3",
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "category": "Security",
+      "summary": "A report highlights serious concerns regarding data privacy and security after improper redaction exposed sensitive information about Google's data center resource usage. This incident underscores the importance of robust data handling practices for engineers and developers.",
+      "sourceUrl": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
+      "sourceName": "1011now.com",
+      "timeAgo": "54m ago"
     },
     {
       "id": "4",
-      "title": "Innovative Game Development: Hole Punch Mechanics",
+      "title": "AI search for every photo and every frame of video on macOS",
       "category": "AI & LLMs",
-      "summary": "The introduction of 'Hole Punch', a new game mechanic that allows players to manipulate gravitational fields, showcases innovative approaches in game design. This development is particularly relevant for game developers looking to incorporate advanced physics into their projects.",
-      "sourceUrl": "https://notoriousbfg.com/hole-punch/",
-      "sourceName": "Notorious BFG",
-      "timeAgo": "17h ago"
+      "summary": "A new open-source project enables AI-driven search capabilities for all photos and video frames on macOS, enhancing media organization and retrieval. This tool is particularly valuable for developers looking to integrate advanced search functionalities into their applications.",
+      "sourceUrl": "https://github.com/allenv0/SCM",
+      "sourceName": "GitHub",
+      "timeAgo": "11h ago"
     },
     {
       "id": "5",
-      "title": "AI Pioneer LeCun Dismisses Concerns Over AI Threats",
-      "category": "AI & LLMs",
-      "summary": "Yann LeCun, a leading figure in AI research, has expressed confidence that AI will not pose an existential threat to humanity, countering recent fears about rogue AI incidents. This perspective is vital for engineers and developers involved in AI to consider as they navigate ethical and safety concerns in their work.",
-      "sourceUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "sourceName": "Fortune",
-      "timeAgo": "17h ago"
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "category": "Open Source",
+      "summary": "Valve's Timur Kristóf has made significant strides in enhancing the performance of older AMD GPUs on Linux, which could benefit a wide range of developers and gamers. This work exemplifies the ongoing commitment to open-source improvements in hardware compatibility.",
+      "sourceUrl": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "sourceName": "Phoronix",
+      "timeAgo": "1d ago"
     }
   ]
 }
