@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-05T23:23:10.756Z",
+  "lastUpdated": "2026-10-06T12:16:07.379Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Beam: Reflection's 501B open-weight model",
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
       "category": "AI & LLMs",
-      "summary": "Reflection.ai has introduced Beam, a new open-weight model with 501 billion parameters, enhancing the capabilities of AI applications. This development is significant for developers looking to leverage large language models for complex tasks.",
-      "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-      "sourceName": "reflection.ai",
-      "timeAgo": "4h ago"
+      "summary": "A new research paper introduces 'Dust', a method for pretraining transformers that eliminates the need for backpropagation, potentially revolutionizing how neural networks are trained. This could lead to more efficient training processes and reduced computational costs for developers working with large models.",
+      "sourceUrl": "https://qlabs.sh/research/dust",
+      "sourceName": "QLabs",
+      "timeAgo": "15h ago"
     },
     {
       "id": "2",
-      "title": "Web Search API",
+      "title": "Web Search API Launch by Cloudflare",
       "category": "Web Development",
-      "summary": "Cloudflare has launched a new Web Search API that allows developers to integrate search functionalities into their applications seamlessly. This tool is crucial for enhancing user experience and accessibility in web applications.",
+      "summary": "Cloudflare has launched a new Web Search API that allows developers to integrate search capabilities directly into their applications, enhancing user experience and engagement. This tool provides a straightforward way for developers to implement robust search functionalities without extensive backend work.",
       "sourceUrl": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
       "sourceName": "Cloudflare",
-      "timeAgo": "12h ago"
+      "timeAgo": "1d ago"
     },
     {
       "id": "3",
-      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "title": "Beam: Reflection's 501B Open-Weight Model",
       "category": "AI & LLMs",
-      "summary": "The latest Opus 5.5 agents have identified two promising candidates for room-temperature magnetic semiconductors, which could revolutionize materials science and electronics. This discovery is vital for engineers focusing on next-generation materials.",
-      "sourceUrl": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "sourceName": "vals.ai",
-      "timeAgo": "2h ago"
+      "summary": "Reflection has unveiled 'Beam', a 501 billion parameter open-weight model that aims to push the boundaries of AI capabilities in natural language processing. This model is significant for researchers and developers looking to leverage large-scale AI for diverse applications.",
+      "sourceUrl": "https://reflection.ai/blog/introducing-beam",
+      "sourceName": "Reflection",
+      "timeAgo": "16h ago"
     },
     {
       "id": "4",
-      "title": "Dust: Pretraining Transformers Without Backpropagation",
-      "category": "AI & LLMs",
-      "summary": "A new research paper introduces Dust, a method for pretraining Transformers without the need for backpropagation, potentially reducing training time and resource consumption. This innovation could significantly impact how developers approach model training.",
-      "sourceUrl": "https://qlabs.sh/research/dust",
-      "sourceName": "qlabs.sh",
-      "timeAgo": "2h ago"
+      "title": "Gleam No Longer Compiles to Erlang Source",
+      "category": "Open Source",
+      "summary": "The Gleam programming language has announced that it will no longer compile to Erlang source code, marking a significant shift in its development strategy. This change may impact developers relying on Gleam for Erlang interoperability, prompting them to adapt their workflows.",
+      "sourceUrl": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "sourceName": "Gleam",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "Example.com Just Launched the Biggest Redesign in Decades",
-      "category": "Web Development",
-      "summary": "Example.com has undergone a major redesign aimed at improving user engagement and accessibility, marking a significant shift in its web presence. This update is essential for developers and designers looking to understand modern web design trends.",
-      "sourceUrl": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
-      "sourceName": "debugbear.com",
-      "timeAgo": "27m ago"
+      "title": "Find the Flattest Route Between Any Two Points in SF",
+      "category": "Systems & Architecture",
+      "summary": "A new tool has been developed to calculate the flattest route between any two points in San Francisco, leveraging advanced algorithms for route optimization. This innovation is particularly useful for urban planners and developers focused on accessibility and urban mobility.",
+      "sourceUrl": "https://flattensf.com/",
+      "sourceName": "Flatten SF",
+      "timeAgo": "14h ago"
     }
   ]
 }
