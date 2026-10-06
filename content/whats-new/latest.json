@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-06T12:16:07.379Z",
+  "lastUpdated": "2026-10-06T21:55:22.938Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "title": "Mistral Large 4: A New Frontier in AI Models",
       "category": "AI & LLMs",
-      "summary": "A new research paper introduces 'Dust', a method for pretraining transformers that eliminates the need for backpropagation, potentially revolutionizing how neural networks are trained. This could lead to more efficient training processes and reduced computational costs for developers working with large models.",
-      "sourceUrl": "https://qlabs.sh/research/dust",
-      "sourceName": "QLabs",
-      "timeAgo": "15h ago"
+      "summary": "Mistral has unveiled its latest AI model, Mistral Large 4, which promises enhanced performance and efficiency for developers working on machine learning applications. This development is significant as it provides a new tool for engineers looking to leverage advanced AI capabilities in their projects.",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
+      "sourceName": "Mistral.ai",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "Web Search API Launch by Cloudflare",
-      "category": "Web Development",
-      "summary": "Cloudflare has launched a new Web Search API that allows developers to integrate search capabilities directly into their applications, enhancing user experience and engagement. This tool provides a straightforward way for developers to implement robust search functionalities without extensive backend work.",
-      "sourceUrl": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
-      "sourceName": "Cloudflare",
-      "timeAgo": "1d ago"
+      "title": "Introducing EmbeddingGemma 2: Enhanced Developer Tools from Google",
+      "category": "AI & LLMs",
+      "summary": "Google has released EmbeddingGemma 2, an upgraded version of its developer tool that simplifies the integration of embeddings into applications. This update is crucial for developers aiming to improve their applications' AI capabilities with minimal effort.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "sourceName": "Google Blog",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Beam: Reflection's 501B Open-Weight Model",
-      "category": "AI & LLMs",
-      "summary": "Reflection has unveiled 'Beam', a 501 billion parameter open-weight model that aims to push the boundaries of AI capabilities in natural language processing. This model is significant for researchers and developers looking to leverage large-scale AI for diverse applications.",
-      "sourceUrl": "https://reflection.ai/blog/introducing-beam",
-      "sourceName": "Reflection",
-      "timeAgo": "16h ago"
+      "title": "OpenTPU: An Open-Source AI Accelerator",
+      "category": "Open Source",
+      "summary": "The launch of OpenTPU, an open-source AI accelerator, marks a significant step towards democratizing access to powerful AI hardware. Developers and engineers can now utilize this resource to enhance their AI projects without the constraints of proprietary solutions.",
+      "sourceUrl": "https://github.com/FeSens/openTPU",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "Gleam No Longer Compiles to Erlang Source",
-      "category": "Open Source",
-      "summary": "The Gleam programming language has announced that it will no longer compile to Erlang source code, marking a significant shift in its development strategy. This change may impact developers relying on Gleam for Erlang interoperability, prompting them to adapt their workflows.",
-      "sourceUrl": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "sourceName": "Gleam",
-      "timeAgo": "4h ago"
+      "title": "OpenSSH 10.6 Released: Key Updates and Features",
+      "category": "Security",
+      "summary": "OpenSSH has released version 10.6, introducing important security updates and new features that enhance the overall functionality of this widely used protocol. Engineers and system administrators should consider upgrading to ensure their systems remain secure and efficient.",
+      "sourceUrl": "https://www.openssh.org/releasenotes.html#10.6",
+      "sourceName": "OpenSSH",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Find the Flattest Route Between Any Two Points in SF",
-      "category": "Systems & Architecture",
-      "summary": "A new tool has been developed to calculate the flattest route between any two points in San Francisco, leveraging advanced algorithms for route optimization. This innovation is particularly useful for urban planners and developers focused on accessibility and urban mobility.",
-      "sourceUrl": "https://flattensf.com/",
-      "sourceName": "Flatten SF",
-      "timeAgo": "14h ago"
+      "title": "Polars 2.0: A Major Update for DataFrame Library",
+      "category": "Web Development",
+      "summary": "Polars has announced version 2.0 of its DataFrame library, featuring performance improvements and new functionalities that cater to data engineers and scientists. This update is essential for those looking to optimize data processing workflows in their applications.",
+      "sourceUrl": "https://pola.rs/posts/release-polars-2/",
+      "sourceName": "Polars",
+      "timeAgo": "9h ago"
     }
   ]
 }
