@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-07T12:07:12.893Z",
+  "lastUpdated": "2026-10-07T22:19:28.699Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Shipping JPEG XL in Chrome",
-      "category": "Web Development",
-      "summary": "Chrome has officially integrated JPEG XL, a next-generation image format that offers superior compression and quality. This development is significant for web developers as it enhances image loading times and reduces bandwidth usage.",
-      "sourceUrl": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "sourceName": "Chrome Developer Blog",
-      "timeAgo": "42m ago"
+      "title": "Claude Haiku 5.5 Released with Enhanced Capabilities",
+      "category": "AI & LLMs",
+      "summary": "Anthropic has launched Claude Haiku 5.5, featuring improved language understanding and generation capabilities. This update is significant for developers looking to integrate advanced AI functionalities into their applications.",
+      "sourceUrl": "https://www.anthropic.com/claude-haiku-5-5",
+      "sourceName": "Anthropic",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Sharing AI progress in mathematics",
+      "title": "OpenAI Introduces GPT-6 with Intelligent UI",
       "category": "AI & LLMs",
-      "summary": "OpenAI has released a report detailing advancements in AI applications for solving mathematical problems. This is crucial for engineers and developers as it showcases the potential of AI to enhance computational capabilities in various fields.",
-      "sourceUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "summary": "OpenAI has unveiled GPT-6, which includes an intelligent user interface designed to enhance user interaction with AI. This development is crucial for engineers and developers aiming to create more intuitive applications powered by AI.",
+      "sourceUrl": "https://openai.com/index/gpt-6-for-everyone/",
       "sourceName": "OpenAI",
-      "timeAgo": "13h ago"
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Decisions API is in public beta",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has launched the public beta of its Decisions API, enabling developers to integrate advanced decision-making capabilities into their applications. This API is a game-changer for building intelligent systems that require complex decision processes.",
-      "sourceUrl": "https://developers.openai.com/api/docs/guides/decisions",
-      "sourceName": "OpenAI Developers",
-      "timeAgo": "15h ago"
+      "title": "Docker Agent Now Available for Enhanced Container Management",
+      "category": "Open Source",
+      "summary": "The new Docker Agent has been released, allowing for more efficient management of containerized applications. This tool is essential for developers looking to streamline their DevOps processes and improve deployment workflows.",
+      "sourceUrl": "https://github.com/docker/docker-agent",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "category": "Open Source",
-      "summary": "The Strands Decider 2B has been introduced as a lightweight, open-source decision-making model aimed at enhancing AI applications. This model is important for developers looking to implement efficient decision-making processes in their projects.",
-      "sourceUrl": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "sourceName": "Strands Agents",
+      "title": "JPEG XL Support Added to Chrome for Better Image Compression",
+      "category": "Web Development",
+      "summary": "Chrome has integrated JPEG XL support, a modern image format that offers superior compression and quality. This enhancement is significant for web developers aiming to optimize image delivery and improve website performance.",
+      "sourceUrl": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "sourceName": "Chrome Developer",
       "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
-      "category": "Open Source",
-      "summary": "Penguin Mail, an open-source email client built with Rust, has been launched, featuring AI capabilities for enhanced user experience. This project is significant for developers interested in modern, efficient email solutions on Linux platforms.",
-      "sourceUrl": "https://penguin-mail.com/",
-      "sourceName": "Penguin Mail",
-      "timeAgo": "14h ago"
+      "title": "Bigwords.page: A New Tool to Transform Screens into Signage",
+      "category": "Web Development",
+      "summary": "Bigwords.page has launched a platform that allows users to turn any screen into a digital sign using a simple URL. This innovation is valuable for web developers and businesses looking to enhance their digital signage solutions.",
+      "sourceUrl": "https://bigwords.page/",
+      "sourceName": "Bigwords.page",
+      "timeAgo": "6h ago"
     }
   ]
 }
