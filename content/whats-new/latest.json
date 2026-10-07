@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-06T21:55:22.938Z",
+  "lastUpdated": "2026-10-07T12:07:12.893Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Mistral Large 4: A New Frontier in AI Models",
-      "category": "AI & LLMs",
-      "summary": "Mistral has unveiled its latest AI model, Mistral Large 4, which promises enhanced performance and efficiency for developers working on machine learning applications. This development is significant as it provides a new tool for engineers looking to leverage advanced AI capabilities in their projects.",
-      "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
-      "sourceName": "Mistral.ai",
-      "timeAgo": "8h ago"
+      "title": "Shipping JPEG XL in Chrome",
+      "category": "Web Development",
+      "summary": "Chrome has officially integrated JPEG XL, a next-generation image format that offers superior compression and quality. This development is significant for web developers as it enhances image loading times and reduces bandwidth usage.",
+      "sourceUrl": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "sourceName": "Chrome Developer Blog",
+      "timeAgo": "42m ago"
     },
     {
       "id": "2",
-      "title": "Introducing EmbeddingGemma 2: Enhanced Developer Tools from Google",
+      "title": "Sharing AI progress in mathematics",
       "category": "AI & LLMs",
-      "summary": "Google has released EmbeddingGemma 2, an upgraded version of its developer tool that simplifies the integration of embeddings into applications. This update is crucial for developers aiming to improve their applications' AI capabilities with minimal effort.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "sourceName": "Google Blog",
-      "timeAgo": "5h ago"
+      "summary": "OpenAI has released a report detailing advancements in AI applications for solving mathematical problems. This is crucial for engineers and developers as it showcases the potential of AI to enhance computational capabilities in various fields.",
+      "sourceUrl": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "sourceName": "OpenAI",
+      "timeAgo": "13h ago"
     },
     {
       "id": "3",
-      "title": "OpenTPU: An Open-Source AI Accelerator",
-      "category": "Open Source",
-      "summary": "The launch of OpenTPU, an open-source AI accelerator, marks a significant step towards democratizing access to powerful AI hardware. Developers and engineers can now utilize this resource to enhance their AI projects without the constraints of proprietary solutions.",
-      "sourceUrl": "https://github.com/FeSens/openTPU",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "Decisions API is in public beta",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has launched the public beta of its Decisions API, enabling developers to integrate advanced decision-making capabilities into their applications. This API is a game-changer for building intelligent systems that require complex decision processes.",
+      "sourceUrl": "https://developers.openai.com/api/docs/guides/decisions",
+      "sourceName": "OpenAI Developers",
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "OpenSSH 10.6 Released: Key Updates and Features",
-      "category": "Security",
-      "summary": "OpenSSH has released version 10.6, introducing important security updates and new features that enhance the overall functionality of this widely used protocol. Engineers and system administrators should consider upgrading to ensure their systems remain secure and efficient.",
-      "sourceUrl": "https://www.openssh.org/releasenotes.html#10.6",
-      "sourceName": "OpenSSH",
-      "timeAgo": "1h ago"
+      "title": "Strands Decider 2B: a small, open-source, decision model",
+      "category": "Open Source",
+      "summary": "The Strands Decider 2B has been introduced as a lightweight, open-source decision-making model aimed at enhancing AI applications. This model is important for developers looking to implement efficient decision-making processes in their projects.",
+      "sourceUrl": "https://strandsagents.com/blog/introducing-strands-decider/",
+      "sourceName": "Strands Agents",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Polars 2.0: A Major Update for DataFrame Library",
-      "category": "Web Development",
-      "summary": "Polars has announced version 2.0 of its DataFrame library, featuring performance improvements and new functionalities that cater to data engineers and scientists. This update is essential for those looking to optimize data processing workflows in their applications.",
-      "sourceUrl": "https://pola.rs/posts/release-polars-2/",
-      "sourceName": "Polars",
-      "timeAgo": "9h ago"
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "category": "Open Source",
+      "summary": "Penguin Mail, an open-source email client built with Rust, has been launched, featuring AI capabilities for enhanced user experience. This project is significant for developers interested in modern, efficient email solutions on Linux platforms.",
+      "sourceUrl": "https://penguin-mail.com/",
+      "sourceName": "Penguin Mail",
+      "timeAgo": "14h ago"
     }
   ]
 }
