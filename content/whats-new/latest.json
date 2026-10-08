@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-07T22:19:28.699Z",
+  "lastUpdated": "2026-10-08T12:17:49.893Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Claude Haiku 5.5 Released with Enhanced Capabilities",
+      "title": "OpenAI Withdraws 3 Math Papers",
       "category": "AI & LLMs",
-      "summary": "Anthropic has launched Claude Haiku 5.5, featuring improved language understanding and generation capabilities. This update is significant for developers looking to integrate advanced AI functionalities into their applications.",
-      "sourceUrl": "https://www.anthropic.com/claude-haiku-5-5",
-      "sourceName": "Anthropic",
-      "timeAgo": "4h ago"
-    },
-    {
-      "id": "2",
-      "title": "OpenAI Introduces GPT-6 with Intelligent UI",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has unveiled GPT-6, which includes an intelligent user interface designed to enhance user interaction with AI. This development is crucial for engineers and developers aiming to create more intuitive applications powered by AI.",
-      "sourceUrl": "https://openai.com/index/gpt-6-for-everyone/",
-      "sourceName": "OpenAI",
-      "timeAgo": "4h ago"
-    },
-    {
-      "id": "3",
-      "title": "Docker Agent Now Available for Enhanced Container Management",
-      "category": "Open Source",
-      "summary": "The new Docker Agent has been released, allowing for more efficient management of containerized applications. This tool is essential for developers looking to streamline their DevOps processes and improve deployment workflows.",
-      "sourceUrl": "https://github.com/docker/docker-agent",
+      "summary": "OpenAI has retracted three of its previously published math papers, raising questions about the reliability of AI-generated research. Developers and engineers should be aware of the implications this has on the credibility of AI in academic contexts.",
+      "sourceUrl": "https://github.com/openai/math/blob/main/history.md",
       "sourceName": "GitHub",
       "timeAgo": "4h ago"
     },
     {
-      "id": "4",
-      "title": "JPEG XL Support Added to Chrome for Better Image Compression",
+      "id": "2",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has announced the upcoming release of GPT-6, which promises to enhance user interaction through an intelligent UI. This development is crucial for developers looking to integrate more advanced AI capabilities into their applications.",
+      "sourceUrl": "https://openai.com/index/gpt-6-for-everyone/",
+      "sourceName": "OpenAI",
+      "timeAgo": "18h ago"
+    },
+    {
+      "id": "3",
+      "title": "Classic PC demoscene productions running natively in the browser",
       "category": "Web Development",
-      "summary": "Chrome has integrated JPEG XL support, a modern image format that offers superior compression and quality. This enhancement is significant for web developers aiming to optimize image delivery and improve website performance.",
-      "sourceUrl": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "sourceName": "Chrome Developer",
-      "timeAgo": "10h ago"
+      "summary": "A new project allows classic PC demoscene productions to run natively in web browsers, showcasing the power of modern web technologies. This is significant for web developers interested in multimedia and retro computing.",
+      "sourceUrl": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "sourceName": "GitHub Pages",
+      "timeAgo": "5h ago"
+    },
+    {
+      "id": "4",
+      "title": "New repository settings for configuring pull request access",
+      "category": "Open Source",
+      "summary": "GitHub has introduced new settings that allow repository owners to configure pull request access more granularly. This enhancement is vital for open source maintainers aiming to improve collaboration and security in their projects.",
+      "sourceUrl": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/",
+      "sourceName": "GitHub",
+      "timeAgo": "2d ago"
     },
     {
       "id": "5",
-      "title": "Bigwords.page: A New Tool to Transform Screens into Signage",
-      "category": "Web Development",
-      "summary": "Bigwords.page has launched a platform that allows users to turn any screen into a digital sign using a simple URL. This innovation is valuable for web developers and businesses looking to enhance their digital signage solutions.",
-      "sourceUrl": "https://bigwords.page/",
-      "sourceName": "Bigwords.page",
-      "timeAgo": "6h ago"
+      "title": "Claude Haiku 5.5",
+      "category": "AI & LLMs",
+      "summary": "Anthropic has released Claude Haiku 5.5, an update to its AI model that improves performance in generating creative content. This is particularly relevant for developers working on AI-driven creative applications.",
+      "sourceUrl": "https://www.anthropic.com/claude-haiku-5-5",
+      "sourceName": "Anthropic",
+      "timeAgo": "18h ago"
     }
   ]
 }
