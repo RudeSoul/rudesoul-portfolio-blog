@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-08T12:17:49.893Z",
+  "lastUpdated": "2026-10-08T22:31:36.185Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "OpenAI Withdraws 3 Math Papers",
+      "title": "Whistle: Speech to Text in 16.9 MB",
       "category": "AI & LLMs",
-      "summary": "OpenAI has retracted three of its previously published math papers, raising questions about the reliability of AI-generated research. Developers and engineers should be aware of the implications this has on the credibility of AI in academic contexts.",
-      "sourceUrl": "https://github.com/openai/math/blob/main/history.md",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
-    },
-    {
-      "id": "2",
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has announced the upcoming release of GPT-6, which promises to enhance user interaction through an intelligent UI. This development is crucial for developers looking to integrate more advanced AI capabilities into their applications.",
-      "sourceUrl": "https://openai.com/index/gpt-6-for-everyone/",
-      "sourceName": "OpenAI",
-      "timeAgo": "18h ago"
-    },
-    {
-      "id": "3",
-      "title": "Classic PC demoscene productions running natively in the browser",
-      "category": "Web Development",
-      "summary": "A new project allows classic PC demoscene productions to run natively in web browsers, showcasing the power of modern web technologies. This is significant for web developers interested in multimedia and retro computing.",
-      "sourceUrl": "https://treylorswift.github.io/demoscene-recomp/web/",
-      "sourceName": "GitHub Pages",
+      "summary": "Whistle is a new speech-to-text application that compresses audio files to just 16.9 MB while maintaining high accuracy. This development is significant for developers looking to integrate efficient speech recognition capabilities into their applications without sacrificing performance.",
+      "sourceUrl": "https://cactuscompute.com/blog/whistle",
+      "sourceName": "Cactus Compute",
       "timeAgo": "5h ago"
     },
     {
+      "id": "2",
+      "title": "AI-ready biological data: $1.8B global commitment",
+      "category": "AI & LLMs",
+      "summary": "A global initiative has announced a $1.8 billion commitment to make biological data more accessible for AI applications. This investment is crucial for researchers and developers in the AI field, as it will enhance the quality and availability of data for training models.",
+      "sourceUrl": "https://biohub.org/news/virtual-biology-initiative-expansion/",
+      "sourceName": "Biohub",
+      "timeAgo": "1h ago"
+    },
+    {
+      "id": "3",
+      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "category": "AI & LLMs",
+      "summary": "The latest preview of Step 5 from StepFun introduces a mixture of experts (MoE) model capable of handling 1 million contexts. This advancement is important for AI developers as it pushes the boundaries of context handling in natural language processing tasks.",
+      "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
+      "sourceName": "OpenRouter",
+      "timeAgo": "6h ago"
+    },
+    {
       "id": "4",
-      "title": "New repository settings for configuring pull request access",
+      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
       "category": "Open Source",
-      "summary": "GitHub has introduced new settings that allow repository owners to configure pull request access more granularly. This enhancement is vital for open source maintainers aiming to improve collaboration and security in their projects.",
-      "sourceUrl": "https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/",
+      "summary": "A new open-source project offers a fully local alternative to Adobe Lightroom, utilizing AI for image processing. This is a game-changer for photographers and developers looking for cost-effective and privacy-focused solutions in image editing.",
+      "sourceUrl": "https://github.com/thesnarkitecht/rembrandt",
       "sourceName": "GitHub",
-      "timeAgo": "2d ago"
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Claude Haiku 5.5",
-      "category": "AI & LLMs",
-      "summary": "Anthropic has released Claude Haiku 5.5, an update to its AI model that improves performance in generating creative content. This is particularly relevant for developers working on AI-driven creative applications.",
-      "sourceUrl": "https://www.anthropic.com/claude-haiku-5-5",
-      "sourceName": "Anthropic",
-      "timeAgo": "18h ago"
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "category": "Systems & Architecture",
+      "summary": "The blog discusses the implications of the DeepSeek 4.1 Flash technology and why it hasn't garnered more attention from the industry. Understanding these developments is essential for engineers and developers who need to stay ahead in the rapidly evolving tech landscape.",
+      "sourceUrl": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "sourceName": "DGT",
+      "timeAgo": "22h ago"
     }
   ]
 }
