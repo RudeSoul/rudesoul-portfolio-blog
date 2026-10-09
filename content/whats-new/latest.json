@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-09T12:08:28.208Z",
+  "lastUpdated": "2026-10-09T21:54:00.395Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "category": "AI & LLMs",
-      "summary": "This new GitHub project allows AI agents to visually annotate screens with arrows, boxes, and text, enhancing user interaction and feedback. Developers should explore this tool to improve the usability of their AI applications.",
-      "sourceUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "sourceName": "GitHub",
-      "timeAgo": "1h ago"
+      "title": "Cloudflare acquires Deno",
+      "category": "Web Development",
+      "summary": "Cloudflare has officially acquired Deno, the modern runtime for JavaScript and TypeScript, enhancing its capabilities for serverless deployment and edge computing. This acquisition is significant as it positions Cloudflare to better compete in the rapidly evolving landscape of web development technologies.",
+      "sourceUrl": "https://deno.com/blog/cloudflare",
+      "sourceName": "Deno",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "OpenAI fires three safety researchers for 'mishandling research information'",
+      "title": "Typesafe AI raises $870M at $7.5B",
       "category": "AI & LLMs",
-      "summary": "OpenAI has terminated three safety researchers amid claims of mishandling sensitive research information, raising concerns about the implications for AI safety protocols. This incident highlights the ongoing challenges in maintaining ethical standards in AI development.",
-      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "sourceName": "TechCrunch",
-      "timeAgo": "2h ago"
+      "summary": "Typesafe AI has successfully raised $870 million in funding, valuing the company at $7.5 billion, which highlights the growing investor confidence in AI technologies. This funding will likely accelerate the development of their advanced AI solutions, making it crucial for engineers and developers to stay informed about their innovations.",
+      "sourceUrl": "https://typesafe.ai/blog/series-ai",
+      "sourceName": "Typesafe AI",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "MXC - a sandboxed code execution system",
-      "category": "Open Source",
-      "summary": "Microsoft has released MXC, a sandboxed code execution system designed to enhance security for running untrusted code. This tool is crucial for developers looking to safely execute code snippets in their applications.",
-      "sourceUrl": "https://github.com/microsoft/mxc",
-      "sourceName": "GitHub",
-      "timeAgo": "6h ago"
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "category": "AI & LLMs",
+      "summary": "A new application of AI has successfully analyzed historical archives, resulting in the discovery of a forgotten meteorite and lost species like rhinos. This development showcases the potential of AI in uncovering valuable insights from vast datasets, which could inspire engineers to explore similar applications in their fields.",
+      "sourceUrl": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "sourceName": "Jesse Waites",
+      "timeAgo": "10h ago"
     },
     {
       "id": "4",
-      "title": "Whistle: Speech to Text in 16.9 MB",
-      "category": "AI & LLMs",
-      "summary": "Cactus Compute has introduced Whistle, a compact speech-to-text model that operates efficiently at just 16.9 MB. This development is significant for developers needing lightweight solutions for voice recognition in applications.",
-      "sourceUrl": "https://cactuscompute.com/blog/whistle",
-      "sourceName": "Cactus Compute",
-      "timeAgo": "19h ago"
+      "title": "Our $445M Series D",
+      "category": "Open Source",
+      "summary": "Oxide Computer has announced a $445 million Series D funding round, aimed at advancing their open-source hardware and software initiatives. This significant investment reflects the growing interest in open-source solutions and could lead to more robust and innovative engineering tools for developers.",
+      "sourceUrl": "https://oxide.computer/blog/our-445m-series-d",
+      "sourceName": "Oxide Computer",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "OTel-Native by Design – Building Products That Export to Any Observability Stack",
-      "category": "Systems & Architecture",
-      "summary": "The OpenTelemetry project has released guidelines on building products that can seamlessly integrate with various observability stacks. This is essential for engineers aiming to enhance monitoring and observability in their systems.",
-      "sourceUrl": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
-      "sourceName": "OpenTelemetry",
-      "timeAgo": "5h ago"
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "category": "AI & LLMs",
+      "summary": "A new project allows AI agents to visually annotate screens with arrows, boxes, and text, enhancing user interaction and productivity. This tool could be particularly useful for developers looking to streamline workflows and improve user experience in applications.",
+      "sourceUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "sourceName": "GitHub",
+      "timeAgo": "10h ago"
     }
   ]
 }
