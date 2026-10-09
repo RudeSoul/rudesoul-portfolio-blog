@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-08T22:31:36.185Z",
+  "lastUpdated": "2026-10-09T12:08:28.208Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Whistle: Speech to Text in 16.9 MB",
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
       "category": "AI & LLMs",
-      "summary": "Whistle is a new speech-to-text application that compresses audio files to just 16.9 MB while maintaining high accuracy. This development is significant for developers looking to integrate efficient speech recognition capabilities into their applications without sacrificing performance.",
-      "sourceUrl": "https://cactuscompute.com/blog/whistle",
-      "sourceName": "Cactus Compute",
-      "timeAgo": "5h ago"
-    },
-    {
-      "id": "2",
-      "title": "AI-ready biological data: $1.8B global commitment",
-      "category": "AI & LLMs",
-      "summary": "A global initiative has announced a $1.8 billion commitment to make biological data more accessible for AI applications. This investment is crucial for researchers and developers in the AI field, as it will enhance the quality and availability of data for training models.",
-      "sourceUrl": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "sourceName": "Biohub",
-      "timeAgo": "1h ago"
-    },
-    {
-      "id": "3",
-      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-      "category": "AI & LLMs",
-      "summary": "The latest preview of Step 5 from StepFun introduces a mixture of experts (MoE) model capable of handling 1 million contexts. This advancement is important for AI developers as it pushes the boundaries of context handling in natural language processing tasks.",
-      "sourceUrl": "https://openrouter.ai/stepfun/step-5-preview",
-      "sourceName": "OpenRouter",
-      "timeAgo": "6h ago"
-    },
-    {
-      "id": "4",
-      "title": "Show HN: Free open source Adobe Lightroom alternative, completely local with AI",
-      "category": "Open Source",
-      "summary": "A new open-source project offers a fully local alternative to Adobe Lightroom, utilizing AI for image processing. This is a game-changer for photographers and developers looking for cost-effective and privacy-focused solutions in image editing.",
-      "sourceUrl": "https://github.com/thesnarkitecht/rembrandt",
+      "summary": "This new GitHub project allows AI agents to visually annotate screens with arrows, boxes, and text, enhancing user interaction and feedback. Developers should explore this tool to improve the usability of their AI applications.",
+      "sourceUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
       "sourceName": "GitHub",
       "timeAgo": "1h ago"
     },
     {
+      "id": "2",
+      "title": "OpenAI fires three safety researchers for 'mishandling research information'",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has terminated three safety researchers amid claims of mishandling sensitive research information, raising concerns about the implications for AI safety protocols. This incident highlights the ongoing challenges in maintaining ethical standards in AI development.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "sourceName": "TechCrunch",
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "3",
+      "title": "MXC - a sandboxed code execution system",
+      "category": "Open Source",
+      "summary": "Microsoft has released MXC, a sandboxed code execution system designed to enhance security for running untrusted code. This tool is crucial for developers looking to safely execute code snippets in their applications.",
+      "sourceUrl": "https://github.com/microsoft/mxc",
+      "sourceName": "GitHub",
+      "timeAgo": "6h ago"
+    },
+    {
+      "id": "4",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "category": "AI & LLMs",
+      "summary": "Cactus Compute has introduced Whistle, a compact speech-to-text model that operates efficiently at just 16.9 MB. This development is significant for developers needing lightweight solutions for voice recognition in applications.",
+      "sourceUrl": "https://cactuscompute.com/blog/whistle",
+      "sourceName": "Cactus Compute",
+      "timeAgo": "19h ago"
+    },
+    {
       "id": "5",
-      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "title": "OTel-Native by Design – Building Products That Export to Any Observability Stack",
       "category": "Systems & Architecture",
-      "summary": "The blog discusses the implications of the DeepSeek 4.1 Flash technology and why it hasn't garnered more attention from the industry. Understanding these developments is essential for engineers and developers who need to stay ahead in the rapidly evolving tech landscape.",
-      "sourceUrl": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "sourceName": "DGT",
-      "timeAgo": "22h ago"
+      "summary": "The OpenTelemetry project has released guidelines on building products that can seamlessly integrate with various observability stacks. This is essential for engineers aiming to enhance monitoring and observability in their systems.",
+      "sourceUrl": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
+      "sourceName": "OpenTelemetry",
+      "timeAgo": "5h ago"
     }
   ]
 }
