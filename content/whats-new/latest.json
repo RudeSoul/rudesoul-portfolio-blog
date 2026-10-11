@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-10T20:45:35.093Z",
+  "lastUpdated": "2026-10-11T11:39:17.658Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "category": "AI & LLMs",
-      "summary": "Nvidia is reportedly in discussions to acquire Reflection AI, a startup focused on developing open AI models. This acquisition could significantly enhance Nvidia's portfolio in the AI space, particularly in open-source AI technologies, which is crucial for developers and engineers looking for innovative solutions.",
-      "sourceUrl": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "sourceName": "Financial Times",
-      "timeAgo": "1h ago"
+      "title": "LineageOS 24.0 Released with New Features and Enhancements",
+      "category": "Open Source",
+      "summary": "LineageOS has announced the release of version 24.0, which includes significant updates and new features aimed at improving user experience and device compatibility. Developers and enthusiasts should explore these enhancements to leverage the latest capabilities in custom Android development.",
+      "sourceUrl": "https://lineageos.org/Changelog-32/",
+      "sourceName": "LineageOS",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "category": "Open Source",
-      "summary": "Talorys is a new self-hosted personal AI agent that can be deployed on Cloudflare's free tier, making it accessible for developers and hobbyists. This project emphasizes the growing trend of self-hosted solutions in AI, allowing for greater control and customization.",
-      "sourceUrl": "https://github.com/rociiu/talorys",
-      "sourceName": "GitHub",
-      "timeAgo": "9h ago"
+      "title": "Build Your Own Decision Model: A Comprehensive Guide",
+      "category": "AI & LLMs",
+      "summary": "A new guide has been published that walks developers through the process of building their own decision models, emphasizing practical applications in AI. This resource is crucial for engineers looking to deepen their understanding of decision-making algorithms and their implementations.",
+      "sourceUrl": "https://nishtahir.com/build-your-own-decision-model/",
+      "sourceName": "Nishtahir",
+      "timeAgo": "12h ago"
     },
     {
       "id": "3",
-      "title": "Why DuckDB 2.0 is faster",
-      "category": "Systems & Architecture",
-      "summary": "The latest release of DuckDB 2.0 introduces significant performance improvements, making it a more efficient choice for data analytics. Developers should take note of these enhancements as they could impact the performance of their data-driven applications.",
-      "sourceUrl": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
-      "sourceName": "MotherDuck",
-      "timeAgo": "2h ago"
+      "title": "Talorys: A Self-Hosted Personal AI Agent on Cloudflare's Free Tier",
+      "category": "AI & LLMs",
+      "summary": "The Talorys project has launched, providing a self-hosted personal AI agent that operates on Cloudflare's free tier, making it accessible for developers and users alike. This opens up new possibilities for personal AI applications without the need for costly infrastructure.",
+      "sourceUrl": "https://github.com/rociiu/talorys",
+      "sourceName": "GitHub",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "Bitwarden Dual License Model",
-      "category": "Open Source",
-      "summary": "Bitwarden has announced a dual license model, allowing users to choose between a free and a premium version. This move is significant for developers and organizations looking for secure password management solutions that balance cost and features.",
-      "sourceUrl": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
-      "sourceName": "Bitwarden Community",
-      "timeAgo": "6h ago"
+      "title": "Mxc: Microsoft Execution Containers Version 1.0.0 Released",
+      "category": "Systems & Architecture",
+      "summary": "Microsoft has released version 1.0.0 of Microsoft Execution Containers, which offers policy-driven containment for AI agents. This development is significant for engineers focusing on secure AI deployments and containerization strategies.",
+      "sourceUrl": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "sourceName": "Microsoft",
+      "timeAgo": "2d ago"
     },
     {
       "id": "5",
-      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
-      "category": "Security",
-      "summary": "A critical vulnerability in Telegram Desktop has been discovered, allowing attackers to steal files from any user's account. This highlights the importance of security practices in software development and the need for users to stay vigilant about potential threats.",
-      "sourceUrl": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
-      "sourceName": "BeakSec",
-      "timeAgo": "17h ago"
+      "title": "Nitter Seeks Funding and Legal Help Amidst Challenges",
+      "category": "Open Source",
+      "summary": "Nitter, the open-source alternative to Twitter, is actively seeking funding and legal assistance to continue its operations amidst challenges. This situation highlights the ongoing struggles faced by open-source projects in maintaining sustainability and legal compliance.",
+      "sourceUrl": "https://nitter.net",
+      "sourceName": "Nitter",
+      "timeAgo": "5h ago"
     }
   ]
 }
