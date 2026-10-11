@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-11T11:39:17.658Z",
+  "lastUpdated": "2026-10-11T21:06:29.132Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "LineageOS 24.0 Released with New Features and Enhancements",
+      "title": "Total Annihilation, rebuilt for modern computers",
       "category": "Open Source",
-      "summary": "LineageOS has announced the release of version 24.0, which includes significant updates and new features aimed at improving user experience and device compatibility. Developers and enthusiasts should explore these enhancements to leverage the latest capabilities in custom Android development.",
-      "sourceUrl": "https://lineageos.org/Changelog-32/",
-      "sourceName": "LineageOS",
-      "timeAgo": "5h ago"
+      "summary": "The classic game Total Annihilation has been successfully rebuilt to run on modern computers, enhancing its accessibility for a new generation of players. This development is significant for game developers interested in retro gaming and preservation techniques.",
+      "sourceUrl": "https://nanolathe.gg",
+      "sourceName": "nanolathe.gg",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "Build Your Own Decision Model: A Comprehensive Guide",
-      "category": "AI & LLMs",
-      "summary": "A new guide has been published that walks developers through the process of building their own decision models, emphasizing practical applications in AI. This resource is crucial for engineers looking to deepen their understanding of decision-making algorithms and their implementations.",
-      "sourceUrl": "https://nishtahir.com/build-your-own-decision-model/",
-      "sourceName": "Nishtahir",
-      "timeAgo": "12h ago"
+      "title": "NYC's 'Click to Cancel' rule is now in effect",
+      "category": "Web Development",
+      "summary": "New regulations in New York City require businesses to implement a 'Click to Cancel' feature for subscriptions, enhancing consumer rights and transparency. This change is crucial for web developers to understand as it impacts how subscription services are designed and managed.",
+      "sourceUrl": "https://www.nyc.gov/main/click-to-cancel",
+      "sourceName": "nyc.gov",
+      "timeAgo": "3h ago"
     },
     {
       "id": "3",
-      "title": "Talorys: A Self-Hosted Personal AI Agent on Cloudflare's Free Tier",
-      "category": "AI & LLMs",
-      "summary": "The Talorys project has launched, providing a self-hosted personal AI agent that operates on Cloudflare's free tier, making it accessible for developers and users alike. This opens up new possibilities for personal AI applications without the need for costly infrastructure.",
-      "sourceUrl": "https://github.com/rociiu/talorys",
-      "sourceName": "GitHub",
-      "timeAgo": "1d ago"
+      "title": "LineageOS 24.0",
+      "category": "Open Source",
+      "summary": "The latest version of LineageOS, a popular open-source Android operating system, has been released, featuring numerous updates and improvements. This is important for developers in the mobile space who are interested in custom ROM development and Android system modifications.",
+      "sourceUrl": "https://lineageos.org/Changelog-32/",
+      "sourceName": "lineageos.org",
+      "timeAgo": "14h ago"
     },
     {
       "id": "4",
-      "title": "Mxc: Microsoft Execution Containers Version 1.0.0 Released",
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
       "category": "Systems & Architecture",
-      "summary": "Microsoft has released version 1.0.0 of Microsoft Execution Containers, which offers policy-driven containment for AI agents. This development is significant for engineers focusing on secure AI deployments and containerization strategies.",
-      "sourceUrl": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "sourceName": "Microsoft",
-      "timeAgo": "2d ago"
+      "summary": "Valen introduces a novel approach to memory safety with a new kind of borrow checking that aims to enhance programming language safety features. This development is essential for systems programmers and language designers focused on improving memory management.",
+      "sourceUrl": "https://verdagon.dev/blog/valen-group-borrowing",
+      "sourceName": "verdagon.dev",
+      "timeAgo": "9h ago"
     },
     {
       "id": "5",
-      "title": "Nitter Seeks Funding and Legal Help Amidst Challenges",
+      "title": "I paid people to try and follow my README",
       "category": "Open Source",
-      "summary": "Nitter, the open-source alternative to Twitter, is actively seeking funding and legal assistance to continue its operations amidst challenges. This situation highlights the ongoing struggles faced by open-source projects in maintaining sustainability and legal compliance.",
-      "sourceUrl": "https://nitter.net",
-      "sourceName": "Nitter",
-      "timeAgo": "5h ago"
+      "summary": "A developer shares insights from an experiment where they paid users to follow their README documentation, revealing critical usability issues. This story is valuable for open-source contributors and maintainers looking to improve documentation and user experience.",
+      "sourceUrl": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "sourceName": "shkspr.mobi",
+      "timeAgo": "9h ago"
     }
   ]
 }
