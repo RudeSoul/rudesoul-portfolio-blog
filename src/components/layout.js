@@ -28,6 +28,9 @@ const Layout = ({ location, title, children }) => {
             <Link to="/whats-new" className="nav-link" activeClassName="active">
               what's new
             </Link>
+            <Link to="/course" className="nav-link" activeClassName="active">
+              course
+            </Link>
             <a
               href="mailto:prabesh7@gmail.com"
               className="nav-link nav-contact"
@@ -41,7 +44,9 @@ const Layout = ({ location, title, children }) => {
       <main className="content-container">{children}</main>
       <footer className="global-footer">
         <div className="footer-content">
-          <p className="footer-copy">© {new Date().getFullYear()} Prabesh Gouli · Built with precision</p>
+          <p className="footer-copy">
+            © {new Date().getFullYear()} Prabesh Gouli · Built with precision
+          </p>
           <div className="footer-stats">
             <PageViews />
           </div>
