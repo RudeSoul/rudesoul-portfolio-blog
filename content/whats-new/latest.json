@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-11T21:06:29.132Z",
+  "lastUpdated": "2026-10-12T13:36:26.632Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Total Annihilation, rebuilt for modern computers",
+      "title": "QGIS bans AI assisted contributions",
       "category": "Open Source",
-      "summary": "The classic game Total Annihilation has been successfully rebuilt to run on modern computers, enhancing its accessibility for a new generation of players. This development is significant for game developers interested in retro gaming and preservation techniques.",
-      "sourceUrl": "https://nanolathe.gg",
-      "sourceName": "nanolathe.gg",
-      "timeAgo": "3h ago"
+      "summary": "The QGIS project has officially prohibited AI-assisted contributions to maintain the integrity and authenticity of its open-source community. This decision highlights the ongoing debate about the role of AI in collaborative software development and its implications for project governance.",
+      "sourceUrl": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "sourceName": "GitHub",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "NYC's 'Click to Cancel' rule is now in effect",
+      "title": "Type-safe HTML templating in Zig",
       "category": "Web Development",
-      "summary": "New regulations in New York City require businesses to implement a 'Click to Cancel' feature for subscriptions, enhancing consumer rights and transparency. This change is crucial for web developers to understand as it impacts how subscription services are designed and managed.",
-      "sourceUrl": "https://www.nyc.gov/main/click-to-cancel",
-      "sourceName": "nyc.gov",
-      "timeAgo": "3h ago"
+      "summary": "A new approach to type-safe HTML templating has been introduced in the Zig programming language, enhancing the safety and reliability of web development. This innovation allows developers to catch errors at compile time, reducing runtime issues and improving overall code quality.",
+      "sourceUrl": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "sourceName": "Lalinsky",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "LineageOS 24.0",
-      "category": "Open Source",
-      "summary": "The latest version of LineageOS, a popular open-source Android operating system, has been released, featuring numerous updates and improvements. This is important for developers in the mobile space who are interested in custom ROM development and Android system modifications.",
-      "sourceUrl": "https://lineageos.org/Changelog-32/",
-      "sourceName": "lineageos.org",
-      "timeAgo": "14h ago"
+      "title": "Fingerprints are the new cookies",
+      "category": "Web Development",
+      "summary": "A new article discusses the shift from traditional cookie-based tracking to fingerprinting techniques in web development, raising concerns about privacy and user tracking. Developers need to be aware of these changes to adapt their strategies for user data management and compliance with regulations.",
+      "sourceUrl": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "sourceName": "Royfish",
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
-      "category": "Systems & Architecture",
-      "summary": "Valen introduces a novel approach to memory safety with a new kind of borrow checking that aims to enhance programming language safety features. This development is essential for systems programmers and language designers focused on improving memory management.",
-      "sourceUrl": "https://verdagon.dev/blog/valen-group-borrowing",
-      "sourceName": "verdagon.dev",
-      "timeAgo": "9h ago"
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "category": "Web Development",
+      "summary": "A new project showcases the static recompilation of PlayStation 2 games to WebAssembly, enabling them to run in modern web browsers. This development opens up opportunities for game developers to bring classic titles to new platforms without extensive rewrites.",
+      "sourceUrl": "https://github.com/snuri00/ps2-web-recomp",
+      "sourceName": "GitHub",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "I paid people to try and follow my README",
+      "title": "Doory – Open-Source Canva",
       "category": "Open Source",
-      "summary": "A developer shares insights from an experiment where they paid users to follow their README documentation, revealing critical usability issues. This story is valuable for open-source contributors and maintainers looking to improve documentation and user experience.",
-      "sourceUrl": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "sourceName": "shkspr.mobi",
-      "timeAgo": "9h ago"
+      "summary": "The launch of Doory, an open-source alternative to Canva, provides designers and content creators with a free tool for graphic design. This initiative promotes accessibility in design software and encourages community contributions to enhance its features.",
+      "sourceUrl": "https://github.com/shaongitbd/doory",
+      "sourceName": "GitHub",
+      "timeAgo": "12h ago"
     }
   ]
 }
