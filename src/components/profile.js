@@ -26,7 +26,7 @@ const Profile = () => {
       <p className="profile-role">Full-Stack Software Engineer & Product Designer</p>
 
       <p className="profile-des">
-        Juggling pixels, systems, and code. I sit at the intersection of frontend craft and UI/UX whimsy, with full-stack engineering under the hood. By day, I design and build production-grade software; by night, I document the journey here.
+        I build full-stack software, obsess over the small UI details, and use this space as a digital notebook for things I learn along the way.
       </p>
 
       <div className="profile-social">
