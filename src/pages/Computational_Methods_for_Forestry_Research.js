@@ -1,0 +1,3 @@
+import ComputationalForestryPage from "./course/Computational_Methods_for_Forestry_Research"
+
+export default ComputationalForestryPage
