@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-13T12:59:51.793Z",
+  "lastUpdated": "2026-10-13T22:00:01.270Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "11 Year Old Unsoundness Bugs Found in Rust Borrow Checker",
-      "category": "Open Source",
-      "summary": "Developers have discovered long-standing unsoundness bugs in the Rust borrow checker, which could affect memory safety guarantees. This finding emphasizes the importance of rigorous testing and code review in open-source projects.",
-      "sourceUrl": "https://github.com/rust-lang/rust/issues/164250",
-      "sourceName": "GitHub",
-      "timeAgo": "2h ago"
+      "title": "Gemini 4 Argon: A New Frontier in AI for Robotics",
+      "category": "AI & LLMs",
+      "summary": "DeepMind has launched Gemini 4 Argon, a powerful AI model specifically designed for robotics applications. This development is significant for engineers and developers working in automation and robotics, as it promises to enhance the capabilities of robotic systems.",
+      "sourceUrl": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "sourceName": "DeepMind",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "An Hour of Audio Transcribed in About 13s on MacBook Air",
-      "category": "AI & LLMs",
-      "summary": "A new tool has demonstrated the ability to transcribe an hour of audio in just 13 seconds on a MacBook Air, showcasing significant advancements in real-time audio processing. This development could greatly enhance accessibility and content creation workflows.",
-      "sourceUrl": "https://eg2.haku.sh/",
-      "sourceName": "eg2.haku.sh",
-      "timeAgo": "1h ago"
+      "title": "Redesigning Source Control at Anthropic",
+      "category": "Open Source",
+      "summary": "Anthropic has shared insights on their recent overhaul of source control systems, focusing on improving collaboration and efficiency. This is crucial for developers looking to enhance their workflows and adopt best practices in version control.",
+      "sourceUrl": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "sourceName": "Anthropic",
+      "timeAgo": "6h ago"
     },
     {
       "id": "3",
-      "title": "Mozilla Introduces Firefox Enterprise",
-      "category": "Web Development",
-      "summary": "Mozilla has launched Firefox Enterprise, a version of its browser tailored for business use, focusing on security and management features. This move aims to provide organizations with a more secure and customizable browsing experience.",
-      "sourceUrl": "https://www.firefox.com/en-US/enterprise/",
-      "sourceName": "Firefox",
-      "timeAgo": "59m ago"
+      "title": "11 Year Old Unsoundness Bugs Found in Rust Borrow Checker",
+      "category": "Systems & Architecture",
+      "summary": "A recent discovery has revealed long-standing unsoundness bugs in the Rust borrow checker, which could impact memory safety guarantees. Developers using Rust should be aware of these issues to ensure the reliability of their applications.",
+      "sourceUrl": "https://github.com/rust-lang/rust/issues/164250",
+      "sourceName": "GitHub",
+      "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "Janas: Run LLMs Larger Than RAM by Streaming Experts from SSD",
-      "category": "AI & LLMs",
-      "summary": "The Janas project allows developers to run large language models that exceed RAM capacity by streaming data from SSDs. This innovation could significantly lower hardware barriers for AI development and deployment.",
-      "sourceUrl": "https://github.com/prabanta-dev/janas",
-      "sourceName": "GitHub",
-      "timeAgo": "14h ago"
+      "title": "Thunderbird for iOS: A First Look at the Native iPhone Email App",
+      "category": "Web Development",
+      "summary": "The Thunderbird team has provided a preview of their upcoming native email app for iOS, which aims to enhance user experience on mobile devices. This is important for web developers focusing on cross-platform compatibility and user interface design.",
+      "sourceUrl": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "sourceName": "Thunderbird",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "AWS Lambda Web Functions for Fast Web App Performance",
-      "category": "Web Development",
-      "summary": "AWS has announced Lambda Web Functions, designed to enhance web application performance with serverless architecture. This feature allows developers to build scalable applications without managing server infrastructure, streamlining deployment.",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
-      "sourceName": "AWS",
-      "timeAgo": "2h ago"
+      "title": "OpenAI Engineer Arrested for Alleged Bugging of Executive Conference Room",
+      "category": "Security",
+      "summary": "An OpenAI engineer has been arrested for allegedly bugging a conference room, raising serious concerns about security and ethical practices in tech companies. This incident serves as a reminder for developers to prioritize security measures in their projects.",
+      "sourceUrl": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "sourceName": "SF Standard",
+      "timeAgo": "1h ago"
     }
   ]
 }
