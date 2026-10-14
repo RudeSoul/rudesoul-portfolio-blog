@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-14T10:40:34.014Z",
+  "lastUpdated": "2026-10-14T21:01:04.991Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepMind Unveils Gemini 4 Argon: A Leap in AI Capabilities",
-      "category": "AI & LLMs",
-      "summary": "DeepMind has launched Gemini 4 Argon, a significant upgrade in its AI model series, enhancing performance across various tasks. Developers and engineers should explore its capabilities to leverage advanced AI functionalities in their applications.",
-      "sourceUrl": "https://deepmind.google/models/gemini/",
-      "sourceName": "DeepMind",
-      "timeAgo": "18h ago"
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "category": "Web Development",
+      "summary": "The latest release of Go 1.27 introduces improved HTTP/1 connection reuse, enhancing performance for web applications. Developers should adopt this update to optimize their applications' network efficiency and reduce latency.",
+      "sourceUrl": "https://go.dev/blog/http-connection-reuse",
+      "sourceName": "Go.dev",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Redesigning Source Control at Anthropic: A Case Study",
-      "category": "Open Source",
-      "summary": "Anthropic has shared insights into their redesign of source control systems, focusing on improving collaboration and efficiency in software development. This case study provides valuable lessons for engineers looking to enhance their own source control practices.",
-      "sourceUrl": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "sourceName": "Anthropic",
-      "timeAgo": "18h ago"
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "category": "AI & LLMs",
+      "summary": "Financial institutions are seeking to divest from AI data center investments due to rising operational costs and market volatility. This trend could impact future AI development funding and infrastructure availability.",
+      "sourceUrl": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "sourceName": "Startup Fortune",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "Experiment: Letting an AI Run a Startup for a Week",
-      "category": "AI & LLMs",
-      "summary": "A recent experiment documented how an AI managed a startup for a week, showcasing the potential of AI in business operations. This story highlights the implications of AI in entrepreneurship and operational efficiency.",
-      "sourceUrl": "https://daily.tinyprojects.dev/221",
-      "sourceName": "Tiny Projects",
-      "timeAgo": "14m ago"
+      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "category": "Open Source",
+      "summary": "The new pg_vectorsearch index offers significant speed improvements over existing vector search methods in PostgreSQL. This advancement is crucial for developers working with large-scale data retrieval and machine learning applications.",
+      "sourceUrl": "https://github.com/timescale/pg_vectorsearch",
+      "sourceName": "GitHub",
+      "timeAgo": "9h ago"
     },
     {
       "id": "4",
-      "title": "Strafe: A New Open-Source Alternative to Discord",
-      "category": "Open Source",
-      "summary": "Strafe has emerged as a new open-source, end-to-end encrypted, and federated alternative to Discord, aiming to enhance user privacy and control. Developers interested in building community platforms should consider this innovative solution.",
-      "sourceUrl": "https://strafe.chat/",
-      "sourceName": "Strafe",
-      "timeAgo": "7h ago"
+      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "category": "Security",
+      "summary": "A recent analysis reveals that many AI agents are not malfunctioning but rather are a result of inadequate security measures in development. This highlights the need for stricter security protocols in AI development to prevent potential misuse.",
+      "sourceUrl": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "sourceName": "CSO Online",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Exploring Agents in Rust: A New Paradigm",
-      "category": "Systems & Architecture",
-      "summary": "A recent article discusses the implications of integrating agent-based programming in Rust, highlighting its potential to enhance concurrency and performance. This development is crucial for engineers looking to adopt modern programming paradigms in systems design.",
-      "sourceUrl": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
-      "sourceName": "Small Cult Following",
-      "timeAgo": "1h ago"
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "category": "Open Source",
+      "summary": "Petal, an open-source alternative to CoScreen and ScreenHero, has been released for free, allowing developers to collaborate more effectively in real-time. This tool enhances remote work capabilities and fosters better team collaboration.",
+      "sourceUrl": "https://petal.live/",
+      "sourceName": "Petal Live",
+      "timeAgo": "2h ago"
     }
   ]
 }
