@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-14T21:01:04.991Z",
+  "lastUpdated": "2026-10-15T10:24:11.413Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Better HTTP/1 connection reuse in Go 1.27",
-      "category": "Web Development",
-      "summary": "The latest release of Go 1.27 introduces improved HTTP/1 connection reuse, enhancing performance for web applications. Developers should adopt this update to optimize their applications' network efficiency and reduce latency.",
-      "sourceUrl": "https://go.dev/blog/http-connection-reuse",
-      "sourceName": "Go.dev",
-      "timeAgo": "4h ago"
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "category": "AI & LLMs",
+      "summary": "Liquid AI has introduced LFM2.5-24B-A2B, a new model optimized for rapid on-device processing, enhancing the capabilities of AI agents in real-time applications. This development is crucial for developers looking to implement efficient AI solutions directly on devices without relying heavily on cloud resources.",
+      "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "sourceName": "Liquid AI",
+      "timeAgo": "10h ago"
     },
     {
       "id": "2",
-      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-      "category": "AI & LLMs",
-      "summary": "Financial institutions are seeking to divest from AI data center investments due to rising operational costs and market volatility. This trend could impact future AI development funding and infrastructure availability.",
-      "sourceUrl": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-      "sourceName": "Startup Fortune",
-      "timeAgo": "2h ago"
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "category": "Web Development",
+      "summary": "The latest Go 1.27 release improves HTTP/1 connection reuse, which can significantly enhance the performance of web applications by reducing latency and resource consumption. Developers should take note of these enhancements to optimize their applications for better scalability and efficiency.",
+      "sourceUrl": "https://go.dev/blog/http-connection-reuse",
+      "sourceName": "Go.dev",
+      "timeAgo": "17h ago"
     },
     {
       "id": "3",
-      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "title": "OpenCode 2.0",
       "category": "Open Source",
-      "summary": "The new pg_vectorsearch index offers significant speed improvements over existing vector search methods in PostgreSQL. This advancement is crucial for developers working with large-scale data retrieval and machine learning applications.",
-      "sourceUrl": "https://github.com/timescale/pg_vectorsearch",
-      "sourceName": "GitHub",
-      "timeAgo": "9h ago"
+      "summary": "OpenCode 2.0 has been launched, aiming to enhance collaboration and transparency in open-source projects. This initiative is vital for developers looking to contribute to or leverage community-driven software solutions.",
+      "sourceUrl": "https://anoma.ly/notes/opencode-2-0/",
+      "sourceName": "Anoma",
+      "timeAgo": "13h ago"
     },
     {
       "id": "4",
-      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
-      "category": "Security",
-      "summary": "A recent analysis reveals that many AI agents are not malfunctioning but rather are a result of inadequate security measures in development. This highlights the need for stricter security protocols in AI development to prevent potential misuse.",
-      "sourceUrl": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "sourceName": "CSO Online",
-      "timeAgo": "3h ago"
+      "title": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+      "category": "Open Source",
+      "summary": "Flipflop introduces Iroh-powered persistent tunnels, enhancing file-sharing capabilities in decentralized networks. This tool is essential for developers interested in building resilient and efficient file-sharing applications.",
+      "sourceUrl": "https://github.com/andunieee/flipflop",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
-      "category": "Open Source",
-      "summary": "Petal, an open-source alternative to CoScreen and ScreenHero, has been released for free, allowing developers to collaborate more effectively in real-time. This tool enhances remote work capabilities and fosters better team collaboration.",
-      "sourceUrl": "https://petal.live/",
-      "sourceName": "Petal Live",
-      "timeAgo": "2h ago"
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "category": "AI & LLMs",
+      "summary": "Aidlc has been released as a framework for creating adaptive workflow rules for AI coding agents, allowing for more intelligent and context-aware coding assistance. This is particularly relevant for developers seeking to integrate AI into their development processes for enhanced productivity.",
+      "sourceUrl": "https://github.com/awslabs/aidlc-workflows",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     }
   ]
 }
