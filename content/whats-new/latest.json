@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-15T20:34:31.651Z",
+  "lastUpdated": "2026-10-16T10:11:50.003Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Muse Spark Open: A New Era in AI Creativity",
-      "category": "AI & LLMs",
-      "summary": "Meta has launched Muse Spark Open, a new AI tool designed to enhance creative processes by providing users with advanced generative capabilities. Developers and engineers should care because this tool could significantly streamline workflows in content creation and design.",
-      "sourceUrl": "https://research.meta.ai/blog/muse-spark-open",
-      "sourceName": "Meta AI",
-      "timeAgo": "2h ago"
+      "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+      "category": "Web Development",
+      "summary": "Meta has updated its commercial terms, enabling the scraping of news sites, which raises significant legal and ethical questions for developers and content creators. This change could impact how news content is aggregated and monetized online, affecting both publishers and tech platforms.",
+      "sourceUrl": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "sourceName": "Nieman Lab",
+      "timeAgo": "10h ago"
     },
     {
       "id": "2",
-      "title": "Krea 3: Scalable Image Editing Model Released",
-      "category": "AI & LLMs",
-      "summary": "Krea has unveiled Krea 3, an image model specifically built for editing at scale, which promises to enhance the efficiency of image manipulation tasks. This development is crucial for developers working in graphics and media, as it could revolutionize how images are processed and edited.",
-      "sourceUrl": "https://www.krea.ai/krea-3",
-      "sourceName": "Krea",
-      "timeAgo": "4h ago"
+      "title": "RPKI now protects 70% of internet routes",
+      "category": "Systems & Architecture",
+      "summary": "The Resource Public Key Infrastructure (RPKI) has reached a significant milestone, now securing 70% of internet routes against hijacking and misconfigurations. This advancement is crucial for network engineers as it enhances the overall security and reliability of internet routing.",
+      "sourceUrl": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "sourceName": "IPinfo",
+      "timeAgo": "9h ago"
     },
     {
       "id": "3",
-      "title": "Wayland Desktop for Linux Introduces Skeuomorphic Design",
-      "category": "Web Development",
-      "summary": "A new Wayland desktop environment for Linux has been released, featuring a skeuomorphic design that aims to enhance user experience by mimicking real-world objects. This is significant for web developers and designers as it opens up new avenues for interface design in Linux environments.",
-      "sourceUrl": "https://github.com/fyzugx/DEsk",
-      "sourceName": "GitHub",
-      "timeAgo": "7h ago"
+      "title": "Muse Spark Open",
+      "category": "AI & LLMs",
+      "summary": "Meta has launched Muse Spark Open, a new initiative aimed at democratizing access to AI tools for creative expression. This development is significant for developers interested in integrating AI into their applications, providing them with new resources and capabilities.",
+      "sourceUrl": "https://research.meta.ai/blog/muse-spark-open",
+      "sourceName": "Meta Research",
+      "timeAgo": "16h ago"
     },
     {
       "id": "4",
-      "title": "Libreboot 26.10 Released with UEFI and Chromebook Support",
+      "title": "Wayland desktop for Linux with skeuomorphic design",
       "category": "Open Source",
-      "summary": "Libreboot has released version 26.10, which includes support for UEFI and Chromebook devices, enhancing the compatibility and functionality of this open-source firmware. This update is essential for developers focused on system architecture and open-source solutions, as it expands the usability of Libreboot.",
-      "sourceUrl": "https://libreboot.org/news/libreboot2610.html",
-      "sourceName": "Libreboot",
-      "timeAgo": "7h ago"
+      "summary": "A new Wayland desktop environment has been introduced for Linux, featuring a skeuomorphic design that aims to enhance user experience. This project is noteworthy for open-source developers looking to create visually appealing and user-friendly desktop environments.",
+      "sourceUrl": "https://github.com/fyzugx/DEsk",
+      "sourceName": "GitHub",
+      "timeAgo": "20h ago"
     },
     {
       "id": "5",
-      "title": "Simons Foundation Launches $15M Initiative for AI in Mathematics",
-      "category": "AI & LLMs",
-      "summary": "The Simons Foundation has announced a $15 million initiative aimed at helping mathematicians navigate the challenges posed by AI technologies. This initiative is particularly relevant for engineers and developers in the AI space, as it highlights the intersection of mathematics and artificial intelligence.",
-      "sourceUrl": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "sourceName": "Simons Foundation",
-      "timeAgo": "5h ago"
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "category": "Open Source",
+      "summary": "A new open-source project allows users to access any window from their Mac on their iPhone and iPad, enhancing cross-device functionality. This tool is particularly relevant for developers seeking to improve mobile productivity and integration with macOS.",
+      "sourceUrl": "https://github.com/Saffsanity/sill",
+      "sourceName": "GitHub",
+      "timeAgo": "8h ago"
     }
   ]
 }
