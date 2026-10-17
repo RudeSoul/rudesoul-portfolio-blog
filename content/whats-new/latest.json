@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-16T20:08:32.741Z",
+  "lastUpdated": "2026-10-17T09:45:35.458Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Claude reveals ECDSA curve origins",
-      "category": "AI & LLMs",
-      "summary": "Anthropic's Claude has unveiled the origins of the ECDSA curve, providing insights that could enhance cryptographic practices in AI applications. This development is crucial for engineers working on secure AI systems, as it addresses foundational aspects of cryptography.",
-      "sourceUrl": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "sourceName": "Anthropic",
+      "title": "DeepSeek v4.1 Flash Released",
+      "category": "Open Source",
+      "summary": "DeepSeek has launched version 4.1, introducing significant enhancements to its AI capabilities. Developers should explore these updates for improved performance in their AI applications.",
+      "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "sourceName": "OpenRouter",
       "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "title": "Llmspeed: Benchmark Local LLM Performance",
       "category": "AI & LLMs",
-      "summary": "A recent report highlights that a staggering 90% of working hours in the US are spent on tasks inadequately represented by current AI benchmarks. This finding is significant for developers and engineers as it underscores the limitations of AI in real-world applications and the need for better benchmarking.",
-      "sourceUrl": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "sourceName": "Mercor",
-      "timeAgo": "2h ago"
+      "summary": "Llmspeed provides a platform for users to test the performance of local LLMs before purchasing hardware. This tool is essential for developers looking to optimize their AI infrastructure.",
+      "sourceUrl": "https://llmspeed.dev/",
+      "sourceName": "Llmspeed",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "title": "Llama.cpp Enables GGUF Models on PS5",
       "category": "Open Source",
-      "summary": "The release of Llama.cpp allows developers to run any GGUF model natively on a jailbroken PS5, opening up new possibilities for AI model deployment on gaming consoles. This development is particularly exciting for open-source enthusiasts and game developers looking to leverage AI in gaming.",
+      "summary": "The Llama.cpp project allows developers to run GGUF models natively on jailbroken PS5 consoles. This opens new avenues for gaming and AI integration on console platforms.",
       "sourceUrl": "https://github.com/cobanov/PS5LM",
       "sourceName": "GitHub",
-      "timeAgo": "1h ago"
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "JPEG XL vs. AVIF for web use-cases",
-      "category": "Web Development",
-      "summary": "A comparative analysis of JPEG XL and AVIF formats reveals critical insights for web developers regarding image optimization and performance. Understanding the strengths and weaknesses of these formats can help engineers make informed decisions about image handling in web applications.",
-      "sourceUrl": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
-      "sourceName": "Jake Archibald",
-      "timeAgo": "3h ago"
+      "title": "Apple MLX: Muse Spark Open for Distributed Inference",
+      "category": "AI & LLMs",
+      "summary": "Apple has introduced Muse Spark Open with MLX, enabling distributed inference on Mac Studio. This advancement is crucial for developers working on scalable machine learning applications.",
+      "sourceUrl": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "sourceName": "Apple ML Research",
+      "timeAgo": "20h ago"
     },
     {
       "id": "5",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "category": "AI & LLMs",
-      "summary": "Claude's new research focuses on designing more efficient quantum circuits, which could significantly impact the future of quantum computing. Engineers and developers in the quantum space should pay attention to these advancements as they could lead to more powerful and efficient quantum applications.",
-      "sourceUrl": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "sourceName": "Anthropic",
-      "timeAgo": "2h ago"
+      "title": "JPEG XL vs. AVIF: A Comparative Analysis",
+      "category": "Web Development",
+      "summary": "A new analysis compares JPEG XL and AVIF for web use-cases, highlighting their strengths and weaknesses. Developers should consider these findings when choosing image formats for web projects.",
+      "sourceUrl": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "sourceName": "Jake Archibald",
+      "timeAgo": "17h ago"
     }
   ]
 }
