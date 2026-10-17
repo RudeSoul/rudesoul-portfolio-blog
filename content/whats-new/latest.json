@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-17T09:45:35.458Z",
+  "lastUpdated": "2026-10-17T19:44:51.187Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepSeek v4.1 Flash Released",
-      "category": "Open Source",
-      "summary": "DeepSeek has launched version 4.1, introducing significant enhancements to its AI capabilities. Developers should explore these updates for improved performance in their AI applications.",
-      "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "sourceName": "OpenRouter",
-      "timeAgo": "1h ago"
+      "title": "DeepSeek-v4.1-Flash-1017 Released",
+      "category": "AI & LLMs",
+      "summary": "The latest version of DeepSeek, an advanced AI model for deep learning applications, has been released, featuring improved performance and new capabilities. Developers and engineers should explore its enhancements for optimizing their AI projects.",
+      "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "sourceName": "Hugging Face",
+      "timeAgo": "11h ago"
     },
     {
       "id": "2",
-      "title": "Llmspeed: Benchmark Local LLM Performance",
-      "category": "AI & LLMs",
-      "summary": "Llmspeed provides a platform for users to test the performance of local LLMs before purchasing hardware. This tool is essential for developers looking to optimize their AI infrastructure.",
-      "sourceUrl": "https://llmspeed.dev/",
-      "sourceName": "Llmspeed",
-      "timeAgo": "5h ago"
+      "title": "Source Code of the Estonian Online Voting System Made Public",
+      "category": "Open Source",
+      "summary": "The source code for Estonia's online voting system has been released on GitHub, promoting transparency and security in digital voting. This development allows developers to review, contribute, and enhance the system's integrity.",
+      "sourceUrl": "https://github.com/valimised/ivxv",
+      "sourceName": "GitHub",
+      "timeAgo": "16h ago"
     },
     {
       "id": "3",
-      "title": "Llama.cpp Enables GGUF Models on PS5",
+      "title": "Development Statistics for the 7.2 Kernel Published",
       "category": "Open Source",
-      "summary": "The Llama.cpp project allows developers to run GGUF models natively on jailbroken PS5 consoles. This opens new avenues for gaming and AI integration on console platforms.",
-      "sourceUrl": "https://github.com/cobanov/PS5LM",
-      "sourceName": "GitHub",
-      "timeAgo": "15h ago"
+      "summary": "The latest statistics on the development of the Linux kernel 7.2 have been published, highlighting key contributions and trends in the open-source community. This information is vital for developers tracking kernel improvements and community engagement.",
+      "sourceUrl": "https://lwn.net/Articles/1088776/",
+      "sourceName": "LWN",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Apple MLX: Muse Spark Open for Distributed Inference",
-      "category": "AI & LLMs",
-      "summary": "Apple has introduced Muse Spark Open with MLX, enabling distributed inference on Mac Studio. This advancement is crucial for developers working on scalable machine learning applications.",
-      "sourceUrl": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-      "sourceName": "Apple ML Research",
-      "timeAgo": "20h ago"
+      "title": "TypeScript Written in TypeScript: tsc-ts Project Launched",
+      "category": "Web Development",
+      "summary": "The tsc-ts project, which implements TypeScript in TypeScript, has been launched, showcasing a novel approach to language implementation. This could inspire developers to explore new paradigms in language design and tooling.",
+      "sourceUrl": "https://github.com/vercel-labs/tsc-ts",
+      "sourceName": "GitHub",
+      "timeAgo": "2h ago"
     },
     {
       "id": "5",
-      "title": "JPEG XL vs. AVIF: A Comparative Analysis",
-      "category": "Web Development",
-      "summary": "A new analysis compares JPEG XL and AVIF for web use-cases, highlighting their strengths and weaknesses. Developers should consider these findings when choosing image formats for web projects.",
-      "sourceUrl": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
-      "sourceName": "Jake Archibald",
-      "timeAgo": "17h ago"
+      "title": "OpenCode Hacked: User Credentials Leaked",
+      "category": "Security",
+      "summary": "A significant security breach at OpenCode has resulted in the leak of user credentials, raising concerns about data protection in open-source platforms. Developers and users should review their security practices in light of this incident.",
+      "sourceUrl": "https://twitter.com/opencode/status/2111516673953935833",
+      "sourceName": "Twitter",
+      "timeAgo": "1h ago"
     }
   ]
 }
