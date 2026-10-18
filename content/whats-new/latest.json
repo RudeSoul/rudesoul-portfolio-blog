@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-18T09:58:30.679Z",
+  "lastUpdated": "2026-10-18T19:43:26.135Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "category": "AI & LLMs",
-      "summary": "DeepSeek has introduced a new search and fetch API that charges $0.75 for every 1000 successful requests. This cost-effective solution allows developers to integrate advanced search capabilities into their applications without incurring high expenses.",
-      "sourceUrl": "https://api-docs.deepseek.com/guides/search/",
-      "sourceName": "DeepSeek",
-      "timeAgo": "3h ago"
-    },
-    {
-      "id": "2",
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "category": "AI & LLMs",
-      "summary": "Sphinx is a new tool designed to quiz developers on their AI code before deployment, ensuring better understanding and fewer errors. This innovative approach could significantly improve code quality and reduce the risk of deploying faulty AI systems.",
-      "sourceUrl": "https://sphinx-six-theta.vercel.app/",
-      "sourceName": "Sphinx",
+      "title": "RepRapMicron: A New Open Source 3D Printer Project",
+      "category": "Open Source",
+      "summary": "The RepRapMicron project has been launched on GitHub, focusing on creating a compact and efficient 3D printer. This development is significant for engineers and hobbyists interested in open-source hardware and 3D printing technology.",
+      "sourceUrl": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "sourceName": "GitHub",
       "timeAgo": "5h ago"
     },
     {
+      "id": "2",
+      "title": "Free Pascal Compiler Now Supports Dynamic Packages",
+      "category": "Open Source",
+      "summary": "The Free Pascal Compiler has introduced support for dynamic packages, enhancing its modular programming capabilities. This update allows developers to create more flexible applications and improve code organization.",
+      "sourceUrl": "https://www.getlazarus.org/dynamic/",
+      "sourceName": "Get Lazarus",
+      "timeAgo": "55m ago"
+    },
+    {
       "id": "3",
-      "title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "title": "Java Sealed Classes and Exhaustive Pattern Matching Explained",
       "category": "Web Development",
-      "summary": "New York has proposed a game ownership bill that mandates consumers own their games outright instead of merely licensing them. This legislation could reshape the gaming landscape, impacting developers and consumers alike by ensuring long-term access to purchased games.",
-      "sourceUrl": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
-      "sourceName": "Tom's Hardware",
-      "timeAgo": "9h ago"
+      "summary": "A new blog post dives into Java's sealed classes and their integration with exhaustive pattern matching, providing developers with insights on how to leverage these features for better code safety and clarity. This is crucial for Java developers looking to adopt modern programming paradigms.",
+      "sourceUrl": "https://neilmadden.blog/2026/04/24/java-sealed-classes-and-exhaustive-pattern-matching/",
+      "sourceName": "Neil Madden Blog",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Lean now ships with verified kernels",
+      "title": "Mitos Editor: A New Fork of Helix",
       "category": "Open Source",
-      "summary": "The Lean theorem prover has announced the inclusion of verified kernels, enhancing its reliability and trustworthiness for developers. This update is crucial for those in formal verification and mathematical proof development, as it ensures higher confidence in the tools they use.",
-      "sourceUrl": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
-      "sourceName": "Lean",
-      "timeAgo": "2d ago"
+      "summary": "The Mitos editor has emerged as a new fork of the Helix text editor, offering unique features aimed at enhancing user experience. This development is important for developers looking for customizable and powerful text editing tools.",
+      "sourceUrl": "https://mitos.computer/",
+      "sourceName": "Mitos Computer",
+      "timeAgo": "2h ago"
     },
     {
       "id": "5",
-      "title": "Interactive Linear Programming in the Browser",
-      "category": "Web Development",
-      "summary": "A new web application allows users to perform interactive linear programming directly in their browsers, making complex optimization tasks more accessible. This tool can significantly benefit engineers and data scientists by simplifying the modeling and solving of linear programming problems.",
-      "sourceUrl": "https://lpviz.net/",
-      "sourceName": "LPViz",
-      "timeAgo": "21h ago"
+      "title": "Legal Experts Warn About Meta's Scraping Permissions",
+      "category": "Security",
+      "summary": "Legal experts have raised concerns regarding Meta's new terms, which still allow broad scraping permissions despite recent language changes. This is a critical issue for developers and companies concerned about data privacy and compliance.",
+      "sourceUrl": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+      "sourceName": "Nieman Lab",
+      "timeAgo": "9h ago"
     }
   ]
 }
