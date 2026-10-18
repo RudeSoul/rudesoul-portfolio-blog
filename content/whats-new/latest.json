@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-17T19:44:51.187Z",
+  "lastUpdated": "2026-10-18T09:58:30.679Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepSeek-v4.1-Flash-1017 Released",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
       "category": "AI & LLMs",
-      "summary": "The latest version of DeepSeek, an advanced AI model for deep learning applications, has been released, featuring improved performance and new capabilities. Developers and engineers should explore its enhancements for optimizing their AI projects.",
-      "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "sourceName": "Hugging Face",
-      "timeAgo": "11h ago"
+      "summary": "DeepSeek has introduced a new search and fetch API that charges $0.75 for every 1000 successful requests. This cost-effective solution allows developers to integrate advanced search capabilities into their applications without incurring high expenses.",
+      "sourceUrl": "https://api-docs.deepseek.com/guides/search/",
+      "sourceName": "DeepSeek",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "Source Code of the Estonian Online Voting System Made Public",
-      "category": "Open Source",
-      "summary": "The source code for Estonia's online voting system has been released on GitHub, promoting transparency and security in digital voting. This development allows developers to review, contribute, and enhance the system's integrity.",
-      "sourceUrl": "https://github.com/valimised/ivxv",
-      "sourceName": "GitHub",
-      "timeAgo": "16h ago"
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "category": "AI & LLMs",
+      "summary": "Sphinx is a new tool designed to quiz developers on their AI code before deployment, ensuring better understanding and fewer errors. This innovative approach could significantly improve code quality and reduce the risk of deploying faulty AI systems.",
+      "sourceUrl": "https://sphinx-six-theta.vercel.app/",
+      "sourceName": "Sphinx",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Development Statistics for the 7.2 Kernel Published",
-      "category": "Open Source",
-      "summary": "The latest statistics on the development of the Linux kernel 7.2 have been published, highlighting key contributions and trends in the open-source community. This information is vital for developers tracking kernel improvements and community engagement.",
-      "sourceUrl": "https://lwn.net/Articles/1088776/",
-      "sourceName": "LWN",
-      "timeAgo": "2h ago"
+      "title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "category": "Web Development",
+      "summary": "New York has proposed a game ownership bill that mandates consumers own their games outright instead of merely licensing them. This legislation could reshape the gaming landscape, impacting developers and consumers alike by ensuring long-term access to purchased games.",
+      "sourceUrl": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "sourceName": "Tom's Hardware",
+      "timeAgo": "9h ago"
     },
     {
       "id": "4",
-      "title": "TypeScript Written in TypeScript: tsc-ts Project Launched",
-      "category": "Web Development",
-      "summary": "The tsc-ts project, which implements TypeScript in TypeScript, has been launched, showcasing a novel approach to language implementation. This could inspire developers to explore new paradigms in language design and tooling.",
-      "sourceUrl": "https://github.com/vercel-labs/tsc-ts",
-      "sourceName": "GitHub",
-      "timeAgo": "2h ago"
+      "title": "Lean now ships with verified kernels",
+      "category": "Open Source",
+      "summary": "The Lean theorem prover has announced the inclusion of verified kernels, enhancing its reliability and trustworthiness for developers. This update is crucial for those in formal verification and mathematical proof development, as it ensures higher confidence in the tools they use.",
+      "sourceUrl": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+      "sourceName": "Lean",
+      "timeAgo": "2d ago"
     },
     {
       "id": "5",
-      "title": "OpenCode Hacked: User Credentials Leaked",
-      "category": "Security",
-      "summary": "A significant security breach at OpenCode has resulted in the leak of user credentials, raising concerns about data protection in open-source platforms. Developers and users should review their security practices in light of this incident.",
-      "sourceUrl": "https://twitter.com/opencode/status/2111516673953935833",
-      "sourceName": "Twitter",
-      "timeAgo": "1h ago"
+      "title": "Interactive Linear Programming in the Browser",
+      "category": "Web Development",
+      "summary": "A new web application allows users to perform interactive linear programming directly in their browsers, making complex optimization tasks more accessible. This tool can significantly benefit engineers and data scientists by simplifying the modeling and solving of linear programming problems.",
+      "sourceUrl": "https://lpviz.net/",
+      "sourceName": "LPViz",
+      "timeAgo": "21h ago"
     }
   ]
 }
