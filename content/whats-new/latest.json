@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-19T11:19:44.395Z",
+  "lastUpdated": "2026-10-19T21:46:00.234Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Linux 7.3 Released",
-      "category": "Open Source",
-      "summary": "The latest version of the Linux kernel, 7.3, has been released, introducing numerous performance improvements and new features. Developers should explore these updates to enhance their systems and applications leveraging Linux.",
-      "sourceUrl": "https://lwn.net/Articles/1101143/",
-      "sourceName": "lwn.net",
-      "timeAgo": "3h ago"
+      "title": "Timestral: Mistral's time-series foundation models",
+      "category": "AI & LLMs",
+      "summary": "Mistral has introduced Timestral, a new suite of time-series foundation models designed to enhance predictive analytics across various domains. This development is significant for developers looking to leverage advanced AI capabilities in time-sensitive applications.",
+      "sourceUrl": "https://mistral.ai/news/timestral/",
+      "sourceName": "Mistral",
+      "timeAgo": "11h ago"
     },
     {
       "id": "2",
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "category": "AI & LLMs",
-      "summary": "A new paper presents Hybrid Reasoning Agents that utilize latent space for reasoning while interacting through text, enhancing the capabilities of LLMs. This development could significantly improve AI's decision-making processes in complex scenarios.",
-      "sourceUrl": "https://arxiv.org/abs/2610.18861",
-      "sourceName": "arxiv.org",
-      "timeAgo": "14h ago"
+      "title": "Wine ported to OpenBSD",
+      "category": "Open Source",
+      "summary": "The Wine project has successfully ported its software to OpenBSD, allowing users to run Windows applications on this Unix-like operating system. This is a notable advancement for OpenBSD users and enhances the versatility of the Wine platform.",
+      "sourceUrl": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "sourceName": "Marc.info",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "title": "Android apps running native on macOS",
       "category": "Web Development",
-      "summary": "A new guide explores the integration of Tmux with Claude Code, focusing on session management and automation through send-keys. This resource is essential for developers looking to enhance their productivity in terminal-based environments.",
-      "sourceUrl": "https://crystl.dev/guides/tmux-for-ai-agents/",
-      "sourceName": "crystl.dev",
+      "summary": "A new project enables Android applications to run natively on macOS, bridging the gap between these two operating systems. This development is crucial for developers looking to expand their app's reach and usability across platforms.",
+      "sourceUrl": "https://github.com/kksimp/Mac.apk",
+      "sourceName": "GitHub",
       "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "If you don't run your own LLM proxy, how do you know what's going on?",
-      "category": "AI & LLMs",
-      "summary": "This article discusses the importance of running your own LLM proxy to gain insights into the workings of AI models. Developers and engineers should consider this approach to better understand and control their AI implementations.",
-      "sourceUrl": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-      "sourceName": "jrdsgl.com",
-      "timeAgo": "14h ago"
+      "title": "MiniMax M3.1 Flash",
+      "category": "Systems & Architecture",
+      "summary": "MiniMax has released version M3.1 Flash, featuring significant improvements in performance and efficiency for their systems architecture. This update is essential for engineers focused on optimizing system capabilities and resource management.",
+      "sourceUrl": "https://www.minimax.io/blog/minimax-m31f",
+      "sourceName": "MiniMax",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Free Pascal compiler now supports dynamic packages",
-      "category": "Open Source",
-      "summary": "The Free Pascal compiler has introduced support for dynamic packages, enhancing its capabilities for developers. This update allows for more modular and flexible application development, which is crucial for modern software engineering.",
-      "sourceUrl": "https://www.getlazarus.org/dynamic/",
-      "sourceName": "getlazarus.org",
-      "timeAgo": "16h ago"
+      "title": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "category": "Security",
+      "summary": "A new method has been developed for detecting tampering of model weights in GPU memory, addressing security vulnerabilities in AI systems. This advancement is critical for developers working on secure AI applications, ensuring the integrity of their models.",
+      "sourceUrl": "https://stealthium.io/blog/hands-off-detecting-model-weight-tampering",
+      "sourceName": "Stealthium",
+      "timeAgo": "7h ago"
     }
   ]
 }
