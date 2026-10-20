@@ -1,51 +1,51 @@
 {
-  "lastUpdated": "2026-10-20T10:28:50.411Z",
+  "lastUpdated": "2026-10-20T20:56:23.047Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepSeek just open-sourced its inference engine",
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
       "category": "Open Source",
-      "summary": "DeepSeek has released its inference engine as open-source, allowing developers to leverage its capabilities for AI applications. This move enhances transparency and fosters community collaboration in AI development.",
-      "sourceUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "summary": "Google has released TorchTPU, a new backend for PyTorch that enables efficient training and inference on Tensor Processing Units (TPUs). This development is significant for developers looking to leverage TPUs for deep learning tasks, enhancing performance and accessibility.",
+      "sourceUrl": "https://github.com/google-pytorch/torch_tpu",
       "sourceName": "GitHub",
-      "timeAgo": "1h ago"
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "OpenBSD 8.0 Released with New Features",
-      "category": "Systems & Architecture",
-      "summary": "The latest release of OpenBSD 8.0 introduces significant updates, including improved security features and enhanced hardware support. Developers and system administrators should consider upgrading to benefit from these advancements.",
-      "sourceUrl": "https://www.openbsd.org/80.html",
-      "sourceName": "OpenBSD",
-      "timeAgo": "8h ago"
-    },
-    {
-      "id": "3",
-      "title": "WhatsApp's Help Pages Hid LLM Instructions",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
       "category": "AI & LLMs",
-      "summary": "A recent investigation revealed that WhatsApp's help pages contained hidden instructions related to large language models (LLMs), advising against recommending regulators. This raises concerns about transparency and ethical AI usage in popular applications.",
-      "sourceUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "sourceName": "Redact",
+      "summary": "The DeepInfer framework has been introduced to optimize the inference process for DeepSeek models, allowing for faster and more efficient model deployment. This is crucial for developers working with AI models who need to enhance performance in production environments.",
+      "sourceUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "sourceName": "GitHub",
       "timeAgo": "11h ago"
     },
     {
+      "id": "3",
+      "title": "Voxtral 3",
+      "category": "AI & LLMs",
+      "summary": "Mistral has launched Voxtral 3, a new version of their AI model that promises improved capabilities in natural language processing. This update is essential for developers looking to integrate advanced AI functionalities into their applications.",
+      "sourceUrl": "https://mistral.ai/news/voxtral-3/",
+      "sourceName": "Mistral",
+      "timeAgo": "4h ago"
+    },
+    {
       "id": "4",
-      "title": "MicroG: Free-libre Re-implementation of Google's Proprietary Android User Space",
-      "category": "Open Source",
-      "summary": "MicroG has made strides in providing a free-libre alternative to Google's proprietary Android user space, promoting open-source principles in mobile development. This project allows developers to create applications without relying on Google's services.",
-      "sourceUrl": "https://github.com/microg/GmsCore/wiki",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "category": "Systems & Architecture",
+      "summary": "A significant outage in Google Cloud has disrupted banking operations across Europe, affecting major institutions like HSBC and Revolut. This incident highlights the critical importance of cloud reliability and the potential impact on businesses relying on these services.",
+      "sourceUrl": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
+      "sourceName": "Neowin",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Go Will Reject Certificate Chains Containing Eight Distrusted SPKIs",
-      "category": "Security",
-      "summary": "The Go programming language has announced that it will reject certificate chains containing eight distrusted Subject Public Key Info (SPKI) entries. This change is crucial for enhancing security in Go applications and protecting against potential vulnerabilities.",
-      "sourceUrl": "https://github.com/golang/go/issues/82345",
-      "sourceName": "GitHub",
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "category": "Web Development",
+      "summary": "The Tsrs project has successfully ported TypeScript to Rust, enabling developers to leverage TypeScript's features within the Rust ecosystem. This development is significant for those looking to combine the strengths of both languages in web applications.",
+      "sourceUrl": "https://blog.cloudflare.com/typescript-rust-port/",
+      "sourceName": "Cloudflare",
       "timeAgo": "7h ago"
     }
   ]
