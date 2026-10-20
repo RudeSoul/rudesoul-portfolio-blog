@@ -1,51 +1,51 @@
 {
-  "lastUpdated": "2026-10-19T21:46:00.234Z",
+  "lastUpdated": "2026-10-20T10:28:50.411Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Timestral: Mistral's time-series foundation models",
-      "category": "AI & LLMs",
-      "summary": "Mistral has introduced Timestral, a new suite of time-series foundation models designed to enhance predictive analytics across various domains. This development is significant for developers looking to leverage advanced AI capabilities in time-sensitive applications.",
-      "sourceUrl": "https://mistral.ai/news/timestral/",
-      "sourceName": "Mistral",
-      "timeAgo": "11h ago"
+      "title": "DeepSeek just open-sourced its inference engine",
+      "category": "Open Source",
+      "summary": "DeepSeek has released its inference engine as open-source, allowing developers to leverage its capabilities for AI applications. This move enhances transparency and fosters community collaboration in AI development.",
+      "sourceUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "sourceName": "GitHub",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Wine ported to OpenBSD",
-      "category": "Open Source",
-      "summary": "The Wine project has successfully ported its software to OpenBSD, allowing users to run Windows applications on this Unix-like operating system. This is a notable advancement for OpenBSD users and enhances the versatility of the Wine platform.",
-      "sourceUrl": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-      "sourceName": "Marc.info",
+      "title": "OpenBSD 8.0 Released with New Features",
+      "category": "Systems & Architecture",
+      "summary": "The latest release of OpenBSD 8.0 introduces significant updates, including improved security features and enhanced hardware support. Developers and system administrators should consider upgrading to benefit from these advancements.",
+      "sourceUrl": "https://www.openbsd.org/80.html",
+      "sourceName": "OpenBSD",
       "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "Android apps running native on macOS",
-      "category": "Web Development",
-      "summary": "A new project enables Android applications to run natively on macOS, bridging the gap between these two operating systems. This development is crucial for developers looking to expand their app's reach and usability across platforms.",
-      "sourceUrl": "https://github.com/kksimp/Mac.apk",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "WhatsApp's Help Pages Hid LLM Instructions",
+      "category": "AI & LLMs",
+      "summary": "A recent investigation revealed that WhatsApp's help pages contained hidden instructions related to large language models (LLMs), advising against recommending regulators. This raises concerns about transparency and ethical AI usage in popular applications.",
+      "sourceUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "sourceName": "Redact",
+      "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "MiniMax M3.1 Flash",
-      "category": "Systems & Architecture",
-      "summary": "MiniMax has released version M3.1 Flash, featuring significant improvements in performance and efficiency for their systems architecture. This update is essential for engineers focused on optimizing system capabilities and resource management.",
-      "sourceUrl": "https://www.minimax.io/blog/minimax-m31f",
-      "sourceName": "MiniMax",
-      "timeAgo": "5h ago"
+      "title": "MicroG: Free-libre Re-implementation of Google's Proprietary Android User Space",
+      "category": "Open Source",
+      "summary": "MicroG has made strides in providing a free-libre alternative to Google's proprietary Android user space, promoting open-source principles in mobile development. This project allows developers to create applications without relying on Google's services.",
+      "sourceUrl": "https://github.com/microg/GmsCore/wiki",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "title": "Go Will Reject Certificate Chains Containing Eight Distrusted SPKIs",
       "category": "Security",
-      "summary": "A new method has been developed for detecting tampering of model weights in GPU memory, addressing security vulnerabilities in AI systems. This advancement is critical for developers working on secure AI applications, ensuring the integrity of their models.",
-      "sourceUrl": "https://stealthium.io/blog/hands-off-detecting-model-weight-tampering",
-      "sourceName": "Stealthium",
+      "summary": "The Go programming language has announced that it will reject certificate chains containing eight distrusted Subject Public Key Info (SPKI) entries. This change is crucial for enhancing security in Go applications and protecting against potential vulnerabilities.",
+      "sourceUrl": "https://github.com/golang/go/issues/82345",
+      "sourceName": "GitHub",
       "timeAgo": "7h ago"
     }
   ]
