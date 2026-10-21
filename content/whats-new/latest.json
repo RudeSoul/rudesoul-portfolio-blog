@@ -1,51 +1,51 @@
 {
-  "lastUpdated": "2026-10-20T20:56:23.047Z",
+  "lastUpdated": "2026-10-21T10:39:48.467Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "category": "Open Source",
-      "summary": "Google has released TorchTPU, a new backend for PyTorch that enables efficient training and inference on Tensor Processing Units (TPUs). This development is significant for developers looking to leverage TPUs for deep learning tasks, enhancing performance and accessibility.",
-      "sourceUrl": "https://github.com/google-pytorch/torch_tpu",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "eMudhra's CA keys cracked in milliseconds",
+      "category": "Security",
+      "summary": "A critical vulnerability was discovered in eMudhra's Certificate Authority (CA) that allowed attackers to crack CA keys in mere milliseconds. This incident raises significant concerns about the security of digital certificates and the trustworthiness of CAs, which developers and engineers must address in their systems.",
+      "sourceUrl": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "sourceName": "scotthelme.co.uk",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "category": "AI & LLMs",
-      "summary": "The DeepInfer framework has been introduced to optimize the inference process for DeepSeek models, allowing for faster and more efficient model deployment. This is crucial for developers working with AI models who need to enhance performance in production environments.",
-      "sourceUrl": "https://github.com/deepseek-ai/DeepInfer",
-      "sourceName": "GitHub",
-      "timeAgo": "11h ago"
+      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "category": "Security",
+      "summary": "A critical security vulnerability has been identified in PHP, leading to an upcoming release to address CVE-2026-109618 and CVE-2026-109619. Developers using PHP should prepare for this update to protect their applications from potential exploits.",
+      "sourceUrl": "https://news-web.php.net/php.announce/509",
+      "sourceName": "news-web.php.net",
+      "timeAgo": "14h ago"
     },
     {
       "id": "3",
-      "title": "Voxtral 3",
-      "category": "AI & LLMs",
-      "summary": "Mistral has launched Voxtral 3, a new version of their AI model that promises improved capabilities in natural language processing. This update is essential for developers looking to integrate advanced AI functionalities into their applications.",
-      "sourceUrl": "https://mistral.ai/news/voxtral-3/",
-      "sourceName": "Mistral",
-      "timeAgo": "4h ago"
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "category": "Open Source",
+      "summary": "Google has announced the open-source release of TorchTPU, a new backend for PyTorch that optimizes performance on Tensor Processing Units (TPUs). This development is significant for developers working with machine learning, as it enhances the capabilities of PyTorch on TPUs, making it easier to build and deploy models.",
+      "sourceUrl": "https://github.com/google-pytorch/torch_tpu",
+      "sourceName": "GitHub",
+      "timeAgo": "17h ago"
     },
     {
       "id": "4",
-      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
-      "category": "Systems & Architecture",
-      "summary": "A significant outage in Google Cloud has disrupted banking operations across Europe, affecting major institutions like HSBC and Revolut. This incident highlights the critical importance of cloud reliability and the potential impact on businesses relying on these services.",
-      "sourceUrl": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/",
-      "sourceName": "Neowin",
-      "timeAgo": "10h ago"
+      "title": "The Future of CSS",
+      "category": "Web Development",
+      "summary": "A new article explores the future of CSS and its evolving role in web development, highlighting upcoming features and best practices. Developers should pay attention to these insights to stay ahead in creating modern, responsive web designs.",
+      "sourceUrl": "https://www.joshwcomeau.com/css/interop-2027/",
+      "sourceName": "joshwcomeau.com",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "Tsrs: A Port of TypeScript to Rust",
+      "title": "C# now beats Rust on WASM size",
       "category": "Web Development",
-      "summary": "The Tsrs project has successfully ported TypeScript to Rust, enabling developers to leverage TypeScript's features within the Rust ecosystem. This development is significant for those looking to combine the strengths of both languages in web applications.",
-      "sourceUrl": "https://blog.cloudflare.com/typescript-rust-port/",
-      "sourceName": "Cloudflare",
+      "summary": "A recent benchmark shows that C# now produces smaller WebAssembly (WASM) binaries compared to Rust, which could influence developers' choices for web applications. This shift may lead to increased adoption of C# in scenarios where WASM size is critical for performance.",
+      "sourceUrl": "https://github.com/zion-sati/NetWasm",
+      "sourceName": "GitHub",
       "timeAgo": "7h ago"
     }
   ]
