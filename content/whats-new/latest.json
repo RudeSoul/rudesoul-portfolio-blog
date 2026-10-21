@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-21T10:39:48.467Z",
+  "lastUpdated": "2026-10-21T20:56:37.920Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "eMudhra's CA keys cracked in milliseconds",
-      "category": "Security",
-      "summary": "A critical vulnerability was discovered in eMudhra's Certificate Authority (CA) that allowed attackers to crack CA keys in mere milliseconds. This incident raises significant concerns about the security of digital certificates and the trustworthiness of CAs, which developers and engineers must address in their systems.",
-      "sourceUrl": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "sourceName": "scotthelme.co.uk",
+      "title": "Mistral Large 4 Released with Enhanced Capabilities",
+      "category": "AI & LLMs",
+      "summary": "Mistral has launched its latest model, Mistral Large 4, which boasts improved performance and efficiency for large language tasks. Developers and engineers should explore its capabilities for advanced AI applications and integrations.",
+      "sourceUrl": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "sourceName": "Mistral",
       "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+      "title": "PHP Security Release Strengthens Framework Against Vulnerabilities",
       "category": "Security",
-      "summary": "A critical security vulnerability has been identified in PHP, leading to an upcoming release to address CVE-2026-109618 and CVE-2026-109619. Developers using PHP should prepare for this update to protect their applications from potential exploits.",
-      "sourceUrl": "https://news-web.php.net/php.announce/509",
-      "sourceName": "news-web.php.net",
-      "timeAgo": "14h ago"
+      "summary": "The PHP Foundation has announced a critical security release aimed at addressing vulnerabilities within the PHP framework. Developers should update their systems to ensure robust security and compliance.",
+      "sourceUrl": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "sourceName": "PHP Foundation",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
-      "category": "Open Source",
-      "summary": "Google has announced the open-source release of TorchTPU, a new backend for PyTorch that optimizes performance on Tensor Processing Units (TPUs). This development is significant for developers working with machine learning, as it enhances the capabilities of PyTorch on TPUs, making it easier to build and deploy models.",
-      "sourceUrl": "https://github.com/google-pytorch/torch_tpu",
-      "sourceName": "GitHub",
-      "timeAgo": "17h ago"
+      "title": "GitLab Addresses Critical CVSS 10.0 Integer Overflow Vulnerability",
+      "category": "Security",
+      "summary": "GitLab has released a patch for a critical integer overflow vulnerability rated CVSS 10.0, which could allow attackers to exploit the system. Developers using GitLab must prioritize this update to protect their applications.",
+      "sourceUrl": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "sourceName": "GitLab",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "The Future of CSS",
-      "category": "Web Development",
-      "summary": "A new article explores the future of CSS and its evolving role in web development, highlighting upcoming features and best practices. Developers should pay attention to these insights to stay ahead in creating modern, responsive web designs.",
-      "sourceUrl": "https://www.joshwcomeau.com/css/interop-2027/",
-      "sourceName": "joshwcomeau.com",
-      "timeAgo": "8h ago"
+      "title": "DuckDB 2.0.0 LTS 'Cinnamon Teal' Released with New Features",
+      "category": "Open Source",
+      "summary": "DuckDB has announced the release of version 2.0.0 LTS, codenamed 'Cinnamon Teal', which includes significant performance improvements and new features for data analysis. This update is crucial for developers working with embedded analytics.",
+      "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+      "sourceName": "DuckDB",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "C# now beats Rust on WASM size",
-      "category": "Web Development",
-      "summary": "A recent benchmark shows that C# now produces smaller WebAssembly (WASM) binaries compared to Rust, which could influence developers' choices for web applications. This shift may lead to increased adoption of C# in scenarios where WASM size is critical for performance.",
-      "sourceUrl": "https://github.com/zion-sati/NetWasm",
-      "sourceName": "GitHub",
-      "timeAgo": "7h ago"
+      "title": "OpenAI Models Now Available on Google Cloud",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has announced the integration of its models into Google Cloud, enabling developers to leverage advanced AI capabilities directly within the cloud environment. This partnership enhances accessibility and scalability for AI-driven applications.",
+      "sourceUrl": "https://openai.com/index/openai-models-google-cloud/",
+      "sourceName": "OpenAI",
+      "timeAgo": "8h ago"
     }
   ]
 }
