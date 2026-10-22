@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-21T20:56:37.920Z",
+  "lastUpdated": "2026-10-22T10:42:42.407Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Mistral Large 4 Released with Enhanced Capabilities",
-      "category": "AI & LLMs",
-      "summary": "Mistral has launched its latest model, Mistral Large 4, which boasts improved performance and efficiency for large language tasks. Developers and engineers should explore its capabilities for advanced AI applications and integrations.",
-      "sourceUrl": "https://docs.mistral.ai/models/mistral-large-4-0",
-      "sourceName": "Mistral",
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "category": "Security",
+      "summary": "A critical vulnerability has been identified in an intermediate certificate authority, potentially allowing attackers to impersonate trusted entities. Developers and engineers should assess their systems for exposure and apply necessary mitigations to safeguard against potential exploitation.",
+      "sourceUrl": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "sourceName": "NVD",
       "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "PHP Security Release Strengthens Framework Against Vulnerabilities",
-      "category": "Security",
-      "summary": "The PHP Foundation has announced a critical security release aimed at addressing vulnerabilities within the PHP framework. Developers should update their systems to ensure robust security and compliance.",
-      "sourceUrl": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "sourceName": "PHP Foundation",
-      "timeAgo": "5h ago"
-    },
-    {
-      "id": "3",
-      "title": "GitLab Addresses Critical CVSS 10.0 Integer Overflow Vulnerability",
-      "category": "Security",
-      "summary": "GitLab has released a patch for a critical integer overflow vulnerability rated CVSS 10.0, which could allow attackers to exploit the system. Developers using GitLab must prioritize this update to protect their applications.",
-      "sourceUrl": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
-      "sourceName": "GitLab",
+      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
+      "category": "Web Development",
+      "summary": "A new algorithm has been developed that can triangulate 3.7 million map polygons in just 489 milliseconds, outperforming existing solutions. This advancement could significantly enhance the performance of web applications that rely on complex geographical data.",
+      "sourceUrl": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
+      "sourceName": "Globus Software",
       "timeAgo": "1h ago"
     },
     {
+      "id": "3",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "category": "AI & LLMs",
+      "summary": "A new AI model, WorldTUI, has been trained to simulate terminal interactions, showcasing the potential for AI to enhance user interfaces in command-line environments. This development could inspire new tools and applications that leverage AI for improved user experience in technical workflows.",
+      "sourceUrl": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "sourceName": "Simedw",
+      "timeAgo": "8h ago"
+    },
+    {
       "id": "4",
-      "title": "DuckDB 2.0.0 LTS 'Cinnamon Teal' Released with New Features",
-      "category": "Open Source",
-      "summary": "DuckDB has announced the release of version 2.0.0 LTS, codenamed 'Cinnamon Teal', which includes significant performance improvements and new features for data analysis. This update is crucial for developers working with embedded analytics.",
-      "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
-      "sourceName": "DuckDB",
-      "timeAgo": "6h ago"
+      "title": "Security Disclosure",
+      "category": "Security",
+      "summary": "A recent security disclosure highlights critical vulnerabilities that could impact various applications and services. Developers should review the disclosed issues and apply necessary patches to ensure their systems remain secure.",
+      "sourceUrl": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "sourceName": "Railway",
+      "timeAgo": "12h ago"
     },
     {
       "id": "5",
-      "title": "OpenAI Models Now Available on Google Cloud",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has announced the integration of its models into Google Cloud, enabling developers to leverage advanced AI capabilities directly within the cloud environment. This partnership enhances accessibility and scalability for AI-driven applications.",
-      "sourceUrl": "https://openai.com/index/openai-models-google-cloud/",
-      "sourceName": "OpenAI",
-      "timeAgo": "8h ago"
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "category": "Security",
+      "summary": "The LiteLLM package on PyPI has been compromised, leading to the installation of a credential stealer and backdoor on affected systems. Developers using this package should immediately remove it and audit their environments for potential breaches.",
+      "sourceUrl": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "sourceName": "SafeDep",
+      "timeAgo": "20h ago"
     }
   ]
 }
