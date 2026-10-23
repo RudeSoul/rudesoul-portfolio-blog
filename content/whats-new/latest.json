@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T20:52:53.039Z",
+  "lastUpdated": "2026-10-23T10:34:48.696Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
       "category": "AI & LLMs",
-      "summary": "NVIDIA has released OpenShell, a secure runtime environment designed for managing fleets of autonomous AI agents. This development is crucial for developers focusing on AI safety and privacy, as it provides a framework to operate AI systems with enhanced security measures.",
+      "summary": "NVIDIA has released OpenShell, a runtime environment designed to ensure safety and privacy for autonomous AI agents. This development is crucial for engineers working with AI systems that require secure and efficient operation in diverse environments.",
       "sourceUrl": "https://github.com/NVIDIA/OpenShell",
       "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "timeAgo": "16h ago"
     },
     {
       "id": "2",
-      "title": "eMudhra to exit global SSL/TLS certificate business",
-      "category": "Security",
-      "summary": "eMudhra has announced its decision to exit the global SSL/TLS certificate market, a significant move that could impact web security practices worldwide. Developers and engineers should be aware of this change as it may affect the availability and trust of SSL certificates in their applications.",
-      "sourceUrl": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "sourceName": "eMudhra",
-      "timeAgo": "7h ago"
+      "title": "The HTML-in-Canvas API origin trial",
+      "category": "Web Development",
+      "summary": "The Chrome team has launched an origin trial for the HTML-in-Canvas API, which allows developers to render HTML content directly within canvas elements. This feature can significantly enhance web applications by enabling richer graphics and interactive experiences.",
+      "sourceUrl": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
+      "sourceName": "Chrome Developer Blog",
+      "timeAgo": "14h ago"
     },
     {
       "id": "3",
-      "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
-      "category": "Open Source",
-      "summary": "A new project allows users to run the full iOS 16.5 firmware on Android devices, showcasing the potential for cross-platform compatibility and innovation. This development is particularly interesting for developers working in mobile technology and those interested in platform interoperability.",
-      "sourceUrl": "https://github.com/oosexgang/hackios-xnu-kernel",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "Docker is weird",
+      "category": "Systems & Architecture",
+      "summary": "A new blog post explores the peculiarities of Docker, shedding light on its complexities and the common pitfalls developers face. Understanding these nuances is essential for engineers to optimize their containerization strategies effectively.",
+      "sourceUrl": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "sourceName": "Code and Cake",
+      "timeAgo": "10h ago"
     },
     {
       "id": "4",
-      "title": "Getting ready to operate GNU Taler in Germany",
-      "category": "Systems & Architecture",
-      "summary": "GNU Taler is preparing to launch its digital payment system in Germany, aiming to provide a privacy-focused alternative to traditional payment methods. Developers should pay attention to this launch as it could influence future payment system architectures and privacy standards.",
-      "sourceUrl": "https://www.taler.net/en/news/2026-13.html",
-      "sourceName": "GNU Taler",
-      "timeAgo": "4h ago"
+      "title": "Every AI model has the same 'controversial' take on humans",
+      "category": "AI & LLMs",
+      "summary": "A recent analysis reveals that various AI models consistently exhibit a similar controversial stance regarding human behavior and ethics. This insight is vital for developers and researchers to understand potential biases in AI systems.",
+      "sourceUrl": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "sourceName": "Model Compare",
+      "timeAgo": "18h ago"
     },
     {
       "id": "5",
-      "title": "Show HN: UI micro interactions prompts for AI",
-      "category": "Web Development",
-      "summary": "A new tool has been introduced that facilitates UI micro interactions specifically designed for AI applications, enhancing user experience and engagement. This is significant for web developers looking to create more intuitive interfaces in AI-driven applications.",
-      "sourceUrl": "https://www.typeui.sh/micro-interactions",
-      "sourceName": "TypeUI",
-      "timeAgo": "2h ago"
+      "title": "Run full iOS 16.5 firmware on Android Devices",
+      "category": "Open Source",
+      "summary": "A new open-source project enables the running of iOS 16.5 firmware on Android devices, showcasing innovative cross-platform capabilities. This development could inspire engineers to explore more flexible and versatile mobile development solutions.",
+      "sourceUrl": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "sourceName": "GitHub",
+      "timeAgo": "19h ago"
     }
   ]
 }
