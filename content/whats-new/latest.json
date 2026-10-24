@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-24T09:52:32.058Z",
+  "lastUpdated": "2026-10-24T19:52:48.355Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "OBS Studio 33 Released with New Features",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
       "category": "Open Source",
-      "summary": "OBS Studio has released version 33.0.0, introducing several new features and improvements that enhance the user experience for streamers and content creators. Developers should explore these updates to leverage the latest capabilities in their streaming setups.",
-      "sourceUrl": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "summary": "Roku has transitioned its developer repositories from GitHub to GitLab, aiming to enhance collaboration and streamline development processes. This move underscores the growing trend of companies seeking more control over their development environments.",
+      "sourceUrl": "https://blog.roku.com/developer/gitlab-move",
+      "sourceName": "Roku Blog",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "Dessa Unveils Conversation Model Trained Exclusively on Speech",
+      "title": "Neural chip decodes interactions between brain regions",
       "category": "AI & LLMs",
-      "summary": "Dessa has introduced a new conversation model that is trained solely on speech data, promising to improve the naturalness and accuracy of voice interactions. This development is significant for engineers working on voice recognition and conversational AI applications.",
-      "sourceUrl": "https://block.xyz/dessa",
-      "sourceName": "Block.xyz",
-      "timeAgo": "14h ago"
+      "summary": "Researchers have developed a neural chip capable of decoding interactions between different brain regions, which could lead to advancements in brain-computer interfaces. This technology may open new avenues for understanding neural processes and improving AI systems.",
+      "sourceUrl": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "sourceName": "EPFL",
+      "timeAgo": "3h ago"
     },
     {
       "id": "3",
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed Launch",
-      "category": "AI & LLMs",
-      "summary": "The launch of Kimi K3.1 Pro and K3.1 Pro Highspeed marks a significant advancement in AI-powered tools for developers, offering enhanced performance and capabilities. Engineers should consider these tools to streamline their AI workflows.",
-      "sourceUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "sourceName": "Kimi.ai",
-      "timeAgo": "16h ago"
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "category": "Security",
+      "summary": "The evolution of Node2Shell to HTTP2Shell has introduced vulnerabilities affecting numerous HTTP libraries and applications. Developers need to assess their systems for potential security risks and apply necessary updates to mitigate exposure.",
+      "sourceUrl": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "sourceName": "Aikido.dev",
+      "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "Twelve Years of Distributed SQLite: A Retrospective",
-      "category": "Systems & Architecture",
-      "summary": "A retrospective on twelve years of distributed SQLite highlights its evolution and the challenges faced in scaling this database technology. Developers and architects can gain insights into best practices and future directions for distributed database systems.",
-      "sourceUrl": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
-      "sourceName": "Philip O'Toole",
-      "timeAgo": "8h ago"
+      "title": "Danish Government silently drops plan to dump MS Office",
+      "category": "Open Source",
+      "summary": "The Danish Government has quietly abandoned its initiative to replace Microsoft Office with an open-source alternative, highlighting challenges in transitioning to open-source solutions. This decision reflects the complexities and resistance often faced in government IT reforms.",
+      "sourceUrl": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
+      "sourceName": "Computerworld",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Local Wikipedia: A Community-Centric Knowledge Base",
-      "category": "Web Development",
-      "summary": "The Local Wikipedia project offers a unique approach to knowledge sharing by focusing on local information accessible within a half-hour walk. This initiative can inspire web developers to create more localized and community-oriented platforms.",
-      "sourceUrl": "https://edjefferson.com/localwiki/",
-      "sourceName": "Ed Jefferson",
-      "timeAgo": "1d ago"
+      "title": "Dream-1: A New AI Model for Enhanced Language Understanding",
+      "category": "AI & LLMs",
+      "summary": "The launch of Dream-1, a new AI model, promises to improve language understanding capabilities significantly. This development is crucial for developers working on natural language processing applications, as it may enhance the performance of AI-driven solutions.",
+      "sourceUrl": "https://dreamlabs.ai/research/dream-1/",
+      "sourceName": "Dream Labs",
+      "timeAgo": "1h ago"
     }
   ]
 }
