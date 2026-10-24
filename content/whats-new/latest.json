@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-23T20:41:18.782Z",
+  "lastUpdated": "2026-10-24T09:52:32.058Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "category": "AI & LLMs",
-      "summary": "Kimi has released its K3.1 Pro and K3.1 Pro Highspeed models, showcasing significant advancements in AI performance. Developers should explore these models for their potential applications in high-speed data processing and machine learning tasks.",
-      "sourceUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "sourceName": "kimi.ai",
-      "timeAgo": "3h ago"
+      "title": "OBS Studio 33 Released with New Features",
+      "category": "Open Source",
+      "summary": "OBS Studio has released version 33.0.0, introducing several new features and improvements that enhance the user experience for streamers and content creators. Developers should explore these updates to leverage the latest capabilities in their streaming setups.",
+      "sourceUrl": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "title": "Dessa Unveils Conversation Model Trained Exclusively on Speech",
       "category": "AI & LLMs",
-      "summary": "Dessa has unveiled a groundbreaking full-duplex speech model that promises to enhance real-time communication applications. This development is crucial for engineers working on voice interfaces and conversational AI systems.",
+      "summary": "Dessa has introduced a new conversation model that is trained solely on speech data, promising to improve the naturalness and accuracy of voice interactions. This development is significant for engineers working on voice recognition and conversational AI applications.",
       "sourceUrl": "https://block.xyz/dessa",
-      "sourceName": "block.xyz",
-      "timeAgo": "1h ago"
+      "sourceName": "Block.xyz",
+      "timeAgo": "14h ago"
     },
     {
       "id": "3",
-      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-      "category": "Web Development",
-      "summary": "A new project called Local Wikipedia aims to create a localized version of Wikipedia, focusing on content relevant to specific geographic areas. This initiative could inspire web developers to create more community-focused platforms.",
-      "sourceUrl": "https://edjefferson.com/localwiki/",
-      "sourceName": "edjefferson.com",
-      "timeAgo": "21h ago"
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed Launch",
+      "category": "AI & LLMs",
+      "summary": "The launch of Kimi K3.1 Pro and K3.1 Pro Highspeed marks a significant advancement in AI-powered tools for developers, offering enhanced performance and capabilities. Engineers should consider these tools to streamline their AI workflows.",
+      "sourceUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "sourceName": "Kimi.ai",
+      "timeAgo": "16h ago"
     },
     {
       "id": "4",
-      "title": "Why Do AI Models Tell Left-Wing Voters to Support the Communist Party?",
-      "category": "AI & LLMs",
-      "summary": "A recent study reveals that AI models may exhibit bias in political recommendations, particularly towards left-wing ideologies. This finding raises important ethical considerations for developers working on AI systems in political contexts.",
-      "sourceUrl": "https://fsi.stanford.edu/news/voters-increasingly-use-ai-political-advisor-new-study-shows-risks",
-      "sourceName": "fsi.stanford.edu",
-      "timeAgo": "35m ago"
+      "title": "Twelve Years of Distributed SQLite: A Retrospective",
+      "category": "Systems & Architecture",
+      "summary": "A retrospective on twelve years of distributed SQLite highlights its evolution and the challenges faced in scaling this database technology. Developers and architects can gain insights into best practices and future directions for distributed database systems.",
+      "sourceUrl": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "sourceName": "Philip O'Toole",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "UUIDv7 doesn't have the properties you think it does",
-      "category": "Systems & Architecture",
-      "summary": "A detailed analysis of UUIDv7 reveals misconceptions about its properties and usage in software architecture. Understanding these nuances is vital for engineers who rely on UUIDs for unique identification in distributed systems.",
-      "sourceUrl": "https://alexsci.com/blog/uuidv7-is-weird/",
-      "sourceName": "alexsci.com",
-      "timeAgo": "4h ago"
+      "title": "Local Wikipedia: A Community-Centric Knowledge Base",
+      "category": "Web Development",
+      "summary": "The Local Wikipedia project offers a unique approach to knowledge sharing by focusing on local information accessible within a half-hour walk. This initiative can inspire web developers to create more localized and community-oriented platforms.",
+      "sourceUrl": "https://edjefferson.com/localwiki/",
+      "sourceName": "Ed Jefferson",
+      "timeAgo": "1d ago"
     }
   ]
 }
