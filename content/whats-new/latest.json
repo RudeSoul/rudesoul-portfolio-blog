@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-24T19:52:48.355Z",
+  "lastUpdated": "2026-10-25T10:12:57.971Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Roku developer repositories moved from GitHub to GitLab",
-      "category": "Open Source",
-      "summary": "Roku has transitioned its developer repositories from GitHub to GitLab, aiming to enhance collaboration and streamline development processes. This move underscores the growing trend of companies seeking more control over their development environments.",
-      "sourceUrl": "https://blog.roku.com/developer/gitlab-move",
-      "sourceName": "Roku Blog",
-      "timeAgo": "3h ago"
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "category": "AI & LLMs",
+      "summary": "Cerebras has successfully deployed AI models with a staggering trillion parameters, pushing the boundaries of what is possible in AI model training and deployment. This development is significant for engineers and developers as it opens new avenues for complex problem-solving and enhances capabilities in various AI applications.",
+      "sourceUrl": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "sourceName": "Cerebras",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "Neural chip decodes interactions between brain regions",
-      "category": "AI & LLMs",
-      "summary": "Researchers have developed a neural chip capable of decoding interactions between different brain regions, which could lead to advancements in brain-computer interfaces. This technology may open new avenues for understanding neural processes and improving AI systems.",
-      "sourceUrl": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
-      "sourceName": "EPFL",
-      "timeAgo": "3h ago"
+      "title": "We should be more ambitious with the software we build",
+      "category": "Web Development",
+      "summary": "The article argues for a more ambitious approach to software development, encouraging developers to push the limits of what technology can achieve. This perspective is crucial for fostering innovation and creativity in web engineering.",
+      "sourceUrl": "https://danluu.com/ambitious/",
+      "sourceName": "Dan Luu",
+      "timeAgo": "12h ago"
     },
     {
       "id": "3",
       "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
       "category": "Security",
-      "summary": "The evolution of Node2Shell to HTTP2Shell has introduced vulnerabilities affecting numerous HTTP libraries and applications. Developers need to assess their systems for potential security risks and apply necessary updates to mitigate exposure.",
+      "summary": "The evolution of Node2Shell to HTTP2Shell introduces significant vulnerabilities affecting numerous HTTP libraries and applications. Developers need to be aware of these changes to ensure their applications remain secure against potential exploits.",
       "sourceUrl": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-      "sourceName": "Aikido.dev",
-      "timeAgo": "11h ago"
+      "sourceName": "Aikido",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "Danish Government silently drops plan to dump MS Office",
+      "title": "The Goose Programming Language",
       "category": "Open Source",
-      "summary": "The Danish Government has quietly abandoned its initiative to replace Microsoft Office with an open-source alternative, highlighting challenges in transitioning to open-source solutions. This decision reflects the complexities and resistance often faced in government IT reforms.",
-      "sourceUrl": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
-      "sourceName": "Computerworld",
-      "timeAgo": "1h ago"
+      "summary": "The introduction of the Goose programming language offers a new tool for developers, focusing on simplicity and efficiency in coding. This open-source language could enhance productivity and foster community-driven development.",
+      "sourceUrl": "https://aardappel.github.io/goose/",
+      "sourceName": "Goose Project",
+      "timeAgo": "15h ago"
     },
     {
       "id": "5",
-      "title": "Dream-1: A New AI Model for Enhanced Language Understanding",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
       "category": "AI & LLMs",
-      "summary": "The launch of Dream-1, a new AI model, promises to improve language understanding capabilities significantly. This development is crucial for developers working on natural language processing applications, as it may enhance the performance of AI-driven solutions.",
-      "sourceUrl": "https://dreamlabs.ai/research/dream-1/",
-      "sourceName": "Dream Labs",
-      "timeAgo": "1h ago"
+      "summary": "This article explores the impact of AI on job losses in creative sectors, highlighting the need for developers and engineers to consider the societal implications of their work. Understanding this dynamic is essential for responsible innovation in AI technologies.",
+      "sourceUrl": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "sourceName": "Apricitas",
+      "timeAgo": "11h ago"
     }
   ]
 }
