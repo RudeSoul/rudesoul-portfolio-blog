@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-25T20:02:27.371Z",
+  "lastUpdated": "2026-10-26T11:36:20.342Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
       "category": "AI & LLMs",
-      "summary": "Recent research demonstrates that a convolutional neural network (CNN) developed a decade ago surpasses contemporary large language models (LLMs) in diagnosing skin cancer. This finding highlights the potential of established AI techniques in critical healthcare applications, urging developers to consider the robustness of older models.",
-      "sourceUrl": "https://lynchlab.net/llm-skin-cancer",
-      "sourceName": "Lynch Lab",
-      "timeAgo": "2h ago"
+      "summary": "IBM's CEO announced that open weight models have reached a level of affordability and performance that makes them viable for on-premises deployment. This shift could empower more organizations to leverage advanced AI capabilities without relying on cloud services.",
+      "sourceUrl": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "sourceName": "The Register",
+      "timeAgo": "9h ago"
     },
     {
       "id": "2",
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "category": "AI & LLMs",
-      "summary": "Cerebras has successfully deployed AI models with a staggering trillion parameters, pushing the boundaries of what is possible in AI model complexity and performance. This advancement is significant for developers working on large-scale AI applications, as it opens new avenues for research and deployment.",
-      "sourceUrl": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-      "sourceName": "Cerebras",
-      "timeAgo": "18h ago"
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "category": "Web Development",
+      "summary": "PaperPilot introduces a PDF engine built entirely in Rust, designed for zero-cloud environments and utilizing WebAssembly for performance. This innovation allows developers to handle PDF generation and manipulation locally, enhancing privacy and reducing dependency on external services.",
+      "sourceUrl": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "sourceName": "GitHub",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "I refuse to accept a censored Internet. Join Me at FOSDEM 27",
+      "title": "Show HN: A Truly Modular Keyboard",
       "category": "Open Source",
-      "summary": "A call to action for developers and engineers to advocate for an uncensored Internet at the upcoming FOSDEM 27 conference. This initiative emphasizes the importance of open-source principles and freedom of information in technology, encouraging participation in shaping the future of the web.",
-      "sourceUrl": "https://talkweb.eu/openweb/4558/",
-      "sourceName": "Talk Web",
-      "timeAgo": "2h ago"
+      "summary": "A new open-source project has emerged that focuses on creating a truly modular keyboard, allowing users to customize every aspect of their typing experience. This initiative not only promotes user personalization but also encourages sustainable practices in hardware design.",
+      "sourceUrl": "https://github.com/notaroomba/keybytes",
+      "sourceName": "GitHub",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
-      "category": "AI & LLMs",
-      "summary": "A UC Berkeley math professor has decided to stop grading homework due to the pervasive use of AI tools by students. This decision raises important discussions about the role of AI in education and its implications for assessment practices, which developers in educational technology should consider.",
-      "sourceUrl": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "sourceName": "Daily Cal",
-      "timeAgo": "3h ago"
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "category": "Web Development",
+      "summary": "TitleArt is a new web tool that allows users to create retro-style text graphics reminiscent of the late 90s. This tool could be particularly appealing for web developers looking to add a nostalgic touch to their projects or personal websites.",
+      "sourceUrl": "https://titleart.dvy.io/",
+      "sourceName": "TitleArt",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "JetBrains Thinkrail",
-      "category": "Web Development",
-      "summary": "JetBrains has launched Thinkrail, a new tool designed to streamline the development process for web engineers. This tool aims to enhance productivity and collaboration among developers, making it a noteworthy addition to the web development ecosystem.",
-      "sourceUrl": "https://github.com/JetBrains/thinkrail",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "Clear, compelling, accurate headline without clickbait",
+      "category": "Systems & Architecture",
+      "summary": "A recent article discusses the evolving landscape of context engineering, emphasizing the importance of understanding user context in software development. This insight is crucial for engineers aiming to build more intuitive and user-centered applications.",
+      "sourceUrl": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "sourceName": "DBreunig",
+      "timeAgo": "15h ago"
     }
   ]
 }
