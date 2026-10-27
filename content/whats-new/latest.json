@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-26T21:57:06.866Z",
+  "lastUpdated": "2026-10-27T11:06:53.394Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Type Server Protocol Documentation Released",
-      "category": "Open Source",
-      "summary": "Microsoft has released documentation for the Type Server Protocol, which aims to standardize communication between language servers and IDEs. This development is crucial for developers looking to enhance their tooling and improve integration across different programming environments.",
-      "sourceUrl": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "The Mythical Man-Month in the Age of AI",
+      "category": "AI & LLMs",
+      "summary": "This article revisits the classic software engineering book 'The Mythical Man-Month' in the context of modern AI advancements, discussing how AI tools can alter project management and team dynamics. Developers and engineers should care because it highlights the evolving role of AI in enhancing productivity and decision-making in software projects.",
+      "sourceUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "sourceName": "j11g.com",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Sebastian Raschka Launches Video Course on Reasoning Models",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
       "category": "AI & LLMs",
-      "summary": "Sebastian Raschka has introduced a comprehensive video course focused on building reasoning models from scratch, providing valuable insights for AI practitioners. This resource is particularly beneficial for developers interested in enhancing their understanding of AI model development.",
-      "sourceUrl": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "sourceName": "Sebastian Raschka",
-      "timeAgo": "6h ago"
+      "summary": "Recent collaborative research has led to significant breakthroughs in mathematics, computer science, and physics, showcasing the power of interdisciplinary approaches. This is crucial for developers and engineers as it opens new avenues for innovation and problem-solving in technology.",
+      "sourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "sourceName": "openai.com",
+      "timeAgo": "13h ago"
     },
     {
       "id": "3",
-      "title": "OpenAI Collaborates with Academics for Scientific Understanding",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
       "category": "AI & LLMs",
-      "summary": "OpenAI has announced a partnership with academic communities to foster scientific understanding through AI technologies. This initiative highlights the importance of collaboration between AI developers and researchers, paving the way for innovative applications in scientific research.",
-      "sourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "sourceName": "OpenAI",
-      "timeAgo": "21m ago"
+      "summary": "A groundbreaking paper has disproven the Exponential Time Hypothesis, which has implications for computational complexity and algorithm design. This finding is significant for engineers and computer scientists as it challenges existing assumptions and could lead to more efficient algorithms.",
+      "sourceUrl": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "sourceName": "github.com",
+      "timeAgo": "13h ago"
     },
     {
       "id": "4",
-      "title": "CSS-Tricks Under New Ownership",
-      "category": "Web Development",
-      "summary": "CSS-Tricks has announced a change in ownership, which may lead to new directions and enhancements for the popular web development resource. This transition is significant for web developers who rely on CSS-Tricks for up-to-date information and tutorials.",
-      "sourceUrl": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-      "sourceName": "CSS-Tricks",
-      "timeAgo": "6h ago"
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "category": "Security",
+      "summary": "A security vulnerability was identified in the GLM-5.3 Workers AI model, exposing cross-request KV cache data, which has been remediated. Developers should be aware of this issue to ensure they implement proper security measures in their AI models to protect sensitive data.",
+      "sourceUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "sourceName": "blog.cloudflare.com",
+      "timeAgo": "12h ago"
     },
     {
       "id": "5",
-      "title": "Introducing GPT-6.1 Terra by OpenAI",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has unveiled GPT-6.1 Terra, an advanced iteration of its language model that promises improved performance and capabilities. Developers should pay attention to this release as it could significantly enhance applications relying on natural language processing.",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "sourceName": "OpenAI",
-      "timeAgo": "3h ago"
+      "title": "CSS-Tricks has a new owner",
+      "category": "Web Development",
+      "summary": "CSS-Tricks, a well-known resource for web developers, has announced a change in ownership, which may lead to new content and direction for the platform. This is important for web engineers as it could influence the resources and tools available to them in the future.",
+      "sourceUrl": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "sourceName": "css-tricks.com",
+      "timeAgo": "19h ago"
     }
   ]
 }
