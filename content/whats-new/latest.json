@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-27T11:06:53.394Z",
+  "lastUpdated": "2026-10-27T21:30:11.084Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "The Mythical Man-Month in the Age of AI",
+      "title": "Genie 4: A New Generation of World Simulation",
       "category": "AI & LLMs",
-      "summary": "This article revisits the classic software engineering book 'The Mythical Man-Month' in the context of modern AI advancements, discussing how AI tools can alter project management and team dynamics. Developers and engineers should care because it highlights the evolving role of AI in enhancing productivity and decision-making in software projects.",
-      "sourceUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "sourceName": "j11g.com",
-      "timeAgo": "4h ago"
+      "summary": "DeepMind has unveiled Genie 4, a significant advancement in world simulation technology that enhances the realism and complexity of virtual environments. This development is crucial for engineers and developers working in AI and simulation, as it opens new possibilities for training models and testing algorithms in more lifelike scenarios.",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceName": "DeepMind",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "category": "AI & LLMs",
-      "summary": "Recent collaborative research has led to significant breakthroughs in mathematics, computer science, and physics, showcasing the power of interdisciplinary approaches. This is crucial for developers and engineers as it opens new avenues for innovation and problem-solving in technology.",
-      "sourceUrl": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "sourceName": "openai.com",
-      "timeAgo": "13h ago"
+      "title": "Tailscale SSH: Investigation and Remediation Update",
+      "category": "Security",
+      "summary": "Tailscale has provided an update on the investigation into a recent SSH vulnerability, detailing the steps taken to remediate the issue and enhance security measures. Developers using Tailscale for secure networking should review these updates to ensure their systems remain protected.",
+      "sourceUrl": "https://tailscale.com/ssh-investigation-update",
+      "sourceName": "Tailscale",
+      "timeAgo": "1h ago"
     },
     {
       "id": "3",
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "category": "AI & LLMs",
-      "summary": "A groundbreaking paper has disproven the Exponential Time Hypothesis, which has implications for computational complexity and algorithm design. This finding is significant for engineers and computer scientists as it challenges existing assumptions and could lead to more efficient algorithms.",
-      "sourceUrl": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "sourceName": "github.com",
-      "timeAgo": "13h ago"
+      "title": "Ghostty 1.4.0 Release Notes",
+      "category": "Open Source",
+      "summary": "The release of Ghostty 1.4.0 introduces several new features and improvements that enhance the user experience and functionality of this open-source project. Developers involved in open-source contributions should explore these updates to leverage the latest capabilities in their applications.",
+      "sourceUrl": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "sourceName": "Ghostty",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "category": "Security",
-      "summary": "A security vulnerability was identified in the GLM-5.3 Workers AI model, exposing cross-request KV cache data, which has been remediated. Developers should be aware of this issue to ensure they implement proper security measures in their AI models to protect sensitive data.",
-      "sourceUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "sourceName": "blog.cloudflare.com",
-      "timeAgo": "12h ago"
+      "title": "Early Progress on Accelerating Drug Development with Claude",
+      "category": "AI & LLMs",
+      "summary": "Anthropic's Claude AI is showing promising results in accelerating drug development processes, potentially transforming the pharmaceutical industry. Engineers and researchers in biotech should pay attention to these advancements as they may significantly impact drug discovery timelines and methodologies.",
+      "sourceUrl": "https://www.anthropic.com/research/early-progress-drug-development",
+      "sourceName": "Anthropic",
+      "timeAgo": "39m ago"
     },
     {
       "id": "5",
-      "title": "CSS-Tricks has a new owner",
-      "category": "Web Development",
-      "summary": "CSS-Tricks, a well-known resource for web developers, has announced a change in ownership, which may lead to new content and direction for the platform. This is important for web engineers as it could influence the resources and tools available to them in the future.",
-      "sourceUrl": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-      "sourceName": "css-tricks.com",
-      "timeAgo": "19h ago"
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "category": "Open Source",
+      "summary": "A significant mathematical achievement has been formalized in Lean, providing a clear and rigorous framework for the classification of finite simple groups. This development is essential for mathematicians and computer scientists working in formal verification and theorem proving.",
+      "sourceUrl": "https://cfsg.axiommath.ai/",
+      "sourceName": "Axiom Math",
+      "timeAgo": "5h ago"
     }
   ]
 }
