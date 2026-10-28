@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-28T11:42:16.637Z",
+  "lastUpdated": "2026-10-28T21:55:13.793Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "title": "Google Introduces Gemini 4 Carbon AI Model",
       "category": "AI & LLMs",
-      "summary": "The Survival LLM is an innovative AI assistant designed to function independently on personal computers, providing users with emergency resources and information. This development is significant for engineers and developers interested in decentralized AI solutions and personal data privacy.",
-      "sourceUrl": "https://www.brangus.io/survival-llm",
-      "sourceName": "Brangus",
-      "timeAgo": "15h ago"
+      "summary": "Google has unveiled its latest AI model, Gemini 4 Carbon, which promises enhanced capabilities in natural language understanding and generation. This development is significant for developers looking to leverage advanced AI in their applications, offering improved performance and versatility.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "sourceName": "Google",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Git for the US Code",
-      "category": "Open Source",
-      "summary": "The initiative to version control the US Code using Git aims to enhance transparency and collaboration in legal documentation. This is a crucial step for developers and engineers involved in legal tech and open government projects.",
-      "sourceUrl": "https://lexifina.com/blog/git-for-the-us-code",
-      "sourceName": "Lexifina",
-      "timeAgo": "9h ago"
+      "title": "AI Agents Evaluated on Professional Tax Assignments",
+      "category": "AI & LLMs",
+      "summary": "A recent study evaluates AI agents on their performance across 50 professional tax assignments, highlighting their potential in automating complex financial tasks. This research is crucial for engineers and developers in the fintech space, as it showcases the growing capabilities of AI in specialized fields.",
+      "sourceUrl": "https://surgehq.ai/blog/dayjob-tax",
+      "sourceName": "SurgeHQ",
+      "timeAgo": "6h ago"
     },
     {
       "id": "3",
-      "title": "Early progress on accelerating drug development with Claude",
-      "category": "AI & LLMs",
-      "summary": "Claude, an AI model, is showing promising results in speeding up drug development processes, potentially revolutionizing the pharmaceutical industry. Engineers and developers in biotech should take note of this advancement for its implications on research efficiency.",
-      "sourceUrl": "https://www.anthropic.com/research/early-progress-drug-development",
-      "sourceName": "Anthropic",
-      "timeAgo": "14h ago"
+      "title": "Massive Data Leak Exposes Homeland Security Workers",
+      "category": "Security",
+      "summary": "A significant data leak has revealed the identities of 41,000 Homeland Security workers, including undercover agents, raising serious concerns about data security and privacy. Developers and engineers should be aware of the implications for security practices and the importance of safeguarding sensitive information.",
+      "sourceUrl": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "sourceName": "Wired",
+      "timeAgo": "51m ago"
     },
     {
       "id": "4",
-      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "title": "Apple's Git Still Trusts Compromised eMudhra Certificates",
       "category": "Security",
-      "summary": "A critical code-execution vulnerability in UEFI firmware has been discovered, posing a significant risk to server security globally. This news is vital for engineers and developers focused on cybersecurity and server management.",
-      "sourceUrl": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
-      "sourceName": "Ars Technica",
-      "timeAgo": "15h ago"
+      "summary": "A report reveals that Apple's git infrastructure continues to trust compromised eMudhra certificates, posing a risk to developers relying on these tools. This situation underscores the need for vigilance in certificate management and the importance of maintaining secure development environments.",
+      "sourceUrl": "https://emudhra.we-have-a-problem.com/apple.html",
+      "sourceName": "eMudhra",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "Ghostty 1.4: New features and improvements",
-      "category": "Open Source",
-      "summary": "The release of Ghostty 1.4 introduces significant enhancements and new features to this open-source project, which is aimed at improving user experience and functionality. Developers should explore these updates for potential integration into their projects.",
-      "sourceUrl": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "sourceName": "Ghostty",
-      "timeAgo": "18h ago"
+      "title": "CNC Stone Carving Innovations",
+      "category": "Systems & Architecture",
+      "summary": "The latest advancements in CNC stone carving technology are showcased, emphasizing precision and efficiency in architectural applications. Engineers and architects should take note of these innovations as they can significantly enhance design capabilities and project execution.",
+      "sourceUrl": "https://carmelitegothic.com/cnc-stone-carving/",
+      "sourceName": "Carmelite Gothic",
+      "timeAgo": "7h ago"
     }
   ]
 }
