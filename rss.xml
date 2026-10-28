@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rudesoul's Blog RSS Feed]]></title><description><![CDATA[Personal portfolio, architectural case studies, and engineering journal by Prabesh Gouli (@rudesoul). Building at the intersection of frontend craft, systems design, and AI.]]></description><link>https://prabeshgouli.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 27 Oct 2026 21:31:29 GMT</lastBuildDate><item><title><![CDATA[Code Architecture Patterns: Building Maintainable Systems]]></title><description><![CDATA[The Architecture Reality After inheriting a codebase with everything in one folder and no clear structure, I learned that good architecture…]]></description><link>https://prabeshgouli.com/zero/11 code architecture patterns/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/11 code architecture patterns/</guid><pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Architecture Reality&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rudesoul's Blog RSS Feed]]></title><description><![CDATA[Personal portfolio, architectural case studies, and engineering journal by Prabesh Gouli (@rudesoul). Building at the intersection of frontend craft, systems design, and AI.]]></description><link>https://prabeshgouli.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Oct 2026 11:44:27 GMT</lastBuildDate><item><title><![CDATA[Code Architecture Patterns: Building Maintainable Systems]]></title><description><![CDATA[The Architecture Reality After inheriting a codebase with everything in one folder and no clear structure, I learned that good architecture…]]></description><link>https://prabeshgouli.com/zero/11 code architecture patterns/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/11 code architecture patterns/</guid><pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Architecture Reality&lt;/h2&gt;
 &lt;p&gt;After inheriting a codebase with everything in one folder and no clear structure, I learned that good architecture isn&apos;t about fancy patterns—it&apos;s about making code easy to understand, modify, and extend.&lt;/p&gt;
 &lt;h2&gt;Folder Structure Patterns&lt;/h2&gt;
 &lt;h3&gt;Feature-Based Structure (Recommended)&lt;/h3&gt;
@@ -816,7 +816,361 @@ global&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fetch &lt;sp
 &lt;li&gt;&lt;strong&gt;Tests are documentation&lt;/strong&gt;: Good tests explain how code should work&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Balance speed and coverage&lt;/strong&gt;: Fast tests &gt; comprehensive tests&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The key insight: &lt;strong&gt;Good tests prevent bugs and give confidence. Bad tests slow you down without adding value. Know the difference.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Performance Optimization: Beyond Memoization]]></title><description><![CDATA[The Performance Awakening After building a React app that started lagging, I learned that performance optimization isn't about adding…]]></description><link>https://prabeshgouli.com/zero/09 react performance/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/09 react performance/</guid><pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Performance Awakening&lt;/h2&gt;
+&lt;p&gt;The key insight: &lt;strong&gt;Good tests prevent bugs and give confidence. Bad tests slow you down without adding value. Know the difference.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git Workflows for Teams: Collaboration Patterns]]></title><description><![CDATA[The Git Collaboration Challenge Working solo, Git was simple. Working in a team, I learned that a good Git workflow is essential. Here's…]]></description><link>https://prabeshgouli.com/zero/10 git workflows teams/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/10 git workflows teams/</guid><pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Git Collaboration Challenge&lt;/h2&gt;
+&lt;p&gt;Working solo, Git was simple. Working in a team, I learned that a good Git workflow is essential. Here&apos;s what I learned about effective Git collaboration patterns.&lt;/p&gt;
+&lt;h2&gt;Branching Strategies&lt;/h2&gt;
+&lt;h3&gt;Git Flow (Traditional)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Main branches&lt;/span&gt;
+main        &lt;span class=&quot;token comment&quot;&gt;# Production-ready code&lt;/span&gt;
+develop     &lt;span class=&quot;token comment&quot;&gt;# Integration branch&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Supporting branches&lt;/span&gt;
+feature/*   &lt;span class=&quot;token comment&quot;&gt;# New features&lt;/span&gt;
+release/*   &lt;span class=&quot;token comment&quot;&gt;# Preparing releases&lt;/span&gt;
+hotfix/*    &lt;span class=&quot;token comment&quot;&gt;# Urgent production fixes&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Workflow&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/user-authentication
+&lt;span class=&quot;token comment&quot;&gt;# ... work on feature ...&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/user-authentication
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;GitHub Flow (Simpler)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Single main branch + feature branches&lt;/span&gt;
+main        &lt;span class=&quot;token comment&quot;&gt;# Always deployable&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Workflow&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/new-feature
+&lt;span class=&quot;token comment&quot;&gt;# ... work ...&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin feature/new-feature
+&lt;span class=&quot;token comment&quot;&gt;# Create PR on GitHub&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Review, merge to main&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Trunk-Based Development (Modern)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Small, frequent commits directly to main&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Use feature flags for incomplete features&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
+&lt;span class=&quot;token comment&quot;&gt;# ... small changes ...&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Add login button&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push
+&lt;span class=&quot;token comment&quot;&gt;# Deploy continuously&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Effective Branch Naming&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good naming conventions&lt;/span&gt;
+feature/user-authentication
+feature/add-search-functionality
+bugfix/fix-login-error
+hotfix/critical-security-patch
+refactor/improve-api-structure
+docs/update-readme
+chore/update-dependencies
+
+&lt;span class=&quot;token comment&quot;&gt;# Unclear naming (avoid)&lt;/span&gt;
+fix
+new-stuff
+&lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
+update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Commit Messages That Matter&lt;/h2&gt;
+&lt;h3&gt;Conventional Commits Format&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Format: &amp;lt;type&gt;(&amp;lt;scope&gt;): &amp;lt;subject&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Types&lt;/span&gt;
+feat:     &lt;span class=&quot;token comment&quot;&gt;# New feature&lt;/span&gt;
+fix:      &lt;span class=&quot;token comment&quot;&gt;# Bug fix&lt;/span&gt;
+docs:     &lt;span class=&quot;token comment&quot;&gt;# Documentation&lt;/span&gt;
+style:    &lt;span class=&quot;token comment&quot;&gt;# Formatting, missing semicolons, etc.&lt;/span&gt;
+refactor: &lt;span class=&quot;token comment&quot;&gt;# Code restructuring&lt;/span&gt;
+test:     &lt;span class=&quot;token comment&quot;&gt;# Adding tests&lt;/span&gt;
+chore:    &lt;span class=&quot;token comment&quot;&gt;# Build process, dependencies&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Examples&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;feat(auth): add JWT token refresh&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix(api): handle null user gracefully&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;docs(readme): update installation instructions&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;refactor(components): extract reusable button component&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Writing Good Commit Messages&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good commit message&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix(api): prevent null pointer in user lookup
+
+- Added null check before accessing user properties
+- Return 404 instead of 500 for non-existent users
+- Added test case for missing user scenario
+
+Fixes #123&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Bad commit message (avoid)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;updated code&quot;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;asdf&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Working with Remotes&lt;/h2&gt;
+&lt;h3&gt;Fetch vs Pull&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Fetch - download changes without merging&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin main
+
+&lt;span class=&quot;token comment&quot;&gt;# Pull - fetch + merge&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
+&lt;span class=&quot;token comment&quot;&gt;# Equivalent to:&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge origin/main
+
+&lt;span class=&quot;token comment&quot;&gt;# Safer workflow - review changes before merging&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log origin/main &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# See what&apos;s new&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge origin/main           &lt;span class=&quot;token comment&quot;&gt;# Merge when ready&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Handling Merge Conflicts&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# When conflict occurs&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/new-feature
+&lt;span class=&quot;token comment&quot;&gt;# Auto-merging conflicted files&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Open conflicted file&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Look for conflict markers:&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; HEAD
+// Current branch code
+&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
+// Incoming branch code
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; feature/new-feature
+
+&lt;span class=&quot;token comment&quot;&gt;# Resolve manually&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Remove conflict markers&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Keep the correct code&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Mark as resolved&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; conflicted-file.js
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Rebase vs Merge&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Merge - preserves history&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/new-feature
+&lt;span class=&quot;token comment&quot;&gt;# Creates merge commit&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Rebase - linear history&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout feature/new-feature
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; rebase main
+&lt;span class=&quot;token comment&quot;&gt;# Replays commits on top of main&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Use merge for public branches&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Use rebase for personal branches (before PR)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Pull Request Best Practices&lt;/h2&gt;
+&lt;h3&gt;Creating Good PRs&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Description&lt;/span&gt;
+
+Brief description of what this PR does
+
+&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Changes&lt;/span&gt;
+
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Added user authentication
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Updated API endpoints
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Fixed login bug
+
+&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Testing&lt;/span&gt;
+
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Tested locally
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Unit tests pass
+&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Manual testing completed
+
+&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Screenshots (if applicable)&lt;/span&gt;
+
+&lt;span class=&quot;token url&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;[&lt;span class=&quot;token content&quot;&gt;Screenshot&lt;/span&gt;](&lt;span class=&quot;token url&quot;&gt;url&lt;/span&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Related Issues&lt;/span&gt;
+
+Closes #123
+Fixes #456&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Code Review Guidelines&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;#&lt;/span&gt; For Reviewers&lt;/span&gt;
+
+&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Review within 24 hours
+&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Be constructive, not critical
+&lt;span class=&quot;token list punctuation&quot;&gt;3.&lt;/span&gt; Suggest improvements, don&apos;t just point out problems
+&lt;span class=&quot;token list punctuation&quot;&gt;4.&lt;/span&gt; Approve when ready, or request changes with clear feedback
+
+&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;#&lt;/span&gt; For Authors&lt;/span&gt;
+
+&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Keep PRs small (&amp;lt; 400 lines if possible)
+&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Respond to feedback promptly
+&lt;span class=&quot;token list punctuation&quot;&gt;3.&lt;/span&gt; Update PR based on feedback
+&lt;span class=&quot;token list punctuation&quot;&gt;4.&lt;/span&gt; Don&apos;t take feedback personally&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Git Aliases for Efficiency&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Add to ~/.gitconfig&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;alias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  st &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; status
+  co &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; checkout
+  br &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; branch
+  ci &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit
+  unstage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reset HEAD --
+  last &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;-1&lt;/span&gt; HEAD
+  visual &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;gitk
+  lg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--decorate&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt;
+  amend &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; --no-edit
+  wip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-am&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;WIP&quot;&lt;/span&gt;
+  unwip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reset HEAD~1
+
+&lt;span class=&quot;token comment&quot;&gt;# Usage&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; st          &lt;span class=&quot;token comment&quot;&gt;# Instead of git status&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; co main     &lt;span class=&quot;token comment&quot;&gt;# Instead of git checkout main&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; lg          &lt;span class=&quot;token comment&quot;&gt;# Nice graph view&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Common Workflows&lt;/h2&gt;
+&lt;h3&gt;Feature Development&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 1. Start feature&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/new-feature
+
+&lt;span class=&quot;token comment&quot;&gt;# 2. Make changes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;feat: implement new feature&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 3. Push and create PR&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin feature/new-feature
+&lt;span class=&quot;token comment&quot;&gt;# Create PR on GitHub/GitLab&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 4. After PR approved, merge and cleanup&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; feature/new-feature&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Hotfix Workflow&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 1. Create hotfix from main&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; hotfix/critical-bug
+
+&lt;span class=&quot;token comment&quot;&gt;# 2. Fix bug&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix: resolve critical security issue&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 3. Merge to main and develop&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge hotfix/critical-bug
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; v1.0.1 &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hotfix release&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge hotfix/critical-bug
+
+&lt;span class=&quot;token comment&quot;&gt;# 4. Delete hotfix branch&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; hotfix/critical-bug&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Undoing Changes&lt;/h2&gt;
+&lt;h3&gt;Undo Local Changes&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Discard changes in working directory&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout -- filename
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore filename  &lt;span class=&quot;token comment&quot;&gt;# Newer Git syntax&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Discard all changes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout -- &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Unstage changes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset HEAD filename
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; filename&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Amend Last Commit&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Add changes to last commit&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; forgotten-file.js
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; --no-edit
+
+&lt;span class=&quot;token comment&quot;&gt;# Change commit message&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;New message&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# ⚠️ Don&apos;t amend commits that are already pushed!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Revert Commits&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Revert a commit (creates new commit)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;commit-hash&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Revert last commit&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert HEAD
+
+&lt;span class=&quot;token comment&quot;&gt;# Revert multiple commits&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert HEAD~3&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;HEAD&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Reset (Use with Caution)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Soft reset - keep changes staged&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--soft&lt;/span&gt; HEAD~1
+
+&lt;span class=&quot;token comment&quot;&gt;# Mixed reset - keep changes unstaged (default)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset HEAD~1
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--mixed&lt;/span&gt; HEAD~1
+
+&lt;span class=&quot;token comment&quot;&gt;# Hard reset - discard all changes ⚠️&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--hard&lt;/span&gt; HEAD~1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Working with Tags&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Create annotated tag&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; v1.0.0 &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Release version 1.0.0&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Push tags&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin v1.0.0
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin &lt;span class=&quot;token parameter variable&quot;&gt;--tags&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# Push all tags&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# List tags&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;v1.*&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Delete tag&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; v1.0.0
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin &lt;span class=&quot;token parameter variable&quot;&gt;--delete&lt;/span&gt; v1.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Stashing&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Save current changes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash save &lt;span class=&quot;token string&quot;&gt;&quot;WIP: working on feature&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# List stashes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash list
+
+&lt;span class=&quot;token comment&quot;&gt;# Apply stash&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash apply
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash apply stash@&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Pop stash (apply and remove)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash pop
+
+&lt;span class=&quot;token comment&quot;&gt;# Drop stash&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash drop stash@&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Clear all stashes&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;.gitignore Best Practices&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;gitignore&quot;&gt;&lt;pre class=&quot;language-gitignore&quot;&gt;&lt;code class=&quot;language-gitignore&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Dependencies&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;node_modules&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;vendor&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Build outputs&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;dist&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;build&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.min.js&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Environment variables&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.env&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.env.local&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.env.&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.local&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# IDE&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.vscode&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.idea&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.swp&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.swo&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# OS&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.DS_Store&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;Thumbs.db&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Logs&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.log&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;logs&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Coverage&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;coverage&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;.nyc_output&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Temporary files&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.tmp&lt;/span&gt;
+&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.temp&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;What I Learned&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Choose the right workflow&lt;/strong&gt;: Simple is often better&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write good commit messages&lt;/strong&gt;: Future you will thank present you&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Review PRs promptly&lt;/strong&gt;: Don&apos;t be a bottleneck&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep branches focused&lt;/strong&gt;: One feature per branch&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use tags for releases&lt;/strong&gt;: Makes deployment easier&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learn to undo safely&lt;/strong&gt;: Mistakes happen, Git can fix them&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The key insight: &lt;strong&gt;A good Git workflow isn&apos;t about complex rules—it&apos;s about clear communication and consistent practices that help the team work together smoothly.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[React Performance Optimization: Beyond Memoization]]></title><description><![CDATA[The Performance Awakening After building a React app that started lagging, I learned that performance optimization isn't about adding…]]></description><link>https://prabeshgouli.com/zero/09 react performance/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/09 react performance/</guid><pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Performance Awakening&lt;/h2&gt;
 &lt;p&gt;After building a React app that started lagging, I learned that performance optimization isn&apos;t about adding &lt;code class=&quot;language-text&quot;&gt;React.memo&lt;/code&gt; everywhere. It&apos;s about understanding when and why components re-render, and fixing the actual bottlenecks.&lt;/p&gt;
 &lt;h2&gt;Understanding React Rendering&lt;/h2&gt;
 &lt;h3&gt;When Components Re-Render&lt;/h3&gt;
@@ -1208,361 +1562,7 @@ global&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fetch &lt;sp
 &lt;li&gt;&lt;strong&gt;Virtualize lists&lt;/strong&gt;: Essential for long lists&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Don&apos;t over-optimize&lt;/strong&gt;: Simple components don&apos;t need memoization&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The key insight: &lt;strong&gt;Most performance issues come from unnecessary re-renders. Fix those first before adding complex optimizations.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git Workflows for Teams: Collaboration Patterns]]></title><description><![CDATA[The Git Collaboration Challenge Working solo, Git was simple. Working in a team, I learned that a good Git workflow is essential. Here's…]]></description><link>https://prabeshgouli.com/zero/10 git workflows teams/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/10 git workflows teams/</guid><pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Git Collaboration Challenge&lt;/h2&gt;
-&lt;p&gt;Working solo, Git was simple. Working in a team, I learned that a good Git workflow is essential. Here&apos;s what I learned about effective Git collaboration patterns.&lt;/p&gt;
-&lt;h2&gt;Branching Strategies&lt;/h2&gt;
-&lt;h3&gt;Git Flow (Traditional)&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Main branches&lt;/span&gt;
-main        &lt;span class=&quot;token comment&quot;&gt;# Production-ready code&lt;/span&gt;
-develop     &lt;span class=&quot;token comment&quot;&gt;# Integration branch&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Supporting branches&lt;/span&gt;
-feature/*   &lt;span class=&quot;token comment&quot;&gt;# New features&lt;/span&gt;
-release/*   &lt;span class=&quot;token comment&quot;&gt;# Preparing releases&lt;/span&gt;
-hotfix/*    &lt;span class=&quot;token comment&quot;&gt;# Urgent production fixes&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Workflow&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/user-authentication
-&lt;span class=&quot;token comment&quot;&gt;# ... work on feature ...&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/user-authentication
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;GitHub Flow (Simpler)&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Single main branch + feature branches&lt;/span&gt;
-main        &lt;span class=&quot;token comment&quot;&gt;# Always deployable&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Workflow&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/new-feature
-&lt;span class=&quot;token comment&quot;&gt;# ... work ...&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin feature/new-feature
-&lt;span class=&quot;token comment&quot;&gt;# Create PR on GitHub&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Review, merge to main&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Trunk-Based Development (Modern)&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Small, frequent commits directly to main&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Use feature flags for incomplete features&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
-&lt;span class=&quot;token comment&quot;&gt;# ... small changes ...&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Add login button&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push
-&lt;span class=&quot;token comment&quot;&gt;# Deploy continuously&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Effective Branch Naming&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good naming conventions&lt;/span&gt;
-feature/user-authentication
-feature/add-search-functionality
-bugfix/fix-login-error
-hotfix/critical-security-patch
-refactor/improve-api-structure
-docs/update-readme
-chore/update-dependencies
-
-&lt;span class=&quot;token comment&quot;&gt;# Unclear naming (avoid)&lt;/span&gt;
-fix
-new-stuff
-&lt;span class=&quot;token builtin class-name&quot;&gt;test&lt;/span&gt;
-update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Commit Messages That Matter&lt;/h2&gt;
-&lt;h3&gt;Conventional Commits Format&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Format: &amp;lt;type&gt;(&amp;lt;scope&gt;): &amp;lt;subject&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Types&lt;/span&gt;
-feat:     &lt;span class=&quot;token comment&quot;&gt;# New feature&lt;/span&gt;
-fix:      &lt;span class=&quot;token comment&quot;&gt;# Bug fix&lt;/span&gt;
-docs:     &lt;span class=&quot;token comment&quot;&gt;# Documentation&lt;/span&gt;
-style:    &lt;span class=&quot;token comment&quot;&gt;# Formatting, missing semicolons, etc.&lt;/span&gt;
-refactor: &lt;span class=&quot;token comment&quot;&gt;# Code restructuring&lt;/span&gt;
-test:     &lt;span class=&quot;token comment&quot;&gt;# Adding tests&lt;/span&gt;
-chore:    &lt;span class=&quot;token comment&quot;&gt;# Build process, dependencies&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Examples&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;feat(auth): add JWT token refresh&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix(api): handle null user gracefully&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;docs(readme): update installation instructions&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;refactor(components): extract reusable button component&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Writing Good Commit Messages&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Good commit message&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix(api): prevent null pointer in user lookup
-
-- Added null check before accessing user properties
-- Return 404 instead of 500 for non-existent users
-- Added test case for missing user scenario
-
-Fixes #123&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Bad commit message (avoid)&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;updated code&quot;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;asdf&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Working with Remotes&lt;/h2&gt;
-&lt;h3&gt;Fetch vs Pull&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Fetch - download changes without merging&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin main
-
-&lt;span class=&quot;token comment&quot;&gt;# Pull - fetch + merge&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
-&lt;span class=&quot;token comment&quot;&gt;# Equivalent to:&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge origin/main
-
-&lt;span class=&quot;token comment&quot;&gt;# Safer workflow - review changes before merging&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; fetch origin
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log origin/main &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# See what&apos;s new&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge origin/main           &lt;span class=&quot;token comment&quot;&gt;# Merge when ready&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Handling Merge Conflicts&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# When conflict occurs&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/new-feature
-&lt;span class=&quot;token comment&quot;&gt;# Auto-merging conflicted files&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Open conflicted file&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Look for conflict markers:&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; HEAD
-// Current branch code
-&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;
-// Incoming branch code
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; feature/new-feature
-
-&lt;span class=&quot;token comment&quot;&gt;# Resolve manually&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Remove conflict markers&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Keep the correct code&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Mark as resolved&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; conflicted-file.js
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Rebase vs Merge&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Merge - preserves history&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge feature/new-feature
-&lt;span class=&quot;token comment&quot;&gt;# Creates merge commit&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Rebase - linear history&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout feature/new-feature
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; rebase main
-&lt;span class=&quot;token comment&quot;&gt;# Replays commits on top of main&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Use merge for public branches&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;# Use rebase for personal branches (before PR)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Pull Request Best Practices&lt;/h2&gt;
-&lt;h3&gt;Creating Good PRs&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Description&lt;/span&gt;
-
-Brief description of what this PR does
-
-&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Changes&lt;/span&gt;
-
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Added user authentication
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Updated API endpoints
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Fixed login bug
-
-&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Testing&lt;/span&gt;
-
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Tested locally
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Unit tests pass
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; [x] Manual testing completed
-
-&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Screenshots (if applicable)&lt;/span&gt;
-
-&lt;span class=&quot;token url&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;[&lt;span class=&quot;token content&quot;&gt;Screenshot&lt;/span&gt;](&lt;span class=&quot;token url&quot;&gt;url&lt;/span&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;##&lt;/span&gt; Related Issues&lt;/span&gt;
-
-Closes #123
-Fixes #456&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Code Review Guidelines&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;#&lt;/span&gt; For Reviewers&lt;/span&gt;
-
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Review within 24 hours
-&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Be constructive, not critical
-&lt;span class=&quot;token list punctuation&quot;&gt;3.&lt;/span&gt; Suggest improvements, don&apos;t just point out problems
-&lt;span class=&quot;token list punctuation&quot;&gt;4.&lt;/span&gt; Approve when ready, or request changes with clear feedback
-
-&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;#&lt;/span&gt; For Authors&lt;/span&gt;
-
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Keep PRs small (&amp;lt; 400 lines if possible)
-&lt;span class=&quot;token list punctuation&quot;&gt;2.&lt;/span&gt; Respond to feedback promptly
-&lt;span class=&quot;token list punctuation&quot;&gt;3.&lt;/span&gt; Update PR based on feedback
-&lt;span class=&quot;token list punctuation&quot;&gt;4.&lt;/span&gt; Don&apos;t take feedback personally&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Git Aliases for Efficiency&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Add to ~/.gitconfig&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;alias&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  st &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; status
-  co &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; checkout
-  br &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; branch
-  ci &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit
-  unstage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reset HEAD --
-  last &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;-1&lt;/span&gt; HEAD
-  visual &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;gitk
-  lg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--decorate&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt;
-  amend &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; --no-edit
-  wip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-am&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;WIP&quot;&lt;/span&gt;
-  unwip &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; reset HEAD~1
-
-&lt;span class=&quot;token comment&quot;&gt;# Usage&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; st          &lt;span class=&quot;token comment&quot;&gt;# Instead of git status&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; co main     &lt;span class=&quot;token comment&quot;&gt;# Instead of git checkout main&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; lg          &lt;span class=&quot;token comment&quot;&gt;# Nice graph view&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Common Workflows&lt;/h2&gt;
-&lt;h3&gt;Feature Development&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 1. Start feature&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; feature/new-feature
-
-&lt;span class=&quot;token comment&quot;&gt;# 2. Make changes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;feat: implement new feature&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# 3. Push and create PR&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin feature/new-feature
-&lt;span class=&quot;token comment&quot;&gt;# Create PR on GitHub/GitLab&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# 4. After PR approved, merge and cleanup&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull origin main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; feature/new-feature&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Hotfix Workflow&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 1. Create hotfix from main&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout &lt;span class=&quot;token parameter variable&quot;&gt;-b&lt;/span&gt; hotfix/critical-bug
-
-&lt;span class=&quot;token comment&quot;&gt;# 2. Fix bug&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;fix: resolve critical security issue&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# 3. Merge to main and develop&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout main
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge hotfix/critical-bug
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; v1.0.1 &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hotfix release&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout develop
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge hotfix/critical-bug
-
-&lt;span class=&quot;token comment&quot;&gt;# 4. Delete hotfix branch&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; hotfix/critical-bug&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Undoing Changes&lt;/h2&gt;
-&lt;h3&gt;Undo Local Changes&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Discard changes in working directory&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout -- filename
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore filename  &lt;span class=&quot;token comment&quot;&gt;# Newer Git syntax&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Discard all changes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; checkout -- &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Unstage changes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset HEAD filename
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; filename&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Amend Last Commit&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Add changes to last commit&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; forgotten-file.js
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; --no-edit
-
-&lt;span class=&quot;token comment&quot;&gt;# Change commit message&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;--amend&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;New message&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# ⚠️ Don&apos;t amend commits that are already pushed!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Revert Commits&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Revert a commit (creates new commit)&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;commit-hash&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Revert last commit&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert HEAD
-
-&lt;span class=&quot;token comment&quot;&gt;# Revert multiple commits&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert HEAD~3&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;HEAD&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Reset (Use with Caution)&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Soft reset - keep changes staged&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--soft&lt;/span&gt; HEAD~1
-
-&lt;span class=&quot;token comment&quot;&gt;# Mixed reset - keep changes unstaged (default)&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset HEAD~1
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--mixed&lt;/span&gt; HEAD~1
-
-&lt;span class=&quot;token comment&quot;&gt;# Hard reset - discard all changes ⚠️&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--hard&lt;/span&gt; HEAD~1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Working with Tags&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Create annotated tag&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt; v1.0.0 &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Release version 1.0.0&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Push tags&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin v1.0.0
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin &lt;span class=&quot;token parameter variable&quot;&gt;--tags&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# Push all tags&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# List tags&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;v1.*&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Delete tag&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; tag &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; v1.0.0
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin &lt;span class=&quot;token parameter variable&quot;&gt;--delete&lt;/span&gt; v1.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Stashing&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Save current changes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash save &lt;span class=&quot;token string&quot;&gt;&quot;WIP: working on feature&quot;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# List stashes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash list
-
-&lt;span class=&quot;token comment&quot;&gt;# Apply stash&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash apply
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash apply stash@&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Pop stash (apply and remove)&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash pop
-
-&lt;span class=&quot;token comment&quot;&gt;# Drop stash&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash drop stash@&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Clear all stashes&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;.gitignore Best Practices&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;gitignore&quot;&gt;&lt;pre class=&quot;language-gitignore&quot;&gt;&lt;code class=&quot;language-gitignore&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Dependencies&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;node_modules&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;vendor&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Build outputs&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;dist&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;build&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.min.js&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Environment variables&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.env&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.env.local&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.env.&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.local&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# IDE&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.vscode&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.idea&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.swp&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.swo&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# OS&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.DS_Store&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;Thumbs.db&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Logs&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.log&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;logs&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Coverage&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;coverage&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;.nyc_output&lt;span class=&quot;token punctuation&quot;&gt;/&lt;/span&gt;&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;# Temporary files&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.tmp&lt;/span&gt;
-&lt;span class=&quot;token entry string&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;.temp&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;What I Learned&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Choose the right workflow&lt;/strong&gt;: Simple is often better&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Write good commit messages&lt;/strong&gt;: Future you will thank present you&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Review PRs promptly&lt;/strong&gt;: Don&apos;t be a bottleneck&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Keep branches focused&lt;/strong&gt;: One feature per branch&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Use tags for releases&lt;/strong&gt;: Makes deployment easier&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learn to undo safely&lt;/strong&gt;: Mistakes happen, Git can fix them&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The key insight: &lt;strong&gt;A good Git workflow isn&apos;t about complex rules—it&apos;s about clear communication and consistent practices that help the team work together smoothly.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[State Management Beyond Redux: Modern Patterns]]></title><description><![CDATA[The State Management Evolution Coming back to React development, I expected Redux to still be the go-to solution. Instead, I discovered a…]]></description><link>https://prabeshgouli.com/zero/07 state management beyond redux/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/07 state management beyond redux/</guid><pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The State Management Evolution&lt;/h2&gt;
+&lt;p&gt;The key insight: &lt;strong&gt;Most performance issues come from unnecessary re-renders. Fix those first before adding complex optimizations.&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[State Management Beyond Redux: Modern Patterns]]></title><description><![CDATA[The State Management Evolution Coming back to React development, I expected Redux to still be the go-to solution. Instead, I discovered a…]]></description><link>https://prabeshgouli.com/zero/07 state management beyond redux/</link><guid isPermaLink="false">https://prabeshgouli.com/zero/07 state management beyond redux/</guid><pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The State Management Evolution&lt;/h2&gt;
 &lt;p&gt;Coming back to React development, I expected Redux to still be the go-to solution. Instead, I discovered a landscape of simpler, more flexible tools. Here&apos;s what I learned about modern state management.&lt;/p&gt;
 &lt;h2&gt;Understanding State Types&lt;/h2&gt;
 &lt;p&gt;Not all state needs global management:&lt;/p&gt;
