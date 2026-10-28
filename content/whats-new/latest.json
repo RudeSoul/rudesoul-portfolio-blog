@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-27T21:30:11.084Z",
+  "lastUpdated": "2026-10-28T11:42:16.637Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Genie 4: A New Generation of World Simulation",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "category": "AI & LLMs",
-      "summary": "DeepMind has unveiled Genie 4, a significant advancement in world simulation technology that enhances the realism and complexity of virtual environments. This development is crucial for engineers and developers working in AI and simulation, as it opens new possibilities for training models and testing algorithms in more lifelike scenarios.",
-      "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "sourceName": "DeepMind",
-      "timeAgo": "5h ago"
+      "summary": "The Survival LLM is an innovative AI assistant designed to function independently on personal computers, providing users with emergency resources and information. This development is significant for engineers and developers interested in decentralized AI solutions and personal data privacy.",
+      "sourceUrl": "https://www.brangus.io/survival-llm",
+      "sourceName": "Brangus",
+      "timeAgo": "15h ago"
     },
     {
       "id": "2",
-      "title": "Tailscale SSH: Investigation and Remediation Update",
-      "category": "Security",
-      "summary": "Tailscale has provided an update on the investigation into a recent SSH vulnerability, detailing the steps taken to remediate the issue and enhance security measures. Developers using Tailscale for secure networking should review these updates to ensure their systems remain protected.",
-      "sourceUrl": "https://tailscale.com/ssh-investigation-update",
-      "sourceName": "Tailscale",
-      "timeAgo": "1h ago"
+      "title": "Git for the US Code",
+      "category": "Open Source",
+      "summary": "The initiative to version control the US Code using Git aims to enhance transparency and collaboration in legal documentation. This is a crucial step for developers and engineers involved in legal tech and open government projects.",
+      "sourceUrl": "https://lexifina.com/blog/git-for-the-us-code",
+      "sourceName": "Lexifina",
+      "timeAgo": "9h ago"
     },
     {
       "id": "3",
-      "title": "Ghostty 1.4.0 Release Notes",
-      "category": "Open Source",
-      "summary": "The release of Ghostty 1.4.0 introduces several new features and improvements that enhance the user experience and functionality of this open-source project. Developers involved in open-source contributions should explore these updates to leverage the latest capabilities in their applications.",
-      "sourceUrl": "https://ghostty.org/docs/install/release-notes/1-4-0",
-      "sourceName": "Ghostty",
-      "timeAgo": "4h ago"
+      "title": "Early progress on accelerating drug development with Claude",
+      "category": "AI & LLMs",
+      "summary": "Claude, an AI model, is showing promising results in speeding up drug development processes, potentially revolutionizing the pharmaceutical industry. Engineers and developers in biotech should take note of this advancement for its implications on research efficiency.",
+      "sourceUrl": "https://www.anthropic.com/research/early-progress-drug-development",
+      "sourceName": "Anthropic",
+      "timeAgo": "14h ago"
     },
     {
       "id": "4",
-      "title": "Early Progress on Accelerating Drug Development with Claude",
-      "category": "AI & LLMs",
-      "summary": "Anthropic's Claude AI is showing promising results in accelerating drug development processes, potentially transforming the pharmaceutical industry. Engineers and researchers in biotech should pay attention to these advancements as they may significantly impact drug discovery timelines and methodologies.",
-      "sourceUrl": "https://www.anthropic.com/research/early-progress-drug-development",
-      "sourceName": "Anthropic",
-      "timeAgo": "39m ago"
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "category": "Security",
+      "summary": "A critical code-execution vulnerability in UEFI firmware has been discovered, posing a significant risk to server security globally. This news is vital for engineers and developers focused on cybersecurity and server management.",
+      "sourceUrl": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "sourceName": "Ars Technica",
+      "timeAgo": "15h ago"
     },
     {
       "id": "5",
-      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "title": "Ghostty 1.4: New features and improvements",
       "category": "Open Source",
-      "summary": "A significant mathematical achievement has been formalized in Lean, providing a clear and rigorous framework for the classification of finite simple groups. This development is essential for mathematicians and computer scientists working in formal verification and theorem proving.",
-      "sourceUrl": "https://cfsg.axiommath.ai/",
-      "sourceName": "Axiom Math",
-      "timeAgo": "5h ago"
+      "summary": "The release of Ghostty 1.4 introduces significant enhancements and new features to this open-source project, which is aimed at improving user experience and functionality. Developers should explore these updates for potential integration into their projects.",
+      "sourceUrl": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "sourceName": "Ghostty",
+      "timeAgo": "18h ago"
     }
   ]
 }
