@@ -17,13 +17,42 @@ const units = [
         size: "64 KB",
         url: "/course/Computational_Methods_for_Forestry_Research/Unit-I/unit1_computational_workflow.pptx",
       },
+      {
+        name: "data_dictionary.csv",
+        label: "Standard Field Measurement Data Dictionary",
+        type: "CSV",
+        size: "1.1 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-I/data_dictionary.csv",
+      },
     ],
   },
   {
     id: "unit-2",
     num: "02",
-    title: "Unit II",
-    files: [],
+    title: "Unit II: Programming Fundamentals in R — Reusable Forestry Functions",
+    files: [
+      {
+        name: "unit2_programming_fundamentals_r.pptx",
+        label: "Lecture Presentation (Slide Deck)",
+        type: "PPTX",
+        size: "69 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/unit2_programming_fundamentals_r.pptx",
+      },
+      {
+        name: "unit2_starter_trees.csv",
+        label: "Starter Practice Tree Records (Lab Dataset)",
+        type: "CSV",
+        size: "468 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/unit2_starter_trees.csv",
+      },
+      {
+        name: "bagmati_raw_inventory.csv",
+        label: "Bagmati Permanent Sample Plot Inventory (Raw Dataset)",
+        type: "CSV",
+        size: "228 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/bagmati_raw_inventory.csv",
+      },
+    ],
   },
   {
     id: "unit-3",
@@ -73,7 +102,7 @@ const softwareTools = [
 ]
 
 const ComputationalForestryPage = ({ location }) => {
-  const [openUnits, setOpenUnits] = React.useState({ "unit-1": true })
+  const [openUnits, setOpenUnits] = React.useState({ "unit-1": true, "unit-2": true })
 
   const toggleUnit = id => {
     setOpenUnits(prev => ({ ...prev, [id]: !prev[id] }))
@@ -153,7 +182,11 @@ const ComputationalForestryPage = ({ location }) => {
                           {unit.files.map((file, idx) => (
                             <li key={idx} className="forestry-resource-item">
                               <div className="forestry-resource-main">
-                                <span className="forestry-resource-type">
+                                <span
+                                  className={`forestry-resource-type ${
+                                    file.type ? file.type.toLowerCase() : ""
+                                  }`}
+                                >
                                   {file.type}
                                 </span>
                                 <div className="forestry-resource-details">

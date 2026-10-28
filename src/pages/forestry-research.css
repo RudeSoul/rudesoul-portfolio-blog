@@ -215,11 +215,23 @@
   font-family: "JetBrains Mono", monospace;
   font-size: 0.68rem;
   font-weight: 700;
-  background: #ea580c;
+  background: #52525b;
   color: #ffffff;
   padding: 2px 6px;
   border-radius: 3px;
   letter-spacing: 0.05em;
+}
+
+.forestry-resource-type.pptx {
+  background: #ea580c;
+}
+
+.forestry-resource-type.csv {
+  background: #0284c7;
+}
+
+.forestry-resource-type.r {
+  background: #2563eb;
 }
 
 .forestry-resource-details {
