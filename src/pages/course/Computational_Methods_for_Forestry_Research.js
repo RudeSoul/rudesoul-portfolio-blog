@@ -52,6 +52,13 @@ const units = [
         size: "228 KB",
         url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/bagmati_raw_inventory.csv",
       },
+      {
+        name: "git_github_cheatsheet.md",
+        label: "Git & GitHub Command Cheatsheet (Practical Guide)",
+        type: "MD",
+        size: "4.8 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/git_github_cheatsheet.md",
+      },
     ],
   },
   {
@@ -93,7 +100,8 @@ const units = [
 ]
 
 const softwareTools = [
-  { name: "R & RStudio Desktop", link: "https://posit.co/download/rstudio-desktop/" },
+  { name: "R Base Language (CRAN)", link: "https://cloud.r-project.org/" },
+  { name: "RStudio Desktop IDE", link: "https://posit.co/download/rstudio-desktop/" },
   { name: "Python 3.10+", link: "https://www.python.org/downloads/" },
   { name: "Quarto CLI", link: "https://quarto.org/docs/get-started/" },
   { name: "Git Version Control", link: "https://git-scm.com/downloads" },
@@ -101,11 +109,102 @@ const softwareTools = [
   { name: "VS Code IDE", link: "https://code.visualstudio.com/download" },
 ]
 
+const gitCommands = [
+  {
+    category: "1. Global Setup & Identity",
+    desc: "Configure your name, email, and standard main branch on your computer.",
+    commands: [
+      {
+        cmd: `git config --global user.name "Your Name"\ngit config --global user.email "student@iof.edu.np"\ngit config --global init.defaultBranch main`,
+        note: "Set your identity attached to every research commit and PR.",
+      },
+      {
+        cmd: `git config --list`,
+        note: "Verify your configured username and email.",
+      },
+    ],
+  },
+  {
+    category: "2. Daily Local Cycle (Status, Add, Commit)",
+    desc: "Inspect changes, stage files, and record clean snapshots of your work.",
+    commands: [
+      {
+        cmd: `git status`,
+        note: "Check modified scripts, untracked files, and staged changes.",
+      },
+      {
+        cmd: `git add scripts/02_tree_functions.R\ngit commit -m "feat: implement vectorised basal area formula"`,
+        note: "Stage specific files and commit with a clear, concise message.",
+      },
+      {
+        cmd: `git log --oneline -n 5`,
+        note: "Review recent commit history and IDs.",
+      },
+    ],
+  },
+  {
+    category: "3. Remote Sync (Push & Pull)",
+    desc: "Synchronize your local commits with your remote repository on GitHub.",
+    commands: [
+      {
+        cmd: `git pull origin main`,
+        note: "Pull latest remote updates before starting work to avoid conflicts.",
+      },
+      {
+        cmd: `git push origin main`,
+        note: "Upload your committed local snapshots to your GitHub repository.",
+      },
+    ],
+  },
+  {
+    category: "4. Branching & Switching (Checkout)",
+    desc: "Safely isolate new models, assignment exercises, or tests.",
+    commands: [
+      {
+        cmd: `git checkout -b feature-tree-allometry`,
+        note: "Create and immediately switch to a new working branch.",
+      },
+      {
+        cmd: `git checkout main`,
+        note: "Switch back to the main branch.",
+      },
+      {
+        cmd: `git branch`,
+        note: "List all local branches (* marks the currently active branch).",
+      },
+    ],
+  },
+  {
+    category: "5. Merging & Pull Requests (PR)",
+    desc: "Integrate branches and submit team or assignment Pull Requests on GitHub.",
+    commands: [
+      {
+        cmd: `git checkout main\ngit merge feature-tree-allometry`,
+        note: "Merge a completed feature branch into main locally.",
+      },
+      {
+        cmd: `git push -u origin feature-tree-allometry`,
+        note: "Push branch to GitHub, then click 'Compare & pull request' in your browser.",
+      },
+    ],
+  },
+]
+
 const ComputationalForestryPage = ({ location }) => {
   const [openUnits, setOpenUnits] = React.useState({ "unit-1": true, "unit-2": true })
+  const [copiedId, setCopiedId] = React.useState(null)
 
   const toggleUnit = id => {
     setOpenUnits(prev => ({ ...prev, [id]: !prev[id] }))
+  }
+
+  const handleCopy = (id, text) => {
+    if (typeof navigator !== "undefined" && navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(() => {
+        setCopiedId(id)
+        setTimeout(() => setCopiedId(null), 2000)
+      })
+    }
   }
 
   return (
@@ -178,36 +277,100 @@ const ComputationalForestryPage = ({ location }) => {
                   {isOpen && (
                     <div className="forestry-toc-body">
                       {hasFiles ? (
-                        <ul className="forestry-resource-list">
-                          {unit.files.map((file, idx) => (
-                            <li key={idx} className="forestry-resource-item">
-                              <div className="forestry-resource-main">
-                                <span
-                                  className={`forestry-resource-type ${
-                                    file.type ? file.type.toLowerCase() : ""
-                                  }`}
-                                >
-                                  {file.type}
-                                </span>
-                                <div className="forestry-resource-details">
-                                  <span className="forestry-resource-name">
-                                    {file.name}
+                        <React.Fragment>
+                          <ul className="forestry-resource-list">
+                            {unit.files.map((file, idx) => (
+                              <li key={idx} className="forestry-resource-item">
+                                <div className="forestry-resource-main">
+                                  <span
+                                    className={`forestry-resource-type ${
+                                      file.type ? file.type.toLowerCase() : ""
+                                    }`}
+                                  >
+                                    {file.type}
                                   </span>
-                                  <span className="forestry-resource-meta">
-                                    {file.label} · {file.size}
-                                  </span>
+                                  <div className="forestry-resource-details">
+                                    <span className="forestry-resource-name">
+                                      {file.name}
+                                    </span>
+                                    <span className="forestry-resource-meta">
+                                      {file.label} · {file.size}
+                                    </span>
+                                  </div>
                                 </div>
+                                <a
+                                  href={file.url}
+                                  download={file.name}
+                                  className="forestry-resource-download"
+                                >
+                                  Download ↓
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+
+                          {unit.id === "unit-2" && (
+                            <div className="forestry-cheatsheet-card">
+                              <div className="forestry-cheatsheet-header">
+                                <span className="forestry-cheatsheet-badge-pill">
+                                  Interactive Lab Reference
+                                </span>
+                                <h4 className="forestry-cheatsheet-title">
+                                  Git &amp; GitHub Command Cheatsheet
+                                </h4>
+                                <p className="forestry-cheatsheet-desc">
+                                  Quick terminal reference for configuration, daily commits, branching, merging, and GitHub PR workflows taught in class.
+                                </p>
                               </div>
-                              <a
-                                href={file.url}
-                                download={file.name}
-                                className="forestry-resource-download"
-                              >
-                                Download ↓
-                              </a>
-                            </li>
-                          ))}
-                        </ul>
+
+                              <div className="forestry-cheatsheet-list">
+                                {gitCommands.map((sec, sIdx) => (
+                                  <div key={sIdx} className="forestry-cheatsheet-group">
+                                    <div className="forestry-cheatsheet-group-header">
+                                      <h5 className="forestry-cheatsheet-group-title">
+                                        {sec.category}
+                                      </h5>
+                                      <span className="forestry-cheatsheet-group-desc">
+                                        {sec.desc}
+                                      </span>
+                                    </div>
+
+                                    <div className="forestry-cheatsheet-items">
+                                      {sec.commands.map((item, cIdx) => {
+                                        const codeId = `cmd-${sIdx}-${cIdx}`
+                                        const isCopied = copiedId === codeId
+                                        return (
+                                          <div key={cIdx} className="forestry-cmd-box">
+                                            <div className="forestry-cmd-header">
+                                              <span className="forestry-cmd-note">
+                                                {item.note}
+                                              </span>
+                                              <button
+                                                type="button"
+                                                className={`forestry-cmd-copy-btn ${
+                                                  isCopied ? "is-copied" : ""
+                                                }`}
+                                                onClick={() =>
+                                                  handleCopy(codeId, item.cmd)
+                                                }
+                                                aria-label="Copy command snippet"
+                                              >
+                                                {isCopied ? "✓ Copied" : "Copy"}
+                                              </button>
+                                            </div>
+                                            <pre className="forestry-cmd-pre">
+                                              <code>{item.cmd}</code>
+                                            </pre>
+                                          </div>
+                                        )
+                                      })}
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </React.Fragment>
                       ) : (
                         <p className="forestry-toc-empty">
                           No resources uploaded yet. Files will appear here as this unit begins.

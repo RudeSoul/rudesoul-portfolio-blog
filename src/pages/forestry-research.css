@@ -234,6 +234,10 @@
   background: #2563eb;
 }
 
+.forestry-resource-type.md {
+  background: #059669;
+}
+
 .forestry-resource-details {
   display: flex;
   flex-direction: column;
@@ -335,6 +339,150 @@
   background: #111111;
   color: #ffffff;
   border-color: #111111;
+}
+
+/* Interactive Git Cheatsheet Card inside Unit II */
+.forestry-cheatsheet-card {
+  margin-top: 24px;
+  background: #fdfdfd;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px 22px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.forestry-cheatsheet-header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 14px;
+}
+
+.forestry-cheatsheet-badge-pill {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #0369a1;
+  background: #e0f2fe;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.forestry-cheatsheet-title {
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111111;
+  margin: 0 0 6px 0;
+}
+
+.forestry-cheatsheet-desc {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #64748b;
+  margin: 0;
+}
+
+.forestry-cheatsheet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.forestry-cheatsheet-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.forestry-cheatsheet-group-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.forestry-cheatsheet-group-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.forestry-cheatsheet-group-desc {
+  font-size: 0.82rem;
+  color: #64748b;
+}
+
+.forestry-cheatsheet-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forestry-cmd-box {
+  background: #18181b;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #27272a;
+}
+
+.forestry-cmd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  background: #27272a;
+  gap: 8px;
+}
+
+.forestry-cmd-note {
+  font-family: "PT Sans", sans-serif;
+  font-size: 0.78rem;
+  color: #a1a1aa;
+}
+
+.forestry-cmd-copy-btn {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #d4d4d8;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.forestry-cmd-copy-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.forestry-cmd-copy-btn.is-copied {
+  background: #10b981;
+  border-color: #10b981;
+  color: #ffffff;
+}
+
+.forestry-cmd-pre {
+  margin: 0;
+  padding: 10px 14px;
+  overflow-x: auto;
+}
+
+.forestry-cmd-pre code {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: #38bdf8;
+  background: none;
+  padding: 0;
 }
 
 @media (max-width: 600px) {
