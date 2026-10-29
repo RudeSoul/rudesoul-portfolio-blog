@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 import "../forestry-research.css"
+import "../forestry-lab.css"
 
 const units = [
   {
@@ -383,6 +384,28 @@ const ComputationalForestryPage = ({ location }) => {
                               </li>
                             ))}
                           </ul>
+
+                          {unit.id === "unit-2" && (
+                            <div className="forestry-lab-banner-card">
+                              <div className="forestry-lab-banner-content">
+                                <span className="forestry-lab-banner-badge">
+                                  Live Interactive Workbook
+                                </span>
+                                <h4 className="forestry-lab-banner-title">
+                                  Unit II In-Browser R Coding Lab (Interactive Sandbox)
+                                </h4>
+                                <p className="forestry-lab-banner-desc">
+                                  Execute live R code directly in your browser without installing anything. Practice single-tree basal area math, data types, defensive guards, starter inventory queries, and publication-ready forestry plots with live console outputs and graphs.
+                                </p>
+                              </div>
+                              <Link
+                                to="/course/Computational_Methods_for_Forestry_Research/unit-2-r-lab/"
+                                className="forestry-lab-banner-btn"
+                              >
+                                Launch In-Browser Lab →
+                              </Link>
+                            </div>
+                          )}
 
                           {unit.id === "unit-2" && (
                             <div className={`forestry-cheatsheet-card ${isCheatsheetOpen ? "is-open" : "is-collapsed"}`}>
