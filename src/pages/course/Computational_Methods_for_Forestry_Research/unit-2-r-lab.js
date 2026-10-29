@@ -558,36 +558,42 @@ const Unit2RLabPage = ({ location }) => {
 
         setStatusMessage("Mounting virtual datasets (unit2_starter_trees.csv)...")
         try {
-          await instance.FS.mkdir("/DATA", { recursive: true })
-          await instance.FS.mkdir("/DATA/RAW", { recursive: true })
-          await instance.FS.mkdir("/DATA/CALCULATED", { recursive: true })
-          await instance.FS.mkdir("/home/web_user/DATA", { recursive: true })
-          await instance.FS.mkdir("/home/web_user/DATA/RAW", { recursive: true })
-          await instance.FS.mkdir("/home/web_user/DATA/CALCULATED", { recursive: true })
+          // Use R's internal dir.create to reliably establish directory trees in Emscripten VFS
+          await instance.evalRVoid(`
+            dir.create("/DATA/RAW", recursive = TRUE, showWarnings = FALSE)
+            dir.create("/DATA/CALCULATED", recursive = TRUE, showWarnings = FALSE)
+            dir.create("/home/web_user/DATA/RAW", recursive = TRUE, showWarnings = FALSE)
+            dir.create("/home/web_user/DATA/CALCULATED", recursive = TRUE, showWarnings = FALSE)
+          `)
 
           const resStarter = await fetch(
             "/course/Computational_Methods_for_Forestry_Research/Unit-II/unit2_starter_trees.csv"
           )
           if (resStarter.ok) {
-            const csvText = await resStarter.text()
-            await instance.FS.writeFile("/DATA/RAW/unit2_starter_trees.csv", csvText)
-            await instance.FS.writeFile("/home/web_user/DATA/RAW/unit2_starter_trees.csv", csvText)
-            await instance.FS.writeFile("/unit2_starter_trees.csv", csvText)
-            await instance.FS.writeFile("/home/web_user/unit2_starter_trees.csv", csvText)
+            const starterBuf = await resStarter.arrayBuffer()
+            const starterBytes = new Uint8Array(starterBuf)
+            await instance.FS.writeFile("/home/web_user/DATA/RAW/unit2_starter_trees.csv", starterBytes)
+            await instance.FS.writeFile("/DATA/RAW/unit2_starter_trees.csv", starterBytes)
+            await instance.FS.writeFile("/home/web_user/unit2_starter_trees.csv", starterBytes)
+            await instance.FS.writeFile("/unit2_starter_trees.csv", starterBytes)
           }
 
           const resBagmati = await fetch(
             "/course/Computational_Methods_for_Forestry_Research/Unit-II/bagmati_raw_inventory.csv"
           )
           if (resBagmati.ok) {
-            const bagmatiText = await resBagmati.text()
-            await instance.FS.writeFile("/DATA/RAW/bagmati_raw_inventory.csv", bagmatiText)
-            await instance.FS.writeFile("/home/web_user/DATA/RAW/bagmati_raw_inventory.csv", bagmatiText)
-            await instance.FS.writeFile("/bagmati_raw_inventory.csv", bagmatiText)
-            await instance.FS.writeFile("/home/web_user/bagmati_raw_inventory.csv", bagmatiText)
+            const bagmatiBuf = await resBagmati.arrayBuffer()
+            const bagmatiBytes = new Uint8Array(bagmatiBuf)
+            await instance.FS.writeFile("/home/web_user/DATA/RAW/bagmati_raw_inventory.csv", bagmatiBytes)
+            await instance.FS.writeFile("/DATA/RAW/bagmati_raw_inventory.csv", bagmatiBytes)
+            await instance.FS.writeFile("/home/web_user/bagmati_raw_inventory.csv", bagmatiBytes)
+            await instance.FS.writeFile("/bagmati_raw_inventory.csv", bagmatiBytes)
           }
 
-          await instance.evalRVoid('setwd("/")')
+          await instance.evalRVoid(`
+            setwd("/home/web_user")
+            options(warn = 1)
+          `)
         } catch (fsErr) {
           console.warn("Virtual FS setup notice:", fsErr)
         }
@@ -599,7 +605,8 @@ const Unit2RLabPage = ({ location }) => {
       } catch (err) {
         console.error("WebR init error:", err)
         setEngineState("error")
-        setStatusMessage(`Engine Error: ${err.message || String(err)}`)
+        const errTxt = err?.message || "Failed to initialize WebR"
+        setStatusMessage(`Engine Error: ${errTxt}`)
         throw err
       } finally {
         initPromiseRef.current = null
@@ -626,14 +633,29 @@ const Unit2RLabPage = ({ location }) => {
         const capture = await shelter.captureR(code, {
           withAutoprint: true,
           captureStreams: true,
-          captureConditions: true,
+          captureConditions: false,
         })
 
         const elapsed = Date.now() - startTime
         let textOutput = ""
         if (capture.output && capture.output.length > 0) {
-          textOutput = capture.output.map(item => item.data).join("\n")
-        } else {
+          const lines = []
+          for (const item of capture.output) {
+            if (!item) continue
+            if (typeof item.data === "string") {
+              lines.push(item.data)
+            } else if (item.data && typeof item.data.message === "string") {
+              lines.push(item.data.message)
+            } else if (typeof item.message === "string") {
+              lines.push(item.message)
+            } else if (typeof item === "string") {
+              lines.push(item)
+            }
+          }
+          textOutput = lines.join("\n")
+        }
+        
+        if (!textOutput) {
           textOutput = "(Executed successfully with no console output)"
         }
 
@@ -659,12 +681,25 @@ const Unit2RLabPage = ({ location }) => {
           },
         }))
       } catch (runErr) {
+        let errMsg = "Execution error"
+        if (typeof runErr === "string") {
+          errMsg = runErr
+        } else if (runErr && typeof runErr.message === "string") {
+          errMsg = runErr.message
+        } else if (runErr && typeof runErr.data === "string") {
+          errMsg = runErr.data
+        } else if (runErr && typeof runErr.status === "string") {
+          errMsg = runErr.status
+        } else {
+          errMsg = "R execution halted with an error"
+        }
+
         setSectionOutputs(prev => ({
           ...prev,
           [sectionId]: {
             output: null,
             images: [],
-            error: runErr.message || String(runErr),
+            error: errMsg,
             time: Date.now() - startTime,
           },
         }))
@@ -672,12 +707,19 @@ const Unit2RLabPage = ({ location }) => {
         await shelter.purge()
       }
     } catch (err) {
+      let errMain = "Engine execution failed"
+      if (typeof err === "string") {
+        errMain = err
+      } else if (err && typeof err.message === "string") {
+        errMain = err.message
+      }
+
       setSectionOutputs(prev => ({
         ...prev,
         [sectionId]: {
           output: null,
           images: [],
-          error: `Engine execution failed: ${err.message || String(err)}`,
+          error: `Engine execution failed: ${errMain}`,
           time: Date.now() - startTime,
         },
       }))
