@@ -110,13 +110,16 @@ git push origin main
 
 ---
 
-## 6. Branching & Checkout (Safe Experimentation)
+## 6. Branching, Switching & Deletion (-d vs -D)
 
 Use branches when developing new allometric models, statistical tests, or assignments without breaking your working `main` branch.
 
 ```bash
-# List all local branches (* indicates the current branch)
+# List all local branches (* indicates the current active branch)
 git branch
+
+# List ALL branches (including remote-tracking branches on GitHub)
+git branch -a
 
 # Create a new branch and switch to it immediately
 git checkout -b feature-biomass-allometry
@@ -126,8 +129,16 @@ git checkout -b feature-biomass-allometry
 git checkout main
 # (Alternative modern command: git switch main)
 
-# Delete a feature branch once it has been merged
+# Safe delete (-d): Only deletes if branch has already been fully merged into main
+# (Git prevents you from losing unmerged work by throwing an error if unmerged)
 git branch -d feature-biomass-allometry
+
+# Force delete (-D): Forcefully deletes branch REGARDLESS of merge status
+# (Use when deliberately discarding failed experiments, broken models, or abandoned drafts)
+git branch -D feature-failed-experiment
+
+# Delete a remote branch on GitHub after PR is completed
+git push origin --delete feature-biomass-allometry
 ```
 
 ---

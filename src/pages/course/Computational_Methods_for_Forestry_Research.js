@@ -143,9 +143,13 @@ const gitCommands = [
     ],
   },
   {
-    category: "3. Connecting Remotes (git remote add)",
-    desc: "Link your local folder to GitHub or connect upstream repositories for forks.",
+    category: "3. Initializing & Connecting Remotes (git remote add)",
+    desc: "Initialize Git in a project folder, link to GitHub, or connect upstream forks.",
     commands: [
+      {
+        cmd: `git init`,
+        note: "Initialize a new local Git repository in your current RStudio project folder.",
+      },
       {
         cmd: `git remote add origin git@github.com:YOUR_USERNAME/forestry-project.git`,
         note: "Connect your local repository to your GitHub repository (SSH URL).",
@@ -169,8 +173,8 @@ const gitCommands = [
         note: "Check modified scripts, new raw files, and staging status.",
       },
       {
-        cmd: `git diff scripts/02_tree_functions.R`,
-        note: "Inspect exact line-by-line differences before staging.",
+        cmd: `git diff scripts/02_tree_functions.R\ngit diff --staged`,
+        note: "Inspect unstaged line-by-line changes, or review staged changes before committing.",
       },
       {
         cmd: `git add scripts/02_tree_functions.R\ngit commit -m "feat: implement vectorised basal area formula"`,
@@ -197,8 +201,8 @@ const gitCommands = [
     ],
   },
   {
-    category: "6. Branching & Switching (Checkout)",
-    desc: "Isolate new modeling experiments, assignments, or bug fixes safely.",
+    category: "6. Branching, Switching & Deletion (-d vs -D)",
+    desc: "Create isolated branches for modeling experiments, switch contexts, and clean up branches safely.",
     commands: [
       {
         cmd: `git checkout -b feature-volume-allometry`,
@@ -211,6 +215,18 @@ const gitCommands = [
       {
         cmd: `git branch`,
         note: "List all local branches (* denotes the currently active branch).",
+      },
+      {
+        cmd: `git branch -d feature-volume-allometry`,
+        note: "Safe delete (-d): deletes local branch ONLY if it has already been merged into main.",
+      },
+      {
+        cmd: `git branch -D feature-failed-experiment`,
+        note: "Force delete (-D): permanently deletes branch regardless of merge status (discards code).",
+      },
+      {
+        cmd: `git push origin --delete feature-volume-allometry`,
+        note: "Delete remote branch on GitHub after pull request has been merged.",
       },
     ],
   },
