@@ -344,17 +344,46 @@
 /* Interactive Git Cheatsheet Card inside Unit II */
 .forestry-cheatsheet-card {
   margin-top: 24px;
-  background: #fdfdfd;
+  background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
-  padding: 20px 22px;
+  overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.forestry-cheatsheet-header {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #f1f5f9;
-  padding-bottom: 14px;
+.forestry-cheatsheet-card.is-open {
+  border-color: #cbd5e1;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+.forestry-cheatsheet-toggle-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  background: #fbfcfe;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.forestry-cheatsheet-card.is-open .forestry-cheatsheet-toggle-btn {
+  border-bottom-color: #f1f5f9;
+  background: #f8fafc;
+}
+
+.forestry-cheatsheet-toggle-btn:hover {
+  background: #f1f5f9;
+}
+
+.forestry-cheatsheet-header-main {
+  flex: 1;
+  min-width: 0;
 }
 
 .forestry-cheatsheet-badge-pill {
@@ -368,7 +397,7 @@
   background: #e0f2fe;
   padding: 3px 8px;
   border-radius: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .forestry-cheatsheet-title {
@@ -384,6 +413,39 @@
   line-height: 1.5;
   color: #64748b;
   margin: 0;
+}
+
+.forestry-cheatsheet-toggle-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #0369a1;
+  background: #e0f2fe;
+  border: 1px solid rgba(3, 105, 161, 0.25);
+  padding: 7px 12px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.forestry-cheatsheet-toggle-btn:hover .forestry-cheatsheet-toggle-action {
+  background: #bae6fd;
+  color: #0284c7;
+  border-color: #0284c7;
+}
+
+.forestry-cheatsheet-toggle-icon {
+  font-size: 0.7rem;
+  line-height: 1;
+  display: inline-block;
+}
+
+.forestry-cheatsheet-content {
+  padding: 22px;
+  background: #ffffff;
 }
 
 .forestry-cheatsheet-list {
@@ -495,4 +557,17 @@
   .forestry-toc-body {
     padding-left: 20px;
   }
+  .forestry-cheatsheet-toggle-btn {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 16px;
+  }
+  .forestry-cheatsheet-toggle-action {
+    align-self: flex-start;
+  }
+  .forestry-cheatsheet-content {
+    padding: 16px;
+  }
 }
+

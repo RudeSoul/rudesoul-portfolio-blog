@@ -267,6 +267,7 @@ const gitCommands = [
 const ComputationalForestryPage = ({ location }) => {
   const [openUnits, setOpenUnits] = React.useState({ "unit-1": true, "unit-2": true })
   const [copiedId, setCopiedId] = React.useState(null)
+  const [isCheatsheetOpen, setIsCheatsheetOpen] = React.useState(false)
 
   const toggleUnit = id => {
     setOpenUnits(prev => ({ ...prev, [id]: !prev[id] }))
@@ -384,64 +385,83 @@ const ComputationalForestryPage = ({ location }) => {
                           </ul>
 
                           {unit.id === "unit-2" && (
-                            <div className="forestry-cheatsheet-card">
-                              <div className="forestry-cheatsheet-header">
-                                <span className="forestry-cheatsheet-badge-pill">
-                                  Interactive Lab Reference
-                                </span>
-                                <h4 className="forestry-cheatsheet-title">
-                                  Git &amp; GitHub Command Cheatsheet
-                                </h4>
-                                <p className="forestry-cheatsheet-desc">
-                                  Quick terminal reference for configuration, daily commits, branching, merging, and GitHub PR workflows taught in class.
-                                </p>
-                              </div>
+                            <div className={`forestry-cheatsheet-card ${isCheatsheetOpen ? "is-open" : "is-collapsed"}`}>
+                              <button
+                                type="button"
+                                className="forestry-cheatsheet-toggle-btn"
+                                onClick={() => setIsCheatsheetOpen(prev => !prev)}
+                                aria-expanded={isCheatsheetOpen}
+                              >
+                                <div className="forestry-cheatsheet-header-main">
+                                  <span className="forestry-cheatsheet-badge-pill">
+                                    Interactive Lab Reference
+                                  </span>
+                                  <h4 className="forestry-cheatsheet-title">
+                                    Git &amp; GitHub Command Cheatsheet
+                                  </h4>
+                                  <p className="forestry-cheatsheet-desc">
+                                    Quick terminal reference for configuration, daily commits, branching, merging, and GitHub PR workflows taught in class.
+                                  </p>
+                                </div>
+                                <div className="forestry-cheatsheet-toggle-action">
+                                  <span className="forestry-cheatsheet-toggle-text">
+                                    {isCheatsheetOpen ? "Hide Reference" : "View Cheatsheet (8 Modules)"}
+                                  </span>
+                                  <span className="forestry-cheatsheet-toggle-icon" aria-hidden="true">
+                                    {isCheatsheetOpen ? "▲" : "▼"}
+                                  </span>
+                                </div>
+                              </button>
 
-                              <div className="forestry-cheatsheet-list">
-                                {gitCommands.map((sec, sIdx) => (
-                                  <div key={sIdx} className="forestry-cheatsheet-group">
-                                    <div className="forestry-cheatsheet-group-header">
-                                      <h5 className="forestry-cheatsheet-group-title">
-                                        {sec.category}
-                                      </h5>
-                                      <span className="forestry-cheatsheet-group-desc">
-                                        {sec.desc}
-                                      </span>
-                                    </div>
+                              {isCheatsheetOpen && (
+                                <div className="forestry-cheatsheet-content">
+                                  <div className="forestry-cheatsheet-list">
+                                    {gitCommands.map((sec, sIdx) => (
+                                      <div key={sIdx} className="forestry-cheatsheet-group">
+                                        <div className="forestry-cheatsheet-group-header">
+                                          <h5 className="forestry-cheatsheet-group-title">
+                                            {sec.category}
+                                          </h5>
+                                          <span className="forestry-cheatsheet-group-desc">
+                                            {sec.desc}
+                                          </span>
+                                        </div>
 
-                                    <div className="forestry-cheatsheet-items">
-                                      {sec.commands.map((item, cIdx) => {
-                                        const codeId = `cmd-${sIdx}-${cIdx}`
-                                        const isCopied = copiedId === codeId
-                                        return (
-                                          <div key={cIdx} className="forestry-cmd-box">
-                                            <div className="forestry-cmd-header">
-                                              <span className="forestry-cmd-note">
-                                                {item.note}
-                                              </span>
-                                              <button
-                                                type="button"
-                                                className={`forestry-cmd-copy-btn ${
-                                                  isCopied ? "is-copied" : ""
-                                                }`}
-                                                onClick={() =>
-                                                  handleCopy(codeId, item.cmd)
-                                                }
-                                                aria-label="Copy command snippet"
-                                              >
-                                                {isCopied ? "✓ Copied" : "Copy"}
-                                              </button>
-                                            </div>
-                                            <pre className="forestry-cmd-pre">
-                                              <code>{item.cmd}</code>
-                                            </pre>
-                                          </div>
-                                        )
-                                      })}
-                                    </div>
+                                        <div className="forestry-cheatsheet-items">
+                                          {sec.commands.map((item, cIdx) => {
+                                            const codeId = `cmd-${sIdx}-${cIdx}`
+                                            const isCopied = copiedId === codeId
+                                            return (
+                                              <div key={cIdx} className="forestry-cmd-box">
+                                                <div className="forestry-cmd-header">
+                                                  <span className="forestry-cmd-note">
+                                                    {item.note}
+                                                  </span>
+                                                  <button
+                                                    type="button"
+                                                    className={`forestry-cmd-copy-btn ${
+                                                      isCopied ? "is-copied" : ""
+                                                    }`}
+                                                    onClick={() =>
+                                                      handleCopy(codeId, item.cmd)
+                                                    }
+                                                    aria-label="Copy command snippet"
+                                                  >
+                                                    {isCopied ? "✓ Copied" : "Copy"}
+                                                  </button>
+                                                </div>
+                                                <pre className="forestry-cmd-pre">
+                                                  <code>{item.cmd}</code>
+                                                </pre>
+                                              </div>
+                                            )
+                                          })}
+                                        </div>
+                                      </div>
+                                    ))}
                                   </div>
-                                ))}
-                              </div>
+                                </div>
+                              )}
                             </div>
                           )}
                         </React.Fragment>
