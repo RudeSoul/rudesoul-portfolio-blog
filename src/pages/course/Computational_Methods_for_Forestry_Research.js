@@ -111,80 +111,138 @@ const softwareTools = [
 
 const gitCommands = [
   {
-    category: "1. Global Setup & Identity",
-    desc: "Configure your name, email, and standard main branch on your computer.",
+    category: "1. Global Identity & Default Settings",
+    desc: "Configure your name, institutional email, and standard main branch once on your machine.",
     commands: [
       {
         cmd: `git config --global user.name "Your Name"\ngit config --global user.email "student@iof.edu.np"\ngit config --global init.defaultBranch main`,
-        note: "Set your identity attached to every research commit and PR.",
+        note: "Set the identity attached to every research commit and PR.",
       },
       {
         cmd: `git config --list`,
-        note: "Verify your configured username and email.",
+        note: "Verify your configured username, email, and global settings.",
       },
     ],
   },
   {
-    category: "2. Daily Local Cycle (Status, Add, Commit)",
-    desc: "Inspect changes, stage files, and record clean snapshots of your work.",
+    category: "2. SSH Authentication & GitHub Login Verification",
+    desc: "Generate secure SSH keys, register with GitHub, and verify connection without passwords.",
+    commands: [
+      {
+        cmd: `ssh-keygen -t ed25519 -C "student@iof.edu.np"`,
+        note: "Generate a new Ed25519 SSH key pair (press Enter for default path).",
+      },
+      {
+        cmd: `cat ~/.ssh/id_ed25519.pub`,
+        note: "Display your public key. Copy the entire output into GitHub -> Settings -> SSH Keys.",
+      },
+      {
+        cmd: `ssh -T git@github.com`,
+        note: "Test your GitHub authentication (should say: Hi username! You've successfully authenticated).",
+      },
+    ],
+  },
+  {
+    category: "3. Connecting Remotes (git remote add)",
+    desc: "Link your local folder to GitHub or connect upstream repositories for forks.",
+    commands: [
+      {
+        cmd: `git remote add origin git@github.com:YOUR_USERNAME/forestry-project.git`,
+        note: "Connect your local repository to your GitHub repository (SSH URL).",
+      },
+      {
+        cmd: `git remote -v`,
+        note: "List all configured remote connections and URLs.",
+      },
+      {
+        cmd: `git remote add upstream git@github.com:ORIGINAL_OWNER/forestry-project.git`,
+        note: "Connect original class repository as upstream when working on a fork.",
+      },
+    ],
+  },
+  {
+    category: "4. Daily Working Cycle (Status, Diff, Add, Commit)",
+    desc: "Inspect changes, stage specific files, and save clean immutable snapshots.",
     commands: [
       {
         cmd: `git status`,
-        note: "Check modified scripts, untracked files, and staged changes.",
+        note: "Check modified scripts, new raw files, and staging status.",
+      },
+      {
+        cmd: `git diff scripts/02_tree_functions.R`,
+        note: "Inspect exact line-by-line differences before staging.",
       },
       {
         cmd: `git add scripts/02_tree_functions.R\ngit commit -m "feat: implement vectorised basal area formula"`,
-        note: "Stage specific files and commit with a clear, concise message.",
+        note: "Stage specific files and commit with a concise, descriptive message.",
       },
       {
         cmd: `git log --oneline -n 5`,
-        note: "Review recent commit history and IDs.",
+        note: "View recent commit history and SHA hashes.",
       },
     ],
   },
   {
-    category: "3. Remote Sync (Push & Pull)",
-    desc: "Synchronize your local commits with your remote repository on GitHub.",
+    category: "5. Remote Syncing (Pull & Push)",
+    desc: "Synchronize local work with GitHub and avoid merge conflicts.",
     commands: [
       {
         cmd: `git pull origin main`,
-        note: "Pull latest remote updates before starting work to avoid conflicts.",
+        note: "Always pull latest updates before starting work to stay in sync.",
       },
       {
-        cmd: `git push origin main`,
-        note: "Upload your committed local snapshots to your GitHub repository.",
+        cmd: `git push -u origin main`,
+        note: "Upload local commits to GitHub (-u sets default tracking for future git push).",
       },
     ],
   },
   {
-    category: "4. Branching & Switching (Checkout)",
-    desc: "Safely isolate new models, assignment exercises, or tests.",
+    category: "6. Branching & Switching (Checkout)",
+    desc: "Isolate new modeling experiments, assignments, or bug fixes safely.",
     commands: [
       {
-        cmd: `git checkout -b feature-tree-allometry`,
-        note: "Create and immediately switch to a new working branch.",
+        cmd: `git checkout -b feature-volume-allometry`,
+        note: "Create and switch to a new working branch (or use: git switch -c).",
       },
       {
         cmd: `git checkout main`,
-        note: "Switch back to the main branch.",
+        note: "Switch back to the main branch (or use: git switch main).",
       },
       {
         cmd: `git branch`,
-        note: "List all local branches (* marks the currently active branch).",
+        note: "List all local branches (* denotes the currently active branch).",
       },
     ],
   },
   {
-    category: "5. Merging & Pull Requests (PR)",
-    desc: "Integrate branches and submit team or assignment Pull Requests on GitHub.",
+    category: "7. Merging & Pull Requests (PR)",
+    desc: "Integrate completed work locally or collaborate on shared repositories via PR.",
     commands: [
       {
-        cmd: `git checkout main\ngit merge feature-tree-allometry`,
-        note: "Merge a completed feature branch into main locally.",
+        cmd: `git checkout main\ngit merge feature-volume-allometry`,
+        note: "Merge a verified feature branch into main locally.",
       },
       {
-        cmd: `git push -u origin feature-tree-allometry`,
+        cmd: `git push -u origin feature-volume-allometry`,
         note: "Push branch to GitHub, then click 'Compare & pull request' in your browser.",
+      },
+      {
+        cmd: `git fetch upstream\ngit merge upstream/main`,
+        note: "Sync your personal fork with new lectures/updates from the upstream class repo.",
+      },
+    ],
+  },
+  {
+    category: "8. Undo & Safe Recovery",
+    desc: "Safely discard accidental modifications or unstage files without losing data.",
+    commands: [
+      {
+        cmd: `git restore scripts/02_tree_functions.R`,
+        note: "Discard uncommitted working changes in a file (restore clean version).",
+      },
+      {
+        cmd: `git restore --staged scripts/02_tree_functions.R`,
+        note: "Unstage a file added by mistake while keeping your edits intact.",
       },
     ],
   },
