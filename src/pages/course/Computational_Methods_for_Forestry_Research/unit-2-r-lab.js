@@ -590,6 +590,36 @@ const Unit2RLabPage = ({ location }) => {
             await instance.FS.writeFile("/bagmati_raw_inventory.csv", bagmatiBytes)
           }
 
+          const resMetrics = await fetch(
+            "/course/Computational_Methods_for_Forestry_Research/Unit-II/unit2_tree_metrics.csv"
+          )
+          if (resMetrics.ok) {
+            const metricsBuf = await resMetrics.arrayBuffer()
+            const metricsBytes = new Uint8Array(metricsBuf)
+            await instance.FS.writeFile("/home/web_user/unit2_tree_metrics.csv", metricsBytes)
+            await instance.FS.writeFile("/unit2_tree_metrics.csv", metricsBytes)
+          }
+
+          const resTest = await fetch(
+            "/course/Computational_Methods_for_Forestry_Research/Unit-II/test_unit_ii.R"
+          )
+          if (resTest.ok) {
+            const testBuf = await resTest.arrayBuffer()
+            const testBytes = new Uint8Array(testBuf)
+            await instance.FS.writeFile("/home/web_user/test_unit_ii.R", testBytes)
+            await instance.FS.writeFile("/test_unit_ii.R", testBytes)
+          }
+
+          const resTreeFunc = await fetch(
+            "/course/Computational_Methods_for_Forestry_Research/Unit-II/02_tree_functions.R"
+          )
+          if (resTreeFunc.ok) {
+            const treeFuncBuf = await resTreeFunc.arrayBuffer()
+            const treeFuncBytes = new Uint8Array(treeFuncBuf)
+            await instance.FS.writeFile("/home/web_user/02_tree_functions.R", treeFuncBytes)
+            await instance.FS.writeFile("/02_tree_functions.R", treeFuncBytes)
+          }
+
           await instance.evalRVoid(`
             setwd("/home/web_user")
             options(warn = 1)
@@ -799,7 +829,7 @@ const Unit2RLabPage = ({ location }) => {
                 className="forestry-lab-btn-primary"
                 onClick={initWebR}
               >
-                ⚡ Activate R Engine
+                Activate R Engine
               </button>
             )}
             {engineState === "ready" && (
@@ -813,6 +843,22 @@ const Unit2RLabPage = ({ location }) => {
               </button>
             )}
           </div>
+        </div>
+
+        {/* Homework Callout Banner */}
+        <div className="forestry-lab-hw-callout">
+          <div className="forestry-lab-hw-callout-text">
+            <span className="forestry-lab-hw-badge">Homework Assigned</span>
+            <span>
+              Practicing for <strong>Unit II Homework (Forensic Data Screening &amp; Base R)</strong>? You can test your data auditing and plotting code on the Bagmati dataset right in these sandbox modules before pushing to your Git branch.
+            </span>
+          </div>
+          <Link
+            to="/course/Computational_Methods_for_Forestry_Research/#unit-2"
+            className="forestry-lab-hw-link"
+          >
+            View Assignment Brief →
+          </Link>
         </div>
 
         {/* Quick Navigation Pills */}
