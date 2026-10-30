@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-29T22:03:40.385Z",
+  "lastUpdated": "2026-10-30T11:42:56.643Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Mistral Releases Weights for Mistral Large 4 Model",
+      "title": "Mistral AI Releases Weights for Mistral Large 4 Model",
       "category": "AI & LLMs",
-      "summary": "Mistral has announced the release of the weights for its Mistral Large 4 model, which is expected to enhance the capabilities of AI applications. This development is significant for developers looking to leverage advanced language models in their projects.",
+      "summary": "Mistral AI has announced the release of the weights for their Mistral Large 4 model, which is designed to enhance the capabilities of large language models. This development allows researchers and developers to leverage advanced AI technology for various applications, fostering innovation in the AI community.",
       "sourceUrl": "https://mistral.ai/news/mistral-large-4-oss/",
-      "sourceName": "Mistral",
-      "timeAgo": "7h ago"
+      "sourceName": "Mistral AI",
+      "timeAgo": "21h ago"
     },
     {
       "id": "2",
-      "title": "Chained PHP2Shell Exploit Compromises 25 Servers",
+      "title": "$5.6B Stolen from Binance in Major Security Breach",
       "category": "Security",
-      "summary": "A new exploit, Chained PHP2Shell, has successfully rooted 25 servers, including those belonging to the US Government. This incident highlights the critical need for robust security measures in web applications to prevent similar breaches.",
-      "sourceUrl": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
-      "sourceName": "DreamGroup",
-      "timeAgo": "11h ago"
+      "summary": "A staggering $5.6 billion was stolen from Binance, one of the largest cryptocurrency exchanges, highlighting significant vulnerabilities in the security of digital assets. This incident serves as a critical reminder for developers and engineers to prioritize security measures in their applications and infrastructure.",
+      "sourceUrl": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "sourceName": "ARKM",
+      "timeAgo": "14h ago"
     },
     {
       "id": "3",
-      "title": "Auto Dismiss Mac OS Network Permission Prompts",
+      "title": "Herdr Launches Native App for Enhanced User Experience",
       "category": "Web Development",
-      "summary": "A new tool has been developed to automatically dismiss Mac OS prompts that ask for permission to find devices on local networks. This utility can streamline user experience and improve productivity for developers working in networked environments.",
-      "sourceUrl": "https://github.com/johncassil/dontallow",
+      "summary": "Herdr has released a native app that aims to improve user engagement and streamline access to its services. This development is significant for web developers as it showcases the growing trend of transitioning web applications to native platforms for better performance and user experience.",
+      "sourceUrl": "https://github.com/herdrdev/herdr-app",
       "sourceName": "GitHub",
-      "timeAgo": "2h ago"
+      "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "Tiny World Model Runs Games on Raspberry Pi Pico 2 W",
-      "category": "Systems & Architecture",
-      "summary": "A new project demonstrates a tiny world model capable of running games on the Raspberry Pi Pico 2 W, showcasing the potential of low-power devices in game development. This advancement is particularly relevant for engineers interested in IoT and embedded systems.",
-      "sourceUrl": "https://github.com/SheepSeb/tinyworldformer",
-      "sourceName": "GitHub",
-      "timeAgo": "1h ago"
+      "title": "AI Agent Swarms Tested in Minecraft and Mindustry",
+      "category": "AI & LLMs",
+      "summary": "Researchers have successfully run AI agent swarms within the environments of Minecraft and Mindustry, demonstrating the potential for complex AI behaviors in interactive settings. This experiment opens new avenues for game development and AI research, encouraging engineers to explore AI applications in gaming.",
+      "sourceUrl": "https://labs.ycombinator.com/projects/games/index.html",
+      "sourceName": "Y Combinator Labs",
+      "timeAgo": "14h ago"
     },
     {
       "id": "5",
-      "title": "Sylphide OS: A General-Purpose OS for Microcontroller-Based Computers",
-      "category": "Open Source",
-      "summary": "The Sylphide OS project aims to provide a general-purpose operating system tailored for microcontroller-based computers. This initiative is important for developers working on embedded systems, as it offers a flexible and open-source solution.",
-      "sourceUrl": "https://projects.freehackers.org/sylphide-os/",
-      "sourceName": "FreeHackers",
-      "timeAgo": "1h ago"
+      "title": "Backdoors Discovered in Official Claude Code Extensions",
+      "category": "Security",
+      "summary": "Security researchers have uncovered backdoors in official extensions for the Claude AI, raising concerns about the integrity of third-party integrations. This finding emphasizes the need for developers to rigorously vet extensions and dependencies to safeguard their applications from potential threats.",
+      "sourceUrl": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "sourceName": "Cyberplace Social",
+      "timeAgo": "36m ago"
     }
   ]
 }
