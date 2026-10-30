@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-30T11:42:56.643Z",
+  "lastUpdated": "2026-10-30T21:43:05.569Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Mistral AI Releases Weights for Mistral Large 4 Model",
-      "category": "AI & LLMs",
-      "summary": "Mistral AI has announced the release of the weights for their Mistral Large 4 model, which is designed to enhance the capabilities of large language models. This development allows researchers and developers to leverage advanced AI technology for various applications, fostering innovation in the AI community.",
-      "sourceUrl": "https://mistral.ai/news/mistral-large-4-oss/",
-      "sourceName": "Mistral AI",
-      "timeAgo": "21h ago"
-    },
-    {
-      "id": "2",
-      "title": "$5.6B Stolen from Binance in Major Security Breach",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
       "category": "Security",
-      "summary": "A staggering $5.6 billion was stolen from Binance, one of the largest cryptocurrency exchanges, highlighting significant vulnerabilities in the security of digital assets. This incident serves as a critical reminder for developers and engineers to prioritize security measures in their applications and infrastructure.",
-      "sourceUrl": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
-      "sourceName": "ARKM",
+      "summary": "A significant security breach has been reported involving a backdoor in the Claude Code VS Code extension available on the Cursor Marketplace. Developers should be aware of this vulnerability as it poses risks to their development environments and code integrity.",
+      "sourceUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "sourceName": "Phorion",
       "timeAgo": "14h ago"
     },
     {
+      "id": "2",
+      "title": "Northflank Breached",
+      "category": "Security",
+      "summary": "Northflank has reported a security breach that may affect its users and their deployed applications. Developers using Northflank should take immediate precautions to secure their projects and data.",
+      "sourceUrl": "https://status.northflank.com",
+      "sourceName": "Northflank",
+      "timeAgo": "6h ago"
+    },
+    {
       "id": "3",
-      "title": "Herdr Launches Native App for Enhanced User Experience",
-      "category": "Web Development",
-      "summary": "Herdr has released a native app that aims to improve user engagement and streamline access to its services. This development is significant for web developers as it showcases the growing trend of transitioning web applications to native platforms for better performance and user experience.",
-      "sourceUrl": "https://github.com/herdrdev/herdr-app",
-      "sourceName": "GitHub",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "category": "Security",
+      "summary": "A detailed analysis has uncovered five critical cross-tenant vulnerabilities within Azure, highlighting significant security risks for organizations using the platform. Engineers and security teams must evaluate their Azure configurations to mitigate potential threats.",
+      "sourceUrl": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "sourceName": "Binary Security",
       "timeAgo": "11h ago"
     },
     {
       "id": "4",
-      "title": "AI Agent Swarms Tested in Minecraft and Mindustry",
+      "title": "AI isn't replacing SREs, it's deskilling them",
       "category": "AI & LLMs",
-      "summary": "Researchers have successfully run AI agent swarms within the environments of Minecraft and Mindustry, demonstrating the potential for complex AI behaviors in interactive settings. This experiment opens new avenues for game development and AI research, encouraging engineers to explore AI applications in gaming.",
-      "sourceUrl": "https://labs.ycombinator.com/projects/games/index.html",
-      "sourceName": "Y Combinator Labs",
-      "timeAgo": "14h ago"
+      "summary": "A new perspective on the impact of AI on Site Reliability Engineers (SREs) suggests that rather than replacing them, AI tools are leading to a deskilling effect. This raises important questions about the future of engineering roles and the need for continuous skill development.",
+      "sourceUrl": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "sourceName": "Signoz Newsletter",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Backdoors Discovered in Official Claude Code Extensions",
+      "title": "Bunny CDN Security Incident",
       "category": "Security",
-      "summary": "Security researchers have uncovered backdoors in official extensions for the Claude AI, raising concerns about the integrity of third-party integrations. This finding emphasizes the need for developers to rigorously vet extensions and dependencies to safeguard their applications from potential threats.",
-      "sourceUrl": "https://cyberplace.social/@GossiTheDog/117528831681803563",
-      "sourceName": "Cyberplace Social",
-      "timeAgo": "36m ago"
+      "summary": "Bunny CDN has reported a security incident that may affect its users' content delivery and security protocols. Developers relying on Bunny CDN should review their security measures and stay updated on the incident's developments.",
+      "sourceUrl": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "sourceName": "Bunny CDN",
+      "timeAgo": "2h ago"
     }
   ]
 }
