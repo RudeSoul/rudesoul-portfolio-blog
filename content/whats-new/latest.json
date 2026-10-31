@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-31T11:16:34.828Z",
+  "lastUpdated": "2026-10-31T20:42:40.377Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
-      "category": "AI & LLMs",
-      "summary": "Cisco's president announced a groundbreaking initiative allowing a young engineer to utilize unlimited AI tokens for rewriting legacy code. This move highlights the increasing reliance on AI tools in modern software development and the potential for significant efficiency gains.",
-      "sourceUrl": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-      "sourceName": "Fortune",
-      "timeAgo": "21h ago"
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "category": "Security",
+      "summary": "A critical vulnerability in the Linux IPv4 TCP implementation has been identified, rated with a CVSS score of 9.8. Developers and system administrators should prioritize patching this flaw to prevent potential exploitation in networked environments.",
+      "sourceUrl": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "sourceName": "atlasum.net",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Cloudflare Turnstile solver library (no headless browser required)",
-      "category": "Web Development",
-      "summary": "A new open-source library has been released that allows developers to solve Cloudflare's Turnstile CAPTCHA without the need for a headless browser. This simplifies the process of bypassing CAPTCHA challenges, enhancing user experience and automation capabilities.",
-      "sourceUrl": "https://github.com/chris124567/cfsolve",
-      "sourceName": "GitHub",
-      "timeAgo": "2d ago"
+      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+      "category": "Open Source",
+      "summary": "The Molly fork of Signal has not received updates for three months, leaving it vulnerable to security threats. Users and developers should be aware of this lapse and consider alternatives or contributing to its maintenance.",
+      "sourceUrl": "https://piefed.world/post/1503394",
+      "sourceName": "piefed.world",
+      "timeAgo": "10h ago"
     },
     {
       "id": "3",
-      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-      "category": "Open Source",
-      "summary": "A developer has shared a project on Hacker News that implements a working Nintendo emulator using approximately 1GB of Qwen weights. This showcases the potential of lightweight models in gaming and opens new avenues for retro gaming enthusiasts.",
-      "sourceUrl": "https://github.com/dbreunig/nesformer",
-      "sourceName": "GitHub",
-      "timeAgo": "18h ago"
+      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+      "category": "AI & LLMs",
+      "summary": "A new version of the GPT model, GPT-5.6, has demonstrated the ability to outperform the popular game Factorio in peaceful mode. This showcases advancements in AI capabilities and their potential applications in gaming and simulation.",
+      "sourceUrl": "https://ryanmadden.net/gpt-56-beats-factorio/",
+      "sourceName": "ryanmadden.net",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "Florilegium: Procedural Flowers in LaTeX",
-      "category": "Open Source",
-      "summary": "The Florilegium project introduces a new way to create procedural flowers using LaTeX, enhancing the capabilities of document preparation systems. This tool can be particularly useful for researchers and educators looking to include complex graphics in their work.",
-      "sourceUrl": "https://github.com/kevinraymond/florilegium",
-      "sourceName": "GitHub",
-      "timeAgo": "19h ago"
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "category": "Web Development",
+      "summary": "HackerTube is a new platform that curates YouTube videos based on recommendations from Hacker News users. This innovative approach to content discovery could inspire web developers to explore new ways of aggregating and presenting user-generated content.",
+      "sourceUrl": "https://karpathy.bearblog.dev/hacker-tube/",
+      "sourceName": "karpathy.bearblog.dev",
+      "timeAgo": "45m ago"
     },
     {
       "id": "5",
-      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
-      "category": "Security",
-      "summary": "The Signal fork, Molly, has been flagged for not receiving updates for over three months, exposing users to potential security vulnerabilities. Developers and users should be aware of this risk and consider alternatives or updates to ensure data protection.",
-      "sourceUrl": "https://piefed.world/post/1503394",
-      "sourceName": "piefed.world",
-      "timeAgo": "52m ago"
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "category": "Systems & Architecture",
+      "summary": "The latest analysis from Jepsen on ParticleDB version 1.1.4 reveals important insights into its consistency and fault tolerance. This information is crucial for engineers working with distributed databases and systems architecture.",
+      "sourceUrl": "https://jepsen.io/analyses/particledb-1.1.4",
+      "sourceName": "jepsen.io",
+      "timeAgo": "7h ago"
     }
   ]
 }
