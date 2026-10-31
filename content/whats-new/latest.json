@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-10-30T21:43:05.569Z",
+  "lastUpdated": "2026-10-31T11:16:34.828Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "category": "Security",
-      "summary": "A significant security breach has been reported involving a backdoor in the Claude Code VS Code extension available on the Cursor Marketplace. Developers should be aware of this vulnerability as it poses risks to their development environments and code integrity.",
-      "sourceUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "sourceName": "Phorion",
-      "timeAgo": "14h ago"
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "category": "AI & LLMs",
+      "summary": "Cisco's president announced a groundbreaking initiative allowing a young engineer to utilize unlimited AI tokens for rewriting legacy code. This move highlights the increasing reliance on AI tools in modern software development and the potential for significant efficiency gains.",
+      "sourceUrl": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "sourceName": "Fortune",
+      "timeAgo": "21h ago"
     },
     {
       "id": "2",
-      "title": "Northflank Breached",
-      "category": "Security",
-      "summary": "Northflank has reported a security breach that may affect its users and their deployed applications. Developers using Northflank should take immediate precautions to secure their projects and data.",
-      "sourceUrl": "https://status.northflank.com",
-      "sourceName": "Northflank",
-      "timeAgo": "6h ago"
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "category": "Web Development",
+      "summary": "A new open-source library has been released that allows developers to solve Cloudflare's Turnstile CAPTCHA without the need for a headless browser. This simplifies the process of bypassing CAPTCHA challenges, enhancing user experience and automation capabilities.",
+      "sourceUrl": "https://github.com/chris124567/cfsolve",
+      "sourceName": "GitHub",
+      "timeAgo": "2d ago"
     },
     {
       "id": "3",
-      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-      "category": "Security",
-      "summary": "A detailed analysis has uncovered five critical cross-tenant vulnerabilities within Azure, highlighting significant security risks for organizations using the platform. Engineers and security teams must evaluate their Azure configurations to mitigate potential threats.",
-      "sourceUrl": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-      "sourceName": "Binary Security",
-      "timeAgo": "11h ago"
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "category": "Open Source",
+      "summary": "A developer has shared a project on Hacker News that implements a working Nintendo emulator using approximately 1GB of Qwen weights. This showcases the potential of lightweight models in gaming and opens new avenues for retro gaming enthusiasts.",
+      "sourceUrl": "https://github.com/dbreunig/nesformer",
+      "sourceName": "GitHub",
+      "timeAgo": "18h ago"
     },
     {
       "id": "4",
-      "title": "AI isn't replacing SREs, it's deskilling them",
-      "category": "AI & LLMs",
-      "summary": "A new perspective on the impact of AI on Site Reliability Engineers (SREs) suggests that rather than replacing them, AI tools are leading to a deskilling effect. This raises important questions about the future of engineering roles and the need for continuous skill development.",
-      "sourceUrl": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-      "sourceName": "Signoz Newsletter",
-      "timeAgo": "5h ago"
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "category": "Open Source",
+      "summary": "The Florilegium project introduces a new way to create procedural flowers using LaTeX, enhancing the capabilities of document preparation systems. This tool can be particularly useful for researchers and educators looking to include complex graphics in their work.",
+      "sourceUrl": "https://github.com/kevinraymond/florilegium",
+      "sourceName": "GitHub",
+      "timeAgo": "19h ago"
     },
     {
       "id": "5",
-      "title": "Bunny CDN Security Incident",
+      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
       "category": "Security",
-      "summary": "Bunny CDN has reported a security incident that may affect its users' content delivery and security protocols. Developers relying on Bunny CDN should review their security measures and stay updated on the incident's developments.",
-      "sourceUrl": "https://status.bunny.net/incidents/p6gf1by9kr7m",
-      "sourceName": "Bunny CDN",
-      "timeAgo": "2h ago"
+      "summary": "The Signal fork, Molly, has been flagged for not receiving updates for over three months, exposing users to potential security vulnerabilities. Developers and users should be aware of this risk and consider alternatives or updates to ensure data protection.",
+      "sourceUrl": "https://piefed.world/post/1503394",
+      "sourceName": "piefed.world",
+      "timeAgo": "52m ago"
     }
   ]
 }
