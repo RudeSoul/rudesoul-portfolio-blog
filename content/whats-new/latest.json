@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-01T12:06:10.014Z",
+  "lastUpdated": "2026-11-01T21:23:47.275Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "The AI cost of JavaScript frameworks",
-      "category": "Web Development",
-      "summary": "This article explores the computational costs associated with popular JavaScript frameworks and their impact on AI performance. Developers should be aware of these costs to optimize their applications and improve efficiency.",
-      "sourceUrl": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
-      "sourceName": "nolanlawson.com",
-      "timeAgo": "5h ago"
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "category": "Open Source",
+      "summary": "OmniDiff is a new open-source Git difftool that emphasizes speed and content awareness, built in Rust. This tool could significantly enhance developers' workflows by providing faster and more intelligent diff comparisons.",
+      "sourceUrl": "https://github.com/ivankovic/omnidiff",
+      "sourceName": "GitHub",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
-      "category": "Security",
-      "summary": "A Brazilian court has imposed sanctions on lawyers for using prompt injection techniques in legal filings, highlighting the legal implications of AI misuse. This case sets a precedent for how AI-generated content is treated in legal contexts.",
-      "sourceUrl": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
-      "sourceName": "jetstream.security",
-      "timeAgo": "9h ago"
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "category": "AI & LLMs",
+      "summary": "A recent paper presents advancements in the Platonic Representation Hypothesis using Joint Embedding Predictive Architectures (JEPAs). This research could influence future AI model designs and understanding of representation learning.",
+      "sourceUrl": "https://arxiv.org/abs/2610.39302",
+      "sourceName": "arXiv",
+      "timeAgo": "7h ago"
     },
     {
       "id": "3",
-      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
-      "category": "AI & LLMs",
-      "summary": "A team of AI models has achieved a significant milestone by outperforming existing benchmarks in coding tasks. This development showcases the potential of collaborative AI systems in enhancing software development processes.",
-      "sourceUrl": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
-      "sourceName": "github.com",
-      "timeAgo": "13h ago"
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "category": "Security",
+      "summary": "A recent investigation reveals that Lenovo's marketed 'encrypted' fingerprint USB drive is actually an unencrypted SD card, raising significant security concerns for users. This highlights the importance of transparency and trust in tech product marketing.",
+      "sourceUrl": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "sourceName": "Reddit",
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
-      "category": "Security",
-      "summary": "A critical vulnerability in the Linux TCP implementation has been identified, rated with a CVSS score of 9.8, indicating severe risk. Engineers and developers should prioritize patching this vulnerability to secure their systems.",
-      "sourceUrl": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
-      "sourceName": "atlasum.net",
-      "timeAgo": "16h ago"
+      "title": "Bidirectional charging during grid outages",
+      "category": "Systems & Architecture",
+      "summary": "A new approach to bidirectional charging technology has been proposed to maintain power supply during grid outages. This innovation could enhance energy resilience and provide new opportunities for electric vehicle integration into power systems.",
+      "sourceUrl": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
+      "sourceName": "JeffTK",
+      "timeAgo": "1d ago"
     },
     {
       "id": "5",
       "title": "HackerTube: YouTube built from videos recommended by HN",
       "category": "Web Development",
-      "summary": "HackerTube is a new platform that curates YouTube videos based on recommendations from Hacker News, creating a niche for tech enthusiasts. This initiative reflects the growing trend of community-driven content curation in web development.",
+      "summary": "HackerTube is a new platform that curates YouTube videos based on recommendations from Hacker News, creating a tailored viewing experience for tech enthusiasts. This project showcases the potential of community-driven content curation in web development.",
       "sourceUrl": "https://karpathy.bearblog.dev/hacker-tube/",
-      "sourceName": "karpathy.bearblog.dev",
-      "timeAgo": "16h ago"
+      "sourceName": "Karpathy",
+      "timeAgo": "1d ago"
     }
   ]
 }
