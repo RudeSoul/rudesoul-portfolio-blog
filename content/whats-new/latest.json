@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-01T21:23:47.275Z",
+  "lastUpdated": "2026-11-02T13:55:03.604Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
-      "category": "Open Source",
-      "summary": "OmniDiff is a new open-source Git difftool that emphasizes speed and content awareness, built in Rust. This tool could significantly enhance developers' workflows by providing faster and more intelligent diff comparisons.",
-      "sourceUrl": "https://github.com/ivankovic/omnidiff",
-      "sourceName": "GitHub",
-      "timeAgo": "8h ago"
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "category": "AI & LLMs",
+      "summary": "An AI agent successfully performed brain surgery on a mouse, showcasing the potential of AI in complex medical procedures. This development could pave the way for future applications of AI in surgery, significantly impacting the medical field.",
+      "sourceUrl": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "sourceName": "Twitter",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
-      "category": "AI & LLMs",
-      "summary": "A recent paper presents advancements in the Platonic Representation Hypothesis using Joint Embedding Predictive Architectures (JEPAs). This research could influence future AI model designs and understanding of representation learning.",
-      "sourceUrl": "https://arxiv.org/abs/2610.39302",
-      "sourceName": "arXiv",
-      "timeAgo": "7h ago"
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "category": "Security",
+      "summary": "A second suspected cyber-attack has targeted supermarket freezers across Europe, raising concerns about the security of critical infrastructure. Developers and engineers should be aware of the vulnerabilities in operational technology systems and the implications for cybersecurity.",
+      "sourceUrl": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "sourceName": "The Guardian",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
-      "category": "Security",
-      "summary": "A recent investigation reveals that Lenovo's marketed 'encrypted' fingerprint USB drive is actually an unencrypted SD card, raising significant security concerns for users. This highlights the importance of transparency and trust in tech product marketing.",
-      "sourceUrl": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
-      "sourceName": "Reddit",
-      "timeAgo": "6h ago"
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "category": "Systems & Architecture",
+      "summary": "Researchers have uncovered the cause of 60-second fluctuations in power grids, which could lead to improved stability and efficiency in energy distribution. This finding is crucial for engineers working on smart grid technologies and energy management systems.",
+      "sourceUrl": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "sourceName": "FZ Jülich",
+      "timeAgo": "2d ago"
     },
     {
       "id": "4",
-      "title": "Bidirectional charging during grid outages",
-      "category": "Systems & Architecture",
-      "summary": "A new approach to bidirectional charging technology has been proposed to maintain power supply during grid outages. This innovation could enhance energy resilience and provide new opportunities for electric vehicle integration into power systems.",
-      "sourceUrl": "https://www.jefftk.com/p/bidirectional-charging-during-grid-outages",
-      "sourceName": "JeffTK",
-      "timeAgo": "1d ago"
+      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "category": "Open Source",
+      "summary": "The release of Postgres 19 has been delayed due to an increase in the number of bugs being discovered during the testing phase. This highlights the importance of thorough testing and quality assurance in open-source projects, which developers should prioritize.",
+      "sourceUrl": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "sourceName": "Rhaas Blog",
+      "timeAgo": "2d ago"
     },
     {
       "id": "5",
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "category": "Web Development",
-      "summary": "HackerTube is a new platform that curates YouTube videos based on recommendations from Hacker News, creating a tailored viewing experience for tech enthusiasts. This project showcases the potential of community-driven content curation in web development.",
-      "sourceUrl": "https://karpathy.bearblog.dev/hacker-tube/",
-      "sourceName": "Karpathy",
-      "timeAgo": "1d ago"
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "category": "Open Source",
+      "summary": "Nibnib is a new image compression tool that boasts extremely fast decompression speeds, making it ideal for applications requiring quick access to images. Developers in web engineering and application development should consider integrating this tool to enhance performance.",
+      "sourceUrl": "https://github.com/raphlinus/nibnib",
+      "sourceName": "GitHub",
+      "timeAgo": "3d ago"
     }
   ]
 }
