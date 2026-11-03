@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T00:05:15.602Z",
+  "lastUpdated": "2026-11-03T13:03:55.828Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "Astra can read and write weights to improve Qwen",
       "category": "AI & LLMs",
-      "summary": "Astra introduces a novel approach to weight-space programming, allowing the Qwen model to dynamically read and write weights. This development could enhance model performance and adaptability, making it crucial for AI developers focused on optimizing machine learning models.",
+      "summary": "Astra introduces a new capability to read and write weights, enhancing the performance of the Qwen model. This development is significant for AI engineers looking to optimize model training and deployment processes.",
       "sourceUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
       "sourceName": "rikiyat.github.io",
-      "timeAgo": "5h ago"
+      "timeAgo": "18h ago"
     },
     {
       "id": "2",
-      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "category": "Web Development",
-      "summary": "Momentic has launched a new tool that utilizes AI agents to identify bugs by interacting with your application in real-time. This innovation could significantly streamline the debugging process for developers, enhancing productivity and software quality.",
-      "sourceUrl": "https://momentic.ai/",
-      "sourceName": "momentic.ai",
-      "timeAgo": "6h ago"
-    },
-    {
-      "id": "3",
-      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-      "category": "Security",
-      "summary": "Ubuntu has faced criticism for failing to release a critical patch for a zero-day remote code execution vulnerability that has remained unaddressed for nearly three weeks. This delay poses significant security risks for users and highlights the importance of timely updates in maintaining system integrity.",
-      "sourceUrl": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-      "sourceName": "freenode.net",
+      "title": "Nvidia – open-source auto-ontology",
+      "category": "Open Source",
+      "summary": "Nvidia has released an open-source auto-ontology project aimed at improving semantic understanding in AI applications. Developers should explore this resource to enhance their projects with advanced ontology management.",
+      "sourceUrl": "https://github.com/NVIDIA/auto-ontology",
+      "sourceName": "GitHub",
       "timeAgo": "5h ago"
     },
     {
+      "id": "3",
+      "title": "If you love a website, back it up",
+      "category": "Web Development",
+      "summary": "A new blog post emphasizes the importance of backing up websites to prevent data loss and ensure continuity. This is particularly relevant for web developers and site owners who rely on their online presence.",
+      "sourceUrl": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "sourceName": "Misty's Internet Blog",
+      "timeAgo": "23h ago"
+    },
+    {
       "id": "4",
-      "title": "Polyend releases the Tracker firmware source code",
-      "category": "Open Source",
-      "summary": "Polyend has made the firmware source code for its Tracker device publicly available, promoting transparency and community collaboration. This move is significant for developers interested in music technology and open-source hardware projects.",
-      "sourceUrl": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
-      "sourceName": "polyend.com",
-      "timeAgo": "6h ago"
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "category": "Security",
+      "summary": "NIST has released a tailored cybersecurity guide for self-employed individuals and solopreneurs, addressing their unique security challenges. This guide is crucial for ensuring that independent developers and entrepreneurs protect their digital assets.",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "sourceName": "NIST",
+      "timeAgo": "19h ago"
     },
     {
       "id": "5",
-      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
-      "category": "AI & LLMs",
-      "summary": "Oracle has announced plans to raise $20 billion through new stock and bond offerings to finance its AI initiatives. This substantial investment underscores the growing importance of AI in enterprise solutions and could influence market dynamics in the tech industry.",
-      "sourceUrl": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
-      "sourceName": "cnbc.com",
-      "timeAgo": "4h ago"
+      "title": "Hacker Times, a New York Times-inspired version of Hacker News",
+      "category": "Web Development",
+      "summary": "A new platform called Hacker Times offers a unique take on Hacker News, inspired by the New York Times format. This innovation could attract developers looking for a fresh way to engage with tech news and discussions.",
+      "sourceUrl": "https://hackertimes.ca/",
+      "sourceName": "Hacker Times",
+      "timeAgo": "11h ago"
     }
   ]
 }
