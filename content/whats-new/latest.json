@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-03T13:03:55.828Z",
+  "lastUpdated": "2026-11-03T22:37:00.364Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Astra can read and write weights to improve Qwen",
-      "category": "AI & LLMs",
-      "summary": "Astra introduces a new capability to read and write weights, enhancing the performance of the Qwen model. This development is significant for AI engineers looking to optimize model training and deployment processes.",
-      "sourceUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
-      "sourceName": "rikiyat.github.io",
-      "timeAgo": "18h ago"
-    },
-    {
-      "id": "2",
-      "title": "Nvidia – open-source auto-ontology",
-      "category": "Open Source",
-      "summary": "Nvidia has released an open-source auto-ontology project aimed at improving semantic understanding in AI applications. Developers should explore this resource to enhance their projects with advanced ontology management.",
-      "sourceUrl": "https://github.com/NVIDIA/auto-ontology",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "category": "Security",
+      "summary": "Postman has been found to automatically install AI plugins that may compromise user data by attempting to share all API data without explicit consent. This raises significant security concerns for developers relying on Postman for API testing and management.",
+      "sourceUrl": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "sourceName": "GitHub",
       "timeAgo": "5h ago"
     },
     {
+      "id": "2",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "category": "AI & LLMs",
+      "summary": "The latest version of Qwen allows users to interpret model weights directly on their laptops, enhancing accessibility for developers working with large language models. This development could democratize AI model training and experimentation.",
+      "sourceUrl": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "sourceName": "simonwillison.net",
+      "timeAgo": "4h ago"
+    },
+    {
       "id": "3",
-      "title": "If you love a website, back it up",
-      "category": "Web Development",
-      "summary": "A new blog post emphasizes the importance of backing up websites to prevent data loss and ensure continuity. This is particularly relevant for web developers and site owners who rely on their online presence.",
-      "sourceUrl": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
-      "sourceName": "Misty's Internet Blog",
-      "timeAgo": "23h ago"
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "category": "Open Source",
+      "summary": "The introduction of Stringman, an affordable open-source gripper robot, presents new opportunities for developers and engineers in robotics and automation. This project encourages collaboration and innovation in the field of robotics by providing accessible hardware solutions.",
+      "sourceUrl": "https://neufangled.com/",
+      "sourceName": "neufangled.com",
+      "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
-      "category": "Security",
-      "summary": "NIST has released a tailored cybersecurity guide for self-employed individuals and solopreneurs, addressing their unique security challenges. This guide is crucial for ensuring that independent developers and entrepreneurs protect their digital assets.",
-      "sourceUrl": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
-      "sourceName": "NIST",
-      "timeAgo": "19h ago"
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "category": "Systems & Architecture",
+      "summary": "Fujifilm is ramping up tape production by five times to meet the growing demand for AI-driven archiving solutions. This move highlights the intersection of traditional storage technology and modern AI applications, signaling a shift in data management strategies.",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "sourceName": "Ars Technica",
+      "timeAgo": "1d ago"
     },
     {
       "id": "5",
-      "title": "Hacker Times, a New York Times-inspired version of Hacker News",
+      "title": "Safari introduces Adaptive Dark Mode in 27.3",
       "category": "Web Development",
-      "summary": "A new platform called Hacker Times offers a unique take on Hacker News, inspired by the New York Times format. This innovation could attract developers looking for a fresh way to engage with tech news and discussions.",
-      "sourceUrl": "https://hackertimes.ca/",
-      "sourceName": "Hacker Times",
-      "timeAgo": "11h ago"
+      "summary": "Safari's new Adaptive Dark Mode feature enhances user experience by automatically adjusting to ambient light conditions. This update is significant for web developers as it encourages the adoption of dark mode designs, improving accessibility and user comfort.",
+      "sourceUrl": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "sourceName": "webkit.org",
+      "timeAgo": "57m ago"
     }
   ]
 }
