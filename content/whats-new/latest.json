@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-02T13:55:03.604Z",
+  "lastUpdated": "2026-11-03T00:05:15.602Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "title": "Astra can read and write weights to improve Qwen",
       "category": "AI & LLMs",
-      "summary": "An AI agent successfully performed brain surgery on a mouse, showcasing the potential of AI in complex medical procedures. This development could pave the way for future applications of AI in surgery, significantly impacting the medical field.",
-      "sourceUrl": "https://twitter.com/OcanaSantero/status/2115442964574908902",
-      "sourceName": "Twitter",
-      "timeAgo": "1h ago"
+      "summary": "Astra introduces a novel approach to weight-space programming, allowing the Qwen model to dynamically read and write weights. This development could enhance model performance and adaptability, making it crucial for AI developers focused on optimizing machine learning models.",
+      "sourceUrl": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "sourceName": "rikiyat.github.io",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
-      "category": "Security",
-      "summary": "A second suspected cyber-attack has targeted supermarket freezers across Europe, raising concerns about the security of critical infrastructure. Developers and engineers should be aware of the vulnerabilities in operational technology systems and the implications for cybersecurity.",
-      "sourceUrl": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-      "sourceName": "The Guardian",
-      "timeAgo": "2h ago"
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "category": "Web Development",
+      "summary": "Momentic has launched a new tool that utilizes AI agents to identify bugs by interacting with your application in real-time. This innovation could significantly streamline the debugging process for developers, enhancing productivity and software quality.",
+      "sourceUrl": "https://momentic.ai/",
+      "sourceName": "momentic.ai",
+      "timeAgo": "6h ago"
     },
     {
       "id": "3",
-      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
-      "category": "Systems & Architecture",
-      "summary": "Researchers have uncovered the cause of 60-second fluctuations in power grids, which could lead to improved stability and efficiency in energy distribution. This finding is crucial for engineers working on smart grid technologies and energy management systems.",
-      "sourceUrl": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
-      "sourceName": "FZ Jülich",
-      "timeAgo": "2d ago"
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "category": "Security",
+      "summary": "Ubuntu has faced criticism for failing to release a critical patch for a zero-day remote code execution vulnerability that has remained unaddressed for nearly three weeks. This delay poses significant security risks for users and highlights the importance of timely updates in maintaining system integrity.",
+      "sourceUrl": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "sourceName": "freenode.net",
+      "timeAgo": "5h ago"
     },
     {
       "id": "4",
-      "title": "Postgres 19 is late because so many more bugs are being found now",
+      "title": "Polyend releases the Tracker firmware source code",
       "category": "Open Source",
-      "summary": "The release of Postgres 19 has been delayed due to an increase in the number of bugs being discovered during the testing phase. This highlights the importance of thorough testing and quality assurance in open-source projects, which developers should prioritize.",
-      "sourceUrl": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
-      "sourceName": "Rhaas Blog",
-      "timeAgo": "2d ago"
+      "summary": "Polyend has made the firmware source code for its Tracker device publicly available, promoting transparency and community collaboration. This move is significant for developers interested in music technology and open-source hardware projects.",
+      "sourceUrl": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+      "sourceName": "polyend.com",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "Nibnib: Image compression with extreme decompression speed",
-      "category": "Open Source",
-      "summary": "Nibnib is a new image compression tool that boasts extremely fast decompression speeds, making it ideal for applications requiring quick access to images. Developers in web engineering and application development should consider integrating this tool to enhance performance.",
-      "sourceUrl": "https://github.com/raphlinus/nibnib",
-      "sourceName": "GitHub",
-      "timeAgo": "3d ago"
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "category": "AI & LLMs",
+      "summary": "Oracle has announced plans to raise $20 billion through new stock and bond offerings to finance its AI initiatives. This substantial investment underscores the growing importance of AI in enterprise solutions and could influence market dynamics in the tech industry.",
+      "sourceUrl": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "sourceName": "cnbc.com",
+      "timeAgo": "4h ago"
     }
   ]
 }
