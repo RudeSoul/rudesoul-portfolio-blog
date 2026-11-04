@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-03T22:37:00.364Z",
+  "lastUpdated": "2026-11-04T13:19:01.735Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "category": "Security",
-      "summary": "Postman has been found to automatically install AI plugins that may compromise user data by attempting to share all API data without explicit consent. This raises significant security concerns for developers relying on Postman for API testing and management.",
-      "sourceUrl": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "category": "AI & LLMs",
+      "summary": "The article discusses how the rapid advancement of AI technologies is compelling organizations to address longstanding technical debt that has accumulated over decades. Developers and engineers should be aware of the implications this has on system architecture and maintenance practices.",
+      "sourceUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "sourceName": "spectrum.ieee.org",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
       "category": "AI & LLMs",
-      "summary": "The latest version of Qwen allows users to interpret model weights directly on their laptops, enhancing accessibility for developers working with large language models. This development could democratize AI model training and experimentation.",
-      "sourceUrl": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "sourceName": "simonwillison.net",
+      "summary": "Recent findings reveal that the encrypted firmware of Nvidia's RTX Spark significantly reduces inference speed on Linux systems to just 35%. This development is critical for developers relying on high-performance computing for AI applications, as it may impact deployment strategies.",
+      "sourceUrl": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "sourceName": "mindstudio.ai",
       "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Stringman, an $800 open-source room scale gripper robot",
-      "category": "Open Source",
-      "summary": "The introduction of Stringman, an affordable open-source gripper robot, presents new opportunities for developers and engineers in robotics and automation. This project encourages collaboration and innovation in the field of robotics by providing accessible hardware solutions.",
-      "sourceUrl": "https://neufangled.com/",
-      "sourceName": "neufangled.com",
-      "timeAgo": "5h ago"
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "category": "Web Development",
+      "summary": "A recent incident reported on GitHub Status highlights issues with Pull Requests and Git operations, affecting many developers' workflows. Understanding these incidents is essential for engineers to adapt their practices and mitigate disruptions in collaborative development environments.",
+      "sourceUrl": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "sourceName": "githubstatus.com",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "category": "Systems & Architecture",
-      "summary": "Fujifilm is ramping up tape production by five times to meet the growing demand for AI-driven archiving solutions. This move highlights the intersection of traditional storage technology and modern AI applications, signaling a shift in data management strategies.",
-      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "sourceName": "Ars Technica",
-      "timeAgo": "1d ago"
+      "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
+      "category": "Security",
+      "summary": "A critical security update for Debian has been released to address a man-in-the-middle vulnerability that allows arbitrary code execution. Developers using Debian systems need to apply this update promptly to protect their applications and data.",
+      "sourceUrl": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "sourceName": "lists.debian.org",
+      "timeAgo": "31m ago"
     },
     {
       "id": "5",
-      "title": "Safari introduces Adaptive Dark Mode in 27.3",
-      "category": "Web Development",
-      "summary": "Safari's new Adaptive Dark Mode feature enhances user experience by automatically adjusting to ambient light conditions. This update is significant for web developers as it encourages the adoption of dark mode designs, improving accessibility and user comfort.",
-      "sourceUrl": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-      "sourceName": "webkit.org",
-      "timeAgo": "57m ago"
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "category": "Open Source",
+      "summary": "The launch of Stringman, an affordable open-source gripper robot, opens new possibilities for robotics enthusiasts and developers. This project exemplifies the potential of open-source hardware to democratize access to advanced technology.",
+      "sourceUrl": "https://neufangled.com/",
+      "sourceName": "neufangled.com",
+      "timeAgo": "20h ago"
     }
   ]
 }
