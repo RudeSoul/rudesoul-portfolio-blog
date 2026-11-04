@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T13:19:01.735Z",
+  "lastUpdated": "2026-11-04T22:55:50.300Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "AI is forcing us to pay off 40 years of technical debt",
       "category": "AI & LLMs",
-      "summary": "The article discusses how the rapid advancement of AI technologies is compelling organizations to address longstanding technical debt that has accumulated over decades. Developers and engineers should be aware of the implications this has on system architecture and maintenance practices.",
+      "summary": "The article discusses how the rapid advancements in AI technology are compelling organizations to address longstanding technical debt that has accumulated over decades. Developers and engineers should be aware of the implications this has on system architecture and the need for modernization.",
       "sourceUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "sourceName": "spectrum.ieee.org",
-      "timeAgo": "1h ago"
+      "sourceName": "IEEE Spectrum",
+      "timeAgo": "11h ago"
     },
     {
       "id": "2",
-      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "title": "Progress on provable inference for large language models",
       "category": "AI & LLMs",
-      "summary": "Recent findings reveal that the encrypted firmware of Nvidia's RTX Spark significantly reduces inference speed on Linux systems to just 35%. This development is critical for developers relying on high-performance computing for AI applications, as it may impact deployment strategies.",
-      "sourceUrl": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
-      "sourceName": "mindstudio.ai",
-      "timeAgo": "4h ago"
+      "summary": "Recent research highlights advancements in provable inference techniques for large language models, enhancing their reliability and interpretability. This is crucial for developers working with AI systems that require transparency and accountability.",
+      "sourceUrl": "https://www.anthropic.com/research/provable-inference",
+      "sourceName": "Anthropic",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Incident with Pull Requests, Git Operations and Issues",
-      "category": "Web Development",
-      "summary": "A recent incident reported on GitHub Status highlights issues with Pull Requests and Git operations, affecting many developers' workflows. Understanding these incidents is essential for engineers to adapt their practices and mitigate disruptions in collaborative development environments.",
-      "sourceUrl": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
-      "sourceName": "githubstatus.com",
-      "timeAgo": "3h ago"
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "category": "AI & LLMs",
+      "summary": "The Ripple-65B model introduces a state-of-the-art (SOTA) approach to agentic coding, showcasing its capabilities in complex coding tasks. This development is significant for engineers looking to leverage AI in automating software development processes.",
+      "sourceUrl": "https://www.ricursive.com/ripple",
+      "sourceName": "Ricursive",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
-      "category": "Security",
-      "summary": "A critical security update for Debian has been released to address a man-in-the-middle vulnerability that allows arbitrary code execution. Developers using Debian systems need to apply this update promptly to protect their applications and data.",
-      "sourceUrl": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-      "sourceName": "lists.debian.org",
-      "timeAgo": "31m ago"
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "category": "Systems & Architecture",
+      "summary": "Qualcomm has unveiled its Cloud AI 100 Ultra accelerator card, designed to enhance AI processing capabilities with impressive specifications. This development is vital for engineers focusing on high-performance computing and AI workloads.",
+      "sourceUrl": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "sourceName": "Qualcomm",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Stringman, an $800 open-source room scale gripper robot",
-      "category": "Open Source",
-      "summary": "The launch of Stringman, an affordable open-source gripper robot, opens new possibilities for robotics enthusiasts and developers. This project exemplifies the potential of open-source hardware to democratize access to advanced technology.",
-      "sourceUrl": "https://neufangled.com/",
-      "sourceName": "neufangled.com",
-      "timeAgo": "20h ago"
+      "title": "AMD expects to outsell Intel in Q4 for the first time in history",
+      "category": "Systems & Architecture",
+      "summary": "AMD's projection to outsell Intel marks a significant shift in the semiconductor market, reflecting advancements in their technology and competitive pricing strategies. This news is important for engineers and developers who rely on hardware performance for their applications.",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
+      "sourceName": "Tom's Hardware",
+      "timeAgo": "7h ago"
     }
   ]
 }
