@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-05T13:32:32.126Z",
+  "lastUpdated": "2026-11-05T22:56:41.154Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
       "category": "AI & LLMs",
-      "summary": "Baidu has launched ERNIE 5.5 Flash Base, an advanced version of its AI model designed to enhance natural language understanding and generation. This release is significant for developers looking to leverage cutting-edge AI capabilities in their applications.",
-      "sourceUrl": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
-      "sourceName": "Baidu",
-      "timeAgo": "4h ago"
+      "summary": "Tencent has unveiled Hy4, a new open-source AI model that aims to compete with existing leading models in the market. This development is significant for developers as it enhances the availability of robust AI tools for various applications.",
+      "sourceUrl": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "sourceName": "Tencent",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
       "category": "Security",
-      "summary": "OpenSSH 10.6p2 has been released, addressing a critical vulnerability with a workaround for Alpine systems that do not use PAM. Developers should update to this version to ensure their systems remain secure.",
-      "sourceUrl": "https://hachyderm.io/@damienmiller/117563026759098135",
-      "sourceName": "Hachyderm",
-      "timeAgo": "3h ago"
+      "summary": "A critical vulnerability has been identified in OpenSSH-server on Alpine Linux, allowing password authentication bypass. Developers and system administrators must prioritize applying the necessary patches to safeguard their systems.",
+      "sourceUrl": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "sourceName": "Alpine Linux",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "Residential proxies detected on White House network",
+      "title": "MS Paint Remote Code Execution Vulnerability",
       "category": "Security",
-      "summary": "A report has surfaced indicating that residential proxies were detected on the White House network, raising concerns about potential security breaches. This development highlights the importance of robust network security measures for all organizations.",
-      "sourceUrl": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-      "sourceName": "Layer3 Intel",
-      "timeAgo": "16h ago"
+      "summary": "A newly discovered remote code execution vulnerability in MS Paint poses a significant risk, potentially allowing attackers to execute arbitrary code on affected systems. Developers should be aware of this issue and ensure their environments are secured against such vulnerabilities.",
+      "sourceUrl": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "sourceName": "CVE",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Kimi K3.1 Pro model weights are out",
-      "category": "AI & LLMs",
-      "summary": "The Kimi K3.1 Pro model weights have been released, providing developers with access to a powerful new tool for machine learning applications. This release is crucial for those looking to enhance their AI projects with advanced capabilities.",
-      "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
-      "sourceName": "Hugging Face",
-      "timeAgo": "22h ago"
+      "title": "sshole: A New Tool for SSH Management",
+      "category": "Web Development",
+      "summary": "The launch of sshole, a new tool designed to simplify SSH management, offers developers an innovative way to handle SSH connections more efficiently. This tool could significantly enhance productivity for developers working with remote servers.",
+      "sourceUrl": "https://sshhole.com",
+      "sourceName": "sshole.com",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "A thousand fewer paths to root",
-      "category": "AI & LLMs",
-      "summary": "OpenAI has published a report detailing a significant reduction in the number of paths to root in their AI models, which could lead to improved performance and safety. Developers should pay attention to these advancements as they refine their AI systems.",
-      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "sourceName": "OpenAI",
-      "timeAgo": "13h ago"
+      "title": "Introducing Pangram Image 1.0",
+      "category": "Web Development",
+      "summary": "Pangram has released version 1.0 of its image processing library, which includes new features aimed at improving web performance and image handling. Developers should explore these enhancements to optimize their web applications.",
+      "sourceUrl": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+      "sourceName": "Pangram",
+      "timeAgo": "3h ago"
     }
   ]
 }
