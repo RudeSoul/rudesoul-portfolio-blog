@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-04T22:55:50.300Z",
+  "lastUpdated": "2026-11-05T13:32:32.126Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "title": "Baidu released ERNIE 5.5 Flash Base",
       "category": "AI & LLMs",
-      "summary": "The article discusses how the rapid advancements in AI technology are compelling organizations to address longstanding technical debt that has accumulated over decades. Developers and engineers should be aware of the implications this has on system architecture and the need for modernization.",
-      "sourceUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "sourceName": "IEEE Spectrum",
-      "timeAgo": "11h ago"
-    },
-    {
-      "id": "2",
-      "title": "Progress on provable inference for large language models",
-      "category": "AI & LLMs",
-      "summary": "Recent research highlights advancements in provable inference techniques for large language models, enhancing their reliability and interpretability. This is crucial for developers working with AI systems that require transparency and accountability.",
-      "sourceUrl": "https://www.anthropic.com/research/provable-inference",
-      "sourceName": "Anthropic",
-      "timeAgo": "5h ago"
-    },
-    {
-      "id": "3",
-      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-      "category": "AI & LLMs",
-      "summary": "The Ripple-65B model introduces a state-of-the-art (SOTA) approach to agentic coding, showcasing its capabilities in complex coding tasks. This development is significant for engineers looking to leverage AI in automating software development processes.",
-      "sourceUrl": "https://www.ricursive.com/ripple",
-      "sourceName": "Ricursive",
+      "summary": "Baidu has launched ERNIE 5.5 Flash Base, an advanced version of its AI model designed to enhance natural language understanding and generation. This release is significant for developers looking to leverage cutting-edge AI capabilities in their applications.",
+      "sourceUrl": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "sourceName": "Baidu",
       "timeAgo": "4h ago"
     },
     {
-      "id": "4",
-      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-      "category": "Systems & Architecture",
-      "summary": "Qualcomm has unveiled its Cloud AI 100 Ultra accelerator card, designed to enhance AI processing capabilities with impressive specifications. This development is vital for engineers focusing on high-performance computing and AI workloads.",
-      "sourceUrl": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-      "sourceName": "Qualcomm",
+      "id": "2",
+      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "category": "Security",
+      "summary": "OpenSSH 10.6p2 has been released, addressing a critical vulnerability with a workaround for Alpine systems that do not use PAM. Developers should update to this version to ensure their systems remain secure.",
+      "sourceUrl": "https://hachyderm.io/@damienmiller/117563026759098135",
+      "sourceName": "Hachyderm",
       "timeAgo": "3h ago"
     },
     {
+      "id": "3",
+      "title": "Residential proxies detected on White House network",
+      "category": "Security",
+      "summary": "A report has surfaced indicating that residential proxies were detected on the White House network, raising concerns about potential security breaches. This development highlights the importance of robust network security measures for all organizations.",
+      "sourceUrl": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "sourceName": "Layer3 Intel",
+      "timeAgo": "16h ago"
+    },
+    {
+      "id": "4",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "category": "AI & LLMs",
+      "summary": "The Kimi K3.1 Pro model weights have been released, providing developers with access to a powerful new tool for machine learning applications. This release is crucial for those looking to enhance their AI projects with advanced capabilities.",
+      "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "sourceName": "Hugging Face",
+      "timeAgo": "22h ago"
+    },
+    {
       "id": "5",
-      "title": "AMD expects to outsell Intel in Q4 for the first time in history",
-      "category": "Systems & Architecture",
-      "summary": "AMD's projection to outsell Intel marks a significant shift in the semiconductor market, reflecting advancements in their technology and competitive pricing strategies. This news is important for engineers and developers who rely on hardware performance for their applications.",
-      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
-      "sourceName": "Tom's Hardware",
-      "timeAgo": "7h ago"
+      "title": "A thousand fewer paths to root",
+      "category": "AI & LLMs",
+      "summary": "OpenAI has published a report detailing a significant reduction in the number of paths to root in their AI models, which could lead to improved performance and safety. Developers should pay attention to these advancements as they refine their AI systems.",
+      "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "sourceName": "OpenAI",
+      "timeAgo": "13h ago"
     }
   ]
 }
