@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-06T13:17:54.187Z",
+  "lastUpdated": "2026-11-06T22:27:01.075Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-      "category": "Security",
-      "summary": "ASN Bank has implemented a policy that restricts access to its banking services on non-Google Android devices, including privacy-focused alternatives like GrapheneOS. This decision raises significant concerns about user privacy and the implications for open-source mobile operating systems.",
-      "sourceUrl": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-      "sourceName": "GitHub",
-      "timeAgo": "3h ago"
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "category": "AI & LLMs",
+      "summary": "A new Jev model can query Opus for assistance, resulting in a significant reduction in operational costs while enhancing accuracy. This development is crucial for developers looking to optimize AI performance without compromising on quality.",
+      "sourceUrl": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "sourceName": "Hightouch",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-      "category": "Open Source",
-      "summary": "A new update to Blender's user interface and runtime has significantly improved performance, making it faster than previous GPU implementations. This enhancement is crucial for developers and artists who rely on Blender for efficient rendering and animation workflows.",
-      "sourceUrl": "https://github.com/ppmpreetham/BUI",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
-    },
-    {
-      "id": "3",
-      "title": "Claude Code sends your email address to websites",
-      "category": "Security",
-      "summary": "A security vulnerability in Claude Code has been identified, where it inadvertently sends users' email addresses to external websites. This raises alarms for developers regarding user data protection and the importance of securing applications against such leaks.",
-      "sourceUrl": "https://github.com/anthropics/claude-code/issues/107757",
-      "sourceName": "GitHub",
-      "timeAgo": "15h ago"
-    },
-    {
-      "id": "4",
-      "title": "We've built an open-source feature flag server for 11 years",
-      "category": "Open Source",
-      "summary": "Unleash has celebrated 11 years of providing an open-source feature flag server, which allows developers to manage feature rollouts and experiments effectively. This tool is essential for teams looking to enhance their deployment strategies and improve user experiences.",
-      "sourceUrl": "https://github.com/Unleash/unleash",
-      "sourceName": "GitHub",
+      "title": "AI is dramatically accelerating AI research",
+      "category": "AI & LLMs",
+      "summary": "Recent findings indicate that AI technologies are significantly speeding up the pace of AI research, enabling faster iterations and innovations. This trend is vital for engineers and researchers aiming to stay ahead in the rapidly evolving AI landscape.",
+      "sourceUrl": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "sourceName": "Planned Obsolescence",
       "timeAgo": "1h ago"
     },
     {
-      "id": "5",
-      "title": "MS Paint Remote Code Execution Vulnerability",
+      "id": "3",
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
       "category": "Security",
-      "summary": "A newly discovered remote code execution vulnerability in MS Paint poses a significant risk to users, allowing attackers to execute arbitrary code. Developers and IT professionals must prioritize patching this vulnerability to safeguard systems against potential exploits.",
-      "sourceUrl": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "sourceName": "CVE",
-      "timeAgo": "16h ago"
+      "summary": "The latest analysis reveals vulnerabilities in Firecracker VMs that could allow for escape from the virtual environment, posing significant security risks. Developers and engineers should be aware of these findings to bolster their security measures in cloud environments.",
+      "sourceUrl": "https://pwn.ai/blog/firecracker-escape",
+      "sourceName": "Pwn.ai",
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "4",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "category": "Systems & Architecture",
+      "summary": "The US FAA's decision to phase out floppy disks marks a significant step towards modernizing air traffic control systems, which have relied on outdated technology for too long. This transition is critical for engineers involved in aviation technology and infrastructure.",
+      "sourceUrl": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "sourceName": "Reuters",
+      "timeAgo": "18h ago"
+    },
+    {
+      "id": "5",
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "category": "Open Source",
+      "summary": "Blender has introduced a new UI and runtime that significantly outperforms the previous GPUI, enhancing user experience and performance. This update is essential for developers and artists using Blender for their projects, as it streamlines workflows and boosts productivity.",
+      "sourceUrl": "https://github.com/ppmpreetham/BUI",
+      "sourceName": "GitHub",
+      "timeAgo": "14h ago"
     }
   ]
 }
