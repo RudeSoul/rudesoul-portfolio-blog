@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-05T22:56:41.154Z",
+  "lastUpdated": "2026-11-06T13:17:54.187Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "category": "AI & LLMs",
-      "summary": "Tencent has unveiled Hy4, a new open-source AI model that aims to compete with existing leading models in the market. This development is significant for developers as it enhances the availability of robust AI tools for various applications.",
-      "sourceUrl": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-      "sourceName": "Tencent",
-      "timeAgo": "2h ago"
+      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "category": "Security",
+      "summary": "ASN Bank has implemented a policy that restricts access to its banking services on non-Google Android devices, including privacy-focused alternatives like GrapheneOS. This decision raises significant concerns about user privacy and the implications for open-source mobile operating systems.",
+      "sourceUrl": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "sourceName": "GitHub",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
-      "category": "Security",
-      "summary": "A critical vulnerability has been identified in OpenSSH-server on Alpine Linux, allowing password authentication bypass. Developers and system administrators must prioritize applying the necessary patches to safeguard their systems.",
-      "sourceUrl": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
-      "sourceName": "Alpine Linux",
-      "timeAgo": "8h ago"
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "category": "Open Source",
+      "summary": "A new update to Blender's user interface and runtime has significantly improved performance, making it faster than previous GPU implementations. This enhancement is crucial for developers and artists who rely on Blender for efficient rendering and animation workflows.",
+      "sourceUrl": "https://github.com/ppmpreetham/BUI",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "MS Paint Remote Code Execution Vulnerability",
+      "title": "Claude Code sends your email address to websites",
       "category": "Security",
-      "summary": "A newly discovered remote code execution vulnerability in MS Paint poses a significant risk, potentially allowing attackers to execute arbitrary code on affected systems. Developers should be aware of this issue and ensure their environments are secured against such vulnerabilities.",
-      "sourceUrl": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "sourceName": "CVE",
-      "timeAgo": "2h ago"
+      "summary": "A security vulnerability in Claude Code has been identified, where it inadvertently sends users' email addresses to external websites. This raises alarms for developers regarding user data protection and the importance of securing applications against such leaks.",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/107757",
+      "sourceName": "GitHub",
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "sshole: A New Tool for SSH Management",
-      "category": "Web Development",
-      "summary": "The launch of sshole, a new tool designed to simplify SSH management, offers developers an innovative way to handle SSH connections more efficiently. This tool could significantly enhance productivity for developers working with remote servers.",
-      "sourceUrl": "https://sshhole.com",
-      "sourceName": "sshole.com",
-      "timeAgo": "10h ago"
+      "title": "We've built an open-source feature flag server for 11 years",
+      "category": "Open Source",
+      "summary": "Unleash has celebrated 11 years of providing an open-source feature flag server, which allows developers to manage feature rollouts and experiments effectively. This tool is essential for teams looking to enhance their deployment strategies and improve user experiences.",
+      "sourceUrl": "https://github.com/Unleash/unleash",
+      "sourceName": "GitHub",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Introducing Pangram Image 1.0",
-      "category": "Web Development",
-      "summary": "Pangram has released version 1.0 of its image processing library, which includes new features aimed at improving web performance and image handling. Developers should explore these enhancements to optimize their web applications.",
-      "sourceUrl": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
-      "sourceName": "Pangram",
-      "timeAgo": "3h ago"
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "category": "Security",
+      "summary": "A newly discovered remote code execution vulnerability in MS Paint poses a significant risk to users, allowing attackers to execute arbitrary code. Developers and IT professionals must prioritize patching this vulnerability to safeguard systems against potential exploits.",
+      "sourceUrl": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+      "sourceName": "CVE",
+      "timeAgo": "16h ago"
     }
   ]
 }
