@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-08T12:16:00.459Z",
+  "lastUpdated": "2026-11-08T21:23:47.442Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Goodbye Claude, Hello Pi",
+      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
       "category": "AI & LLMs",
-      "summary": "The transition from Claude to Pi marks a significant evolution in AI language models, emphasizing enhanced capabilities and user experience. Developers should explore how these advancements can be leveraged for more efficient applications and improved interaction with AI systems.",
-      "sourceUrl": "https://caleb.software/posts/claude-to-pi.html",
-      "sourceName": "caleb.software",
-      "timeAgo": "9h ago"
-    },
-    {
-      "id": "2",
-      "title": "Claude Code's 'Don't Ask Again' exposes passwords in 1,122 public GitHub files",
-      "category": "Security",
-      "summary": "A critical vulnerability in Claude Code's feature has led to the exposure of sensitive passwords across numerous public GitHub repositories. This incident highlights the urgent need for developers to prioritize security measures in AI integrations to protect sensitive data.",
-      "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "sourceName": "apiiro.com",
-      "timeAgo": "15h ago"
-    },
-    {
-      "id": "3",
-      "title": "Agent memory needs its OpenTelemetry moment",
-      "category": "Open Source",
-      "summary": "The call for a standardized agent memory format akin to OpenTelemetry could revolutionize how developers manage and utilize memory in AI applications. This initiative aims to enhance interoperability and efficiency across various AI systems.",
-      "sourceUrl": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "sourceName": "lorekit.io",
+      "summary": "Goldman Sachs has decided to withdraw access to Claude code from its bankers and traders, citing concerns over security and compliance. This move highlights the ongoing challenges financial institutions face in integrating AI technologies while maintaining regulatory standards.",
+      "sourceUrl": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "sourceName": "thestateofai.com",
       "timeAgo": "3h ago"
     },
     {
-      "id": "4",
-      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "id": "2",
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
       "category": "Open Source",
-      "summary": "The launch of ISponsorBlockTV provides an open-source solution for skipping sponsored segments in YouTube TV, enhancing user experience. This tool empowers developers to contribute to a more user-friendly viewing environment by reducing interruptions.",
-      "sourceUrl": "https://github.com/dmunozv04/isponsorblocktv",
+      "summary": "Dux has been launched as a free and open-source Wayland desktop shell, featuring a built-in file manager and customizable theming options. This development provides developers with a new tool to enhance user experience on Linux systems, promoting further innovation in desktop environments.",
+      "sourceUrl": "https://duxlabs.dev/",
+      "sourceName": "duxlabs.dev",
+      "timeAgo": "2h ago"
+    },
+    {
+      "id": "3",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "category": "AI & LLMs",
+      "summary": "The Llama-modchip project demonstrates the capability of running a 284 billion parameter model using only 64GB of RAM without a GPU. This breakthrough could significantly lower the barrier to entry for developers looking to experiment with large language models in resource-constrained environments.",
+      "sourceUrl": "https://github.com/synchopate/llama-modchip",
       "sourceName": "github.com",
-      "timeAgo": "8h ago"
+      "timeAgo": "11h ago"
+    },
+    {
+      "id": "4",
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "category": "Security",
+      "summary": "Outlook.com has begun rejecting emails from domains that do not implement DMARC, a move aimed at enhancing email security and reducing spam. Developers and system administrators should take note to ensure their email domains are properly configured to avoid delivery issues.",
+      "sourceUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "sourceName": "mailroute.net",
+      "timeAgo": "2h ago"
     },
     {
       "id": "5",
-      "title": "JIT bitmap text rendering for microcontrollers",
+      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
       "category": "Systems & Architecture",
-      "summary": "The introduction of JIT bitmap text rendering for microcontrollers offers a new approach to efficiently display text in resource-constrained environments. This development is crucial for engineers working on embedded systems, as it optimizes performance without sacrificing quality.",
-      "sourceUrl": "https://linebender.org/blog/jit-bitmap-text/",
-      "sourceName": "linebender.org",
-      "timeAgo": "1h ago"
+      "summary": "The Nvidia Board of Directors has initiated an investigation into CEO Jensen Huang, raising questions about corporate governance and leadership in the tech industry. This development could have significant implications for Nvidia's strategic direction and investor confidence.",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "sourceName": "nvidianews.nvidia.com",
+      "timeAgo": "56m ago"
     }
   ]
 }
