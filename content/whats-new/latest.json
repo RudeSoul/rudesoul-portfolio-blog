@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-07T21:06:58.370Z",
+  "lastUpdated": "2026-11-08T12:16:00.459Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "The end of Microsoft Research's AI Frontiers group",
+      "title": "Goodbye Claude, Hello Pi",
       "category": "AI & LLMs",
-      "summary": "Microsoft has disbanded its AI Frontiers group, a decision that reflects the shifting priorities within the company regarding AI research and development. This change may impact ongoing projects and collaborations in the AI community, prompting developers to reassess their strategies in light of Microsoft's evolving focus.",
-      "sourceUrl": "https://hunch.net/?p=13764006",
-      "sourceName": "hunch.net",
-      "timeAgo": "3h ago"
+      "summary": "The transition from Claude to Pi marks a significant evolution in AI language models, emphasizing enhanced capabilities and user experience. Developers should explore how these advancements can be leveraged for more efficient applications and improved interaction with AI systems.",
+      "sourceUrl": "https://caleb.software/posts/claude-to-pi.html",
+      "sourceName": "caleb.software",
+      "timeAgo": "9h ago"
     },
     {
       "id": "2",
       "title": "Claude Code's 'Don't Ask Again' exposes passwords in 1,122 public GitHub files",
       "category": "Security",
-      "summary": "A recent analysis revealed that the 'Don't Ask Again' feature in Claude Code has inadvertently exposed sensitive passwords in over a thousand public GitHub repositories. Developers should be aware of this vulnerability to safeguard their projects and sensitive information from potential leaks.",
+      "summary": "A critical vulnerability in Claude Code's feature has led to the exposure of sensitive passwords across numerous public GitHub repositories. This incident highlights the urgent need for developers to prioritize security measures in AI integrations to protect sensitive data.",
       "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
       "sourceName": "apiiro.com",
-      "timeAgo": "21m ago"
+      "timeAgo": "15h ago"
     },
     {
       "id": "3",
-      "title": "Need for Speed Underground 2 online in the browser",
-      "category": "Web Development",
-      "summary": "A new web-based version of the classic game Need for Speed Underground 2 has been launched, allowing players to enjoy the game directly in their browsers. This development highlights the growing trend of bringing legacy games to the web, providing developers with insights into optimizing performance and user experience in browser-based applications.",
-      "sourceUrl": "https://nfsu2.xyz/",
-      "sourceName": "nfsu2.xyz",
-      "timeAgo": "11h ago"
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "category": "Open Source",
+      "summary": "The call for a standardized agent memory format akin to OpenTelemetry could revolutionize how developers manage and utilize memory in AI applications. This initiative aims to enhance interoperability and efficiency across various AI systems.",
+      "sourceUrl": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "sourceName": "lorekit.io",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Running a law firm on Free software",
+      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
       "category": "Open Source",
-      "summary": "A recent blog post discusses the successful implementation of Free software in managing a law firm, showcasing the benefits of open-source solutions in professional settings. This case study serves as a valuable reference for developers and businesses considering the transition to open-source tools for enhanced efficiency and cost-effectiveness.",
-      "sourceUrl": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-      "sourceName": "decoded.legal",
-      "timeAgo": "11h ago"
+      "summary": "The launch of ISponsorBlockTV provides an open-source solution for skipping sponsored segments in YouTube TV, enhancing user experience. This tool empowers developers to contribute to a more user-friendly viewing environment by reducing interruptions.",
+      "sourceUrl": "https://github.com/dmunozv04/isponsorblocktv",
+      "sourceName": "github.com",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
-      "category": "Web Development",
-      "summary": "An analysis of Discord's recent performance improvements suggests that Windows 11 applications should move away from using Electron due to high resource consumption. This insight encourages developers to explore alternative frameworks that could lead to more efficient application development and better user experiences.",
-      "sourceUrl": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/",
-      "sourceName": "windowslatest.com",
-      "timeAgo": "9h ago"
+      "title": "JIT bitmap text rendering for microcontrollers",
+      "category": "Systems & Architecture",
+      "summary": "The introduction of JIT bitmap text rendering for microcontrollers offers a new approach to efficiently display text in resource-constrained environments. This development is crucial for engineers working on embedded systems, as it optimizes performance without sacrificing quality.",
+      "sourceUrl": "https://linebender.org/blog/jit-bitmap-text/",
+      "sourceName": "linebender.org",
+      "timeAgo": "1h ago"
     }
   ]
 }
