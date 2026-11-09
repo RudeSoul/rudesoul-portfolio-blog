@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-08T21:23:47.442Z",
+  "lastUpdated": "2026-11-09T14:27:08.705Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
       "category": "AI & LLMs",
-      "summary": "Goldman Sachs has decided to withdraw access to Claude code from its bankers and traders, citing concerns over security and compliance. This move highlights the ongoing challenges financial institutions face in integrating AI technologies while maintaining regulatory standards.",
-      "sourceUrl": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "sourceName": "thestateofai.com",
-      "timeAgo": "3h ago"
+      "summary": "This paper introduces a novel approach to text generation that enhances the efficiency and quality of outputs through parallel processing. Developers and engineers should care because it presents a significant advancement in AI capabilities, particularly for applications requiring rapid content generation.",
+      "sourceUrl": "https://arxiv.org/abs/2610.14162",
+      "sourceName": "arxiv.org",
+      "timeAgo": "7h ago"
     },
     {
       "id": "2",
-      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "category": "Open Source",
-      "summary": "Dux has been launched as a free and open-source Wayland desktop shell, featuring a built-in file manager and customizable theming options. This development provides developers with a new tool to enhance user experience on Linux systems, promoting further innovation in desktop environments.",
-      "sourceUrl": "https://duxlabs.dev/",
-      "sourceName": "duxlabs.dev",
-      "timeAgo": "2h ago"
+      "summary": "KetchUp is a new open-source project that offers a powerful alternative to SketchUp, leveraging Rust and WebGPU for enhanced performance. This development is crucial for developers seeking robust, free tools for 3D modeling and design.",
+      "sourceUrl": "https://ketchup3d.github.io/app/",
+      "sourceName": "ketchup3d.github.io",
+      "timeAgo": "15h ago"
     },
     {
       "id": "3",
-      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-      "category": "AI & LLMs",
-      "summary": "The Llama-modchip project demonstrates the capability of running a 284 billion parameter model using only 64GB of RAM without a GPU. This breakthrough could significantly lower the barrier to entry for developers looking to experiment with large language models in resource-constrained environments.",
-      "sourceUrl": "https://github.com/synchopate/llama-modchip",
-      "sourceName": "github.com",
-      "timeAgo": "11h ago"
+      "title": "Outlook.com is rejecting email from domains without DMARC",
+      "category": "Security",
+      "summary": "Outlook.com has implemented stricter email validation by rejecting messages from domains lacking DMARC records, which enhances email security and reduces spam. Developers and system administrators should take note to ensure their email configurations comply with these new standards.",
+      "sourceUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "sourceName": "mailroute.net",
+      "timeAgo": "19h ago"
     },
     {
       "id": "4",
-      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
-      "category": "Security",
-      "summary": "Outlook.com has begun rejecting emails from domains that do not implement DMARC, a move aimed at enhancing email security and reducing spam. Developers and system administrators should take note to ensure their email domains are properly configured to avoid delivery issues.",
-      "sourceUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "sourceName": "mailroute.net",
-      "timeAgo": "2h ago"
+      "title": "Declarative Dragging",
+      "category": "Web Development",
+      "summary": "Declarative Dragging introduces a new approach to implementing drag-and-drop functionality in web applications, simplifying the development process. This is significant for web developers looking to enhance user interactions with less code complexity.",
+      "sourceUrl": "https://declarative-dragging.github.io/",
+      "sourceName": "declarative-dragging.github.io",
+      "timeAgo": "4d ago"
     },
     {
       "id": "5",
-      "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
-      "category": "Systems & Architecture",
-      "summary": "The Nvidia Board of Directors has initiated an investigation into CEO Jensen Huang, raising questions about corporate governance and leadership in the tech industry. This development could have significant implications for Nvidia's strategic direction and investor confidence.",
-      "sourceUrl": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-      "sourceName": "nvidianews.nvidia.com",
-      "timeAgo": "56m ago"
+      "title": "Psalm 7 release: PHP security & static analysis software",
+      "category": "Open Source",
+      "summary": "The latest release of Psalm 7 enhances PHP security and static analysis capabilities, providing developers with better tools to catch bugs and security vulnerabilities. This is particularly important for PHP developers aiming to improve code quality and maintainability.",
+      "sourceUrl": "https://psalm.dev/articles/psalm-7",
+      "sourceName": "psalm.dev",
+      "timeAgo": "1d ago"
     }
   ]
 }
