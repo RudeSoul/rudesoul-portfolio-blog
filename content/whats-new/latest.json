@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-09T14:27:08.705Z",
+  "lastUpdated": "2026-11-10T00:53:06.383Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "title": "Claude Fable 5.2 and Mythos 5.2 Released",
       "category": "AI & LLMs",
-      "summary": "This paper introduces a novel approach to text generation that enhances the efficiency and quality of outputs through parallel processing. Developers and engineers should care because it presents a significant advancement in AI capabilities, particularly for applications requiring rapid content generation.",
-      "sourceUrl": "https://arxiv.org/abs/2610.14162",
-      "sourceName": "arxiv.org",
-      "timeAgo": "7h ago"
+      "summary": "Anthropic has launched Claude Fable 5.2 and Mythos 5.2, showcasing significant advancements in AI capabilities. Developers should explore these updates for enhanced performance in their applications and research.",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "sourceName": "Anthropic",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-      "category": "Open Source",
-      "summary": "KetchUp is a new open-source project that offers a powerful alternative to SketchUp, leveraging Rust and WebGPU for enhanced performance. This development is crucial for developers seeking robust, free tools for 3D modeling and design.",
-      "sourceUrl": "https://ketchup3d.github.io/app/",
-      "sourceName": "ketchup3d.github.io",
-      "timeAgo": "15h ago"
+      "title": "USPS Introduces Official ZIP Code Boundary Polygons",
+      "category": "Systems & Architecture",
+      "summary": "The USPS has made available official ZIP Code boundary polygons, which can be utilized for improved geospatial analysis and location-based services. This development is crucial for developers working with mapping and logistics applications.",
+      "sourceUrl": "https://postalpro.usps.com/zcb",
+      "sourceName": "USPS",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Outlook.com is rejecting email from domains without DMARC",
-      "category": "Security",
-      "summary": "Outlook.com has implemented stricter email validation by rejecting messages from domains lacking DMARC records, which enhances email security and reduces spam. Developers and system administrators should take note to ensure their email configurations comply with these new standards.",
-      "sourceUrl": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "sourceName": "mailroute.net",
-      "timeAgo": "19h ago"
+      "title": "Google Unveils TPU 8tx and TPU 8i Max for Enhanced AI Processing",
+      "category": "AI & LLMs",
+      "summary": "Google has introduced the TPU 8tx and TPU 8i Max, designed to optimize AI model training and inference. These advancements are essential for engineers looking to leverage cutting-edge hardware for AI applications.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "sourceName": "Google",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Declarative Dragging",
-      "category": "Web Development",
-      "summary": "Declarative Dragging introduces a new approach to implementing drag-and-drop functionality in web applications, simplifying the development process. This is significant for web developers looking to enhance user interactions with less code complexity.",
-      "sourceUrl": "https://declarative-dragging.github.io/",
-      "sourceName": "declarative-dragging.github.io",
-      "timeAgo": "4d ago"
+      "title": "E-means Outperforms K-means in Efficiency",
+      "category": "AI & LLMs",
+      "summary": "The E-means algorithm has demonstrated superior performance compared to traditional k-means clustering, achieving results in one-tenth the epochs. This innovation is significant for data scientists and engineers focused on optimizing machine learning workflows.",
+      "sourceUrl": "https://e-means.github.io/",
+      "sourceName": "E-means",
+      "timeAgo": "6h ago"
     },
     {
       "id": "5",
-      "title": "Psalm 7 release: PHP security & static analysis software",
-      "category": "Open Source",
-      "summary": "The latest release of Psalm 7 enhances PHP security and static analysis capabilities, providing developers with better tools to catch bugs and security vulnerabilities. This is particularly important for PHP developers aiming to improve code quality and maintainability.",
-      "sourceUrl": "https://psalm.dev/articles/psalm-7",
-      "sourceName": "psalm.dev",
-      "timeAgo": "1d ago"
+      "title": "Exact: A New Cross-Platform UI Framework by Expo",
+      "category": "Web Development",
+      "summary": "Expo has launched Exact, a cross-platform UI framework aimed at simplifying the development of user interfaces across devices. This framework is a valuable tool for web developers looking to streamline their workflow and enhance user experience.",
+      "sourceUrl": "https://github.com/expo/exact",
+      "sourceName": "GitHub",
+      "timeAgo": "1h ago"
     }
   ]
 }
