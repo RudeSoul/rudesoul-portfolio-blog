@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-10T00:53:06.383Z",
+  "lastUpdated": "2026-11-10T13:49:31.804Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Claude Fable 5.2 and Mythos 5.2 Released",
+      "title": "DeepMind Introduces AlphaProof Code for AI Safety",
       "category": "AI & LLMs",
-      "summary": "Anthropic has launched Claude Fable 5.2 and Mythos 5.2, showcasing significant advancements in AI capabilities. Developers should explore these updates for enhanced performance in their applications and research.",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "sourceName": "Anthropic",
-      "timeAgo": "5h ago"
+      "summary": "DeepMind has unveiled AlphaProof Code, a new tool designed to enhance the safety and reliability of AI systems by providing formal verification methods. This development is crucial for engineers working on AI safety, as it offers a structured approach to ensure that AI behaves as intended.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "sourceName": "DeepMind",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "USPS Introduces Official ZIP Code Boundary Polygons",
+      "title": "Amazon Saves Millions by Switching to Strands Decider",
       "category": "Systems & Architecture",
-      "summary": "The USPS has made available official ZIP Code boundary polygons, which can be utilized for improved geospatial analysis and location-based services. This development is crucial for developers working with mapping and logistics applications.",
-      "sourceUrl": "https://postalpro.usps.com/zcb",
-      "sourceName": "USPS",
-      "timeAgo": "4h ago"
+      "summary": "Amazon has reported significant cost savings by replacing its Sonnet 4.6 system with Strands Decider, optimizing its operational efficiency. This shift highlights the importance of selecting the right architectural solutions to enhance performance and reduce expenses in large-scale systems.",
+      "sourceUrl": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "sourceName": "Strands Agents",
+      "timeAgo": "7h ago"
     },
     {
       "id": "3",
-      "title": "Google Unveils TPU 8tx and TPU 8i Max for Enhanced AI Processing",
+      "title": "Claude Fable and Mythos 5.2 Released by Anthropic",
       "category": "AI & LLMs",
-      "summary": "Google has introduced the TPU 8tx and TPU 8i Max, designed to optimize AI model training and inference. These advancements are essential for engineers looking to leverage cutting-edge hardware for AI applications.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
-      "sourceName": "Google",
-      "timeAgo": "2h ago"
+      "summary": "Anthropic has launched Claude Fable 5.2 and Mythos 5.2, introducing new features that enhance the capabilities of their AI models. Developers should pay attention to these updates as they may influence future applications and integrations in AI-driven projects.",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "sourceName": "Anthropic",
+      "timeAgo": "19h ago"
     },
     {
       "id": "4",
-      "title": "E-means Outperforms K-means in Efficiency",
-      "category": "AI & LLMs",
-      "summary": "The E-means algorithm has demonstrated superior performance compared to traditional k-means clustering, achieving results in one-tenth the epochs. This innovation is significant for data scientists and engineers focused on optimizing machine learning workflows.",
-      "sourceUrl": "https://e-means.github.io/",
-      "sourceName": "E-means",
-      "timeAgo": "6h ago"
+      "title": "USPS Releases Official ZIP Code Boundary Polygons",
+      "category": "Open Source",
+      "summary": "The USPS has made official ZIP Code boundary polygons available, providing valuable geospatial data for developers and engineers working on location-based applications. This open data initiative can enhance mapping services and improve logistics solutions.",
+      "sourceUrl": "https://postalpro.usps.com/zcb",
+      "sourceName": "USPS",
+      "timeAgo": "17h ago"
     },
     {
       "id": "5",
-      "title": "Exact: A New Cross-Platform UI Framework by Expo",
-      "category": "Web Development",
-      "summary": "Expo has launched Exact, a cross-platform UI framework aimed at simplifying the development of user interfaces across devices. This framework is a valuable tool for web developers looking to streamline their workflow and enhance user experience.",
-      "sourceUrl": "https://github.com/expo/exact",
-      "sourceName": "GitHub",
-      "timeAgo": "1h ago"
+      "title": "Fireworks AI Security Breach Affects Notion Users",
+      "category": "Security",
+      "summary": "Notion has confirmed a security breach involving a third-party AI vendor, impacting user data and prompting a review of security protocols. This incident serves as a reminder for developers to prioritize security measures when integrating third-party services into their applications.",
+      "sourceUrl": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "sourceName": "Notion",
+      "timeAgo": "6h ago"
     }
   ]
 }
