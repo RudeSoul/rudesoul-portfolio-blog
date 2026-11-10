@@ -13,10 +13,14 @@ const units = [
     files: [
       {
         name: "unit1_computational_workflow.pptx",
-        label: "Lecture Presentation (Slide Deck)",
+        label: "Lecture Presentation: Computational Workflow & Reproducible Foundations (Slide Deck)",
         type: "PPTX",
         size: "64 KB",
         url: "/course/Computational_Methods_for_Forestry_Research/Unit-I/unit1_computational_workflow.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-1",
+          totalSlides: 8,
+        },
       },
       {
         name: "data_dictionary.csv",
@@ -49,10 +53,14 @@ const units = [
     files: [
       {
         name: "unit2_programming_fundamentals_r.pptx",
-        label: "Lecture Presentation (Slide Deck)",
+        label: "Lecture Presentation: Programming Fundamentals in Base R (Slide Deck)",
         type: "PPTX",
         size: "165 KB",
         url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/unit2_programming_fundamentals_r.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-2",
+          totalSlides: 11,
+        },
       },
       {
         name: "test_unit_ii.R",
@@ -118,37 +126,425 @@ const units = [
     id: "unit-3",
     num: "03",
     title: "Unit III: Forest Inventory Data — Import, Cleaning, Summaries & APIs",
-    files: [],
+    files: [
+      {
+        name: "unit3_forest_inventory_cleaning_apis.pptx",
+        label: "Lecture Presentation: Forest Inventory Data Cleaning & APIs (Slide Deck)",
+        type: "PPTX",
+        size: "66 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/unit3_forest_inventory_cleaning_apis.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-3",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "03_clean_inventory.R",
+        label: "Master Data Cleaning & Stand Summaries Pipeline (Complete Solution)",
+        type: "R",
+        size: "5.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/03_clean_inventory.R",
+      },
+      {
+        name: "03_clean_inventory_starter.R",
+        label: "Data Cleaning & Stand Summaries Starter Script (Practice Lab)",
+        type: "R",
+        isStarter: true,
+        size: "4.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/03_clean_inventory_starter.R",
+      },
+      {
+        name: "bagmati_raw_inventory.csv",
+        label: "Raw Bagmati Inventory Dataset (2,005 Stems with Realistic Field Errors)",
+        type: "CSV",
+        size: "228 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/bagmati_raw_inventory.csv",
+      },
+      {
+        name: "bagmati_clean_inventory.csv",
+        label: "Validated Baseline Inventory Dataset (Standardized Taxonomy & Measurements)",
+        type: "CSV",
+        size: "361 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/bagmati_clean_inventory.csv",
+      },
+      {
+        name: "bagmati_flagged_records_review.csv",
+        label: "Supervisor Audit Table (30 Screened Anomalies & Transcription Flags)",
+        type: "CSV",
+        size: "2.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/bagmati_flagged_records_review.csv",
+      },
+      {
+        name: "bagmati_plot_summary.csv",
+        label: "Plot-Level Stand Structure Metrics (TPH, BA/ha, Mean DBH, Richness)",
+        type: "CSV",
+        size: "2.7 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/bagmati_plot_summary.csv",
+      },
+      {
+        name: "bagmati_species_summary.csv",
+        label: "Species Importance Value Index (Density, Dominance, Frequency, IVI)",
+        type: "CSV",
+        size: "1.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/bagmati_species_summary.csv",
+      },
+      {
+        name: "gbif_shorea_robusta_bagmati.csv",
+        label: "GBIF Occurrence Reference Dataset (Offline Sal Distribution in Nepal)",
+        type: "CSV",
+        size: "5.3 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/gbif_shorea_robusta_bagmati.csv",
+      },
+      {
+        name: "species_lookup.csv",
+        label: "Taxonomic Lookup Table (Botanical & Common Name Standardization)",
+        type: "CSV",
+        size: "370 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-III/species_lookup.csv",
+      },
+    ],
   },
   {
     id: "unit-4",
     num: "04",
-    title: "Unit IV",
-    files: [],
+    title: "Unit IV: Statistical Modeling & Mixed-Effects — Overcoming Pseudoreplication",
+    files: [
+      {
+        name: "unit4_statistics_viz_mixed_models.pptx",
+        label: "Lecture Presentation: Statistical Modeling & Mixed-Effects (Slide Deck)",
+        type: "PPTX",
+        size: "65 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/unit4_statistics_viz_mixed_models.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-4",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "04_mixed_models.R",
+        label: "Linear vs Mixed-Effects Allometry Pipeline & ICC Partitioning (Complete Solution)",
+        type: "R",
+        size: "3.4 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_mixed_models.R",
+      },
+      {
+        name: "04_mixed_models_starter.R",
+        label: "Mixed-Effects Modeling Starter Script (Practice Lab)",
+        type: "R",
+        isStarter: true,
+        size: "2.6 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_mixed_models_starter.R",
+      },
+      {
+        name: "04_lm_vs_lmer_comparison.csv",
+        label: "Model Standard Error Comparison Table (Quantifying Pseudoreplication Bias)",
+        type: "CSV",
+        size: "232 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_lm_vs_lmer_comparison.csv",
+      },
+      {
+        name: "04_dbh_histogram.png",
+        label: "Publication Figure: Diameter Distribution Across Bagmati Community Plots",
+        type: "PNG",
+        size: "113 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_dbh_histogram.png",
+      },
+      {
+        name: "04_height_dbh_faceted.png",
+        label: "Publication Figure: Species-Faceted Height-DBH Allometric Regressions",
+        type: "PNG",
+        size: "570 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_height_dbh_faceted.png",
+      },
+      {
+        name: "04_lm_diagnostics.png",
+        label: "Diagnostic Figure: 4-Panel Linear Regression Assumption Residual Plots",
+        type: "PNG",
+        size: "304 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-IV/04_lm_diagnostics.png",
+      },
+    ],
   },
   {
     id: "unit-5",
     num: "05",
-    title: "Unit V",
-    files: [],
+    title: "Unit V: Allometry, Non-Linear Growth Models & Community Ecology",
+    files: [
+      {
+        name: "unit5_allometry_growth_ecology.pptx",
+        label: "Lecture Presentation: Allometric Biomass & Community Ecology (Slide Deck)",
+        type: "PPTX",
+        size: "65 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/unit5_allometry_growth_ecology.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-5",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "05_allometry_and_ecology.R",
+        label: "Non-Linear Curves, Baskerville Bias Correction & NMDS Ordination (Complete Solution)",
+        type: "R",
+        size: "5.6 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_allometry_and_ecology.R",
+      },
+      {
+        name: "05_allometry_and_ecology_starter.R",
+        label: "Allometric & Ecological Ordination Starter Script (Practice Lab)",
+        type: "R",
+        isStarter: true,
+        size: "3.3 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_allometry_and_ecology_starter.R",
+      },
+      {
+        name: "05_hd_model_comparison.csv",
+        label: "H-D Model Evaluation Table (Linear, Chapman-Richards, Michaelis-Menten)",
+        type: "CSV",
+        size: "231 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_hd_model_comparison.csv",
+      },
+      {
+        name: "05_biomass_cross_validation.csv",
+        label: "Biomass Cross-Validation Metrics (Random Tree Split vs Whole-Plot Holdout)",
+        type: "CSV",
+        size: "178 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_biomass_cross_validation.csv",
+      },
+      {
+        name: "05_plot_diversity_metrics.csv",
+        label: "Stand Biodiversity Indices (Richness S, Shannon H', Simpson 1-D, Elevation)",
+        type: "CSV",
+        size: "893 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_plot_diversity_metrics.csv",
+      },
+      {
+        name: "bagmati_species_by_plot_matrix.csv",
+        label: "Community Ecology Species-by-Plot Abundance Matrix",
+        type: "CSV",
+        size: "630 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/bagmati_species_by_plot_matrix.csv",
+      },
+      {
+        name: "05_nmds_ordination.png",
+        label: "Publication Figure: NMDS Ordination Along Kathmandu Valley Elevation Gradient",
+        type: "PNG",
+        size: "208 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-V/05_nmds_ordination.png",
+      },
+    ],
   },
   {
     id: "unit-6",
     num: "06",
-    title: "Unit VI",
-    files: [],
+    title: "Unit VI: Python for Automation & Batch Data Pipelines",
+    files: [
+      {
+        name: "unit6_python_automation_batch_processing.pptx",
+        label: "Lecture Presentation: Python Pipeline Automation & Batch Processing (Slide Deck)",
+        type: "PPTX",
+        size: "65 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/unit6_python_automation_batch_processing.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-6",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "06_batch_pipeline.py",
+        label: "Automated 100-Plot Batch Ingestion & QC Logging Pipeline (Complete Solution)",
+        type: "PY",
+        size: "3.9 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/06_batch_pipeline.py",
+      },
+      {
+        name: "06_batch_pipeline_starter.py",
+        label: "Batch Processing & QC Logging Starter Script (Practice Lab)",
+        type: "PY",
+        isStarter: true,
+        size: "2.6 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/06_batch_pipeline_starter.py",
+      },
+      {
+        name: "plots_batch.zip",
+        label: "Complete Batch Archive (100 Individual Forest Plot CSVs for Pipeline Testing)",
+        type: "ZIP",
+        size: "98 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/plots_batch.zip",
+      },
+      {
+        name: "bagmati_quality_control.csv",
+        label: "Automated QC Log Report (Flagged Anomalies, Schema Violations, NA Counts)",
+        type: "CSV",
+        size: "359 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/bagmati_quality_control.csv",
+      },
+      {
+        name: "bagmati_plot_summary.csv",
+        label: "Aggregated 100-Plot Summary Metrics Output Table",
+        type: "CSV",
+        size: "4.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VI/bagmati_plot_summary.csv",
+      },
+    ],
   },
   {
     id: "unit-7",
     num: "07",
-    title: "Unit VII",
-    files: [],
+    title: "Unit VII: Spatial Analysis, LiDAR, GEE & Machine Learning Classification",
+    files: [
+      {
+        name: "unit7_spatial_lidar_gee_machine_learning.pptx",
+        label: "Lecture Presentation: Spatial Analysis, LiDAR Point Clouds & GEE (Slide Deck)",
+        type: "PPTX",
+        size: "65 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/unit7_spatial_lidar_gee_machine_learning.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-7",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "07_spatial_lidar_gee.py",
+        label: "Spatial Buffers, DEM Extraction, LiDAR CHM & Random Forest ML (Complete Solution)",
+        type: "PY",
+        size: "4.6 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/07_spatial_lidar_gee.py",
+      },
+      {
+        name: "07_spatial_lidar_gee_starter.py",
+        label: "Spatial & Machine Learning Starter Script (Practice Lab)",
+        type: "PY",
+        isStarter: true,
+        size: "2.1 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/07_spatial_lidar_gee_starter.py",
+      },
+      {
+        name: "bagmati_plots.geojson",
+        label: "Permanent Sample Plot Coordinates (Vector Point Layer, WGS84)",
+        type: "GEOJSON",
+        size: "5.1 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_plots.geojson",
+      },
+      {
+        name: "bagmati_boundary.geojson",
+        label: "Study Watershed & Forest Administrative Boundary (Vector Polygon)",
+        type: "GEOJSON",
+        size: "392 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_boundary.geojson",
+      },
+      {
+        name: "bagmati_ground_truth.geojson",
+        label: "Sentinel-2 Ground Truth Training & Validation Points (200 Reference Pixels)",
+        type: "GEOJSON",
+        size: "77 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_ground_truth.geojson",
+      },
+      {
+        name: "bagmati_dem.tif",
+        label: "Digital Elevation Model Raster (Topography & Altitude, 30m Grid)",
+        type: "TIF",
+        size: "798 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_dem.tif",
+      },
+      {
+        name: "bagmati_sample.las",
+        label: "Airborne LiDAR 3D Point Cloud Sample Tile (Ground & Canopy Returns)",
+        type: "LAS",
+        size: "166 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_sample.las",
+      },
+      {
+        name: "07_rf_accuracy_assessment.csv",
+        label: "Random Forest Confusion Matrix (Producer & User Accuracy, Omission & Commission)",
+        type: "CSV",
+        size: "338 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/07_rf_accuracy_assessment.csv",
+      },
+      {
+        name: "bagmati_landscape_master.csv",
+        label: "Integrated Master Landscape Dataset (Field Plots, Elevation, LiDAR CHM, NDVI)",
+        type: "CSV",
+        size: "741 B",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VII/bagmati_landscape_master.csv",
+      },
+    ],
   },
   {
     id: "unit-8",
     num: "08",
-    title: "Unit VIII",
-    files: [],
+    title: "Unit VIII: Decision Support Dashboards, Data Ethics & Capstone",
+    files: [
+      {
+        name: "unit8_integration_ethics_dashboards.pptx",
+        label: "Lecture Presentation: Decision Support Dashboards & Research Ethics (Slide Deck)",
+        type: "PPTX",
+        size: "65 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/unit8_integration_ethics_dashboards.pptx",
+        slideDeck: {
+          basePath: "/course/Computational_Methods_for_Forestry_Research/slides/unit-8",
+          totalSlides: 8,
+        },
+      },
+      {
+        name: "app.R",
+        label: "R Shiny Interactive Biomass Estimator with Active Domain Guards (Complete App)",
+        type: "R",
+        size: "2.9 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/app.R",
+      },
+      {
+        name: "app_starter.R",
+        label: "R Shiny Dashboard Starter Script (Practice Lab)",
+        type: "R",
+        isStarter: true,
+        size: "2.4 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/app_starter.R",
+      },
+      {
+        name: "app.py",
+        label: "Python Streamlit Interactive Biomass Estimator with Domain Guards (Complete App)",
+        type: "PY",
+        size: "1.4 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/app.py",
+      },
+      {
+        name: "app_starter.py",
+        label: "Python Streamlit Dashboard Starter Script (Practice Lab)",
+        type: "PY",
+        isStarter: true,
+        size: "1.1 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/app_starter.py",
+      },
+      {
+        name: "08_ethics_and_packaging.R",
+        label: "Spatial Data Minimization & Sensitive Taxus Protection Script (Complete Solution)",
+        type: "R",
+        size: "1.5 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/08_ethics_and_packaging.R",
+      },
+      {
+        name: "08_ethics_and_packaging_starter.R",
+        label: "Research Ethics & FAIR Data Packaging Starter Script (Practice Lab)",
+        type: "R",
+        isStarter: true,
+        size: "1.2 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/08_ethics_and_packaging_starter.R",
+      },
+      {
+        name: "bagmati_public_use_inventory.csv",
+        label: "FAIR-Compliant Public-Use Inventory (Anonymized Coordinates & Elevation Bands)",
+        type: "CSV",
+        size: "237 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/bagmati_public_use_inventory.csv",
+      },
+      {
+        name: "capstone_project_briefs.md",
+        label: "Capstone Research Briefs, Deliverable Rubric & AI Disclosure Protocol",
+        type: "MD",
+        size: "2.6 KB",
+        url: "/course/Computational_Methods_for_Forestry_Research/Unit-VIII/capstone_project_briefs.md",
+      },
+    ],
   },
 ]
 
@@ -747,6 +1143,394 @@ const unitQuestions = {
       },
     ],
   },
+  "unit-4": {
+    unitLabel: "Unit IV",
+    unitTitle: "Statistical Modeling & Mixed-Effects — Overcoming Pseudoreplication",
+    intro:
+      "Guiding inquiries, model diagnostics, and mixed-effects checkpoints from Unit IV. Focuses on accounting for hierarchical sampling, residual validation, and partitioning between-plot vs within-plot variance.",
+    categories: [
+      {
+        id: "guiding",
+        label: "Guiding Questions",
+        description: "Hierarchical sampling questions and statistical design inquiries.",
+        cards: [
+          {
+            title: "The Sampling Hierarchy Dilemma",
+            badge: "Statistical Independence",
+            type: "quotes",
+            items: [
+              "Why is treating 2,000 trees measured across 20 sample plots as 2,000 independent observations statistically invalid in forest ecology?",
+              "How does environmental heterogeneity among plots (slope, aspect, elevation, soil depth) induce correlation among co-occurring trees?",
+              "What happens to standard errors and p-values when an ordinary linear model ignores plot clustering (pseudoreplication)?",
+            ],
+          },
+          {
+            title: "Variance Partitioning Inquiries",
+            badge: "Intraclass Correlation",
+            type: "quotes",
+            items: [
+              "What proportion of the total variation in tree height is driven by differences between stands versus differences among individual trees within the same stand?",
+              "If the between-plot variance is substantial (ICC > 30%), what does this imply for future sample allocation across Bagmati Province?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "practical",
+        label: "Practical Checkpoints",
+        description: "Hands-on diagnostic workflows and mixed-effects model outputs.",
+        cards: [
+          {
+            title: "Linear Model Assumption Diagnostics",
+            badge: "Residual Audit",
+            type: "ordered",
+            items: [
+              "Residuals vs Fitted: Is the variance constant (homoscedastic), or does residual spread expand with tree size?",
+              "Normal Q-Q: Do residual quantiles follow the 1:1 diagonal, or do large canopy dominants skew the distribution?",
+              "Scale-Location: Is there a systematic trend in square-root standardized residuals across fitted values?",
+              "Residuals vs Leverage: Are any single influential stems (e.g., the 40m/10cm outlier) exerting excessive leverage on the fitted slope?",
+            ],
+          },
+          {
+            title: "Model Comparison & ICC Benchmarks",
+            badge: "Model Validation",
+            type: "quotes",
+            items: [
+              "Compare the intercept standard error between lm and lmer: by what factor does accounting for plot clustering widen our uncertainty?",
+              "Confirm that the random intercept variance (sigma^2_plot) and residual variance (sigma^2_res) sum to the total variance observed in tree heights.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "review",
+        label: "Review Problems",
+        description: "Conceptual and analytical review problems from Unit IV.",
+        cards: [
+          {
+            title: "End-of-Unit Mixed Modeling Review",
+            badge: "Conceptual Review",
+            type: "ordered",
+            items: [
+              "Pseudoreplication: Define pseudoreplication in the context of forest inventory plots and state its consequence on Type I error rates.",
+              "Fixed versus Random Effects: Why is Plot_ID treated as a random effect rather than a 20-level fixed categorical predictor?",
+              "Standard Error Honest Assessment: Explain why an ordinary linear regression model gives researchers an illusion of precision in clustered ecological data.",
+              "Intraclass Correlation: In your own words, explain how the ICC is calculated from variance components and what an ICC of 0.34 indicates ecologically.",
+              "Outlier Screening: Why should an implausible height-to-DBH ratio record be investigated and flagged rather than silently erased prior to model fitting?",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  "unit-5": {
+    unitLabel: "Unit V",
+    unitTitle: "Allometry, Non-Linear Growth Models & Community Ecology",
+    intro:
+      "Guiding inquiries on asymptotic height-diameter functions, logarithmic back-transformation bias (Baskerville correction), spatial cross-validation, and multivariate community ecology.",
+    categories: [
+      {
+        id: "guiding",
+        label: "Guiding Questions",
+        description: "Biometric and macroecological research inquiries driving Unit V.",
+        cards: [
+          {
+            title: "Asymptotic Growth & Physiological Limits",
+            badge: "Biometrics",
+            type: "quotes",
+            items: [
+              "Why do linear height-diameter models fail biologically at large tree diameters?",
+              "What physical and hydraulic constraints limit maximum tree height as diameter continues to expand?",
+              "Does Chapman-Richards or Michaelis-Menten provide a better empirical fit for Schima wallichii across Bagmati stands?",
+            ],
+          },
+          {
+            title: "Logarithmic Back-Transformation Bias",
+            badge: "Carbon Accounting",
+            type: "quotes",
+            items: [
+              "Why does exponentiating a log-log regression prediction yield the geometric mean rather than the arithmetic mean of biomass?",
+              "What magnitude of carbon stock underestimation occurs across Bagmati community forests if the Baskerville correction factor is omitted?",
+            ],
+          },
+          {
+            title: "Community Turnover & Elevational Gradients",
+            badge: "Community Ecology",
+            type: "quotes",
+            items: [
+              "How does tree species composition shift across the Kathmandu Valley rim as elevation increases from 1,400 m to 2,200 m?",
+              "Can a single 2D ordination plot capture the dominant compositional gradients across our permanent sample plots?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "practical",
+        label: "Practical Checkpoints",
+        description: "Allometric curve fitting, bias correction, and ordination benchmarks.",
+        cards: [
+          {
+            title: "Non-Linear Model Evaluation Checklist",
+            badge: "Curve Evaluation",
+            type: "ordered",
+            items: [
+              "Fit linear, log-linear, Chapman-Richards, and Michaelis-Menten functions for Schima wallichii.",
+              "Evaluate all candidate models on the original metre scale using Root Mean Square Error (RMSE) and AIC.",
+              "Apply the Baskerville (1972) correction factor: CF = exp(sigma^2 / 2) to the log-linear model before computing RMSE.",
+              "Compare naive total biomass (Mg) vs. bias-corrected total biomass across the Bagmati inventory.",
+            ],
+          },
+          {
+            title: "Cross-Validation Benchmarks",
+            badge: "Spatial Generalization",
+            type: "quotes",
+            items: [
+              "Compare Test RMSE between an 80:20 random tree split and a whole-plot holdout: why does the whole-plot holdout exhibit higher test error?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "review",
+        label: "Review Problems",
+        description: "End-of-unit problems on non-linear estimation and ordination.",
+        cards: [
+          {
+            title: "Allometry & Ecology Review Problems",
+            badge: "Synthesis Review",
+            type: "ordered",
+            items: [
+              "Chapman-Richards Parameters: Interpret the biological meaning of parameters A (asymptote), k (growth rate), and p (shape) in height-diameter allometry.",
+              "Baskerville Correction: State the mathematical formula for the Baskerville correction factor and explain why it is always strictly greater than 1.",
+              "Spatial Cross-Validation: Explain why holding out entire sample plots provides a more realistic estimate of model generalization than holding out individual trees.",
+              "Diversity Indices: Compare species richness (S), Shannon index (H'), and Simpson index (1-D) in terms of their sensitivity to rare species.",
+              "NMDS Stress: What does an ordination stress value of 0.11 indicate regarding the 2D preservation of multi-dimensional Bray-Curtis distances?",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  "unit-6": {
+    unitLabel: "Unit VI",
+    unitTitle: "Python for Automation & Batch Data Pipelines",
+    intro:
+      "Core principles of building fault-tolerant, automated batch data pipelines in Python to ingest, validate, and summarize hundreds of raw field inventory spreadsheets with quality-control logging.",
+    categories: [
+      {
+        id: "guiding",
+        label: "Guiding Questions",
+        description: "Automation architecture and data ingestion inquiries.",
+        cards: [
+          {
+            title: "Batch Scalability in Forest Inventories",
+            badge: "Data Engineering",
+            type: "quotes",
+            items: [
+              "If a district forestry office delivers 100 separate plot spreadsheets instead of one combined master sheet, how can we process them without error-prone manual copying?",
+              "How do we ensure that a single corrupt CSV file or missing column does not cause an entire regional batch pipeline to crash midway?",
+            ],
+          },
+          {
+            title: "Automated Quality Control Auditing",
+            badge: "Audit Integrity",
+            type: "quotes",
+            items: [
+              "Why must data-quality anomalies (missing DBH, non-positive diameters, extreme heights) be logged to a dedicated QC table rather than silently skipped?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "practical",
+        label: "Practical Checkpoints",
+        description: "Python batch pipeline implementation deliverables.",
+        cards: [
+          {
+            title: "Pipeline Architecture Checklist",
+            badge: "Pipeline Checkpoints",
+            type: "ordered",
+            items: [
+              "Pathlib Traversal: Use Path.glob('*.csv') to dynamically discover all raw plot files regardless of operating system.",
+              "Exception Shielding: Wrap pd.read_csv in try/except blocks to log unreadable files and continue pipeline execution.",
+              "Schema Verification: Compare set(data.columns) against mandatory columns to flag malformed files (e.g. plot_004.csv missing Species).",
+              "Vectorized Tree Metrics: Calculate basal area in m2 using vectorized NumPy/Pandas operations on positive DBH stems.",
+              "Dual Output Generation: Export both the aggregated plot summary table and the automated quality-control audit log.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "review",
+        label: "Review Problems",
+        description: "End-of-unit problems on Python scripting and batch pipelines.",
+        cards: [
+          {
+            title: "Automation & Batch Processing Review",
+            badge: "Technical Review",
+            type: "ordered",
+            items: [
+              "Pathlib vs OS String Paths: Give two reasons why pathlib.Path is preferred over raw string manipulation for file paths.",
+              "Defensive Exception Handling: Why is catching Exception and returning a tuple (None, qc_issues) preferable to letting Python exit with a traceback?",
+              "Automated QC Logging: How does generating bagmati_quality_control.csv protect research integrity when field data is collected by multiple teams?",
+              "Vectorization vs Row Iteration: Explain why iterrows() in Pandas is computationally inefficient for large forest inventories compared to vectorized arithmetic.",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  "unit-7": {
+    unitLabel: "Unit VII",
+    unitTitle: "Spatial Analysis, LiDAR, GEE & Machine Learning Classification",
+    intro:
+      "Inquiries on spatial coordinate systems, digital elevation models, 3D airborne LiDAR canopy metrics, Google Earth Engine cloud composites, and Random Forest land cover classification.",
+    categories: [
+      {
+        id: "guiding",
+        label: "Guiding Questions",
+        description: "Spatial geometry and remote sensing integration inquiries.",
+        cards: [
+          {
+            title: "Coordinate Reference Systems & Geometric Accuracy",
+            badge: "Spatial Geometry",
+            type: "quotes",
+            items: [
+              "Why does creating a 15-metre buffer around a point in geographic coordinates (EPSG:4326, degrees) produce an invalid, distorted area in mountain terrain?",
+              "How does reprojecting to a metric projected coordinate system (UTM Zone 45N, EPSG:32645) ensure consistent physical ground areas?",
+            ],
+          },
+          {
+            title: "LiDAR Point Cloud Structural Metrics",
+            badge: "3D Remote Sensing",
+            type: "quotes",
+            items: [
+              "How is a continuous Canopy Height Model (CHM) derived by subtracting ground returns (Class 2) from upper canopy returns (Class 5)?",
+              "Why does 3D airborne LiDAR provide direct measurements of forest vertical structure that optical satellite sensors cannot?",
+            ],
+          },
+          {
+            title: "Spatial Autocorrelation in Machine Learning",
+            badge: "Spatial ML",
+            type: "quotes",
+            items: [
+              "Why does naive random train/test splitting produce artificially inflated accuracy scores when classifying spatial remote sensing imagery?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "practical",
+        label: "Practical Checkpoints",
+        description: "Spatial data processing and machine learning validation steps.",
+        cards: [
+          {
+            title: "Spatial & Machine Learning Pipeline Steps",
+            badge: "Spatial Checkpoints",
+            type: "ordered",
+            items: [
+              "Reproject plot points to UTM Zone 45N and generate 15-metre circular sample buffers.",
+              "Sample 30m DEM GeoTIFF elevation at plot coordinates using rasterio.",
+              "Read LiDAR .las point cloud with laspy and compute mean plot CHM (95th percentile canopy minus mean ground).",
+              "Train a 100-tree Random Forest classifier on Sentinel-2 spectral bands using a spatial block cross-validation split (South Train vs North Val).",
+              "Generate the complete accuracy assessment table: Producer's Accuracy, User's Accuracy, Omission, and Commission errors.",
+              "Export the integrated bagmati_landscape_master.csv merging field, LiDAR, and satellite metrics.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "review",
+        label: "Review Problems",
+        description: "Conceptual and computational review problems from Unit VII.",
+        cards: [
+          {
+            title: "Spatial Modeling & Machine Learning Review",
+            badge: "Remote Sensing Review",
+            type: "ordered",
+            items: [
+              "Metric Projections: Explain why geographic CRS (latitude/longitude in degrees) cannot be used directly for distance or area calculations.",
+              "ASPRS LiDAR Classification: Which ASPRS standard classification codes represent bare earth and high vegetation in airborne LiDAR?",
+              "Producer's vs User's Accuracy: Distinguish between Producer's Accuracy (omission error) and User's Accuracy (commission error) in forest cover mapping.",
+              "Sensor Saturation: Why does optical NDVI saturate in dense subtropical forests, and how does 3D LiDAR canopy height overcome this limitation?",
+              "Spatial Blocking: Explain why spatial block validation (North vs South) provides a more rigorous accuracy metric than random cross-validation.",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  "unit-8": {
+    unitLabel: "Unit VIII",
+    unitTitle: "Decision Support Dashboards, Data Ethics & Capstone",
+    intro:
+      "Principles of building interactive biometric decision tools, safeguarding vulnerable biodiversity through spatial data minimization, and assembling a reproducible scientific capstone.",
+    categories: [
+      {
+        id: "guiding",
+        label: "Guiding Questions",
+        description: "Decision tools, research ethics, and capstone synthesis inquiries.",
+        cards: [
+          {
+            title: "The Model Extrapolation Hazard",
+            badge: "Decision Support",
+            type: "quotes",
+            items: [
+              "What happens when a community forest manager enters a 150 cm DBH tree into an allometric equation calibrated only up to 80 cm?",
+              "Why must interactive decision tools feature active, visual domain boundary safeguards rather than silently calculating extrapolated predictions?",
+            ],
+          },
+          {
+            title: "Research Ethics & Biodiversity Poaching Risk",
+            badge: "Data Ethics",
+            type: "quotes",
+            items: [
+              "Why is publishing sub-metre GPS coordinates of threatened species like Himalayan Yew (Taxus wallichiana) ethically irresponsible in open science?",
+              "How does spatial data minimization allow researchers to share FAIR data without providing illegal harvesters with a roadmap to wild populations?",
+            ],
+          },
+        ],
+      },
+      {
+        id: "practical",
+        label: "Practical Checkpoints",
+        description: "Interactive dashboard, spatial redaction, and capstone deliverable steps.",
+        cards: [
+          {
+            title: "Interactive Dashboard & Ethics Deliverables",
+            badge: "Capstone Deliverables",
+            type: "ordered",
+            items: [
+              "Implement reactive input validation in R Shiny or Streamlit alerting users when DBH falls outside the 10-80 cm calibration domain.",
+              "Filter clean inventory for plots containing Taxus wallichiana and identify stands requiring coordinate redaction.",
+              "Apply spatial minimization: strip exact Lat/Lon coordinates and aggregate elevation into 200m elevation bands.",
+              "Export bagmati_public_use_inventory.csv with explicit Location_Access_Status metadata tags.",
+              "Complete one Capstone Research Brief (Allometry, Elevational Turnover, or Multi-Sensor Forest Structure) using documented reproducible code.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "review",
+        label: "Review Problems",
+        description: "Comprehensive end-of-course review questions for Unit VIII and Capstone.",
+        cards: [
+          {
+            title: "Ethics, Decision Support & Capstone Review",
+            badge: "Final Synthesis",
+            type: "ordered",
+            items: [
+              "Domain of Applicability: Define the domain of applicability of an empirical forestry model and explain why software should guard against extrapolation.",
+              "Data Minimization: What is the principle of data minimization in scientific data publication, and how was it applied to the Bagmati inventory?",
+              "FAIR Open Science: How can research datasets satisfy Findable, Accessible, Interoperable, and Reusable principles while protecting sensitive conservation taxa?",
+              "AI Disclosure Integrity: Why is maintaining an AI-use disclosure log essential for scientific reproducibility and academic honesty in modern computational research?",
+              "Capstone Integration: How do the eight units of this course connect field tally sheets to defensible, reproducible, and ethical forest science?",
+            ],
+          },
+        ],
+      },
+    ],
+  },
 }
 
 const UnitQuestionsSection = ({
@@ -941,6 +1725,326 @@ const UnitQuestionsSection = ({
   )
 }
 
+const BINARY_FILE_PREVIEWS = {
+  "plots_batch.zip": `# Unit VI: 100-Plot Batch Ingestion Archive
+# Contains 100 individual forest inventory plot CSVs (plot_001.csv to plot_100.csv)
+
+## Sample Plot Data (plot_001.csv):
+Plot_ID,Tree_ID,Species,DBH_cm,Height_m
+P01,T01,Shorea robusta,32.4,18.5
+P01,T02,Shorea robusta,28.1,16.2
+P01,T03,Schima wallichii,22.7,14.8
+P01,T04,Castanopsis indica,19.3,13.1
+P01,T05,Shorea robusta,45.2,22.4
+P01,T06,Schima wallichii,15.8,11.2
+P01,T07,Alnus nepalensis,38.6,20.1
+P01,T08,Shorea robusta,26.4,15.9
+
+## Python Batch Processing Script:
+from pathlib import Path
+import pandas as pd
+
+plot_files = sorted(Path("plots_batch").glob("*.csv"))
+all_plots = [pd.read_csv(f) for f in plot_files]
+master_df = pd.concat(all_plots, ignore_index=True)
+print(f"Loaded {len(plot_files)} plots with {len(master_df)} total trees.")`,
+
+  "bagmati_dem.tif": `# Unit VII Spatial Asset: Bagmati Watershed Digital Elevation Model (DEM)
+
+## Raster Layer Specifications:
+- Source: SRTM 30m Digital Elevation Model
+- Spatial Extent: Kathmandu Valley & Bagmati Rim (85.28°E to 85.45°E, 27.62°N to 27.78°N)
+- Coordinate Reference System: Projected UTM Zone 45N (EPSG:32645)
+- Spatial Resolution: 30.0 m x 30.0 m grid cells
+- Elevation Range: 1,245.0 m to 2,732.0 m
+- Data Format: Cloud-Optimized GeoTIFF (Float32)
+
+## Python Extraction Code (rasterio):
+import rasterio
+
+with rasterio.open("bagmati_dem.tif") as dem:
+    print(f"CRS: {dem.crs} | Resolution: {dem.res}")
+    # Sample elevation at plot UTM coordinates:
+    coords = [(330200.0, 3065400.0), (332150.0, 3068900.0)]
+    elevations = [val[0] for val in dem.sample(coords)]
+    print(f"Sampled plot elevations (m): {elevations}")`,
+
+  "bagmati_sample.las": `# Unit VII Spatial Asset: Airborne LiDAR 3D Point Cloud Sample
+
+## Point Cloud Layer Specifications:
+- File Format: ASPRS LAS 1.4 Binary Point Cloud
+- Projected CRS: UTM Zone 45N (EPSG:32645)
+- Vertical Datum: Orthometric height (EGM96, metres)
+- Total Point Count: 32,840 returns
+- ASPRS Point Classifications:
+    * Class 2: Ground Returns (Bare Earth DTM)
+    * Class 5: High Vegetation Returns (Canopy Surface DSM)
+
+## Python Point Cloud Extraction (laspy):
+import laspy
+import numpy as np
+
+las = laspy.read("bagmati_sample.las")
+ground_z = las.z[las.classification == 2]
+canopy_z = las.z[las.classification == 5]
+
+dtm = np.mean(ground_z)
+dsm = np.percentile(canopy_z, 95)
+chm = dsm - dtm
+print(f"Derived Canopy Height Model (CHM): {chm:.2f} metres")`,
+}
+
+const parseCsvPreview = (text, maxRows = 250) => {
+  if (!text) return { headers: [], rows: [], totalCount: 0 }
+  const lines = text.trim().split("\n")
+  if (lines.length === 0) return { headers: [], rows: [], totalCount: 0 }
+  const totalCount = lines.length - 1
+  const headers = lines[0].split(",").map(h => h.trim().replace(/^"|"$/g, ""))
+  const rows = lines.slice(1, maxRows + 1).map(line =>
+    line.split(",").map(p => p.trim().replace(/^"|"$/g, ""))
+  )
+  return { headers, rows, totalCount }
+}
+
+const escapeHtml = str => {
+  if (!str) return ""
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;")
+}
+
+/* ==========================================================================
+   Course Access Protection Configuration (Way A: 7-Day Calendar Windows)
+   ========================================================================== */
+
+const COURSE_ACCESS_CONFIG = {
+  enabled: true,
+  storageKey: "tu_iof_forestry_course_auth_v1",
+  salt: "tu-iof-bagmati-2026-phase-01",
+  windows: [
+    {
+      id: "week-1",
+      label: "Week 1: Computational Workflow & Reproducible Foundations",
+      validFrom: "2026-11-09T00:00:00+05:45",
+      validTo: "2026-11-16T23:59:59+05:45",
+      // Phrase: "forestry-bagmati-2026"
+      hash: "408b1f5ce942fcd601aa12a49ef5ef7affce5f0446d4254d288ab623c61171db",
+    },
+    {
+      id: "week-2",
+      label: "Week 2: Programming Fundamentals & Reusable Functions in R",
+      validFrom: "2026-11-17T00:00:00+05:45",
+      validTo: "2026-11-24T23:59:59+05:45",
+      // Phrase: "sal-inventory-2026"
+      hash: "7546d03cc2c1a092d679af634112d00f5897ef1d64645f76f2b1fff5e9566625",
+    },
+  ],
+}
+
+const computeSha256 = async message => {
+  if (
+    typeof window === "undefined" ||
+    !window.crypto ||
+    !window.crypto.subtle
+  ) {
+    return ""
+  }
+  const encoder = new TextEncoder()
+  const data = encoder.encode(message)
+  const hashBuffer = await window.crypto.subtle.digest("SHA-256", data)
+  const hashArray = Array.from(new Uint8Array(hashBuffer))
+  return hashArray.map(b => b.toString(16).padStart(2, "0")).join("")
+}
+
+const formatWindowDate = isoStr => {
+  try {
+    const d = new Date(isoStr)
+    return d.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+    })
+  } catch (e) {
+    return isoStr
+  }
+}
+
+const CourseAccessGate = ({
+  activeWindow,
+  allWindows,
+  salt,
+  onAuthorized,
+}) => {
+  const [passphrase, setPassphrase] = React.useState("")
+  const [showPassphrase, setShowPassphrase] = React.useState(false)
+  const [isVerifying, setIsVerifying] = React.useState(false)
+  const [errorMessage, setErrorMessage] = React.useState("")
+  const [successMessage, setSuccessMessage] = React.useState("")
+
+  const handleSubmit = async e => {
+    e.preventDefault()
+    setErrorMessage("")
+    setSuccessMessage("")
+
+    const trimmed = passphrase.trim().toLowerCase()
+    if (!trimmed) {
+      setErrorMessage("Please enter the course access phrase.")
+      return
+    }
+
+    if (!activeWindow) {
+      setErrorMessage(
+        "No active access window is currently open. Please contact your instructor."
+      )
+      return
+    }
+
+    setIsVerifying(true)
+    try {
+      // 1. Check if it matches the active weekly window
+      const computedHash = await computeSha256(
+        `${trimmed}:${salt}:${activeWindow.validTo}`
+      )
+
+      if (computedHash === activeWindow.hash) {
+        setSuccessMessage("✓ Access verified! Unlocking course materials...")
+        setTimeout(() => {
+          onAuthorized(activeWindow)
+        }, 500)
+        return
+      }
+
+      // 2. Check if student entered a past expired phrase or future phrase
+      let foundPast = null
+      let foundFuture = null
+
+      for (const win of allWindows) {
+        if (win.id === activeWindow.id) continue
+        const checkHash = await computeSha256(
+          `${trimmed}:${salt}:${win.validTo}`
+        )
+        if (checkHash === win.hash) {
+          const winTo = new Date(win.validTo).getTime()
+          const now = Date.now()
+          if (now > winTo) {
+            foundPast = win
+          } else {
+            foundFuture = win
+          }
+          break
+        }
+      }
+
+      if (foundPast) {
+        setErrorMessage(
+          `⚠️ This phrase was for ${foundPast.label}, which expired on ${formatWindowDate(
+            foundPast.validTo
+          )}. Access phrases are discarded after 7 days and cannot be reused. Please enter the current week's phrase.`
+        )
+      } else if (foundFuture) {
+        setErrorMessage(
+          `ℹ️ This access phrase is for ${foundFuture.label}, which is not yet active (valid from ${formatWindowDate(
+            foundFuture.validFrom
+          )}).`
+        )
+      } else {
+        setErrorMessage(
+          "❌ Incorrect access phrase. Please verify the phrase provided by your course instructor."
+        )
+      }
+    } catch (err) {
+      setErrorMessage("Verification error. Please try again.")
+    } finally {
+      setIsVerifying(false)
+    }
+  }
+
+  return (
+    <div className="forestry-gate-container">
+      <div className="forestry-gate-card">
+        <span className="forestry-gate-badge">
+          Tribhuvan University · Institute of Forestry
+        </span>
+
+        <div className="forestry-gate-icon-wrapper" aria-hidden="true">
+          🔒
+        </div>
+
+        <h2 className="forestry-gate-title">Restricted Course Access</h2>
+        <p className="forestry-gate-desc">
+          Course syllabus, presentation slide decks, datasets, and computational
+          code are restricted to enrolled students. Please enter the active
+          weekly access phrase to continue.
+        </p>
+
+        {activeWindow && (
+          <div className="forestry-gate-window-box">
+            <div className="forestry-gate-window-label">
+              <span>{activeWindow.label}</span>
+              <span className="forestry-gate-window-status">
+                Active 7-Day Window
+              </span>
+            </div>
+            <div className="forestry-gate-window-dates">
+              Valid until: {formatWindowDate(activeWindow.validTo)}
+            </div>
+          </div>
+        )}
+
+        <form onSubmit={handleSubmit} className="forestry-gate-form">
+          <div className="forestry-gate-input-wrapper">
+            <input
+              type={showPassphrase ? "text" : "password"}
+              value={passphrase}
+              onChange={e => setPassphrase(e.target.value)}
+              placeholder="Enter weekly access phrase"
+              className="forestry-gate-input"
+              autoComplete="off"
+              autoFocus
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassphrase(prev => !prev)}
+              className="forestry-gate-toggle-btn"
+              title={showPassphrase ? "Hide phrase" : "Show phrase"}
+              aria-label={showPassphrase ? "Hide phrase" : "Show phrase"}
+            >
+              {showPassphrase ? "🙈" : "👁"}
+            </button>
+          </div>
+
+          {errorMessage && (
+            <div className="forestry-gate-alert error">{errorMessage}</div>
+          )}
+
+          {successMessage && (
+            <div className="forestry-gate-alert success">{successMessage}</div>
+          )}
+
+          <button
+            type="submit"
+            className="forestry-gate-submit-btn"
+            disabled={isVerifying}
+          >
+            {isVerifying ? "Verifying..." : "Unlock Course →"}
+          </button>
+        </form>
+
+        <p className="forestry-gate-help-note">
+          <strong>Notice:</strong> Access phrases are time-sensitive and are
+          discarded after 7 days. Once verified, your access persists on this
+          browser for the remainder of the active window without re-entering.
+        </p>
+      </div>
+    </div>
+  )
+}
+
 const ComputationalForestryPage = ({ location }) => {
   const [openUnits, setOpenUnits] = React.useState({})
   const [copiedId, setCopiedId] = React.useState(null)
@@ -951,7 +2055,385 @@ const ComputationalForestryPage = ({ location }) => {
     "unit-1": "guiding",
     "unit-2": "guiding",
     "unit-3": "guiding",
+    "unit-4": "guiding",
+    "unit-5": "guiding",
+    "unit-6": "guiding",
+    "unit-7": "guiding",
+    "unit-8": "guiding",
   })
+
+  // Authentication & Access Window State
+  const [isAuthorized, setIsAuthorized] = React.useState(false)
+  const [activeAccessWindow, setActiveAccessWindow] = React.useState(null)
+  const [authChecked, setAuthChecked] = React.useState(false)
+
+  // File Viewer Modal State
+  const [modalFile, setModalFile] = React.useState(null)
+  const [modalContent, setModalContent] = React.useState("")
+  const [isModalLoading, setIsModalLoading] = React.useState(false)
+  const [modalError, setModalError] = React.useState(null)
+  const [isModalCopied, setIsModalCopied] = React.useState(false)
+  const [csvViewMode, setCsvViewMode] = React.useState("table") // "table" or "raw"
+  const [currentSlideIndex, setCurrentSlideIndex] = React.useState(1)
+
+  const handleOpenFile = React.useCallback(file => {
+    setModalFile(file)
+    setIsModalCopied(false)
+    setModalError(null)
+    setCsvViewMode(file.type === "CSV" ? "table" : "raw")
+    setCurrentSlideIndex(1)
+
+    if (file.type === "PNG" || file.type === "PPTX") {
+      setIsModalLoading(false)
+      setModalContent("")
+      return
+    }
+
+    if (BINARY_FILE_PREVIEWS[file.name]) {
+      setIsModalLoading(false)
+      setModalContent(BINARY_FILE_PREVIEWS[file.name])
+      return
+    }
+
+    setIsModalLoading(true)
+    fetch(file.url)
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`Failed to load file (${res.status})`)
+        }
+        return res.text()
+      })
+      .then(text => {
+        setModalContent(text)
+        setIsModalLoading(false)
+      })
+      .catch(err => {
+        setModalError(err.message || "Failed to load file contents.")
+        setIsModalLoading(false)
+      })
+  }, [])
+
+  const handleCloseModal = React.useCallback(() => {
+    setModalFile(null)
+    setModalContent("")
+    setModalError(null)
+    setIsModalCopied(false)
+  }, [])
+
+  const handleCopyModalContent = React.useCallback(() => {
+    if (!modalContent) return
+    if (typeof navigator !== "undefined" && navigator.clipboard) {
+      navigator.clipboard.writeText(modalContent).then(() => {
+        setIsModalCopied(true)
+        setTimeout(() => setIsModalCopied(false), 2000)
+      })
+    }
+  }, [modalContent])
+
+  const handleOpenInNewTab = React.useCallback(() => {
+    if (!modalFile) return
+
+    let pageHtml = ""
+    const fileName = escapeHtml(modalFile.name)
+    const fileLabel = escapeHtml(modalFile.label || modalFile.name)
+    const fileType = escapeHtml(modalFile.type || "FILE")
+
+    if (modalFile.type === "PPTX" && modalFile.slideDeck) {
+      const total = modalFile.slideDeck.totalSlides
+      const base = modalFile.slideDeck.basePath
+      let thumbHtml = ""
+      for (let i = 1; i <= total; i++) {
+        thumbHtml += `<button class="thumb-btn ${
+          i === currentSlideIndex ? "active" : ""
+        }" onclick="goToSlide(${i})" title="Slide ${i}"><img class="thumb-img" src="${base}/slide-${i}.png" alt="Slide ${i}" /><span class="thumb-num">${i}</span></button>`
+      }
+
+      pageHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${fileName} · Slide Presentation</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { background: #0b1120; color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+    .header { height: 56px; padding: 0 20px; background: #0f172a; border-bottom: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+    .title-col { display: flex; align-items: center; gap: 10px; overflow: hidden; }
+    .badge { background: #ea580c; color: #fff; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px; letter-spacing: 0.5px; }
+    .file-name { font-weight: 700; font-size: 14px; color: #f1f5f9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .file-sub { color: #64748b; font-size: 12px; font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .counter { font-family: "JetBrains Mono", Consolas, monospace; font-size: 13px; font-weight: 700; color: #94a3b8; }
+    .btn { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s; display: inline-flex; align-items: center; gap: 6px; }
+    .btn:hover:not(:disabled) { background: #334155; color: #fff; }
+    .btn:disabled { opacity: 0.35; cursor: not-allowed; }
+    .stage { flex: 1; display: flex; align-items: center; justify-content: center; position: relative; padding: 16px 60px; overflow: hidden; background: #070d17; }
+    .slide-frame { max-width: 100%; max-height: calc(100vh - 170px); border-radius: 8px; box-shadow: 0 24px 48px rgba(0,0,0,0.7); border: 1px solid #1e293b; overflow: hidden; background: #020617; display: flex; align-items: center; justify-content: center; }
+    .slide-img { max-width: 100%; max-height: calc(100vh - 170px); width: auto; height: auto; object-fit: contain; display: block; }
+    .nav-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; background: rgba(15,23,42,0.85); border: 1px solid rgba(255,255,255,0.15); color: #fff; font-size: 18px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s; backdrop-filter: blur(6px); z-index: 10; }
+    .nav-arrow:hover { background: rgba(30,41,59,0.95); transform: translateY(-50%) scale(1.08); border-color: #38bdf8; color: #38bdf8; }
+    .nav-arrow.prev { left: 16px; }
+    .nav-arrow.next { right: 16px; }
+    .thumbnails { height: 72px; background: #0b1120; border-top: 1px solid #1e293b; display: flex; align-items: center; gap: 8px; padding: 0 16px; overflow-x: auto; flex-shrink: 0; }
+    .thumb-btn { background: #020617; border: 2px solid #1e293b; border-radius: 5px; padding: 2px; cursor: pointer; height: 50px; position: relative; flex-shrink: 0; opacity: 0.55; transition: all 0.15s; }
+    .thumb-btn:hover { opacity: 0.85; border-color: #475569; }
+    .thumb-btn.active { opacity: 1; border-color: #38bdf8; box-shadow: 0 0 12px rgba(56,189,248,0.4); }
+    .thumb-img { height: 100%; width: auto; border-radius: 3px; display: block; }
+    .thumb-num { position: absolute; bottom: 2px; right: 3px; background: rgba(0,0,0,0.8); color: #fff; font-size: 8px; font-weight: 700; padding: 1px 3px; border-radius: 2px; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title-col">
+      <span class="badge">PPTX</span>
+      <span class="file-name">${fileName}</span>
+      <span class="file-sub">· ${fileLabel}</span>
+    </div>
+    <div class="actions">
+      <button class="btn" id="prevBtn" onclick="prevSlide()">◀ Previous</button>
+      <span class="counter" id="slideCounter">Slide ${currentSlideIndex} of ${total}</span>
+      <button class="btn" id="nextBtn" onclick="nextSlide()">Next ▶</button>
+      <button class="btn" onclick="toggleFullScreen()">⛶ Fullscreen</button>
+    </div>
+  </div>
+  <div class="stage">
+    <button class="nav-arrow prev" onclick="prevSlide()" title="Previous slide (←)">◀</button>
+    <div class="slide-frame">
+      <img id="mainSlide" class="slide-img" src="${base}/slide-${currentSlideIndex}.png" alt="Slide" />
+    </div>
+    <button class="nav-arrow next" onclick="nextSlide()" title="Next slide (→)">▶</button>
+  </div>
+  <div class="thumbnails">${thumbHtml}</div>
+
+  <script>
+    let current = ${currentSlideIndex};
+    const total = ${total};
+    const base = "${base}";
+    function update() {
+      document.getElementById('mainSlide').src = base + '/slide-' + current + '.png';
+      document.getElementById('slideCounter').textContent = 'Slide ' + current + ' of ' + total;
+      document.getElementById('prevBtn').disabled = current <= 1;
+      document.getElementById('nextBtn').disabled = current >= total;
+      document.querySelectorAll('.thumb-btn').forEach((btn, idx) => {
+        if (idx + 1 === current) {
+          btn.classList.add('active');
+          btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+    }
+    function prevSlide() { if (current > 1) { current--; update(); } }
+    function nextSlide() { if (current < total) { current++; update(); } }
+    function goToSlide(n) { current = n; update(); }
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        document.exitFullscreen().catch(() => {});
+      }
+    }
+    window.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft' || e.key === 'PageUp') prevSlide();
+      if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') nextSlide();
+    });
+    update();
+  </script>
+</body>
+</html>`
+    } else if (modalFile.type === "CSV" && csvViewMode === "table" && modalContent) {
+      const { headers, rows } = parseCsvPreview(modalContent, 1000)
+      const ths = headers.map(h => `<th>${escapeHtml(h)}</th>`).join("")
+      const trs = rows
+        .map(
+          (r, i) =>
+            `<tr><td style="color:#64748b;text-align:center;">${i + 1}</td>${r
+              .map(c => `<td>${escapeHtml(c)}</td>`)
+              .join("")}</tr>`
+        )
+        .join("")
+
+      pageHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${fileName} · Data Table</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { background: #0f172a; color: #cbd5e1; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+    .header { height: 52px; padding: 0 20px; background: #0b1120; border-bottom: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+    .title-col { display: flex; align-items: center; gap: 10px; }
+    .badge { background: #059669; color: #fff; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px; }
+    .file-name { font-weight: 700; font-size: 14px; color: #f1f5f9; }
+    .file-sub { color: #64748b; font-size: 12px; }
+    .btn { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+    .btn:hover { background: #334155; color: #fff; }
+    .table-wrapper { flex: 1; overflow: auto; }
+    table { width: 100%; border-collapse: collapse; font-family: "JetBrains Mono", Consolas, monospace; font-size: 12px; text-align: left; }
+    th { position: sticky; top: 0; background: #1e293b; color: #94a3b8; font-weight: 700; padding: 10px 14px; border-bottom: 2px solid #334155; white-space: nowrap; z-index: 2; }
+    td { padding: 8px 14px; border-bottom: 1px solid #1e293b; white-space: nowrap; }
+    tr:hover td { background: rgba(51,65,85,0.4); color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title-col">
+      <span class="badge">CSV</span>
+      <span class="file-name">${fileName}</span>
+      <span class="file-sub">· ${fileLabel} (${rows.length} rows preview)</span>
+    </div>
+    <button class="btn" id="copyBtn" onclick="copyCsv()">📋 Copy Raw CSV</button>
+  </div>
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr><th style="width:44px;text-align:center;">#</th>${ths}</tr>
+      </thead>
+      <tbody>${trs}</tbody>
+    </table>
+  </div>
+  <script>
+    const rawData = ${JSON.stringify(modalContent)};
+    function copyCsv() {
+      navigator.clipboard.writeText(rawData).then(() => {
+        const btn = document.getElementById('copyBtn');
+        btn.textContent = '✓ Copied!';
+        setTimeout(() => { btn.textContent = '📋 Copy Raw CSV'; }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>`
+    } else if (modalFile.type === "PNG") {
+      pageHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${fileName} · Figure</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { background: #070d17; color: #cbd5e1; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+    .header { height: 52px; padding: 0 20px; background: #0b1120; border-bottom: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+    .title-col { display: flex; align-items: center; gap: 10px; }
+    .badge { background: #dc2626; color: #fff; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px; }
+    .file-name { font-weight: 700; font-size: 14px; color: #f1f5f9; }
+    .stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; overflow: auto; }
+    img { max-width: 95%; max-height: calc(100vh - 120px); object-fit: contain; border-radius: 8px; box-shadow: 0 20px 40px rgba(0,0,0,0.7); border: 1px solid #1e293b; }
+    .caption { font-size: 13px; color: #94a3b8; margin-top: 14px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title-col">
+      <span class="badge">PNG</span>
+      <span class="file-name">${fileName}</span>
+      <span style="color:#64748b;font-size:12px;">· ${fileLabel}</span>
+    </div>
+  </div>
+  <div class="stage">
+    <img src="${modalFile.url}" alt="${fileName}" />
+    <div class="caption">${fileLabel}</div>
+  </div>
+</body>
+</html>`
+    } else {
+      // Code / Text / Script view with line numbers
+      const lines = (modalContent || "").split("\n")
+      const lineNums = lines
+        .map((_, i) => `<span class="ln">${i + 1}</span>`)
+        .join("\n")
+      const escapedCode = escapeHtml(modalContent || "")
+
+      pageHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>${fileName} · Source Code</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { background: #0f172a; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+    .header { height: 52px; padding: 0 20px; background: #0b1120; border-bottom: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; }
+    .title-col { display: flex; align-items: center; gap: 10px; }
+    .badge { background: #2563eb; color: #fff; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px; }
+    .file-name { font-weight: 700; font-size: 14px; color: #f1f5f9; }
+    .file-sub { color: #64748b; font-size: 12px; }
+    .btn { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+    .btn:hover { background: #334155; color: #fff; }
+    .code-container { flex: 1; display: flex; overflow: auto; background: #0f172a; }
+    .gutter { padding: 16px 12px 16px 16px; background: #0b1120; border-right: 1px solid #1e293b; display: flex; flex-direction: column; user-select: none; text-align: right; flex-shrink: 0; font-family: "JetBrains Mono", Consolas, monospace; font-size: 13px; line-height: 1.6; color: #475569; }
+    pre { flex: 1; margin: 0; padding: 16px 20px; font-family: "JetBrains Mono", Consolas, Menlo, Monaco, monospace; font-size: 13px; line-height: 1.6; color: #e2e8f0; white-space: pre; tab-size: 2; overflow-x: auto; background: transparent; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title-col">
+      <span class="badge">${fileType}</span>
+      <span class="file-name">${fileName}</span>
+      <span class="file-sub">· ${fileLabel} (${lines.length} lines)</span>
+    </div>
+    <button class="btn" id="copyBtn" onclick="copyCode()">📋 Copy Code</button>
+  </div>
+  <div class="code-container">
+    <div class="gutter">${lineNums}</div>
+    <pre><code>${escapedCode}</code></pre>
+  </div>
+  <script>
+    const codeText = ${JSON.stringify(modalContent || "")};
+    function copyCode() {
+      navigator.clipboard.writeText(codeText).then(() => {
+        const btn = document.getElementById('copyBtn');
+        btn.textContent = '✓ Copied!';
+        setTimeout(() => { btn.textContent = '📋 Copy Code'; }, 2000);
+      });
+    }
+  </script>
+</body>
+</html>`
+    }
+
+    const blob = new Blob([pageHtml], { type: "text/html;charset=utf-8" })
+    const blobUrl = URL.createObjectURL(blob)
+    window.open(blobUrl, "_blank")
+  }, [modalFile, modalContent, csvViewMode, currentSlideIndex])
+
+  React.useEffect(() => {
+    const handleKeyDown = e => {
+      if (e.key === "Escape" && modalFile) {
+        handleCloseModal()
+      } else if (modalFile && modalFile.type === "PPTX" && modalFile.slideDeck) {
+        if (e.key === "ArrowLeft" || e.key === "PageUp") {
+          setCurrentSlideIndex(prev => Math.max(1, prev - 1))
+        } else if (
+          e.key === "ArrowRight" ||
+          e.key === "PageDown" ||
+          e.key === " "
+        ) {
+          setCurrentSlideIndex(prev =>
+            Math.min(modalFile.slideDeck.totalSlides, prev + 1)
+          )
+        }
+      }
+    }
+    if (modalFile) {
+      document.addEventListener("keydown", handleKeyDown)
+      if (typeof document !== "undefined" && document.body) {
+        document.body.style.overflow = "hidden"
+      }
+    } else {
+      if (typeof document !== "undefined" && document.body) {
+        document.body.style.overflow = ""
+      }
+    }
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown)
+      if (typeof document !== "undefined" && document.body) {
+        document.body.style.overflow = ""
+      }
+    }
+  }, [modalFile, handleCloseModal])
 
   const toggleQuestions = unitId => {
     setOpenQuestions(prev => ({ ...prev, [unitId]: !prev[unitId] }))
@@ -973,6 +2455,91 @@ const ComputationalForestryPage = ({ location }) => {
       })
     }
   }
+
+  React.useEffect(() => {
+    if (!COURSE_ACCESS_CONFIG.enabled) {
+      setIsAuthorized(true)
+      setAuthChecked(true)
+      return
+    }
+
+    const checkAuthStatus = async () => {
+      let now = Date.now()
+      try {
+        if (typeof window !== "undefined") {
+          const resp = await fetch(window.location.href, {
+            method: "HEAD",
+            cache: "no-store",
+          })
+          const dateHeader = resp.headers.get("date")
+          if (dateHeader) {
+            now = new Date(dateHeader).getTime()
+          }
+        }
+      } catch (e) {
+        // Fallback to local clock
+      }
+
+      // Find current active window
+      const active = COURSE_ACCESS_CONFIG.windows.find(w => {
+        const from = new Date(w.validFrom).getTime()
+        const to = new Date(w.validTo).getTime()
+        return now >= from && now <= to
+      })
+
+      setActiveAccessWindow(active || null)
+
+      if (typeof window !== "undefined" && window.localStorage) {
+        try {
+          const raw = window.localStorage.getItem(
+            COURSE_ACCESS_CONFIG.storageKey
+          )
+          if (raw && active) {
+            const data = JSON.parse(raw)
+            if (
+              data.windowId === active.id &&
+              data.hash === active.hash &&
+              now <= new Date(active.validTo).getTime()
+            ) {
+              setIsAuthorized(true)
+            } else {
+              window.localStorage.removeItem(COURSE_ACCESS_CONFIG.storageKey)
+              setIsAuthorized(false)
+            }
+          }
+        } catch (e) {
+          setIsAuthorized(false)
+        }
+      }
+
+      setAuthChecked(true)
+    }
+
+    checkAuthStatus()
+  }, [])
+
+  const handleAuthorize = React.useCallback(windowData => {
+    if (typeof window !== "undefined" && window.localStorage) {
+      try {
+        window.localStorage.setItem(
+          COURSE_ACCESS_CONFIG.storageKey,
+          JSON.stringify({
+            windowId: windowData.id,
+            hash: windowData.hash,
+            unlockedAt: Date.now(),
+          })
+        )
+      } catch (e) {}
+    }
+    setIsAuthorized(true)
+  }, [])
+
+  const handleLockCourse = React.useCallback(() => {
+    if (typeof window !== "undefined" && window.localStorage) {
+      window.localStorage.removeItem(COURSE_ACCESS_CONFIG.storageKey)
+    }
+    setIsAuthorized(false)
+  }, [])
 
   return (
     <Layout
@@ -1005,8 +2572,49 @@ const ComputationalForestryPage = ({ location }) => {
 
         <div className="forestry-divider"></div>
 
-        {/* Table of Contents */}
-        <section className="forestry-toc-section">
+        {!authChecked ? (
+          <div
+            style={{
+              textAlign: "center",
+              padding: "70px 20px",
+              color: "#64748b",
+              fontFamily: "JetBrains Mono, monospace",
+              fontSize: "0.9rem",
+            }}
+          >
+            Verifying course access credentials...
+          </div>
+        ) : !isAuthorized ? (
+          <CourseAccessGate
+            activeWindow={activeAccessWindow}
+            allWindows={COURSE_ACCESS_CONFIG.windows}
+            salt={COURSE_ACCESS_CONFIG.salt}
+            onAuthorized={handleAuthorize}
+          />
+        ) : (
+          <>
+            {activeAccessWindow && (
+              <div className="forestry-auth-status-bar">
+                <div className="forestry-auth-status-info">
+                  <span>🔒 Access Active:</span>
+                  <span>{activeAccessWindow.label}</span>
+                  <span style={{ color: "#15803d", fontWeight: 400 }}>
+                    (Valid until {formatWindowDate(activeAccessWindow.validTo)})
+                  </span>
+                </div>
+                <button
+                  type="button"
+                  onClick={handleLockCourse}
+                  className="forestry-auth-lock-btn"
+                  title="Lock course on this device"
+                >
+                  Lock Course
+                </button>
+              </div>
+            )}
+
+            {/* Table of Contents */}
+            <section className="forestry-toc-section">
           <div className="forestry-toc-header">
             <h2 className="forestry-toc-heading">Table of Contents</h2>
             <span className="forestry-toc-hint">Click unit to expand resources</span>
@@ -1074,13 +2682,13 @@ const ComputationalForestryPage = ({ location }) => {
                                     </span>
                                   </div>
                                 </div>
-                                <a
-                                  href={file.url}
-                                  download={file.name}
-                                  className="forestry-resource-download"
+                                <button
+                                  type="button"
+                                  onClick={() => handleOpenFile(file)}
+                                  className="forestry-resource-view-btn"
                                 >
-                                  Download ↓
-                                </a>
+                                  View
+                                </button>
                               </li>
                             ))}
                           </ul>
@@ -1478,13 +3086,21 @@ dev.off()`}</code>
                                     >
                                       Open In-Browser Lab to Practice Code →
                                     </Link>
-                                    <a
-                                      href="/course/Computational_Methods_for_Forestry_Research/Unit-II/assignment_unit2_base_r.md"
-                                      download="assignment_unit2_base_r.md"
+                                    <button
+                                      type="button"
+                                      onClick={() =>
+                                        handleOpenFile({
+                                          name: "assignment_unit2_base_r.md",
+                                          label: "Homework Assignment: Forensic Data Screening & Base R",
+                                          type: "MD",
+                                          size: "8.5 KB",
+                                          url: "/course/Computational_Methods_for_Forestry_Research/Unit-II/assignment_unit2_base_r.md",
+                                        })
+                                      }
                                       className="forestry-assignment-action-btn secondary"
                                     >
-                                      Download Assignment (.md) ↓
-                                    </a>
+                                      View Assignment (.md)
+                                    </button>
                                   </div>
                                 </div>
                               )}
@@ -1501,36 +3117,21 @@ dev.off()`}</code>
                             />
                           )}
 
+                          {unit.id !== "unit-1" && unit.id !== "unit-2" && unitQuestions[unit.id] && (
+                            <UnitQuestionsSection
+                              unitId={unit.id}
+                              isOpen={!!openQuestions[unit.id]}
+                              onToggle={() => toggleQuestions(unit.id)}
+                              activeTab={activeTabByUnit[unit.id] || "guiding"}
+                              onSelectTab={tabId => selectTab(unit.id, tabId)}
+                            />
+                          )}
+
                         </React.Fragment>
                       ) : (
-                        <React.Fragment>
-                          {unit.id === "unit-3" && unitQuestions["unit-3"] ? (
-                            <React.Fragment>
-                              <div className="forestry-preview-banner">
-                                <span className="forestry-preview-banner-badge">
-                                  Preview Phase · Upcoming Unit
-                                </span>
-                                <h5 className="forestry-preview-banner-title">
-                                  Unit III Inquiries &amp; Pipeline Architecture
-                                </h5>
-                                <p className="forestry-preview-banner-desc">
-                                  Lecture presentations and practical datasets will be uploaded as Unit III begins. In the meantime, preview the guiding research inquiries, five-stage pipeline checkpoints, and ecological review questions below to explore computational workflows early.
-                                </p>
-                              </div>
-                              <UnitQuestionsSection
-                                unitId="unit-3"
-                                isOpen={!!openQuestions["unit-3"]}
-                                onToggle={() => toggleQuestions("unit-3")}
-                                activeTab={activeTabByUnit["unit-3"] || "guiding"}
-                                onSelectTab={tabId => selectTab("unit-3", tabId)}
-                              />
-                            </React.Fragment>
-                          ) : (
-                            <p className="forestry-toc-empty">
-                              No resources uploaded yet. Files will appear here as this unit begins.
-                            </p>
-                          )}
-                        </React.Fragment>
+                        <p className="forestry-toc-empty">
+                          No resources uploaded yet. Files will appear here as this unit begins.
+                        </p>
                       )}
                     </div>
                   )}
@@ -1561,7 +3162,305 @@ dev.off()`}</code>
             ))}
           </ul>
         </section>
-      </div>
+      </>
+    )}
+  </div>
+
+      {/* File Content Viewer Modal */}
+      {modalFile && (
+        <div
+          className="forestry-modal-overlay"
+          onClick={handleCloseModal}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="forestry-modal-title"
+        >
+          <div
+            className="forestry-modal-container"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="forestry-modal-header">
+              <div className="forestry-modal-header-info">
+                <span
+                  className={`forestry-resource-type ${
+                    modalFile.type ? modalFile.type.toLowerCase() : ""
+                  }`}
+                >
+                  {modalFile.type}
+                </span>
+                <div className="forestry-modal-title-col">
+                  <span
+                    id="forestry-modal-title"
+                    className="forestry-modal-filename"
+                  >
+                    {modalFile.name}
+                  </span>
+                  <span className="forestry-modal-meta">
+                    {modalFile.label} · {modalFile.size}
+                  </span>
+                </div>
+              </div>
+
+              <div className="forestry-modal-header-actions">
+                {modalFile.type === "PPTX" && modalFile.slideDeck && (
+                  <span
+                    className="forestry-slide-counter"
+                    style={{
+                      padding: "4px 10px",
+                      background: "#1e293b",
+                      borderRadius: 6,
+                    }}
+                  >
+                    Slide {currentSlideIndex} of {modalFile.slideDeck.totalSlides}
+                  </span>
+                )}
+
+                {modalFile.type === "CSV" && !isModalLoading && !modalError && (
+                  <div className="forestry-modal-toggle-group">
+                    <button
+                      type="button"
+                      className={`forestry-modal-toggle-btn ${
+                        csvViewMode === "table" ? "is-active" : ""
+                      }`}
+                      onClick={() => setCsvViewMode("table")}
+                    >
+                      Table
+                    </button>
+                    <button
+                      type="button"
+                      className={`forestry-modal-toggle-btn ${
+                        csvViewMode === "raw" ? "is-active" : ""
+                      }`}
+                      onClick={() => setCsvViewMode("raw")}
+                    >
+                      Raw
+                    </button>
+                  </div>
+                )}
+
+                {modalContent && (
+                  <button
+                    type="button"
+                    className={`forestry-modal-copy-btn ${
+                      isModalCopied ? "is-copied" : ""
+                    }`}
+                    onClick={handleCopyModalContent}
+                    title="Copy contents to clipboard"
+                  >
+                    {isModalCopied ? "✓ Copied" : "📋 Copy"}
+                  </button>
+                )}
+
+                <button
+                  type="button"
+                  onClick={handleOpenInNewTab}
+                  className="forestry-modal-newtab-btn"
+                  title="Open readable viewer in new window / tab"
+                >
+                  New Tab ↗
+                </button>
+
+                <button
+                  type="button"
+                  className="forestry-modal-close-btn"
+                  onClick={handleCloseModal}
+                  aria-label="Close viewer"
+                  title="Close (Esc)"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            <div className="forestry-modal-body">
+              {isModalLoading ? (
+                <div className="forestry-modal-loading">
+                  <span className="forestry-modal-spinner" />
+                  Loading file contents...
+                </div>
+              ) : modalError ? (
+                <div className="forestry-modal-error">{modalError}</div>
+              ) : modalFile.type === "PPTX" && modalFile.slideDeck ? (
+                <div className="forestry-slide-deck-container">
+                  <div className="forestry-slide-stage">
+                    <button
+                      type="button"
+                      className="forestry-slide-arrow prev"
+                      onClick={() =>
+                        setCurrentSlideIndex(prev => Math.max(1, prev - 1))
+                      }
+                      disabled={currentSlideIndex <= 1}
+                      aria-label="Previous slide"
+                      title="Previous slide (←)"
+                    >
+                      ◀
+                    </button>
+
+                    <div className="forestry-slide-frame">
+                      <img
+                        src={`${modalFile.slideDeck.basePath}/slide-${currentSlideIndex}.png`}
+                        alt={`Slide ${currentSlideIndex} of ${modalFile.slideDeck.totalSlides}`}
+                        className="forestry-slide-image"
+                      />
+                    </div>
+
+                    <button
+                      type="button"
+                      className="forestry-slide-arrow next"
+                      onClick={() =>
+                        setCurrentSlideIndex(prev =>
+                          Math.min(modalFile.slideDeck.totalSlides, prev + 1)
+                        )
+                      }
+                      disabled={
+                        currentSlideIndex >= modalFile.slideDeck.totalSlides
+                      }
+                      aria-label="Next slide"
+                      title="Next slide (→)"
+                    >
+                      ▶
+                    </button>
+                  </div>
+
+                  <div className="forestry-slide-controls-bar">
+                    <button
+                      type="button"
+                      className="forestry-slide-nav-btn"
+                      onClick={() =>
+                        setCurrentSlideIndex(prev => Math.max(1, prev - 1))
+                      }
+                      disabled={currentSlideIndex <= 1}
+                    >
+                      ◀ Previous
+                    </button>
+
+                    <span className="forestry-slide-counter">
+                      Slide {currentSlideIndex} of{" "}
+                      {modalFile.slideDeck.totalSlides}
+                    </span>
+
+                    <button
+                      type="button"
+                      className="forestry-slide-nav-btn"
+                      onClick={() =>
+                        setCurrentSlideIndex(prev =>
+                          Math.min(modalFile.slideDeck.totalSlides, prev + 1)
+                        )
+                      }
+                      disabled={
+                        currentSlideIndex >= modalFile.slideDeck.totalSlides
+                      }
+                    >
+                      Next ▶
+                    </button>
+                  </div>
+
+                  <div className="forestry-slide-thumbnails">
+                    {Array.from(
+                      { length: modalFile.slideDeck.totalSlides },
+                      (_, i) => i + 1
+                    ).map(slideNum => (
+                      <button
+                        key={slideNum}
+                        type="button"
+                        className={`forestry-slide-thumb-btn ${
+                          slideNum === currentSlideIndex ? "is-active" : ""
+                        }`}
+                        onClick={() => setCurrentSlideIndex(slideNum)}
+                        title={`Slide ${slideNum}`}
+                      >
+                        <img
+                          src={`${modalFile.slideDeck.basePath}/slide-${slideNum}.png`}
+                          alt={`Slide ${slideNum}`}
+                          className="forestry-slide-thumb-img"
+                        />
+                        <span className="forestry-slide-thumb-num">
+                          {slideNum}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : modalFile.type === "PNG" ? (
+                <div className="forestry-modal-image-container">
+                  <img
+                    src={modalFile.url}
+                    alt={modalFile.name}
+                    className="forestry-modal-image"
+                  />
+                  <p className="forestry-modal-image-caption">
+                    {modalFile.label}
+                  </p>
+                </div>
+              ) : modalFile.type === "CSV" && csvViewMode === "table" ? (
+                (() => {
+                  const { headers, rows } = parseCsvPreview(modalContent, 250)
+                  return (
+                    <div className="forestry-table-wrapper">
+                      <table className="forestry-data-table">
+                        <thead>
+                          <tr>
+                            <th style={{ width: 44, textAlign: "center" }}>#</th>
+                            {headers.map((h, i) => (
+                              <th key={i}>{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {rows.map((row, rIdx) => (
+                            <tr key={rIdx}>
+                              <td
+                                style={{
+                                  color: "#64748b",
+                                  textAlign: "center",
+                                }}
+                              >
+                                {rIdx + 1}
+                              </td>
+                              {row.map((cell, cIdx) => (
+                                <td key={cIdx}>{cell}</td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )
+                })()
+              ) : (
+                <div className="forestry-code-viewer">
+                  <div className="forestry-line-numbers" aria-hidden="true">
+                    {(modalContent || "").split("\n").map((_, i) => (
+                      <span key={i} className="forestry-line-num">
+                        {i + 1}
+                      </span>
+                    ))}
+                  </div>
+                  <pre className="forestry-code-pre">
+                    <code>{modalContent}</code>
+                  </pre>
+                </div>
+              )}
+            </div>
+
+            <div className="forestry-modal-footer">
+              <span>
+                {modalFile.type === "PPTX" && modalFile.slideDeck
+                  ? `Showing slide ${currentSlideIndex} of ${modalFile.slideDeck.totalSlides} · Use ← / → arrow keys to flip slides`
+                  : modalFile.type === "CSV" && csvViewMode === "table" && modalContent
+                  ? (() => {
+                      const count = modalContent.trim().split("\n").length - 1
+                      return `Showing ${Math.min(count, 250)} of ${count} rows · ${modalFile.name}`
+                    })()
+                  : modalContent
+                  ? `${modalContent.split("\n").length} lines · ${modalFile.name}`
+                  : modalFile.name}
+              </span>
+              <span>Press Esc to close · Click "New Tab ↗" to view full screen</span>
+            </div>
+          </div>
+        </div>
+      )}
     </Layout>
   )
 }
