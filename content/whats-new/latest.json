@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-10T13:49:31.804Z",
+  "lastUpdated": "2026-11-10T22:35:17.996Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "DeepMind Introduces AlphaProof Code for AI Safety",
+      "title": "AlphaProof Code: A New Approach to Code Verification",
       "category": "AI & LLMs",
-      "summary": "DeepMind has unveiled AlphaProof Code, a new tool designed to enhance the safety and reliability of AI systems by providing formal verification methods. This development is crucial for engineers working on AI safety, as it offers a structured approach to ensure that AI behaves as intended.",
+      "summary": "DeepMind has introduced AlphaProof Code, a novel framework designed to enhance code verification through advanced reasoning techniques. This development is significant for developers as it promises to improve software reliability and security by automating the verification process.",
       "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "sourceName": "DeepMind",
-      "timeAgo": "1h ago"
+      "timeAgo": "10h ago"
     },
     {
       "id": "2",
-      "title": "Amazon Saves Millions by Switching to Strands Decider",
-      "category": "Systems & Architecture",
-      "summary": "Amazon has reported significant cost savings by replacing its Sonnet 4.6 system with Strands Decider, optimizing its operational efficiency. This shift highlights the importance of selecting the right architectural solutions to enhance performance and reduce expenses in large-scale systems.",
-      "sourceUrl": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-      "sourceName": "Strands Agents",
-      "timeAgo": "7h ago"
+      "title": "Get Your Coding Agent Off ~2019 JavaScript, Onto Modern Web Primitives",
+      "category": "Web Development",
+      "summary": "A new GitHub project aims to help developers transition their coding agents from outdated JavaScript practices to modern web standards. This is crucial for enhancing performance and maintainability in web applications.",
+      "sourceUrl": "https://github.com/GoogleChrome/modern-web-guidance",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Claude Fable and Mythos 5.2 Released by Anthropic",
-      "category": "AI & LLMs",
-      "summary": "Anthropic has launched Claude Fable 5.2 and Mythos 5.2, introducing new features that enhance the capabilities of their AI models. Developers should pay attention to these updates as they may influence future applications and integrations in AI-driven projects.",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "sourceName": "Anthropic",
-      "timeAgo": "19h ago"
+      "title": "Blender 5.3 Released with Gaussian Splat Support",
+      "category": "Open Source",
+      "summary": "Blender has released version 5.3, introducing support for Gaussian Splat, which enhances rendering capabilities. This update is vital for 3D artists and developers as it allows for more realistic visual effects and improved workflow.",
+      "sourceUrl": "https://www.blender.org/download/releases/5-3/",
+      "sourceName": "Blender",
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "USPS Releases Official ZIP Code Boundary Polygons",
-      "category": "Open Source",
-      "summary": "The USPS has made official ZIP Code boundary polygons available, providing valuable geospatial data for developers and engineers working on location-based applications. This open data initiative can enhance mapping services and improve logistics solutions.",
-      "sourceUrl": "https://postalpro.usps.com/zcb",
-      "sourceName": "USPS",
-      "timeAgo": "17h ago"
+      "title": "Smart Home Devices Should Work Without the Internet",
+      "category": "Systems & Architecture",
+      "summary": "A new initiative emphasizes the need for smart home devices to function independently of internet connectivity, enhancing user privacy and reliability. This shift is important for engineers and developers focusing on IoT solutions.",
+      "sourceUrl": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "sourceName": "Doco That Matters",
+      "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "Fireworks AI Security Breach Affects Notion Users",
+      "title": "Synaptics Patent Claims Halt Work on DisplayLink Drivers",
       "category": "Security",
-      "summary": "Notion has confirmed a security breach involving a third-party AI vendor, impacting user data and prompting a review of security protocols. This incident serves as a reminder for developers to prioritize security measures when integrating third-party services into their applications.",
-      "sourceUrl": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "sourceName": "Notion",
-      "timeAgo": "6h ago"
+      "summary": "A recent patent claim by Synaptics has led to a suspension of development on DisplayLink drivers, raising concerns about compatibility and security in display technologies. This situation is critical for developers working on cross-device connectivity solutions.",
+      "sourceUrl": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "sourceName": "LWN",
+      "timeAgo": "4h ago"
     }
   ]
 }
