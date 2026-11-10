@@ -1,0 +1,3 @@
+Validation_Strategy,Test_RMSE_kg,Test_MAE_kg
+Random 80:20 Tree Split,688.1267638024649,65.25195882534399
+Plot-Grouped Holdout (4 Unseen Plots),75.1265438697771,34.14122331892131
