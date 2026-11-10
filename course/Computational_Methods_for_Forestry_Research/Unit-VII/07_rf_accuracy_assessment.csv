@@ -1,0 +1,6 @@
+Class_Name,Reference_Total,Mapped_Total,Correctly_Classified_TP,Producers_Accuracy_pct,Omission_Error_pct,Users_Accuracy_pct,Commission_Error_pct
+Forest,12,12,12,100.0,0.0,100.0,0.0
+Degraded Forest,12,16,11,91.7,8.3,68.8,31.2
+Agriculture,12,8,7,58.3,41.7,87.5,12.5
+Water,12,12,12,100.0,0.0,100.0,0.0
+Built-up,12,12,12,100.0,0.0,100.0,0.0

@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "bagmati_plots",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Plot_ID": "P001", "Species_Richness": 18, "BA_m2_ha": 27.4, "Elevation_field_m": 1420, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.3, 27.64 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P002", "Species_Richness": 24, "BA_m2_ha": 31.8, "Elevation_field_m": 1575, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.306315789473686, 27.646315789473686 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P003", "Species_Richness": 15, "BA_m2_ha": 24.5, "Elevation_field_m": 1380, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.312631578947361, 27.652631578947368 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P004", "Species_Richness": 19, "BA_m2_ha": 28.9, "Elevation_field_m": 1490, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.31894736842105, 27.658947368421053 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P005", "Species_Richness": 21, "BA_m2_ha": 30.2, "Elevation_field_m": 1610, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.325263157894739, 27.665263157894739 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P006", "Species_Richness": 22, "BA_m2_ha": 33.1, "Elevation_field_m": 1750, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.331578947368413, 27.67157894736842 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P007", "Species_Richness": 20, "BA_m2_ha": 35.4, "Elevation_field_m": 1890, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.337894736842102, 27.677894736842106 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P008", "Species_Richness": 17, "BA_m2_ha": 29.8, "Elevation_field_m": 2020, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.344210526315791, 27.684210526315791 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P009", "Species_Richness": 14, "BA_m2_ha": 26.4, "Elevation_field_m": 2150, "Threatened_Species_Present": 1 }, "geometry": { "type": "Point", "coordinates": [ 85.350526315789466, 27.690526315789473 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P010", "Species_Richness": 12, "BA_m2_ha": 22.9, "Elevation_field_m": 2240, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.356842105263155, 27.696842105263158 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P011", "Species_Richness": 16, "BA_m2_ha": 25.1, "Elevation_field_m": 1360, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.363157894736844, 27.703157894736844 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P012", "Species_Richness": 18, "BA_m2_ha": 27.8, "Elevation_field_m": 1440, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.369473684210533, 27.709473684210529 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P013", "Species_Richness": 21, "BA_m2_ha": 31.0, "Elevation_field_m": 1530, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.375789473684208, 27.715789473684211 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P014", "Species_Richness": 23, "BA_m2_ha": 34.2, "Elevation_field_m": 1680, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.382105263157897, 27.722105263157896 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P015", "Species_Richness": 19, "BA_m2_ha": 32.7, "Elevation_field_m": 1790, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.388421052631585, 27.728421052631582 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P016", "Species_Richness": 18, "BA_m2_ha": 30.5, "Elevation_field_m": 1820, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.39473684210526, 27.734736842105264 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P017", "Species_Richness": 16, "BA_m2_ha": 28.3, "Elevation_field_m": 1950, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.401052631578949, 27.741052631578949 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P018", "Species_Richness": 15, "BA_m2_ha": 25.9, "Elevation_field_m": 2080, "Threatened_Species_Present": 0 }, "geometry": { "type": "Point", "coordinates": [ 85.407368421052638, 27.747368421052634 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P019", "Species_Richness": 13, "BA_m2_ha": 24.1, "Elevation_field_m": 2190, "Threatened_Species_Present": 1 }, "geometry": { "type": "Point", "coordinates": [ 85.413684210526313, 27.753684210526316 ] } },
+{ "type": "Feature", "properties": { "Plot_ID": "P020", "Species_Richness": 11, "BA_m2_ha": 21.8, "Elevation_field_m": 2280, "Threatened_Species_Present": 1 }, "geometry": { "type": "Point", "coordinates": [ 85.42, 27.76 ] } }
+]
+}

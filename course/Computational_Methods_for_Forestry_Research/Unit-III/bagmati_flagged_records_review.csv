@@ -1,0 +1,31 @@
+Plot_ID,Tree_ID,Species,DBH_cm,Height_m,height_dbh_ratio,flag_reason
+P01,T014,S. robusta,NA,25.7,NA,Missing DBH or Height (NA)
+P01,T029,S. robusta,16.1,NA,NA,Missing DBH or Height (NA)
+P01,T045,Alnus nepalensis,NA,14.2,NA,Missing DBH or Height (NA)
+P01,T055,C. indica,10,40,4,Implausible Height:DBH ratio (> 2.0)
+P01,T067,Shorea robusta,0,22.4,Inf,Non-positive DBH (<= 0 cm)
+P01,T088,Shorea robusta,NA,18.5,NA,Missing DBH or Height (NA)
+P02,T006,Alnus nepalensis,NA,21.4,NA,Missing DBH or Height (NA)
+P02,T091,Shorea robusta,NA,32.9,NA,Missing DBH or Height (NA)
+P03,T042,Schima wallichii,NA,12.6,NA,Missing DBH or Height (NA)
+P04,T005,Alnus nepalensis,-12,24,-2,Non-positive DBH (<= 0 cm)
+P04,T013,Shorea robusta,27.5,NA,NA,Missing DBH or Height (NA)
+P04,T053,Schima wallichii,25.3,17,0.6719367588932806,Corrected mm-to-cm transcription
+P05,T016,Rhododendron arboreum,NA,12,NA,Missing DBH or Height (NA)
+P05,T054,Castanopsis indica,27.8,17.8,0.6402877697841727,Corrected mm-to-cm transcription
+P06,T009,Alnus nepalensis,0,18.4,Inf,Non-positive DBH (<= 0 cm)
+P06,T017,Schima wallichii,NA,12.9,NA,Missing DBH or Height (NA)
+P07,T026,Castanopsis indica,NA,16.8,NA,Missing DBH or Height (NA)
+P07,T056,Schima wallichii,34.3,20,0.5830903790087464,Corrected mm-to-cm transcription
+P08,T047,Rhododendron arboreum,16.9,NA,NA,Missing DBH or Height (NA)
+P08,T057,Schima wallichii,26.8,15.1,0.5634328358208955,Corrected mm-to-cm transcription
+P09,T058,Quercus semecarpifolia,23.9,13.8,0.5774058577405858,Corrected mm-to-cm transcription
+P09,T098,Castanopsis indica,NA,11.7,NA,Missing DBH or Height (NA)
+P10,T059,Schima wallichii,NA,16.8,NA,Missing DBH or Height (NA)
+P11,T060,Castanopsis indica,20.8,13.7,0.6586538461538461,Corrected mm-to-cm transcription
+P12,T016,Castanopsis indica,NA,18.1,NA,Missing DBH or Height (NA)
+P12,T061,Castanopsis indica,29.9,19.7,0.6588628762541806,Corrected mm-to-cm transcription
+P13,T062,Schima wallichii,24.4,18.1,0.7418032786885247,Corrected mm-to-cm transcription
+P14,T033,Schima wallichii,39.3,NA,NA,Missing DBH or Height (NA)
+P17,T203,Schima wallichii,9.9,21.3,2.1515151515151514,Implausible Height:DBH ratio (> 2.0)
+P01,T014,S. robusta,-98.6,25.7,-0.26064908722109537,Non-positive DBH (<= 0 cm)

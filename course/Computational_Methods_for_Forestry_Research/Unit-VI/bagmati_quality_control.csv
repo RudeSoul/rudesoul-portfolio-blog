@@ -1,0 +1,7 @@
+file_name,issue_type,record_count,description
+plot_003.csv,Missing DBH,2,DBH_cm is NA
+plot_004.csv,Missing required column,84,Missing column(s): Species
+plot_017.csv,Missing DBH,3,DBH_cm is NA
+plot_031.csv,Height > 50 m,1,Height exceeds 50 m screening threshold
+plot_044.csv,Missing Species,5,Species name is NA
+plot_062.csv,Non-positive DBH,1,DBH_cm <= 0 cm
