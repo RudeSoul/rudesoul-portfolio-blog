@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-10T22:35:17.996Z",
+  "lastUpdated": "2026-11-11T13:00:02.134Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AlphaProof Code: A New Approach to Code Verification",
-      "category": "AI & LLMs",
-      "summary": "DeepMind has introduced AlphaProof Code, a novel framework designed to enhance code verification through advanced reasoning techniques. This development is significant for developers as it promises to improve software reliability and security by automating the verification process.",
-      "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/",
-      "sourceName": "DeepMind",
-      "timeAgo": "10h ago"
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "category": "Security",
+      "summary": "This article discusses the implementation of macOS Secure Enclave to enhance the security of SSH keys, providing a robust solution against unauthorized access. Developers should care as it offers insights into securing sensitive credentials in a modern computing environment.",
+      "sourceUrl": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "sourceName": "gatezh.com",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "Get Your Coding Agent Off ~2019 JavaScript, Onto Modern Web Primitives",
-      "category": "Web Development",
-      "summary": "A new GitHub project aims to help developers transition their coding agents from outdated JavaScript practices to modern web standards. This is crucial for enhancing performance and maintainability in web applications.",
-      "sourceUrl": "https://github.com/GoogleChrome/modern-web-guidance",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "category": "AI & LLMs",
+      "summary": "A team of Google software engineers utilized 48 AI agents to analyze NASA's Lidar data, successfully uncovering an unmapped Maya pyramid in just 72 hours. This development showcases the potential of AI in archaeological discoveries and data analysis.",
+      "sourceUrl": "https://pietromiotti.com/latest/maya-site/?maya",
+      "sourceName": "pietromiotti.com",
+      "timeAgo": "54m ago"
     },
     {
       "id": "3",
-      "title": "Blender 5.3 Released with Gaussian Splat Support",
-      "category": "Open Source",
-      "summary": "Blender has released version 5.3, introducing support for Gaussian Splat, which enhances rendering capabilities. This update is vital for 3D artists and developers as it allows for more realistic visual effects and improved workflow.",
-      "sourceUrl": "https://www.blender.org/download/releases/5-3/",
-      "sourceName": "Blender",
-      "timeAgo": "6h ago"
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "category": "AI & LLMs",
+      "summary": "Apple announced a new Mac application designed to simplify the process of running local AI models, making advanced machine learning more accessible to developers. This move is significant as it empowers developers to leverage AI capabilities directly on their devices without relying on cloud services.",
+      "sourceUrl": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "sourceName": "9to5mac.com",
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "Smart Home Devices Should Work Without the Internet",
-      "category": "Systems & Architecture",
-      "summary": "A new initiative emphasizes the need for smart home devices to function independently of internet connectivity, enhancing user privacy and reliability. This shift is important for engineers and developers focusing on IoT solutions.",
-      "sourceUrl": "https://docodethatmatters.com/home-automation-overnight-success/",
-      "sourceName": "Doco That Matters",
+      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
+      "category": "Open Source",
+      "summary": "Greg Kurtzer has transitioned Ginux to a userspace kernel, enhancing its flexibility and performance for developers working in containerized environments. This change is crucial for open-source enthusiasts looking for efficient solutions in system architecture.",
+      "sourceUrl": "https://github.com/gmkurtzer/ginux",
+      "sourceName": "github.com",
       "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "Synaptics Patent Claims Halt Work on DisplayLink Drivers",
-      "category": "Security",
-      "summary": "A recent patent claim by Synaptics has led to a suspension of development on DisplayLink drivers, raising concerns about compatibility and security in display technologies. This situation is critical for developers working on cross-device connectivity solutions.",
-      "sourceUrl": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-      "sourceName": "LWN",
-      "timeAgo": "4h ago"
+      "title": "Using voltage glitching to unleash the A100 in my mining card",
+      "category": "Systems & Architecture",
+      "summary": "This article explores the technique of voltage glitching to unlock the full potential of the A100 GPU in a mining card, demonstrating innovative hardware manipulation. Engineers and developers should take note as it highlights the intersection of hardware and software optimization.",
+      "sourceUrl": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+      "sourceName": "blog.kate.land",
+      "timeAgo": "2h ago"
     }
   ]
 }
