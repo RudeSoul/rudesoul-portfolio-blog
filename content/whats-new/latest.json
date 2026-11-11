@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-11T13:00:02.134Z",
+  "lastUpdated": "2026-11-11T23:44:33.157Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Protecting SSH Keys with macOS Secure Enclave",
-      "category": "Security",
-      "summary": "This article discusses the implementation of macOS Secure Enclave to enhance the security of SSH keys, providing a robust solution against unauthorized access. Developers should care as it offers insights into securing sensitive credentials in a modern computing environment.",
-      "sourceUrl": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-      "sourceName": "gatezh.com",
-      "timeAgo": "8h ago"
+      "title": "AWS Emulator Released for Local Development",
+      "category": "Open Source",
+      "summary": "AWS has released an emulator that allows developers to simulate AWS services locally, improving development speed and reducing costs. This tool is crucial for engineers looking to test applications without incurring cloud expenses.",
+      "sourceUrl": "https://github.com/aws/aws-emulator",
+      "sourceName": "GitHub",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "title": "Tim Peters, Creator of Python's Sorting Algorithm, Passes Away",
       "category": "AI & LLMs",
-      "summary": "A team of Google software engineers utilized 48 AI agents to analyze NASA's Lidar data, successfully uncovering an unmapped Maya pyramid in just 72 hours. This development showcases the potential of AI in archaeological discoveries and data analysis.",
-      "sourceUrl": "https://pietromiotti.com/latest/maya-site/?maya",
-      "sourceName": "pietromiotti.com",
-      "timeAgo": "54m ago"
+      "summary": "The programming community mourns the loss of Tim Peters, known for his contributions to Python, particularly the Timsort algorithm. His work has significantly influenced software development and data handling practices.",
+      "sourceUrl": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "sourceName": "Python Discussion",
+      "timeAgo": "16h ago"
     },
     {
       "id": "3",
-      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "title": "United Airlines Prohibits AI Agents from Booking Flights",
       "category": "AI & LLMs",
-      "summary": "Apple announced a new Mac application designed to simplify the process of running local AI models, making advanced machine learning more accessible to developers. This move is significant as it empowers developers to leverage AI capabilities directly on their devices without relying on cloud services.",
-      "sourceUrl": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-      "sourceName": "9to5mac.com",
-      "timeAgo": "15h ago"
+      "summary": "United Airlines has implemented a ban on AI agents making flight bookings on behalf of travelers, highlighting concerns over accountability and customer service. This decision could influence how companies integrate AI in customer-facing roles.",
+      "sourceUrl": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "sourceName": "CBS News",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Greg Kurtzer's Ginux is now a userspace kernel",
-      "category": "Open Source",
-      "summary": "Greg Kurtzer has transitioned Ginux to a userspace kernel, enhancing its flexibility and performance for developers working in containerized environments. This change is crucial for open-source enthusiasts looking for efficient solutions in system architecture.",
-      "sourceUrl": "https://github.com/gmkurtzer/ginux",
-      "sourceName": "github.com",
-      "timeAgo": "7h ago"
+      "title": "Gemini Decisions API Launched by Google",
+      "category": "AI & LLMs",
+      "summary": "Google has introduced the Gemini Decisions API, designed to enhance decision-making processes in applications using AI. This API could empower developers to create more intelligent and responsive applications.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceName": "Google Blog",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Using voltage glitching to unleash the A100 in my mining card",
-      "category": "Systems & Architecture",
-      "summary": "This article explores the technique of voltage glitching to unlock the full potential of the A100 GPU in a mining card, demonstrating innovative hardware manipulation. Engineers and developers should take note as it highlights the intersection of hardware and software optimization.",
-      "sourceUrl": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
-      "sourceName": "blog.kate.land",
-      "timeAgo": "2h ago"
+      "title": "Lock Your GitHub Actions for Enhanced Security",
+      "category": "Security",
+      "summary": "A new guide emphasizes the importance of locking GitHub Actions to prevent unauthorized access and ensure secure CI/CD pipelines. This practice is essential for developers looking to safeguard their projects against vulnerabilities.",
+      "sourceUrl": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "sourceName": "Hugo's Blog",
+      "timeAgo": "1h ago"
     }
   ]
 }
