@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-12T14:02:03.487Z",
+  "lastUpdated": "2026-11-12T22:54:40.554Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Critical RCE Vulnerability in Apache HTTP Server",
-      "category": "Security",
-      "summary": "A newly discovered remote code execution vulnerability in Apache HTTP Server could allow attackers to execute arbitrary code on affected systems. Developers and system administrators should prioritize patching their installations to mitigate potential risks.",
-      "sourceUrl": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "sourceName": "Wiz",
-      "timeAgo": "11h ago"
+      "title": "Rust 1.100 Released with New Features and Improvements",
+      "category": "Open Source",
+      "summary": "The Rust programming language has officially released version 1.100, introducing significant enhancements and new features aimed at improving developer experience and performance. This update is crucial for developers relying on Rust for systems programming, as it continues to evolve with community feedback and modern programming needs.",
+      "sourceUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "sourceName": "Rust Language Blog",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Gemini Decisions API Launch",
+      "title": "Google Unveils Gemini 4 Hydrogen and Orchestrator for AI Development",
       "category": "AI & LLMs",
-      "summary": "Google has launched the Gemini Decisions API, enabling developers to integrate advanced decision-making capabilities into their applications. This API aims to enhance AI-driven solutions across various domains, making it easier for engineers to implement intelligent features.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "sourceName": "Google",
-      "timeAgo": "19h ago"
+      "summary": "Google has launched Gemini 4 Hydrogen and Orchestrator, tools designed to streamline the development and deployment of AI models. This advancement is significant for engineers and developers in the AI space, as it promises to enhance efficiency and integration in machine learning workflows.",
+      "sourceUrl": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "sourceName": "Google Antigravity Blog",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "United Airlines Bans AI Agents from Booking Flights",
+      "title": "Foundation Models Framework Announced by Apple",
       "category": "AI & LLMs",
-      "summary": "In a significant move, United Airlines has prohibited AI agents from booking flights on behalf of travelers, citing concerns over customer service and reliability. This decision highlights the ongoing debate about the role of AI in customer-facing applications.",
-      "sourceUrl": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "sourceName": "CBS News",
-      "timeAgo": "16h ago"
+      "summary": "Apple has introduced a new Foundation Models framework aimed at simplifying the integration of large language models into applications. This framework is particularly relevant for developers looking to leverage AI capabilities in their apps, making it easier to implement advanced features.",
+      "sourceUrl": "https://developer.apple.com/foundation-models-framework/",
+      "sourceName": "Apple Developer",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "AWS Emulator Now Available on GitHub",
-      "category": "Open Source",
-      "summary": "AWS has released an emulator on GitHub that allows developers to simulate AWS services locally. This tool is expected to streamline development workflows and reduce costs associated with cloud service usage during the development phase.",
-      "sourceUrl": "https://github.com/aws/aws-emulator",
-      "sourceName": "GitHub",
-      "timeAgo": "19h ago"
+      "title": "22-Year-Old PostgreSQL Bug Exploited for Remote Code Execution",
+      "category": "Security",
+      "summary": "A long-standing bug in PostgreSQL has been exploited, allowing for remote code execution vulnerabilities. This discovery highlights the importance of maintaining and auditing legacy systems, as well as the need for vigilance in security practices.",
+      "sourceUrl": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "sourceName": "Mehmet Ince's Blog",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "Why Writing Correct Software Is Hard",
-      "category": "Systems & Architecture",
-      "summary": "A new article explores the complexities involved in writing correct software, discussing the inherent challenges of software correctness and the implications for developers. Understanding these challenges is crucial for engineers aiming to improve software reliability.",
-      "sourceUrl": "https://pron.github.io/posts/correctness-and-complexity",
-      "sourceName": "pron.github.io",
-      "timeAgo": "3h ago"
+      "title": "AgentRun: Open-Source Self-improving Managed Agents",
+      "category": "Open Source",
+      "summary": "The open-source project AgentRun has been launched, focusing on self-improving managed agents for various applications. This initiative is significant for developers interested in AI and automation, providing a framework for building intelligent systems that can adapt and optimize over time.",
+      "sourceUrl": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     }
   ]
 }
