@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-11T23:44:33.157Z",
+  "lastUpdated": "2026-11-12T14:02:03.487Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "AWS Emulator Released for Local Development",
-      "category": "Open Source",
-      "summary": "AWS has released an emulator that allows developers to simulate AWS services locally, improving development speed and reducing costs. This tool is crucial for engineers looking to test applications without incurring cloud expenses.",
-      "sourceUrl": "https://github.com/aws/aws-emulator",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "category": "Security",
+      "summary": "A newly discovered remote code execution vulnerability in Apache HTTP Server could allow attackers to execute arbitrary code on affected systems. Developers and system administrators should prioritize patching their installations to mitigate potential risks.",
+      "sourceUrl": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "sourceName": "Wiz",
+      "timeAgo": "11h ago"
     },
     {
       "id": "2",
-      "title": "Tim Peters, Creator of Python's Sorting Algorithm, Passes Away",
+      "title": "Gemini Decisions API Launch",
       "category": "AI & LLMs",
-      "summary": "The programming community mourns the loss of Tim Peters, known for his contributions to Python, particularly the Timsort algorithm. His work has significantly influenced software development and data handling practices.",
-      "sourceUrl": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-      "sourceName": "Python Discussion",
-      "timeAgo": "16h ago"
+      "summary": "Google has launched the Gemini Decisions API, enabling developers to integrate advanced decision-making capabilities into their applications. This API aims to enhance AI-driven solutions across various domains, making it easier for engineers to implement intelligent features.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceName": "Google",
+      "timeAgo": "19h ago"
     },
     {
       "id": "3",
-      "title": "United Airlines Prohibits AI Agents from Booking Flights",
+      "title": "United Airlines Bans AI Agents from Booking Flights",
       "category": "AI & LLMs",
-      "summary": "United Airlines has implemented a ban on AI agents making flight bookings on behalf of travelers, highlighting concerns over accountability and customer service. This decision could influence how companies integrate AI in customer-facing roles.",
+      "summary": "In a significant move, United Airlines has prohibited AI agents from booking flights on behalf of travelers, citing concerns over customer service and reliability. This decision highlights the ongoing debate about the role of AI in customer-facing applications.",
       "sourceUrl": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
       "sourceName": "CBS News",
-      "timeAgo": "2h ago"
+      "timeAgo": "16h ago"
     },
     {
       "id": "4",
-      "title": "Gemini Decisions API Launched by Google",
-      "category": "AI & LLMs",
-      "summary": "Google has introduced the Gemini Decisions API, designed to enhance decision-making processes in applications using AI. This API could empower developers to create more intelligent and responsive applications.",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "sourceName": "Google Blog",
-      "timeAgo": "5h ago"
+      "title": "AWS Emulator Now Available on GitHub",
+      "category": "Open Source",
+      "summary": "AWS has released an emulator on GitHub that allows developers to simulate AWS services locally. This tool is expected to streamline development workflows and reduce costs associated with cloud service usage during the development phase.",
+      "sourceUrl": "https://github.com/aws/aws-emulator",
+      "sourceName": "GitHub",
+      "timeAgo": "19h ago"
     },
     {
       "id": "5",
-      "title": "Lock Your GitHub Actions for Enhanced Security",
-      "category": "Security",
-      "summary": "A new guide emphasizes the importance of locking GitHub Actions to prevent unauthorized access and ensure secure CI/CD pipelines. This practice is essential for developers looking to safeguard their projects against vulnerabilities.",
-      "sourceUrl": "https://hugovk.dev/blog/2026/lock-github-actions/",
-      "sourceName": "Hugo's Blog",
-      "timeAgo": "1h ago"
+      "title": "Why Writing Correct Software Is Hard",
+      "category": "Systems & Architecture",
+      "summary": "A new article explores the complexities involved in writing correct software, discussing the inherent challenges of software correctness and the implications for developers. Understanding these challenges is crucial for engineers aiming to improve software reliability.",
+      "sourceUrl": "https://pron.github.io/posts/correctness-and-complexity",
+      "sourceName": "pron.github.io",
+      "timeAgo": "3h ago"
     }
   ]
 }
