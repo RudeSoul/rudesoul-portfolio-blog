@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-13T13:28:49.133Z",
+  "lastUpdated": "2026-11-13T22:56:25.238Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Rust 1.100 Released with New Features and Improvements",
-      "category": "Open Source",
-      "summary": "The Rust programming language has released version 1.100, introducing significant enhancements and new features aimed at improving performance and developer experience. This update is crucial for developers looking to leverage the latest capabilities in Rust for systems programming.",
-      "sourceUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "sourceName": "Rust Blog",
-      "timeAgo": "18h ago"
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "category": "AI & LLMs",
+      "summary": "The author shares insights gained from extensive experimentation with JEPA world models, highlighting their potential applications and implications for AI development. This research could inform future model training and enhance understanding of AI behavior.",
+      "sourceUrl": "https://haddyalchaer.com/jepa",
+      "sourceName": "haddyalchaer.com",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-      "category": "AI & LLMs",
-      "summary": "Edge0.ai has introduced Edge0-145B, a new AI model that enables advanced capabilities directly on personal computers, enhancing accessibility for developers and researchers. This development is significant as it democratizes AI technology, allowing more users to experiment and innovate without relying on cloud services.",
-      "sourceUrl": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-      "sourceName": "Edge0.ai",
-      "timeAgo": "14h ago"
+      "title": "Live-migration support in FreeBSD and bhyve coming",
+      "category": "Systems & Architecture",
+      "summary": "FreeBSD is set to introduce live-migration support for bhyve, allowing virtual machines to be moved between hosts without downtime. This enhancement is significant for developers and system administrators looking to improve uptime and resource management.",
+      "sourceUrl": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+      "sourceName": "gyptazy.com",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "Brave Search API Now Accepts Agentic Payments",
-      "category": "Web Development",
-      "summary": "Brave has updated its Search API to accept agentic payments via the x402 protocol, allowing developers to integrate new payment functionalities into their applications. This enhancement is important for web developers looking to implement innovative payment solutions in their projects.",
-      "sourceUrl": "https://brave.com/blog/search-api-agentic-payments/",
-      "sourceName": "Brave",
-      "timeAgo": "10h ago"
+      "title": "FM-1 Workbench",
+      "category": "Open Source",
+      "summary": "The FM-1 Workbench project has been launched, providing an open-source platform for developers to experiment with and build upon. This initiative encourages collaboration and innovation within the engineering community.",
+      "sourceUrl": "https://open.m-vave.com/fm1-workbench",
+      "sourceName": "open.m-vave.com",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Service Degradation on Microsoft 365",
-      "category": "Systems & Architecture",
-      "summary": "Microsoft 365 is currently experiencing service degradation, impacting users and organizations relying on its suite of productivity tools. Developers and IT professionals should monitor this situation closely as it may affect application integrations and user workflows.",
-      "sourceUrl": "https://status.cloud.microsoft/",
-      "sourceName": "Microsoft",
-      "timeAgo": "19h ago"
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "category": "AI & LLMs",
+      "summary": "The latest version of Perplexity Decider introduces new training methodologies and evaluation metrics, enhancing its utility for AI developers. This update is crucial for those looking to refine their models and improve performance.",
+      "sourceUrl": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "sourceName": "perplexity.ai",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Foundation Models Framework Released by Apple",
-      "category": "AI & LLMs",
-      "summary": "Apple has launched the Foundation Models framework, designed to simplify the integration of large language models into applications. This framework is a significant step for developers looking to harness the power of AI in their apps, making it easier to implement advanced functionalities.",
-      "sourceUrl": "https://developer.apple.com/foundation-models-framework/",
-      "sourceName": "Apple Developer",
-      "timeAgo": "16h ago"
+      "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+      "category": "Security",
+      "summary": "A new vulnerability has been identified that allows bypassing Android's clipboard read security measures, posing a risk to user data. Developers and security professionals should be aware of this issue to protect their applications and users.",
+      "sourceUrl": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+      "sourceName": "toninoble.com",
+      "timeAgo": "4h ago"
     }
   ]
 }
