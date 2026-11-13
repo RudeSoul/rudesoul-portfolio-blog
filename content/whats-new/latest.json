@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T22:54:40.554Z",
+  "lastUpdated": "2026-11-13T13:28:49.133Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "Rust 1.100 Released with New Features and Improvements",
       "category": "Open Source",
-      "summary": "The Rust programming language has officially released version 1.100, introducing significant enhancements and new features aimed at improving developer experience and performance. This update is crucial for developers relying on Rust for systems programming, as it continues to evolve with community feedback and modern programming needs.",
+      "summary": "The Rust programming language has released version 1.100, introducing significant enhancements and new features aimed at improving performance and developer experience. This update is crucial for developers looking to leverage the latest capabilities in Rust for systems programming.",
       "sourceUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "sourceName": "Rust Language Blog",
-      "timeAgo": "4h ago"
+      "sourceName": "Rust Blog",
+      "timeAgo": "18h ago"
     },
     {
       "id": "2",
-      "title": "Google Unveils Gemini 4 Hydrogen and Orchestrator for AI Development",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
       "category": "AI & LLMs",
-      "summary": "Google has launched Gemini 4 Hydrogen and Orchestrator, tools designed to streamline the development and deployment of AI models. This advancement is significant for engineers and developers in the AI space, as it promises to enhance efficiency and integration in machine learning workflows.",
-      "sourceUrl": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-      "sourceName": "Google Antigravity Blog",
-      "timeAgo": "4h ago"
+      "summary": "Edge0.ai has introduced Edge0-145B, a new AI model that enables advanced capabilities directly on personal computers, enhancing accessibility for developers and researchers. This development is significant as it democratizes AI technology, allowing more users to experiment and innovate without relying on cloud services.",
+      "sourceUrl": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "sourceName": "Edge0.ai",
+      "timeAgo": "14h ago"
     },
     {
       "id": "3",
-      "title": "Foundation Models Framework Announced by Apple",
-      "category": "AI & LLMs",
-      "summary": "Apple has introduced a new Foundation Models framework aimed at simplifying the integration of large language models into applications. This framework is particularly relevant for developers looking to leverage AI capabilities in their apps, making it easier to implement advanced features.",
-      "sourceUrl": "https://developer.apple.com/foundation-models-framework/",
-      "sourceName": "Apple Developer",
-      "timeAgo": "1h ago"
+      "title": "Brave Search API Now Accepts Agentic Payments",
+      "category": "Web Development",
+      "summary": "Brave has updated its Search API to accept agentic payments via the x402 protocol, allowing developers to integrate new payment functionalities into their applications. This enhancement is important for web developers looking to implement innovative payment solutions in their projects.",
+      "sourceUrl": "https://brave.com/blog/search-api-agentic-payments/",
+      "sourceName": "Brave",
+      "timeAgo": "10h ago"
     },
     {
       "id": "4",
-      "title": "22-Year-Old PostgreSQL Bug Exploited for Remote Code Execution",
-      "category": "Security",
-      "summary": "A long-standing bug in PostgreSQL has been exploited, allowing for remote code execution vulnerabilities. This discovery highlights the importance of maintaining and auditing legacy systems, as well as the need for vigilance in security practices.",
-      "sourceUrl": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
-      "sourceName": "Mehmet Ince's Blog",
-      "timeAgo": "4h ago"
+      "title": "Service Degradation on Microsoft 365",
+      "category": "Systems & Architecture",
+      "summary": "Microsoft 365 is currently experiencing service degradation, impacting users and organizations relying on its suite of productivity tools. Developers and IT professionals should monitor this situation closely as it may affect application integrations and user workflows.",
+      "sourceUrl": "https://status.cloud.microsoft/",
+      "sourceName": "Microsoft",
+      "timeAgo": "19h ago"
     },
     {
       "id": "5",
-      "title": "AgentRun: Open-Source Self-improving Managed Agents",
-      "category": "Open Source",
-      "summary": "The open-source project AgentRun has been launched, focusing on self-improving managed agents for various applications. This initiative is significant for developers interested in AI and automation, providing a framework for building intelligent systems that can adapt and optimize over time.",
-      "sourceUrl": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "Foundation Models Framework Released by Apple",
+      "category": "AI & LLMs",
+      "summary": "Apple has launched the Foundation Models framework, designed to simplify the integration of large language models into applications. This framework is a significant step for developers looking to harness the power of AI in their apps, making it easier to implement advanced functionalities.",
+      "sourceUrl": "https://developer.apple.com/foundation-models-framework/",
+      "sourceName": "Apple Developer",
+      "timeAgo": "16h ago"
     }
   ]
 }
