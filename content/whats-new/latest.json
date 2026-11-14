@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-13T22:56:25.238Z",
+  "lastUpdated": "2026-11-14T12:33:37.877Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
       "category": "AI & LLMs",
-      "summary": "The author shares insights gained from extensive experimentation with JEPA world models, highlighting their potential applications and implications for AI development. This research could inform future model training and enhance understanding of AI behavior.",
-      "sourceUrl": "https://haddyalchaer.com/jepa",
-      "sourceName": "haddyalchaer.com",
-      "timeAgo": "5h ago"
+      "summary": "Nvidia is facing allegations of creating artificial scarcity in the GPU market by financing AI startups, which has significant implications for developers relying on these resources. This situation could affect the availability and pricing of GPUs crucial for AI development and deployment.",
+      "sourceUrl": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "sourceName": "TechPowerUp",
+      "timeAgo": "9h ago"
     },
     {
       "id": "2",
-      "title": "Live-migration support in FreeBSD and bhyve coming",
-      "category": "Systems & Architecture",
-      "summary": "FreeBSD is set to introduce live-migration support for bhyve, allowing virtual machines to be moved between hosts without downtime. This enhancement is significant for developers and system administrators looking to improve uptime and resource management.",
-      "sourceUrl": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-      "sourceName": "gyptazy.com",
-      "timeAgo": "2h ago"
+      "title": "Ggml v1.0.0 Released",
+      "category": "Open Source",
+      "summary": "The release of Ggml v1.0.0 introduces significant updates and enhancements for developers working with machine learning models. This version aims to improve performance and usability, making it a valuable resource for the open-source community.",
+      "sourceUrl": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "sourceName": "GitHub",
+      "timeAgo": "10h ago"
     },
     {
       "id": "3",
-      "title": "FM-1 Workbench",
-      "category": "Open Source",
-      "summary": "The FM-1 Workbench project has been launched, providing an open-source platform for developers to experiment with and build upon. This initiative encourages collaboration and innovation within the engineering community.",
-      "sourceUrl": "https://open.m-vave.com/fm1-workbench",
-      "sourceName": "open.m-vave.com",
-      "timeAgo": "3h ago"
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "category": "AI & LLMs",
+      "summary": "The Unsloth team has released a dynamic update for their Qwen3.8-27B model, enhancing its quantization capabilities. This update is crucial for developers looking to optimize AI models for performance and efficiency.",
+      "sourceUrl": "https://unsloth.ai/docs/models/qwen3.8",
+      "sourceName": "Unsloth",
+      "timeAgo": "12h ago"
     },
     {
       "id": "4",
-      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "category": "AI & LLMs",
-      "summary": "The latest version of Perplexity Decider introduces new training methodologies and evaluation metrics, enhancing its utility for AI developers. This update is crucial for those looking to refine their models and improve performance.",
-      "sourceUrl": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-      "sourceName": "perplexity.ai",
-      "timeAgo": "3h ago"
+      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "category": "Web Development",
+      "summary": "A new live map tool has been created to track U.S. flights during the recent FAA nationwide ground stop, showcasing the power of web technologies in real-time data visualization. This tool can serve as an inspiration for developers interested in building similar applications.",
+      "sourceUrl": "https://grounds.top/",
+      "sourceName": "Grounds Top",
+      "timeAgo": "13h ago"
     },
     {
       "id": "5",
-      "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
-      "category": "Security",
-      "summary": "A new vulnerability has been identified that allows bypassing Android's clipboard read security measures, posing a risk to user data. Developers and security professionals should be aware of this issue to protect their applications and users.",
-      "sourceUrl": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
-      "sourceName": "toninoble.com",
-      "timeAgo": "4h ago"
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "category": "Systems & Architecture",
+      "summary": "A recent article discusses enhancements to LLDB, allowing it to debug applications that utilize both CPU and GPU resources effectively. This development is significant for engineers working on complex systems that require cross-architecture debugging.",
+      "sourceUrl": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "sourceName": "Facebook Engineering",
+      "timeAgo": "3d ago"
     }
   ]
 }
