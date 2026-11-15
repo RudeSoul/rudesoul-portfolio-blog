@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-15T12:59:44.253Z",
+  "lastUpdated": "2026-11-15T22:08:02.665Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "category": "Systems & Architecture",
-      "summary": "SpaceX successfully caught the Starship after its Flight 15, marking a significant milestone in their reusable rocket technology. This development showcases advancements in aerospace engineering that could influence future space missions and cost reductions.",
-      "sourceUrl": "https://www.spacex.com/launches/starship-flight-15",
-      "sourceName": "SpaceX",
-      "timeAgo": "15h ago"
+      "title": "All AI-generated code should be Open Source",
+      "category": "Open Source",
+      "summary": "This article argues for the necessity of making all AI-generated code open source to promote transparency and collaboration in the tech community. Developers and engineers should care because it could reshape how AI tools are utilized and shared in software development.",
+      "sourceUrl": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "sourceName": "Jakub Jankiewicz",
+      "timeAgo": "7h ago"
     },
     {
       "id": "2",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "category": "Security",
-      "summary": "A recent security breach has revealed that several popular applications have exposed sensitive user data, including passport details and private messages. This incident highlights the critical need for developers to prioritize data security and user privacy in app development.",
-      "sourceUrl": "https://www.crissyfield.de/research/lovable-en/",
-      "sourceName": "Crissyfield",
-      "timeAgo": "19h ago"
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "category": "AI & LLMs",
+      "summary": "This article provides a detailed explanation of positional embeddings, which are crucial for the performance of modern language models. Developers should pay attention as understanding these concepts can enhance their work with AI and LLMs.",
+      "sourceUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "sourceName": "Sebastian Raschka",
+      "timeAgo": "9h ago"
     },
     {
       "id": "3",
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "category": "Open Source",
-      "summary": "The Python Package Index (PyPI) has launched redesigned project pages that include enhanced security signals to help developers identify vulnerabilities in packages. This update is crucial for maintaining the integrity of open-source software and ensuring safer package management.",
-      "sourceUrl": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "sourceName": "PyPI",
-      "timeAgo": "21h ago"
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "category": "Web Development",
+      "summary": "Protomaps has simplified the process of self-hosting map tiles, making it more accessible for developers to integrate mapping solutions into their applications. This development is significant for web engineers looking to enhance user experiences with customizable mapping features.",
+      "sourceUrl": "https://bruceroettgers.eu/blog/protomaps/",
+      "sourceName": "Bruce Roettgers",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
       "category": "Systems & Architecture",
-      "summary": "A court ruling has allowed a significant DRAM price-fixing lawsuit to proceed, which could have major implications for the semiconductor industry. This case underscores the importance of fair competition and regulatory oversight in technology markets.",
-      "sourceUrl": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "sourceName": "LitNews",
-      "timeAgo": "11h ago"
+      "summary": "The failure of the Vulcan rocket during its launch resulted in the loss of 40 Amazon satellites, highlighting the risks involved in aerospace engineering and satellite deployment. Engineers and developers in the aerospace sector should analyze this incident to improve future designs and launch protocols.",
+      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
+      "sourceName": "Space.com",
+      "timeAgo": "1h ago"
     },
     {
       "id": "5",
-      "title": "Open-Source HF Communications for Remote Communities and Experimenters",
-      "category": "Open Source",
-      "summary": "New open-source high-frequency (HF) communication tools have been developed to support remote communities and experimenters. This initiative aims to enhance connectivity in underserved areas, promoting collaboration and innovation in communication technologies.",
-      "sourceUrl": "https://www.ardc.net/rhizomaticas-hermes-and-mercury-expand-open-source-hf-communications-for-remote-communities-while-appealing-to-experimenters/",
-      "sourceName": "ARDC",
-      "timeAgo": "4d ago"
+      "title": "The MacBook Pro's OLED PWM problem",
+      "category": "Security",
+      "summary": "This article discusses the issues related to pulse-width modulation (PWM) in the MacBook Pro's OLED display, which can lead to visual discomfort for users. Developers and engineers should be aware of these hardware concerns as they can impact user experience and product design.",
+      "sourceUrl": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "sourceName": "Macanorak",
+      "timeAgo": "8h ago"
     }
   ]
 }
