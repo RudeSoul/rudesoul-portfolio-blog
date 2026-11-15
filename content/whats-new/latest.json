@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-14T21:42:42.370Z",
+  "lastUpdated": "2026-11-15T12:59:44.253Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "category": "Web Development",
-      "summary": "The Python Package Index (PyPI) has launched a significant redesign of its project pages to enhance security visibility for developers. This update aims to help developers make informed decisions about package usage, thereby improving overall security in the Python ecosystem.",
-      "sourceUrl": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "sourceName": "PyPI Blog",
-      "timeAgo": "6h ago"
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "category": "Systems & Architecture",
+      "summary": "SpaceX successfully caught the Starship after its Flight 15, marking a significant milestone in their reusable rocket technology. This development showcases advancements in aerospace engineering that could influence future space missions and cost reductions.",
+      "sourceUrl": "https://www.spacex.com/launches/starship-flight-15",
+      "sourceName": "SpaceX",
+      "timeAgo": "15h ago"
     },
     {
       "id": "2",
-      "title": "Generative AI uses more energy on non-English text",
-      "category": "AI & LLMs",
-      "summary": "Recent research indicates that generative AI models consume significantly more energy when processing non-English text. This finding highlights the need for optimization in AI training and deployment, especially for multilingual applications.",
-      "sourceUrl": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
-      "sourceName": "University of Michigan News",
-      "timeAgo": "4h ago"
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "category": "Security",
+      "summary": "A recent security breach has revealed that several popular applications have exposed sensitive user data, including passport details and private messages. This incident highlights the critical need for developers to prioritize data security and user privacy in app development.",
+      "sourceUrl": "https://www.crissyfield.de/research/lovable-en/",
+      "sourceName": "Crissyfield",
+      "timeAgo": "19h ago"
     },
     {
       "id": "3",
-      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "category": "Security",
-      "summary": "Following a CBC investigation, LinkedIn and Monster have removed over 1,000 fraudulent job postings, addressing a significant issue of online job scams. This action underscores the importance of platform accountability in protecting job seekers from deception.",
-      "sourceUrl": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-      "sourceName": "CBC News",
-      "timeAgo": "2h ago"
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "category": "Open Source",
+      "summary": "The Python Package Index (PyPI) has launched redesigned project pages that include enhanced security signals to help developers identify vulnerabilities in packages. This update is crucial for maintaining the integrity of open-source software and ensuring safer package management.",
+      "sourceUrl": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "sourceName": "PyPI",
+      "timeAgo": "21h ago"
     },
     {
       "id": "4",
-      "title": "Advancing science and engineering with Antigravity's /teamwork",
-      "category": "Open Source",
-      "summary": "Google Research has introduced Antigravity's /teamwork feature, designed to enhance collaboration in scientific and engineering projects. This tool aims to streamline workflows and improve productivity in open-source and research communities.",
-      "sourceUrl": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "sourceName": "Google Research",
-      "timeAgo": "8h ago"
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "category": "Systems & Architecture",
+      "summary": "A court ruling has allowed a significant DRAM price-fixing lawsuit to proceed, which could have major implications for the semiconductor industry. This case underscores the importance of fair competition and regulatory oversight in technology markets.",
+      "sourceUrl": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "sourceName": "LitNews",
+      "timeAgo": "11h ago"
     },
     {
       "id": "5",
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "category": "Security",
-      "summary": "A recent security analysis revealed that several popular applications have inadvertently exposed sensitive user data, including passport details and over 200,000 private messages. This incident emphasizes the critical need for robust security practices in app development.",
-      "sourceUrl": "https://www.crissyfield.de/research/lovable-en/",
-      "sourceName": "Crissy Field",
-      "timeAgo": "3h ago"
+      "title": "Open-Source HF Communications for Remote Communities and Experimenters",
+      "category": "Open Source",
+      "summary": "New open-source high-frequency (HF) communication tools have been developed to support remote communities and experimenters. This initiative aims to enhance connectivity in underserved areas, promoting collaboration and innovation in communication technologies.",
+      "sourceUrl": "https://www.ardc.net/rhizomaticas-hermes-and-mercury-expand-open-source-hf-communications-for-remote-communities-while-appealing-to-experimenters/",
+      "sourceName": "ARDC",
+      "timeAgo": "4d ago"
     }
   ]
 }
