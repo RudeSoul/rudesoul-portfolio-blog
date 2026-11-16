@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-15T22:08:02.665Z",
+  "lastUpdated": "2026-11-16T14:03:35.520Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "All AI-generated code should be Open Source",
-      "category": "Open Source",
-      "summary": "This article argues for the necessity of making all AI-generated code open source to promote transparency and collaboration in the tech community. Developers and engineers should care because it could reshape how AI tools are utilized and shared in software development.",
-      "sourceUrl": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-      "sourceName": "Jakub Jankiewicz",
-      "timeAgo": "7h ago"
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "category": "Security",
+      "summary": "A critical vulnerability has been discovered in uBlock Origin that allows for universal cross-site scripting (XSS) through a flaw in its element picker feature. Developers and users of this popular ad-blocking extension should update immediately to mitigate potential security risks.",
+      "sourceUrl": "https://iter.ca/post/ubo-uxss/",
+      "sourceName": "iter.ca",
+      "timeAgo": "11h ago"
     },
     {
       "id": "2",
-      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "title": "Qwen4-Max",
       "category": "AI & LLMs",
-      "summary": "This article provides a detailed explanation of positional embeddings, which are crucial for the performance of modern language models. Developers should pay attention as understanding these concepts can enhance their work with AI and LLMs.",
-      "sourceUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-      "sourceName": "Sebastian Raschka",
-      "timeAgo": "9h ago"
+      "summary": "The release of Qwen4-Max introduces significant improvements in AI model performance, particularly in natural language processing tasks. This advancement is crucial for developers looking to leverage cutting-edge AI capabilities in their applications.",
+      "sourceUrl": "https://qwen.ai/blog?id=qwen4-max",
+      "sourceName": "qwen.ai",
+      "timeAgo": "11h ago"
     },
     {
       "id": "3",
       "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
       "category": "Web Development",
-      "summary": "Protomaps has simplified the process of self-hosting map tiles, making it more accessible for developers to integrate mapping solutions into their applications. This development is significant for web engineers looking to enhance user experiences with customizable mapping features.",
+      "summary": "Protomaps has made self-hosting map tiles more accessible and affordable, allowing developers to integrate customizable maps into their applications without relying on third-party services. This shift empowers developers to maintain control over their mapping solutions.",
       "sourceUrl": "https://bruceroettgers.eu/blog/protomaps/",
-      "sourceName": "Bruce Roettgers",
-      "timeAgo": "2h ago"
+      "sourceName": "bruceroettgers.eu",
+      "timeAgo": "18h ago"
     },
     {
       "id": "4",
-      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
-      "category": "Systems & Architecture",
-      "summary": "The failure of the Vulcan rocket during its launch resulted in the loss of 40 Amazon satellites, highlighting the risks involved in aerospace engineering and satellite deployment. Engineers and developers in the aerospace sector should analyze this incident to improve future designs and launch protocols.",
-      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
-      "sourceName": "Space.com",
-      "timeAgo": "1h ago"
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "category": "Security",
+      "summary": "The Tor Project has released a critical update to address a sustained DDoS attack, enhancing its defenses against potential service disruptions. This update is vital for developers and users relying on Tor for secure communications.",
+      "sourceUrl": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "sourceName": "forum.torproject.org",
+      "timeAgo": "13h ago"
     },
     {
       "id": "5",
-      "title": "The MacBook Pro's OLED PWM problem",
-      "category": "Security",
-      "summary": "This article discusses the issues related to pulse-width modulation (PWM) in the MacBook Pro's OLED display, which can lead to visual discomfort for users. Developers and engineers should be aware of these hardware concerns as they can impact user experience and product design.",
-      "sourceUrl": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
-      "sourceName": "Macanorak",
-      "timeAgo": "8h ago"
+      "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+      "category": "Open Source",
+      "summary": "The Winudf project has released an open-source driver that enables DVD and BluRay support for legacy Windows operating systems, including DOS and Windows 95/98. This development is significant for developers maintaining older systems or creating retro applications.",
+      "sourceUrl": "https://github.com/ages2001/WINUDF",
+      "sourceName": "github.com",
+      "timeAgo": "6h ago"
     }
   ]
 }
