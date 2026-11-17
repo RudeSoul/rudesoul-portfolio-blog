@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-16T14:03:35.520Z",
+  "lastUpdated": "2026-11-17T01:08:11.298Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "category": "Security",
-      "summary": "A critical vulnerability has been discovered in uBlock Origin that allows for universal cross-site scripting (XSS) through a flaw in its element picker feature. Developers and users of this popular ad-blocking extension should update immediately to mitigate potential security risks.",
-      "sourceUrl": "https://iter.ca/post/ubo-uxss/",
-      "sourceName": "iter.ca",
-      "timeAgo": "11h ago"
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "category": "Open Source",
+      "summary": "Carnegie Mellon University has launched a new initiative to offer free computer science courses on YouTube, making high-quality education accessible to a global audience. This move is significant for developers and engineers looking to enhance their skills without financial barriers.",
+      "sourceUrl": "https://www.cs.cmu.edu/learn/",
+      "sourceName": "Carnegie Mellon University",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Qwen4-Max",
-      "category": "AI & LLMs",
-      "summary": "The release of Qwen4-Max introduces significant improvements in AI model performance, particularly in natural language processing tasks. This advancement is crucial for developers looking to leverage cutting-edge AI capabilities in their applications.",
-      "sourceUrl": "https://qwen.ai/blog?id=qwen4-max",
-      "sourceName": "qwen.ai",
-      "timeAgo": "11h ago"
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "category": "Security",
+      "summary": "Recent findings reveal that Windows 11 is tracking user data related to coding agents and developer tools, raising privacy concerns among developers. This information is crucial for engineers to understand how their data is being utilized and to take necessary precautions.",
+      "sourceUrl": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "sourceName": "Xusheng.dev",
+      "timeAgo": "2h ago"
     },
     {
       "id": "3",
-      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-      "category": "Web Development",
-      "summary": "Protomaps has made self-hosting map tiles more accessible and affordable, allowing developers to integrate customizable maps into their applications without relying on third-party services. This shift empowers developers to maintain control over their mapping solutions.",
-      "sourceUrl": "https://bruceroettgers.eu/blog/protomaps/",
-      "sourceName": "bruceroettgers.eu",
-      "timeAgo": "18h ago"
+      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+      "category": "Systems & Architecture",
+      "summary": "A technical issue at JPMorgan Chase has caused widespread online banking delays affecting multiple US banks, highlighting the vulnerabilities in banking systems architecture. This incident serves as a reminder for engineers to prioritize system reliability and contingency planning.",
+      "sourceUrl": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+      "sourceName": "AP News",
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
       "category": "Security",
-      "summary": "The Tor Project has released a critical update to address a sustained DDoS attack, enhancing its defenses against potential service disruptions. This update is vital for developers and users relying on Tor for secure communications.",
-      "sourceUrl": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "sourceName": "forum.torproject.org",
-      "timeAgo": "13h ago"
+      "summary": "Optimizely has been compromised, leading to malware being served on platforms like Zoom and GitLab, affecting numerous users. Developers must be vigilant about security practices and the integrity of third-party tools they integrate into their workflows.",
+      "sourceUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "sourceName": "Report URI Blog",
+      "timeAgo": "3h ago"
     },
     {
       "id": "5",
-      "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+      "title": "Jiff 1.0: A datetime library for Rust",
       "category": "Open Source",
-      "summary": "The Winudf project has released an open-source driver that enables DVD and BluRay support for legacy Windows operating systems, including DOS and Windows 95/98. This development is significant for developers maintaining older systems or creating retro applications.",
-      "sourceUrl": "https://github.com/ages2001/WINUDF",
-      "sourceName": "github.com",
-      "timeAgo": "6h ago"
+      "summary": "The release of Jiff 1.0, a new datetime library for Rust, offers developers enhanced functionality for handling date and time operations. This library is a valuable addition to the Rust ecosystem, promoting better coding practices and efficiency.",
+      "sourceUrl": "https://burntsushi.net/jiff/",
+      "sourceName": "Burnt Sushi",
+      "timeAgo": "8h ago"
     }
   ]
 }
