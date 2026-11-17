@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T01:08:11.298Z",
+  "lastUpdated": "2026-11-17T14:57:20.913Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
@@ -7,46 +7,46 @@
       "id": "1",
       "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
       "category": "Open Source",
-      "summary": "Carnegie Mellon University has launched a new initiative to offer free computer science courses on YouTube, making high-quality education accessible to a global audience. This move is significant for developers and engineers looking to enhance their skills without financial barriers.",
+      "summary": "Carnegie Mellon University has launched a series of free computer science courses on YouTube, making high-quality educational content accessible to a global audience. This initiative is a significant step towards democratizing tech education and could inspire developers and engineers to enhance their skills at no cost.",
       "sourceUrl": "https://www.cs.cmu.edu/learn/",
       "sourceName": "Carnegie Mellon University",
-      "timeAgo": "4h ago"
+      "timeAgo": "18h ago"
     },
     {
       "id": "2",
-      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-      "category": "Security",
-      "summary": "Recent findings reveal that Windows 11 is tracking user data related to coding agents and developer tools, raising privacy concerns among developers. This information is crucial for engineers to understand how their data is being utilized and to take necessary precautions.",
-      "sourceUrl": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "sourceName": "Xusheng.dev",
-      "timeAgo": "2h ago"
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "category": "AI & LLMs",
+      "summary": "CEOs from Baidu and Xiaomi have expressed concerns about the increasing disparity between the hype surrounding AI technologies and the actual financial returns they generate. This commentary highlights the need for developers and engineers to focus on practical applications and sustainable growth in AI projects.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "sourceName": "South China Morning Post",
+      "timeAgo": "37m ago"
     },
     {
       "id": "3",
-      "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
-      "category": "Systems & Architecture",
-      "summary": "A technical issue at JPMorgan Chase has caused widespread online banking delays affecting multiple US banks, highlighting the vulnerabilities in banking systems architecture. This incident serves as a reminder for engineers to prioritize system reliability and contingency planning.",
-      "sourceUrl": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
-      "sourceName": "AP News",
-      "timeAgo": "6h ago"
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "category": "Security",
+      "summary": "Optimizely has reportedly been compromised, leading to malware being served through popular platforms like Zoom and GitLab. This incident underscores the importance of security practices for developers and engineers, particularly when integrating third-party services.",
+      "sourceUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "sourceName": "Report URI",
+      "timeAgo": "15h ago"
     },
     {
       "id": "4",
-      "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
-      "category": "Security",
-      "summary": "Optimizely has been compromised, leading to malware being served on platforms like Zoom and GitLab, affecting numerous users. Developers must be vigilant about security practices and the integrity of third-party tools they integrate into their workflows.",
-      "sourceUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "sourceName": "Report URI Blog",
-      "timeAgo": "3h ago"
+      "title": "How the Claude Code team thinks about verification",
+      "category": "AI & LLMs",
+      "summary": "The Claude Code team has shared insights into their verification processes, emphasizing the importance of ensuring AI models are reliable and trustworthy. This discussion is crucial for developers working with AI, as it addresses the challenges of model verification and the implications for deployment.",
+      "sourceUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "sourceName": "Claude",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "Jiff 1.0: A datetime library for Rust",
-      "category": "Open Source",
-      "summary": "The release of Jiff 1.0, a new datetime library for Rust, offers developers enhanced functionality for handling date and time operations. This library is a valuable addition to the Rust ecosystem, promoting better coding practices and efficiency.",
-      "sourceUrl": "https://burntsushi.net/jiff/",
-      "sourceName": "Burnt Sushi",
-      "timeAgo": "8h ago"
+      "title": "BugMeNot has closed",
+      "category": "Web Development",
+      "summary": "BugMeNot, a service that provided shared login credentials for various websites, has officially shut down. This closure raises questions about the future of web access and the implications for developers in terms of user authentication and privacy.",
+      "sourceUrl": "https://www.bugmenot.com/",
+      "sourceName": "BugMeNot",
+      "timeAgo": "17h ago"
     }
   ]
 }
