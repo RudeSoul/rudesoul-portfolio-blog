@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-17T14:57:20.913Z",
+  "lastUpdated": "2026-11-18T00:04:05.497Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "category": "Open Source",
-      "summary": "Carnegie Mellon University has launched a series of free computer science courses on YouTube, making high-quality educational content accessible to a global audience. This initiative is a significant step towards democratizing tech education and could inspire developers and engineers to enhance their skills at no cost.",
-      "sourceUrl": "https://www.cs.cmu.edu/learn/",
-      "sourceName": "Carnegie Mellon University",
-      "timeAgo": "18h ago"
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "category": "Security",
+      "summary": "A critical remote code execution vulnerability has been identified in OpenJDK, specifically affecting how Base64 is processed. Developers should be aware of this flaw as it poses a significant risk to server security, especially for those using Java 17.",
+      "sourceUrl": "https://calif.io/java4shell/",
+      "sourceName": "calif.io",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "title": "Introducing GPT-6.2 Astra and Sol",
       "category": "AI & LLMs",
-      "summary": "CEOs from Baidu and Xiaomi have expressed concerns about the increasing disparity between the hype surrounding AI technologies and the actual financial returns they generate. This commentary highlights the need for developers and engineers to focus on practical applications and sustainable growth in AI projects.",
-      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-      "sourceName": "South China Morning Post",
-      "timeAgo": "37m ago"
+      "summary": "OpenAI has launched GPT-6.2, featuring two new models, Astra and Sol, which enhance performance and usability for developers. This update is significant for engineers looking to leverage advanced AI capabilities in their applications.",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "sourceName": "openai.com",
+      "timeAgo": "6h ago"
     },
     {
       "id": "3",
-      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
       "category": "Security",
-      "summary": "Optimizely has reportedly been compromised, leading to malware being served through popular platforms like Zoom and GitLab. This incident underscores the importance of security practices for developers and engineers, particularly when integrating third-party services.",
-      "sourceUrl": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "sourceName": "Report URI",
-      "timeAgo": "15h ago"
+      "summary": "Quad9's decision to withdraw its DNS services from France raises concerns about internet freedom and security in the region. Developers and engineers should consider the implications of such actions on privacy and data access.",
+      "sourceUrl": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "sourceName": "Cloudflare",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "How the Claude Code team thinks about verification",
-      "category": "AI & LLMs",
-      "summary": "The Claude Code team has shared insights into their verification processes, emphasizing the importance of ensuring AI models are reliable and trustworthy. This discussion is crucial for developers working with AI, as it addresses the challenges of model verification and the implications for deployment.",
-      "sourceUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-      "sourceName": "Claude",
+      "title": "jQuery 4.1.0 Released",
+      "category": "Web Development",
+      "summary": "The release of jQuery 4.1.0 introduces important updates and bug fixes, enhancing the library's performance and compatibility. Web developers should review the changes to ensure their applications leverage the latest improvements.",
+      "sourceUrl": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+      "sourceName": "GitHub",
       "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "BugMeNot has closed",
-      "category": "Web Development",
-      "summary": "BugMeNot, a service that provided shared login credentials for various websites, has officially shut down. This closure raises questions about the future of web access and the implications for developers in terms of user authentication and privacy.",
-      "sourceUrl": "https://www.bugmenot.com/",
-      "sourceName": "BugMeNot",
-      "timeAgo": "17h ago"
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "category": "Open Source",
+      "summary": "The removal of Microsoft's ONNX Runtime from GitHub raises questions about the future of this important open-source project. Developers relying on ONNX for machine learning should monitor this situation closely for potential impacts on their workflows.",
+      "sourceUrl": "https://github.com/microsoft/onnxruntime",
+      "sourceName": "GitHub",
+      "timeAgo": "45m ago"
     }
   ]
 }
