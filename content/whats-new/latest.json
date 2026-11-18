@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-18T14:38:30.899Z",
+  "lastUpdated": "2026-11-18T23:37:58.848Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Energy-Based Reasoners: 385x more efficient inference",
-      "category": "AI & LLMs",
-      "summary": "A new approach to inference using energy-based reasoning has been developed, demonstrating a staggering 385 times efficiency improvement over traditional methods. This advancement could significantly impact AI model deployment and performance optimization for developers and engineers.",
-      "sourceUrl": "https://energy-based-reasoners.github.io/",
-      "sourceName": "energy-based-reasoners.github.io",
-      "timeAgo": "5h ago"
+      "title": "Unauthenticated remote code execution in Nginx",
+      "category": "Security",
+      "summary": "A critical vulnerability has been discovered in Nginx that allows for unauthenticated remote code execution, posing significant risks to web servers. Developers and system administrators should prioritize patching this vulnerability to protect their applications from potential exploits.",
+      "sourceUrl": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "sourceName": "Wiz",
+      "timeAgo": "8h ago"
     },
     {
       "id": "2",
-      "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
-      "category": "Security",
-      "summary": "Quad9's decision to withdraw from France highlights the challenges DNS resolvers face in combating piracy through blocking. This development raises important questions about the role of DNS in internet governance and the implications for privacy and security.",
-      "sourceUrl": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-      "sourceName": "techstackups.com",
-      "timeAgo": "1h ago"
+      "title": "Seven new models at scalable price-performance",
+      "category": "AI & LLMs",
+      "summary": "Microsoft has unveiled seven new AI models that promise enhanced performance at scalable pricing, aimed at improving accessibility for developers. This development could significantly impact AI application development by providing more cost-effective solutions.",
+      "sourceUrl": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "sourceName": "Microsoft AI",
+      "timeAgo": "7h ago"
     },
     {
       "id": "3",
-      "title": "Google's AI answers reducing search traffic by 40%",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "category": "AI & LLMs",
-      "summary": "Recent findings indicate that Google's AI-driven answers are leading to a 40% reduction in search traffic, suggesting a shift in user behavior and expectations. Developers and SEO professionals need to adapt strategies to account for this changing landscape in search engine optimization.",
-      "sourceUrl": "https://revscope.co/blog/search-seo-geo-2026/",
-      "sourceName": "revscope.co",
-      "timeAgo": "14h ago"
+      "summary": "A recent study indicates that AI agents outperform KPMG accountants in formulating questions during audit trials, highlighting the potential for AI to enhance decision-making processes. This finding underscores the growing importance of AI in professional services and auditing.",
+      "sourceUrl": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "sourceName": "European Business Magazine",
+      "timeAgo": "7h ago"
     },
     {
       "id": "4",
-      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "title": "Advancing chip design with OpenAI models",
       "category": "AI & LLMs",
-      "summary": "A study from Harvard reveals that the introduction of AI coding agents has shifted the bottleneck in software development from coding to code review processes. This insight is crucial for engineers looking to optimize workflows and improve collaboration in development teams.",
-      "sourceUrl": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-      "sourceName": "complexdiscovery.com",
-      "timeAgo": "17h ago"
+      "summary": "OpenAI has released insights on how its models are being utilized to advance chip design, potentially revolutionizing the semiconductor industry. Engineers and developers in hardware design should explore these advancements for improved efficiency and innovation.",
+      "sourceUrl": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "sourceName": "OpenAI",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-      "category": "Security",
-      "summary": "A critical remote code execution vulnerability has been discovered in OpenJDK related to Base64 processing, posing significant security risks. Developers using OpenJDK must prioritize patching and securing their applications to prevent potential exploits.",
-      "sourceUrl": "https://calif.io/java4shell/",
-      "sourceName": "calif.io",
-      "timeAgo": "17h ago"
+      "title": "Gemini 4 Neon",
+      "category": "AI & LLMs",
+      "summary": "Google has introduced Gemini 4 Neon, a new model that enhances capabilities in various AI applications. This release is significant for developers looking to leverage cutting-edge AI technologies in their projects.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "sourceName": "Google Blog",
+      "timeAgo": "2h ago"
     }
   ]
 }
