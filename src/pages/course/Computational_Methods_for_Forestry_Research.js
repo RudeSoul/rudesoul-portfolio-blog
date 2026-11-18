@@ -1826,20 +1826,20 @@ const COURSE_ACCESS_CONFIG = {
   salt: "tu-iof-bagmati-2026-phase-01",
   windows: [
     {
-      id: "week-1",
-      label: "Week 1: Computational Workflow & Reproducible Foundations",
+      id: "week-1-extended",
+      label: "Week 1: Computational Workflow & Reproducible Foundations (Extended)",
       validFrom: "2026-11-09T00:00:00+05:45",
-      validTo: "2026-11-16T23:59:59+05:45",
+      validTo: "2026-11-25T23:59:59+05:45",
       // Phrase: "forestry-bagmati-2026"
-      hash: "408b1f5ce942fcd601aa12a49ef5ef7affce5f0446d4254d288ab623c61171db",
+      hash: "b59b0fb7c7bab3d2b1e8a3c027bd572a69ac9b3a8b3e9b030b2931c72af73224",
     },
     {
       id: "week-2",
       label: "Week 2: Programming Fundamentals & Reusable Functions in R",
-      validFrom: "2026-11-17T00:00:00+05:45",
-      validTo: "2026-11-24T23:59:59+05:45",
+      validFrom: "2026-11-26T00:00:00+05:45",
+      validTo: "2026-12-03T23:59:59+05:45",
       // Phrase: "sal-inventory-2026"
-      hash: "7546d03cc2c1a092d679af634112d00f5897ef1d64645f76f2b1fff5e9566625",
+      hash: "85ebbc0c687aa0fd2e3c457b830e836cde30319fc83e92fa8e1ec0780963e174",
     },
   ],
 }
