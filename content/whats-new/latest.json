@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-20T14:26:03.625Z",
+  "lastUpdated": "2026-11-20T23:25:39.984Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "category": "Systems & Architecture",
-      "summary": "Researchers have unveiled Frostbite, an innovative CPU architecture that was entirely designed and verified using artificial intelligence. This development could revolutionize how processors are created, potentially leading to more efficient and powerful computing solutions.",
-      "sourceUrl": "https://architectlabs.com/blog/frostbite",
-      "sourceName": "Architect Labs",
-      "timeAgo": "4h ago"
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "category": "AI & LLMs",
+      "summary": "Recent research demonstrates that language models have the capability to modify their own weights, potentially leading to more adaptive and efficient AI systems. This development is significant for engineers as it opens up new avenues for self-improving AI applications.",
+      "sourceUrl": "https://arxiv.org/abs/2611.21885",
+      "sourceName": "arxiv.org",
+      "timeAgo": "6h ago"
     },
     {
       "id": "2",
-      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-      "category": "Security",
-      "summary": "A critical buffer overflow vulnerability has been identified in OpenSSL's EVP_EncodeBlock() function, rated with a CVSS score of 9.8. Developers using OpenSSL should prioritize updating their libraries to mitigate potential security risks.",
-      "sourceUrl": "https://github.com/openssl/openssl/pull/33652",
-      "sourceName": "GitHub",
-      "timeAgo": "12h ago"
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "category": "Systems & Architecture",
+      "summary": "A groundbreaking CPU architecture named Frostbite has been fully designed and verified by AI, showcasing the potential of AI in hardware design. This innovation could revolutionize how processors are developed, making the process faster and more efficient for engineers.",
+      "sourceUrl": "https://architectlabs.com/blog/frostbite",
+      "sourceName": "architectlabs.com",
+      "timeAgo": "13h ago"
     },
     {
       "id": "3",
-      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
-      "category": "AI & LLMs",
-      "summary": "Epic Games has started integrating AI coding tools into the Unreal Engine to enhance development efficiency and creativity. This move signifies a growing trend of leveraging AI in game development, which could streamline workflows and improve game quality.",
-      "sourceUrl": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
-      "sourceName": "IEEE Spectrum",
-      "timeAgo": "2h ago"
+      "title": "A few hours ago Google DeepMind created a math horizon repo",
+      "category": "Open Source",
+      "summary": "Google DeepMind has launched a new open-source repository called 'math horizon' aimed at advancing mathematical research through collaborative efforts. This initiative provides developers and researchers with valuable tools and resources to explore complex mathematical problems.",
+      "sourceUrl": "https://github.com/google-deepmind/math-horizon",
+      "sourceName": "github.com",
+      "timeAgo": "1h ago"
     },
     {
       "id": "4",
-      "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "title": "We promoted developers into architects without informing them",
       "category": "Web Development",
-      "summary": "The latest release of Postgres 19 introduces a built-in feature for faster table bloat cleanup, enhancing database performance. This improvement is crucial for developers managing large datasets, as it simplifies maintenance and optimizes resource usage.",
-      "sourceUrl": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
-      "sourceName": "Snowflake",
-      "timeAgo": "11h ago"
+      "summary": "A blog post discusses the implications of promoting developers to architect roles without proper communication or training, highlighting the need for clear pathways and support in career transitions. This insight is crucial for organizations aiming to foster effective team dynamics and skill development.",
+      "sourceUrl": "https://manidoraisamy.com/developer-to-architect.html",
+      "sourceName": "manidoraisamy.com",
+      "timeAgo": "5h ago"
     },
     {
       "id": "5",
-      "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
       "category": "Open Source",
-      "summary": "A new project has been launched that enables fast and deterministic natural language search capabilities for OpenStreetMap data. This tool can significantly enhance the accessibility and usability of geographic data for developers and researchers.",
-      "sourceUrl": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
-      "sourceName": "Hippomaps",
-      "timeAgo": "23h ago"
+      "summary": "The OpenComputer project has emerged as an open-source alternative to Devin, providing developers with a flexible and customizable platform for various computing tasks. This initiative encourages community collaboration and innovation in software development.",
+      "sourceUrl": "https://github.com/diggerhq/opencomputer",
+      "sourceName": "github.com",
+      "timeAgo": "3h ago"
     }
   ]
 }
