@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-21T13:45:29.124Z",
+  "lastUpdated": "2026-11-21T22:28:51.242Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "category": "Open Source",
-      "summary": "Brazil's tax authority has released its tax calculator as open-source software on GitHub, promoting transparency in tax reform. This initiative allows developers to contribute to and improve the tool, fostering collaboration and innovation in public sector software.",
-      "sourceUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
-      "sourceName": "gov.br",
-      "timeAgo": "3d ago"
+      "title": "Lean verification of the Riemann Hypothesis",
+      "category": "AI & LLMs",
+      "summary": "Researchers have successfully employed Lean, a proof assistant, to verify aspects of the Riemann Hypothesis, a long-standing problem in mathematics. This development highlights the increasing role of AI in formal verification and mathematical proofs, which could inspire new approaches in software engineering and algorithm design.",
+      "sourceUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "sourceName": "Lean Prover Community",
+      "timeAgo": "7h ago"
     },
     {
       "id": "2",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "category": "AI & LLMs",
-      "summary": "Recent research demonstrates that language models can autonomously adjust their own weights, potentially leading to more efficient training processes. This capability could revolutionize how developers approach model optimization and deployment.",
-      "sourceUrl": "https://arxiv.org/abs/2611.21885",
-      "sourceName": "arxiv.org",
-      "timeAgo": "21h ago"
+      "title": "PostgreSQL Extensions in Go",
+      "category": "Web Development",
+      "summary": "A new project has been released that allows developers to create PostgreSQL extensions using the Go programming language, enhancing the flexibility and performance of database interactions. This could significantly streamline backend development processes for web applications that rely on PostgreSQL.",
+      "sourceUrl": "https://jespino.github.io/gopgext/",
+      "sourceName": "jespino.github.io",
+      "timeAgo": "5h ago"
     },
     {
       "id": "3",
-      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-      "category": "Systems & Architecture",
-      "summary": "The Valkey project has replaced the traditional skiplist with a B+ tree structure, achieving significant reductions in overhead for sorted sets. This advancement can lead to improved performance in data-intensive applications, making it a noteworthy development for engineers focused on system efficiency.",
-      "sourceUrl": "https://valkey.io/blog/from-skiplist-to-b+tree/",
-      "sourceName": "valkey.io",
-      "timeAgo": "3d ago"
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "category": "Open Source",
+      "summary": "Brazil's tax authority has made its tax calculator available as open-source software on GitHub, promoting transparency and collaboration in public sector software development. This initiative could serve as a model for other governments looking to enhance public service efficiency through open-source solutions.",
+      "sourceUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "sourceName": "Gov.br",
+      "timeAgo": "4d ago"
     },
     {
       "id": "4",
-      "title": "ClawDOS – An AI coding agent for DOS",
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
       "category": "AI & LLMs",
-      "summary": "ClawDOS is an innovative AI coding agent designed to assist in programming for DOS environments. This tool could enhance productivity for developers working with legacy systems, bridging the gap between modern AI capabilities and older technologies.",
-      "sourceUrl": "http://ricapar.net/ClawDOS/",
-      "sourceName": "ricapar.net",
-      "timeAgo": "8h ago"
+      "summary": "The Inkling-2-Mini model has been released with a compact size of just 5.4 GB, making advanced AI capabilities more accessible for developers working on resource-constrained environments. This development is significant for the deployment of AI applications in mobile and edge computing scenarios.",
+      "sourceUrl": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "category": "Security",
-      "summary": "The FBI is currently investigating a potential breach of its criminal database, raising concerns about data security and integrity. This incident highlights the importance of robust security measures in protecting sensitive information within government systems.",
-      "sourceUrl": "https://www.bbc.com/news/articles/cvze7de86pk3o",
-      "sourceName": "bbc.com",
-      "timeAgo": "3h ago"
+      "title": "Show HN: Zero C# – C# without a runtime or GC",
+      "category": "Systems & Architecture",
+      "summary": "A new project called Zero C# has been introduced, allowing developers to write C# code without the need for a runtime or garbage collection. This could lead to significant performance improvements and lower resource consumption in applications where efficiency is critical.",
+      "sourceUrl": "https://onurgumus.github.io/zero-csharp/index.html",
+      "sourceName": "GitHub",
+      "timeAgo": "6h ago"
     }
   ]
 }
