@@ -1,51 +1,51 @@
 {
-  "lastUpdated": "2026-11-20T23:25:39.984Z",
+  "lastUpdated": "2026-11-21T13:45:29.124Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "category": "AI & LLMs",
-      "summary": "Recent research demonstrates that language models have the capability to modify their own weights, potentially leading to more adaptive and efficient AI systems. This development is significant for engineers as it opens up new avenues for self-improving AI applications.",
-      "sourceUrl": "https://arxiv.org/abs/2611.21885",
-      "sourceName": "arxiv.org",
-      "timeAgo": "6h ago"
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "category": "Open Source",
+      "summary": "Brazil's tax authority has released its tax calculator as open-source software on GitHub, promoting transparency in tax reform. This initiative allows developers to contribute to and improve the tool, fostering collaboration and innovation in public sector software.",
+      "sourceUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "sourceName": "gov.br",
+      "timeAgo": "3d ago"
     },
     {
       "id": "2",
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "category": "Systems & Architecture",
-      "summary": "A groundbreaking CPU architecture named Frostbite has been fully designed and verified by AI, showcasing the potential of AI in hardware design. This innovation could revolutionize how processors are developed, making the process faster and more efficient for engineers.",
-      "sourceUrl": "https://architectlabs.com/blog/frostbite",
-      "sourceName": "architectlabs.com",
-      "timeAgo": "13h ago"
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "category": "AI & LLMs",
+      "summary": "Recent research demonstrates that language models can autonomously adjust their own weights, potentially leading to more efficient training processes. This capability could revolutionize how developers approach model optimization and deployment.",
+      "sourceUrl": "https://arxiv.org/abs/2611.21885",
+      "sourceName": "arxiv.org",
+      "timeAgo": "21h ago"
     },
     {
       "id": "3",
-      "title": "A few hours ago Google DeepMind created a math horizon repo",
-      "category": "Open Source",
-      "summary": "Google DeepMind has launched a new open-source repository called 'math horizon' aimed at advancing mathematical research through collaborative efforts. This initiative provides developers and researchers with valuable tools and resources to explore complex mathematical problems.",
-      "sourceUrl": "https://github.com/google-deepmind/math-horizon",
-      "sourceName": "github.com",
-      "timeAgo": "1h ago"
+      "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+      "category": "Systems & Architecture",
+      "summary": "The Valkey project has replaced the traditional skiplist with a B+ tree structure, achieving significant reductions in overhead for sorted sets. This advancement can lead to improved performance in data-intensive applications, making it a noteworthy development for engineers focused on system efficiency.",
+      "sourceUrl": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+      "sourceName": "valkey.io",
+      "timeAgo": "3d ago"
     },
     {
       "id": "4",
-      "title": "We promoted developers into architects without informing them",
-      "category": "Web Development",
-      "summary": "A blog post discusses the implications of promoting developers to architect roles without proper communication or training, highlighting the need for clear pathways and support in career transitions. This insight is crucial for organizations aiming to foster effective team dynamics and skill development.",
-      "sourceUrl": "https://manidoraisamy.com/developer-to-architect.html",
-      "sourceName": "manidoraisamy.com",
-      "timeAgo": "5h ago"
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "category": "AI & LLMs",
+      "summary": "ClawDOS is an innovative AI coding agent designed to assist in programming for DOS environments. This tool could enhance productivity for developers working with legacy systems, bridging the gap between modern AI capabilities and older technologies.",
+      "sourceUrl": "http://ricapar.net/ClawDOS/",
+      "sourceName": "ricapar.net",
+      "timeAgo": "8h ago"
     },
     {
       "id": "5",
-      "title": "Show HN: OpenComputer – an open source alternative to Devin",
-      "category": "Open Source",
-      "summary": "The OpenComputer project has emerged as an open-source alternative to Devin, providing developers with a flexible and customizable platform for various computing tasks. This initiative encourages community collaboration and innovation in software development.",
-      "sourceUrl": "https://github.com/diggerhq/opencomputer",
-      "sourceName": "github.com",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "category": "Security",
+      "summary": "The FBI is currently investigating a potential breach of its criminal database, raising concerns about data security and integrity. This incident highlights the importance of robust security measures in protecting sensitive information within government systems.",
+      "sourceUrl": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+      "sourceName": "bbc.com",
       "timeAgo": "3h ago"
     }
   ]
