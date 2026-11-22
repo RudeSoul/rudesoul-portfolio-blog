@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-21T22:28:51.242Z",
+  "lastUpdated": "2026-11-22T13:39:20.451Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Lean verification of the Riemann Hypothesis",
+      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
       "category": "AI & LLMs",
-      "summary": "Researchers have successfully employed Lean, a proof assistant, to verify aspects of the Riemann Hypothesis, a long-standing problem in mathematics. This development highlights the increasing role of AI in formal verification and mathematical proofs, which could inspire new approaches in software engineering and algorithm design.",
-      "sourceUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "sourceName": "Lean Prover Community",
-      "timeAgo": "7h ago"
+      "summary": "Muru is a new AI-assisted server designed to run Python applications with Rust, created by the developer of mod_WSGI. This development could significantly enhance performance and efficiency for web developers looking to leverage Rust's capabilities in Python environments.",
+      "sourceUrl": "https://simonwillison.net/2026/Nov/21/muru/",
+      "sourceName": "simonwillison.net",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "PostgreSQL Extensions in Go",
-      "category": "Web Development",
-      "summary": "A new project has been released that allows developers to create PostgreSQL extensions using the Go programming language, enhancing the flexibility and performance of database interactions. This could significantly streamline backend development processes for web applications that rely on PostgreSQL.",
-      "sourceUrl": "https://jespino.github.io/gopgext/",
-      "sourceName": "jespino.github.io",
-      "timeAgo": "5h ago"
+      "title": "Data Processing Incidents on Inference Providers",
+      "category": "AI & LLMs",
+      "summary": "A recent report highlights data processing incidents involving inference providers, raising concerns about data integrity and security in AI applications. Developers and engineers should be aware of these risks to ensure compliance and safeguard user data.",
+      "sourceUrl": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "sourceName": "openrouter.ai",
+      "timeAgo": "11h ago"
     },
     {
       "id": "3",
-      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
-      "category": "Open Source",
-      "summary": "Brazil's tax authority has made its tax calculator available as open-source software on GitHub, promoting transparency and collaboration in public sector software development. This initiative could serve as a model for other governments looking to enhance public service efficiency through open-source solutions.",
-      "sourceUrl": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
-      "sourceName": "Gov.br",
+      "title": "A real Linux kernel, compiled to WebAssembly",
+      "category": "Web Development",
+      "summary": "The project 'unkernel' showcases a fully functional Linux kernel compiled to WebAssembly, enabling developers to run Linux applications in web browsers. This innovation opens up new possibilities for web-based development and deployment of server applications.",
+      "sourceUrl": "https://github.com/pithings/unkernel",
+      "sourceName": "github.com",
       "timeAgo": "4d ago"
     },
     {
       "id": "4",
-      "title": "Inkling-2-Mini in 5.4 GB Memory",
-      "category": "AI & LLMs",
-      "summary": "The Inkling-2-Mini model has been released with a compact size of just 5.4 GB, making advanced AI capabilities more accessible for developers working on resource-constrained environments. This development is significant for the deployment of AI applications in mobile and edge computing scenarios.",
-      "sourceUrl": "https://github.com/ShinMegamiBoson/lookatmyquant",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "Lean verification of the Riemann Hypothesis",
+      "category": "Systems & Architecture",
+      "summary": "A breakthrough in formal verification has been achieved with the Lean proof assistant, providing a new approach to verifying the Riemann Hypothesis. This advancement could influence future developments in mathematical proofs and computational verification methods.",
+      "sourceUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "sourceName": "leanprover-community.github.io",
+      "timeAgo": "23h ago"
     },
     {
       "id": "5",
-      "title": "Show HN: Zero C# – C# without a runtime or GC",
-      "category": "Systems & Architecture",
-      "summary": "A new project called Zero C# has been introduced, allowing developers to write C# code without the need for a runtime or garbage collection. This could lead to significant performance improvements and lower resource consumption in applications where efficiency is critical.",
-      "sourceUrl": "https://onurgumus.github.io/zero-csharp/index.html",
-      "sourceName": "GitHub",
-      "timeAgo": "6h ago"
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "category": "Open Source",
+      "summary": "PcapAnalyzer is a new open-source tool that allows users to analyze packet capture files with 27 built-in problem detectors. This tool is essential for network engineers and developers looking to enhance their network troubleshooting capabilities.",
+      "sourceUrl": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "sourceName": "github.com",
+      "timeAgo": "15h ago"
     }
   ]
 }
