@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-22T13:39:20.451Z",
+  "lastUpdated": "2026-11-22T22:52:22.273Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "category": "AI & LLMs",
-      "summary": "Muru is a new AI-assisted server designed to run Python applications with Rust, created by the developer of mod_WSGI. This development could significantly enhance performance and efficiency for web developers looking to leverage Rust's capabilities in Python environments.",
-      "sourceUrl": "https://simonwillison.net/2026/Nov/21/muru/",
-      "sourceName": "simonwillison.net",
-      "timeAgo": "3h ago"
+      "summary": "This guide introduces developers to local AI tools such as Inkling, Qwen, and Unsloth, highlighting their capabilities and applications. Understanding these tools can empower engineers to leverage AI locally, enhancing performance and privacy.",
+      "sourceUrl": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "sourceName": "GPU Partner",
+      "timeAgo": "1h ago"
     },
     {
       "id": "2",
-      "title": "Data Processing Incidents on Inference Providers",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
       "category": "AI & LLMs",
-      "summary": "A recent report highlights data processing incidents involving inference providers, raising concerns about data integrity and security in AI applications. Developers and engineers should be aware of these risks to ensure compliance and safeguard user data.",
-      "sourceUrl": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-      "sourceName": "openrouter.ai",
-      "timeAgo": "11h ago"
+      "summary": "This project showcases a game that allows players to interact as a subagent of a language model, providing insights into AI behavior and decision-making. Developers can explore the underlying mechanics and potentially adapt similar concepts in their own projects.",
+      "sourceUrl": "https://github.com/gulivan/worker755",
+      "sourceName": "GitHub",
+      "timeAgo": "8h ago"
     },
     {
       "id": "3",
-      "title": "A real Linux kernel, compiled to WebAssembly",
-      "category": "Web Development",
-      "summary": "The project 'unkernel' showcases a fully functional Linux kernel compiled to WebAssembly, enabling developers to run Linux applications in web browsers. This innovation opens up new possibilities for web-based development and deployment of server applications.",
-      "sourceUrl": "https://github.com/pithings/unkernel",
-      "sourceName": "github.com",
-      "timeAgo": "4d ago"
+      "title": "What Happened to Silicon Valley?",
+      "category": "Systems & Architecture",
+      "summary": "This article examines the current state of Silicon Valley, exploring the shifts in technology and innovation that have occurred in recent years. Engineers and developers should be aware of these trends as they impact the broader tech landscape and future opportunities.",
+      "sourceUrl": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "sourceName": "O'Reilly",
+      "timeAgo": "3h ago"
     },
     {
       "id": "4",
-      "title": "Lean verification of the Riemann Hypothesis",
-      "category": "Systems & Architecture",
-      "summary": "A breakthrough in formal verification has been achieved with the Lean proof assistant, providing a new approach to verifying the Riemann Hypothesis. This advancement could influence future developments in mathematical proofs and computational verification methods.",
-      "sourceUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "sourceName": "leanprover-community.github.io",
-      "timeAgo": "23h ago"
+      "title": "Open Social Web Alliance",
+      "category": "Open Source",
+      "summary": "The Open Social Web Alliance has been formed to promote and develop open standards for social networking applications. This initiative is crucial for developers looking to create interoperable and decentralized social platforms.",
+      "sourceUrl": "https://osw-alliance.net/en/",
+      "sourceName": "Open Social Web Alliance",
+      "timeAgo": "7h ago"
     },
     {
       "id": "5",
-      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-      "category": "Open Source",
-      "summary": "PcapAnalyzer is a new open-source tool that allows users to analyze packet capture files with 27 built-in problem detectors. This tool is essential for network engineers and developers looking to enhance their network troubleshooting capabilities.",
-      "sourceUrl": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-      "sourceName": "github.com",
-      "timeAgo": "15h ago"
+      "title": "Perplexity and Intelligence",
+      "category": "AI & LLMs",
+      "summary": "This article from OpenAI delves into the relationship between perplexity and the evaluation of language models, providing insights into model performance metrics. Understanding these concepts is essential for engineers working with AI to improve model accuracy and effectiveness.",
+      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence/",
+      "sourceName": "OpenAI",
+      "timeAgo": "5h ago"
     }
   ]
 }
