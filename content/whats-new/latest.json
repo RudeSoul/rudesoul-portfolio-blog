@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-22T22:52:22.273Z",
+  "lastUpdated": "2026-11-23T16:34:10.827Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "category": "AI & LLMs",
-      "summary": "This guide introduces developers to local AI tools such as Inkling, Qwen, and Unsloth, highlighting their capabilities and applications. Understanding these tools can empower engineers to leverage AI locally, enhancing performance and privacy.",
-      "sourceUrl": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "sourceName": "GPU Partner",
-      "timeAgo": "1h ago"
+      "summary": "The release of GLM-5.4 introduces a novel Loop Transformer aimed at enhancing coding capabilities in AI applications. This development is significant for developers as it promises to improve code generation and understanding, making AI tools more effective in software development.",
+      "sourceUrl": "https://z.ai/blog/glm-5.4",
+      "sourceName": "Z.ai",
+      "timeAgo": "6h ago"
     },
     {
       "id": "2",
-      "title": "Show HN: I built a game where you are an LLM's subagent",
-      "category": "AI & LLMs",
-      "summary": "This project showcases a game that allows players to interact as a subagent of a language model, providing insights into AI behavior and decision-making. Developers can explore the underlying mechanics and potentially adapt similar concepts in their own projects.",
-      "sourceUrl": "https://github.com/gulivan/worker755",
-      "sourceName": "GitHub",
-      "timeAgo": "8h ago"
+      "title": "Ladybird Is Now in Alpha",
+      "category": "Web Development",
+      "summary": "Ladybird, a new web framework, has reached its alpha stage, providing developers with a fresh toolset for building modern web applications. This framework aims to simplify the development process and enhance performance, making it a noteworthy addition to the web engineering landscape.",
+      "sourceUrl": "https://ladybird.org/posts/alpha/",
+      "sourceName": "Ladybird",
+      "timeAgo": "20m ago"
     },
     {
       "id": "3",
-      "title": "What Happened to Silicon Valley?",
-      "category": "Systems & Architecture",
-      "summary": "This article examines the current state of Silicon Valley, exploring the shifts in technology and innovation that have occurred in recent years. Engineers and developers should be aware of these trends as they impact the broader tech landscape and future opportunities.",
-      "sourceUrl": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-      "sourceName": "O'Reilly",
-      "timeAgo": "3h ago"
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "category": "Open Source",
+      "summary": "XNU Linux has been released, enabling a full OS X GUI userspace on Linux systems. This project is pivotal for developers looking to leverage macOS-like environments on Linux, enhancing cross-platform compatibility and user experience.",
+      "sourceUrl": "https://github.com/AFK-surf/xnulinux",
+      "sourceName": "GitHub",
+      "timeAgo": "12h ago"
     },
     {
       "id": "4",
-      "title": "Open Social Web Alliance",
+      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
       "category": "Open Source",
-      "summary": "The Open Social Web Alliance has been formed to promote and develop open standards for social networking applications. This initiative is crucial for developers looking to create interoperable and decentralized social platforms.",
-      "sourceUrl": "https://osw-alliance.net/en/",
-      "sourceName": "Open Social Web Alliance",
-      "timeAgo": "7h ago"
+      "summary": "Win4wine allows users to run the Windows shell as their Linux desktop environment, bridging the gap between Windows applications and Linux systems. This tool is essential for developers seeking to enhance their Linux experience with familiar Windows functionalities.",
+      "sourceUrl": "https://github.com/mikuta0407/win4wine",
+      "sourceName": "GitHub",
+      "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "Perplexity and Intelligence",
-      "category": "AI & LLMs",
-      "summary": "This article from OpenAI delves into the relationship between perplexity and the evaluation of language models, providing insights into model performance metrics. Understanding these concepts is essential for engineers working with AI to improve model accuracy and effectiveness.",
-      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence/",
-      "sourceName": "OpenAI",
-      "timeAgo": "5h ago"
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "category": "Open Source",
+      "summary": "A new free alternative TV network has been launched, utilizing forgotten videos from the Internet Archive. This initiative not only promotes open access to media but also encourages developers to engage with archival content in innovative ways.",
+      "sourceUrl": "https://spelunkr.tv",
+      "sourceName": "Spelunkr",
+      "timeAgo": "15h ago"
     }
   ]
 }
