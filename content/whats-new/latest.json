@@ -1,51 +1,51 @@
 {
-  "lastUpdated": "2026-11-23T16:34:10.827Z",
+  "lastUpdated": "2026-11-24T03:29:43.825Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "category": "AI & LLMs",
-      "summary": "The release of GLM-5.4 introduces a novel Loop Transformer aimed at enhancing coding capabilities in AI applications. This development is significant for developers as it promises to improve code generation and understanding, making AI tools more effective in software development.",
-      "sourceUrl": "https://z.ai/blog/glm-5.4",
-      "sourceName": "Z.ai",
-      "timeAgo": "6h ago"
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "category": "Web Development",
+      "summary": "Stalwart has announced its new functionality as a drop-in replacement for Microsoft Exchange, allowing organizations to transition seamlessly without major disruptions. This development is significant for developers and engineers looking for cost-effective and flexible email solutions.",
+      "sourceUrl": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "sourceName": "Stalwart",
+      "timeAgo": "4h ago"
     },
     {
       "id": "2",
-      "title": "Ladybird Is Now in Alpha",
-      "category": "Web Development",
-      "summary": "Ladybird, a new web framework, has reached its alpha stage, providing developers with a fresh toolset for building modern web applications. This framework aims to simplify the development process and enhance performance, making it a noteworthy addition to the web engineering landscape.",
+      "title": "Ladybird is now in alpha",
+      "category": "Open Source",
+      "summary": "The Ladybird project has reached its alpha stage, providing developers with an early look at its features and capabilities. This is an important milestone for open-source enthusiasts and contributors who want to shape the future of this project.",
       "sourceUrl": "https://ladybird.org/posts/alpha/",
       "sourceName": "Ladybird",
-      "timeAgo": "20m ago"
+      "timeAgo": "11h ago"
     },
     {
       "id": "3",
-      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "title": "GPUI is getting its own repository",
       "category": "Open Source",
-      "summary": "XNU Linux has been released, enabling a full OS X GUI userspace on Linux systems. This project is pivotal for developers looking to leverage macOS-like environments on Linux, enhancing cross-platform compatibility and user experience.",
-      "sourceUrl": "https://github.com/AFK-surf/xnulinux",
+      "summary": "The GPUI project has announced the creation of its dedicated repository on GitHub, which will facilitate collaboration and contributions from the open-source community. This move is crucial for developers interested in GPU programming and enhancing performance in their applications.",
+      "sourceUrl": "https://github.com/zed-industries/gpui",
       "sourceName": "GitHub",
-      "timeAgo": "12h ago"
+      "timeAgo": "6h ago"
     },
     {
       "id": "4",
-      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
-      "category": "Open Source",
-      "summary": "Win4wine allows users to run the Windows shell as their Linux desktop environment, bridging the gap between Windows applications and Linux systems. This tool is essential for developers seeking to enhance their Linux experience with familiar Windows functionalities.",
-      "sourceUrl": "https://github.com/mikuta0407/win4wine",
-      "sourceName": "GitHub",
+      "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+      "category": "AI & LLMs",
+      "summary": "A new study reveals that large language models (LLMs) can detect prior concept injections, which has implications for ensuring the integrity and reliability of AI-generated content. This finding is essential for developers working with AI systems to understand potential vulnerabilities.",
+      "sourceUrl": "https://arxiv.org/abs/2602.20031",
+      "sourceName": "arXiv",
       "timeAgo": "4h ago"
     },
     {
       "id": "5",
-      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
       "category": "Open Source",
-      "summary": "A new free alternative TV network has been launched, utilizing forgotten videos from the Internet Archive. This initiative not only promotes open access to media but also encourages developers to engage with archival content in innovative ways.",
-      "sourceUrl": "https://spelunkr.tv",
-      "sourceName": "Spelunkr",
+      "summary": "The Nospeaker project allows developers to utilize the haptic motor in MacBook trackpads to create auditory feedback, enhancing user interaction. This innovative approach opens new avenues for developers interested in user experience and hardware integration.",
+      "sourceUrl": "https://github.com/os6/nospeaker",
+      "sourceName": "GitHub",
       "timeAgo": "15h ago"
     }
   ]
