@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-24T03:29:43.825Z",
+  "lastUpdated": "2026-11-24T16:32:08.698Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "category": "Web Development",
-      "summary": "Stalwart has announced its new functionality as a drop-in replacement for Microsoft Exchange, allowing organizations to transition seamlessly without major disruptions. This development is significant for developers and engineers looking for cost-effective and flexible email solutions.",
-      "sourceUrl": "https://stalw.art/blog/microsoft-exchange-replacement/",
-      "sourceName": "Stalwart",
-      "timeAgo": "4h ago"
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "category": "AI & LLMs",
+      "summary": "Nvidia has reinstated Jensen Huang as CEO, a move that could signal a renewed focus on AI and LLM development. This leadership change may influence the direction of Nvidia's AI initiatives and impact the broader tech landscape.",
+      "sourceUrl": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "sourceName": "CNBC",
+      "timeAgo": "1d ago"
     },
     {
       "id": "2",
-      "title": "Ladybird is now in alpha",
-      "category": "Open Source",
-      "summary": "The Ladybird project has reached its alpha stage, providing developers with an early look at its features and capabilities. This is an important milestone for open-source enthusiasts and contributors who want to shape the future of this project.",
-      "sourceUrl": "https://ladybird.org/posts/alpha/",
-      "sourceName": "Ladybird",
-      "timeAgo": "11h ago"
+      "title": "Tidal Bans AI-Generated Music",
+      "category": "AI & LLMs",
+      "summary": "Tidal has announced a ban on AI-generated music, raising questions about the future of AI in the music industry. This decision could set a precedent for how streaming platforms handle AI content and its implications for artists.",
+      "sourceUrl": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "sourceName": "Variety",
+      "timeAgo": "19m ago"
     },
     {
       "id": "3",
-      "title": "GPUI is getting its own repository",
+      "title": "Ladybird is now in alpha",
       "category": "Open Source",
-      "summary": "The GPUI project has announced the creation of its dedicated repository on GitHub, which will facilitate collaboration and contributions from the open-source community. This move is crucial for developers interested in GPU programming and enhancing performance in their applications.",
-      "sourceUrl": "https://github.com/zed-industries/gpui",
-      "sourceName": "GitHub",
-      "timeAgo": "6h ago"
+      "summary": "The Ladybird project has reached its alpha stage, offering developers a new open-source tool for building applications. This milestone is significant as it opens up opportunities for collaboration and innovation in the open-source community.",
+      "sourceUrl": "https://ladybird.org/posts/alpha/",
+      "sourceName": "Ladybird",
+      "timeAgo": "1d ago"
     },
     {
       "id": "4",
-      "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
-      "category": "AI & LLMs",
-      "summary": "A new study reveals that large language models (LLMs) can detect prior concept injections, which has implications for ensuring the integrity and reliability of AI-generated content. This finding is essential for developers working with AI systems to understand potential vulnerabilities.",
-      "sourceUrl": "https://arxiv.org/abs/2602.20031",
-      "sourceName": "arXiv",
-      "timeAgo": "4h ago"
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "category": "Web Development",
+      "summary": "Stalwart has launched as a drop-in replacement for Microsoft Exchange, providing an alternative for organizations seeking to migrate away from proprietary solutions. This development is crucial for businesses looking for cost-effective and flexible email solutions.",
+      "sourceUrl": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "sourceName": "Stalwart",
+      "timeAgo": "17h ago"
     },
     {
       "id": "5",
-      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
-      "category": "Open Source",
-      "summary": "The Nospeaker project allows developers to utilize the haptic motor in MacBook trackpads to create auditory feedback, enhancing user interaction. This innovative approach opens new avenues for developers interested in user experience and hardware integration.",
-      "sourceUrl": "https://github.com/os6/nospeaker",
-      "sourceName": "GitHub",
-      "timeAgo": "15h ago"
+      "title": "SeaStore: Redesigning Ceph's Storage Back End for CPU-Efficient NVMe Performance",
+      "category": "Systems & Architecture",
+      "summary": "SeaStore has been introduced as a redesign of Ceph's storage back end, focusing on enhancing CPU efficiency for NVMe performance. This innovation is vital for engineers working on high-performance storage solutions.",
+      "sourceUrl": "https://dl.acm.org/doi/10.1145/3828523.3857112",
+      "sourceName": "ACM",
+      "timeAgo": "1d ago"
     }
   ]
 }
