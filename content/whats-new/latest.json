@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-24T16:32:08.698Z",
+  "lastUpdated": "2026-11-25T01:39:42.941Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "title": "Ternary Bonsai 2.5 27B Released",
       "category": "AI & LLMs",
-      "summary": "Nvidia has reinstated Jensen Huang as CEO, a move that could signal a renewed focus on AI and LLM development. This leadership change may influence the direction of Nvidia's AI initiatives and impact the broader tech landscape.",
-      "sourceUrl": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "sourceName": "CNBC",
-      "timeAgo": "1d ago"
+      "summary": "PrismML has unveiled Ternary Bonsai 2.5 27B, a new model that optimizes performance for various AI tasks by utilizing ternary quantization. This development is significant for developers looking to enhance model efficiency and reduce computational costs.",
+      "sourceUrl": "https://prismml.com/news/bonsai-2-5-27b",
+      "sourceName": "PrismML",
+      "timeAgo": "5h ago"
     },
     {
       "id": "2",
-      "title": "Tidal Bans AI-Generated Music",
+      "title": "GPT-6 Models Show Protein-Design Capabilities",
       "category": "AI & LLMs",
-      "summary": "Tidal has announced a ban on AI-generated music, raising questions about the future of AI in the music industry. This decision could set a precedent for how streaming platforms handle AI content and its implications for artists.",
-      "sourceUrl": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-      "sourceName": "Variety",
-      "timeAgo": "19m ago"
+      "summary": "OpenAI's latest GPT-6 models have demonstrated advanced capabilities in intrinsic protein design, showcasing their potential in biotechnological applications. This breakthrough could significantly impact fields like drug discovery and synthetic biology.",
+      "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "sourceName": "OpenAI",
+      "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Ladybird is now in alpha",
-      "category": "Open Source",
-      "summary": "The Ladybird project has reached its alpha stage, offering developers a new open-source tool for building applications. This milestone is significant as it opens up opportunities for collaboration and innovation in the open-source community.",
-      "sourceUrl": "https://ladybird.org/posts/alpha/",
-      "sourceName": "Ladybird",
-      "timeAgo": "1d ago"
+      "title": "Active Intrusion Campaign Targeting Check Point Servers",
+      "category": "Security",
+      "summary": "A new active intrusion campaign has been detected targeting Check Point security management servers, raising concerns about the security of enterprise environments. Developers and engineers should be aware of these vulnerabilities to enhance their security measures.",
+      "sourceUrl": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "sourceName": "GreyNoise",
+      "timeAgo": "9h ago"
     },
     {
       "id": "4",
-      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-      "category": "Web Development",
-      "summary": "Stalwart has launched as a drop-in replacement for Microsoft Exchange, providing an alternative for organizations seeking to migrate away from proprietary solutions. This development is crucial for businesses looking for cost-effective and flexible email solutions.",
-      "sourceUrl": "https://stalw.art/blog/microsoft-exchange-replacement/",
-      "sourceName": "Stalwart",
-      "timeAgo": "17h ago"
+      "title": "A Training Engine for Local Models Using Idle Compute",
+      "category": "Open Source",
+      "summary": "The open-source project 'Songe' allows developers to train local models utilizing idle computing resources, promoting efficient resource use. This can empower developers to leverage their existing hardware for AI model training without incurring additional costs.",
+      "sourceUrl": "https://github.com/sous-labs/songe",
+      "sourceName": "GitHub",
+      "timeAgo": "10h ago"
     },
     {
       "id": "5",
-      "title": "SeaStore: Redesigning Ceph's Storage Back End for CPU-Efficient NVMe Performance",
+      "title": "Lessons from a Cayley Graph Solver: CUDA to TorchTPU",
       "category": "Systems & Architecture",
-      "summary": "SeaStore has been introduced as a redesign of Ceph's storage back end, focusing on enhancing CPU efficiency for NVMe performance. This innovation is vital for engineers working on high-performance storage solutions.",
-      "sourceUrl": "https://dl.acm.org/doi/10.1145/3828523.3857112",
-      "sourceName": "ACM",
-      "timeAgo": "1d ago"
+      "summary": "A new blog post discusses the transition from CUDA and Jax to TorchTPU in the context of solving Cayley graphs, providing valuable insights into optimizing computational workflows. This knowledge is crucial for engineers looking to improve performance in complex computational tasks.",
+      "sourceUrl": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
+      "sourceName": "Andlukyane",
+      "timeAgo": "5h ago"
     }
   ]
 }
