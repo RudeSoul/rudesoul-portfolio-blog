@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-25T01:39:42.941Z",
+  "lastUpdated": "2026-11-25T16:13:03.737Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Ternary Bonsai 2.5 27B Released",
+      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
       "category": "AI & LLMs",
-      "summary": "PrismML has unveiled Ternary Bonsai 2.5 27B, a new model that optimizes performance for various AI tasks by utilizing ternary quantization. This development is significant for developers looking to enhance model efficiency and reduce computational costs.",
-      "sourceUrl": "https://prismml.com/news/bonsai-2-5-27b",
-      "sourceName": "PrismML",
-      "timeAgo": "5h ago"
+      "summary": "Google has published a series of research papers focusing on advanced topics in cryptography, including integer factorization and discrete logarithms. This release is significant for developers working in security and cryptography, as it provides insights into foundational algorithms that underpin modern encryption methods.",
+      "sourceUrl": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "sourceName": "GitHub",
+      "timeAgo": "2h ago"
     },
     {
       "id": "2",
-      "title": "GPT-6 Models Show Protein-Design Capabilities",
-      "category": "AI & LLMs",
-      "summary": "OpenAI's latest GPT-6 models have demonstrated advanced capabilities in intrinsic protein design, showcasing their potential in biotechnological applications. This breakthrough could significantly impact fields like drug discovery and synthetic biology.",
-      "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-      "sourceName": "OpenAI",
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "category": "Open Source",
+      "summary": "A developer has successfully reverse-engineered Windows Loudness Equalization and ported it to PipeWire, an open-source multimedia framework. This development allows Linux users to benefit from advanced audio processing features previously limited to Windows environments.",
+      "sourceUrl": "https://github.com/xoxorwr/pw-loudness-eq",
+      "sourceName": "GitHub",
       "timeAgo": "4h ago"
     },
     {
       "id": "3",
-      "title": "Active Intrusion Campaign Targeting Check Point Servers",
-      "category": "Security",
-      "summary": "A new active intrusion campaign has been detected targeting Check Point security management servers, raising concerns about the security of enterprise environments. Developers and engineers should be aware of these vulnerabilities to enhance their security measures.",
-      "sourceUrl": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-      "sourceName": "GreyNoise",
-      "timeAgo": "9h ago"
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "category": "Web Development",
+      "summary": "A new technique has been developed to bypass the 60 FPS frame rate limit in iOS Safari, enabling smoother web applications that mimic native performance. This is crucial for web developers aiming to enhance user experience on mobile devices.",
+      "sourceUrl": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "sourceName": "Rida.dev",
+      "timeAgo": "13h ago"
     },
     {
       "id": "4",
-      "title": "A Training Engine for Local Models Using Idle Compute",
-      "category": "Open Source",
-      "summary": "The open-source project 'Songe' allows developers to train local models utilizing idle computing resources, promoting efficient resource use. This can empower developers to leverage their existing hardware for AI model training without incurring additional costs.",
-      "sourceUrl": "https://github.com/sous-labs/songe",
-      "sourceName": "GitHub",
-      "timeAgo": "10h ago"
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "category": "AI & LLMs",
+      "summary": "Research reveals that AI models can communicate with each other through inference servers even when they are sandboxed, raising important implications for security and model interoperability. Developers should be aware of these findings as they could influence the design of future AI systems.",
+      "sourceUrl": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "sourceName": "LessWrong",
+      "timeAgo": "13h ago"
     },
     {
       "id": "5",
-      "title": "Lessons from a Cayley Graph Solver: CUDA to TorchTPU",
-      "category": "Systems & Architecture",
-      "summary": "A new blog post discusses the transition from CUDA and Jax to TorchTPU in the context of solving Cayley graphs, providing valuable insights into optimizing computational workflows. This knowledge is crucial for engineers looking to improve performance in complex computational tasks.",
-      "sourceUrl": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-      "sourceName": "Andlukyane",
-      "timeAgo": "5h ago"
+      "title": "Matrix Multiplication is Θ(n^2.25)",
+      "category": "AI & LLMs",
+      "summary": "A new paper presents a breakthrough in the computational complexity of matrix multiplication, establishing that it is Θ(n^2.25). This finding is significant for developers working in machine learning and scientific computing, as it could lead to more efficient algorithms.",
+      "sourceUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "sourceName": "GitHub",
+      "timeAgo": "14h ago"
     }
   ]
 }
