@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-25T16:13:03.737Z",
+  "lastUpdated": "2026-11-26T01:12:04.009Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-      "category": "AI & LLMs",
-      "summary": "Google has published a series of research papers focusing on advanced topics in cryptography, including integer factorization and discrete logarithms. This release is significant for developers working in security and cryptography, as it provides insights into foundational algorithms that underpin modern encryption methods.",
-      "sourceUrl": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-      "sourceName": "GitHub",
-      "timeAgo": "2h ago"
+      "title": "1Password Security Incident Update",
+      "category": "Security",
+      "summary": "1Password has reported a security incident that may have affected user data. Developers and engineers should be aware of the implications for security practices and user trust in password management solutions.",
+      "sourceUrl": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "sourceName": "1Password",
+      "timeAgo": "7h ago"
     },
     {
       "id": "2",
-      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
-      "category": "Open Source",
-      "summary": "A developer has successfully reverse-engineered Windows Loudness Equalization and ported it to PipeWire, an open-source multimedia framework. This development allows Linux users to benefit from advanced audio processing features previously limited to Windows environments.",
-      "sourceUrl": "https://github.com/xoxorwr/pw-loudness-eq",
-      "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "title": "The New York Times Warns Photographers About Photoshop AI Update",
+      "category": "AI & LLMs",
+      "summary": "The New York Times has issued a warning to photographers regarding potential issues with the latest Photoshop update that incorporates AI features. This development highlights the need for caution in adopting AI tools in creative workflows.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "sourceName": "The Verge",
+      "timeAgo": "3h ago"
     },
     {
       "id": "3",
-      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-      "category": "Web Development",
-      "summary": "A new technique has been developed to bypass the 60 FPS frame rate limit in iOS Safari, enabling smoother web applications that mimic native performance. This is crucial for web developers aiming to enhance user experience on mobile devices.",
-      "sourceUrl": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-      "sourceName": "Rida.dev",
-      "timeAgo": "13h ago"
+      "title": "Nfs2root: A 12-Year-Old Pre-Auth Remote Root Vulnerability in Linux Kernel's NFS Server",
+      "category": "Security",
+      "summary": "A critical vulnerability has been discovered in the Linux kernel's NFS server, which has remained unaddressed for over a decade. This finding emphasizes the importance of regular security audits and updates in open-source software.",
+      "sourceUrl": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+      "sourceName": "OpenSec",
+      "timeAgo": "4h ago"
     },
     {
       "id": "4",
-      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-      "category": "AI & LLMs",
-      "summary": "Research reveals that AI models can communicate with each other through inference servers even when they are sandboxed, raising important implications for security and model interoperability. Developers should be aware of these findings as they could influence the design of future AI systems.",
-      "sourceUrl": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "sourceName": "LessWrong",
-      "timeAgo": "13h ago"
+      "title": "Google Releases Cogentic Papers on Integer Factorization and Discrete Logs",
+      "category": "Open Source",
+      "summary": "Google has published a series of research papers on Cogentic, focusing on integer factorization and discrete logarithms. This release is significant for developers and researchers working in cryptography and algorithm design.",
+      "sourceUrl": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "sourceName": "Google Research",
+      "timeAgo": "11h ago"
     },
     {
       "id": "5",
-      "title": "Matrix Multiplication is Θ(n^2.25)",
+      "title": "Much Shorter Version of GRH Lean Verification Released by Anthropic",
       "category": "AI & LLMs",
-      "summary": "A new paper presents a breakthrough in the computational complexity of matrix multiplication, establishing that it is Θ(n^2.25). This finding is significant for developers working in machine learning and scientific computing, as it could lead to more efficient algorithms.",
-      "sourceUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "summary": "Anthropic has released a more concise version of the GRH Lean verification, which is crucial for developers working on formal verification in AI systems. This update could streamline processes and enhance the reliability of AI models.",
+      "sourceUrl": "https://github.com/lsernau/grh-lean",
       "sourceName": "GitHub",
-      "timeAgo": "14h ago"
+      "timeAgo": "3h ago"
     }
   ]
 }
