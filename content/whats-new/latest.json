@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-26T15:51:51.657Z",
+  "lastUpdated": "2026-11-27T01:11:19.477Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
-      "category": "Open Source",
-      "summary": "Nextcloud has launched a new desktop app that integrates Euro-Office, enhancing productivity tools for users. This development is significant for developers looking for open-source alternatives to mainstream office software.",
-      "sourceUrl": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-      "sourceName": "Nextcloud",
-      "timeAgo": "4h ago"
+      "title": "AI Made Self-Hosting Fun Again",
+      "category": "AI & LLMs",
+      "summary": "This article discusses how AI technologies are revitalizing the self-hosting landscape, making it more accessible and enjoyable for developers. It highlights tools and frameworks that leverage AI to simplify the self-hosting process, which is crucial for developers seeking autonomy over their applications.",
+      "sourceUrl": "https://janlukas.blog/posts/ai-self-hosting",
+      "sourceName": "janlukas.blog",
+      "timeAgo": "3h ago"
     },
     {
       "id": "2",
-      "title": "Intel One Mono font",
-      "category": "Open Source",
-      "summary": "Intel has released the One Mono font as an open-source project, aimed at improving coding readability and aesthetics. Developers can now utilize this font in their projects, enhancing the overall coding experience.",
-      "sourceUrl": "https://github.com/intel/intel-one-mono",
-      "sourceName": "GitHub",
-      "timeAgo": "5h ago"
+      "title": "AMD-Specific Fork of llama.cpp Released",
+      "category": "AI & LLMs",
+      "summary": "A new fork of llama.cpp has been developed specifically for AMD hardware, enhancing performance and compatibility for developers using AMD GPUs. This development is significant as it opens up opportunities for a broader range of hardware support in AI applications.",
+      "sourceUrl": "https://devnull.land/amd-specific-llama-cpp",
+      "sourceName": "devnull.land",
+      "timeAgo": "7h ago"
     },
     {
       "id": "3",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "category": "AI & LLMs",
-      "summary": "The New York Times has issued a warning to photographers regarding potential issues with the latest Photoshop update that includes AI features. This is crucial for developers and photographers to consider the implications of AI integration in creative tools.",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "sourceName": "The Verge",
-      "timeAgo": "18h ago"
+      "title": "YouTube Ad Punisher: A New Tool for Developers",
+      "category": "Web Development",
+      "summary": "A GitHub project called 'YouTube Ad Punisher' automatically reloads YouTube pages when ads play, providing a seamless viewing experience. This tool showcases innovative approaches to user experience design and can inspire developers to create similar solutions for other platforms.",
+      "sourceUrl": "https://github.com/antonpictures/youtube-punisher",
+      "sourceName": "github.com",
+      "timeAgo": "7h ago"
     },
     {
       "id": "4",
-      "title": "Slow Ubuntu security response times",
-      "category": "Security",
-      "summary": "Concerns have been raised regarding the slow response times of Ubuntu's security team, potentially exposing users to vulnerabilities. This issue is critical for developers relying on Ubuntu for their projects and highlights the importance of timely security updates.",
-      "sourceUrl": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-      "sourceName": "OpenWall",
-      "timeAgo": "19h ago"
+      "title": "Intel One Mono Font Released",
+      "category": "Open Source",
+      "summary": "Intel has released the One Mono font as an open-source project, aimed at enhancing readability for developers and designers. This initiative not only contributes to the open-source community but also emphasizes the importance of typography in software development.",
+      "sourceUrl": "https://github.com/intel/intel-one-mono",
+      "sourceName": "github.com",
+      "timeAgo": "15h ago"
     },
     {
       "id": "5",
-      "title": "Minipg: PostgreSQL as a Single Executable",
-      "category": "Systems & Architecture",
-      "summary": "Minipg is a new project that allows PostgreSQL to run as a single executable, simplifying deployment and management. This innovation is particularly beneficial for developers looking to streamline database integration in their applications.",
-      "sourceUrl": "https://progrium.github.io/minipg/",
-      "sourceName": "Progrium",
-      "timeAgo": "12h ago"
+      "title": "Google's AI Agents to Use MCP Servers",
+      "category": "AI & LLMs",
+      "summary": "Google has announced that its AI agents will utilize its MCP servers, although limitations exist, such as the Gmail agent's inability to send emails. This development is noteworthy as it reflects the ongoing integration of AI into Google's services and the potential implications for developers working within the Google ecosystem.",
+      "sourceUrl": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "sourceName": "techstackups.com",
+      "timeAgo": "15h ago"
     }
   ]
 }
