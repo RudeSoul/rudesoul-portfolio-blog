@@ -1,52 +1,52 @@
 {
-  "lastUpdated": "2026-11-28T00:44:02.602Z",
+  "lastUpdated": "2026-11-28T14:36:03.384Z",
   "period": "Last 12 Hours",
   "model": "gpt-4o-mini",
   "items": [
     {
       "id": "1",
-      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-      "category": "Security",
-      "summary": "Researchers have discovered credit card skimming scripts leveraging WebRTC technology on major e-commerce platforms. This development raises significant concerns about online security and the need for developers to enhance their defenses against such vulnerabilities.",
-      "sourceUrl": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-      "sourceName": "Infohawk",
-      "timeAgo": "9h ago"
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "category": "AI & LLMs",
+      "summary": "Google has introduced DeepCrossAttention, a new model architecture that enhances the efficiency of transformer networks by achieving similar quality while being up to three times faster. This development is significant for developers working on AI applications, as it can lead to faster training times and improved performance in real-time applications.",
+      "sourceUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "sourceName": "Google Research",
+      "timeAgo": "15h ago"
     },
     {
       "id": "2",
-      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
-      "category": "AI & LLMs",
-      "summary": "Google has introduced DeepCrossAttention, a new technique that enhances transformer models by improving efficiency and reducing training time without sacrificing performance. This breakthrough could significantly impact the development of AI applications by enabling faster iteration and deployment.",
-      "sourceUrl": "https://research.google/blog/supercharging-transformer-residual-connections/",
-      "sourceName": "Google Research",
-      "timeAgo": "1h ago"
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "category": "Web Development",
+      "summary": "Unkernel is a project that compiles the Linux kernel to WebAssembly, allowing developers to run Linux applications in the browser. This innovation opens up new possibilities for web development and application deployment, making it easier to leverage existing Linux software in web environments.",
+      "sourceUrl": "https://unkernel.dev",
+      "sourceName": "Unkernel",
+      "timeAgo": "11h ago"
     },
     {
       "id": "3",
-      "title": "Convex skills send the user's app idea to a remote server without telling them",
-      "category": "Web Development",
-      "summary": "A new issue has been raised regarding Convex skills that automatically send user app ideas to a remote server without explicit consent. This highlights critical privacy concerns that developers must address when designing applications that handle user data.",
-      "sourceUrl": "https://github.com/convex/convex-backend-skill/issues/64",
-      "sourceName": "GitHub",
-      "timeAgo": "6h ago"
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "category": "Security",
+      "summary": "A recent report revealed that malicious GGUF LLM models hosted on Hugging Face have infected approximately 2400 users, highlighting significant security vulnerabilities in the deployment of AI models. Developers and engineers should be aware of these risks to ensure safer practices when using and sharing machine learning models.",
+      "sourceUrl": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "sourceName": "MalSpark",
+      "timeAgo": "2h ago"
     },
     {
       "id": "4",
-      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "title": "Farewell",
       "category": "Open Source",
-      "summary": "The Prospero project has released a new coding harness that integrates ImGui for native AI development, focusing on a lightweight and efficient approach. This tool could empower developers to create AI applications more effectively and with less overhead.",
-      "sourceUrl": "https://github.com/skeeto/prospero",
+      "summary": "The GitHub repository 'heretic' has announced its closure, marking the end of an era for a project that contributed significantly to the open-source community. Developers who relied on this project will need to seek alternatives or adapt their workflows accordingly.",
+      "sourceUrl": "https://github.com/p-e-w/heretic/issues/601",
       "sourceName": "GitHub",
-      "timeAgo": "4h ago"
+      "timeAgo": "2h ago"
     },
     {
       "id": "5",
-      "title": "Source Control from Hell",
-      "category": "Systems & Architecture",
-      "summary": "A new article delves into the complexities and challenges of managing source control in software development, highlighting common pitfalls and best practices. Understanding these issues is crucial for engineers to maintain efficient workflows and avoid project delays.",
-      "sourceUrl": "https://frantic.im/git/",
-      "sourceName": "Frantic",
-      "timeAgo": "2h ago"
+      "title": "Show HN: Luciole Mono – terminal font designed for legibility",
+      "category": "Web Development",
+      "summary": "Luciole Mono is a new terminal font designed specifically for improved legibility, catering to developers who spend long hours coding. This development is important for enhancing developer experience and productivity, especially in environments where readability is crucial.",
+      "sourceUrl": "https://scriptor-pro.github.io/luciole-mono/",
+      "sourceName": "Scriptor Pro",
+      "timeAgo": "1h ago"
     }
   ]
 }
